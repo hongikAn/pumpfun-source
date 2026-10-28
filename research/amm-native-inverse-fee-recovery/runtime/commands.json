@@ -1,0 +1,23 @@
+[
+  [
+    "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/bin/python",
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/repro/pump_amm/owner6048-v144/runtime/observe_suite.py",
+    "/home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/fee-liquidity-observed.json.gz",
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/amm-inverse-arithmetic-20261028/inverse_runtime.py",
+    "liquidity"
+  ],
+  [
+    "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/bin/python",
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/repro/pump_amm/owner6048-v144/runtime/observe_suite.py",
+    "/home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/fee-buy-observed.json.gz",
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/amm-inverse-arithmetic-20261028/inverse_runtime.py",
+    "buy"
+  ],
+  [
+    "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/bin/python",
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/repro/pump_amm/owner6048-v144/runtime/observe_suite.py",
+    "/home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/fee-sell-observed.json.gz",
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/amm-inverse-arithmetic-20261028/inverse_runtime.py",
+    "sell"
+  ]
+]

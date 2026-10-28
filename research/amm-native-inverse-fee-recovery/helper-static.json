@@ -1,0 +1,269 @@
+{
+  "original": {
+    "address": 995024,
+    "bytes": 776,
+    "instructions": 97,
+    "raw_sha256": "1580deba194a657010a34bf4c247f7aaa89eeccaf774e453bec5356b47d04ec1",
+    "signature": "d7f93d0f1b15f3b837610d1f036e23e696f10dc13ba7ee7bdc37934c37c9d882",
+    "name": null,
+    "symbol_bytes": null,
+    "cfg": {
+      "instructions": 97,
+      "reachable_instructions": 97,
+      "outside_successors": []
+    },
+    "annotations": []
+  },
+  "candidate": {
+    "address": 1029144,
+    "bytes": 776,
+    "instructions": 97,
+    "raw_sha256": "19ec3dac85dae4519e2f835ee6f3cf613e51106caa61b38906341525c0dbb2ed",
+    "signature": "d7f93d0f1b15f3b837610d1f036e23e696f10dc13ba7ee7bdc37934c37c9d882",
+    "name": "_ZN19native_transfer_fee18DecodedTransferFee24calculate_pre_fee_amount17hd5a2ad6e6f9aa53bE",
+    "symbol_bytes": 776,
+    "cfg": {
+      "instructions": 97,
+      "reachable_instructions": 97,
+      "outside_successors": []
+    },
+    "annotations": []
+  },
+  "direct_calls": [
+    {
+      "offset": 272,
+      "original": {
+        "address": 1161264,
+        "bytes": 352,
+        "instructions": 44,
+        "raw_sha256": "face056642083fcc15c6737f1910030a4b59b6a78a4fa523f142dc0f28635762",
+        "signature": "b04a4306ae46f68d0f2da111986a21613e9e5a82e6ff7ea5fe9dfb8019cfb0c9",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 44,
+          "reachable_instructions": 44,
+          "outside_successors": []
+        },
+        "annotations": []
+      },
+      "candidate": {
+        "address": 1194720,
+        "bytes": 352,
+        "instructions": 44,
+        "raw_sha256": "face056642083fcc15c6737f1910030a4b59b6a78a4fa523f142dc0f28635762",
+        "signature": "b04a4306ae46f68d0f2da111986a21613e9e5a82e6ff7ea5fe9dfb8019cfb0c9",
+        "name": "__multi3",
+        "symbol_bytes": 352,
+        "cfg": {
+          "instructions": 44,
+          "reachable_instructions": 44,
+          "outside_successors": []
+        },
+        "annotations": []
+      }
+    },
+    {
+      "offset": 456,
+      "original": {
+        "address": 1155824,
+        "bytes": 72,
+        "instructions": 9,
+        "raw_sha256": "55149527e5340f3615cfc29f03703643d3c7938f779b96ae7db851a9d47bd761",
+        "signature": "05fa3ed47e31c2d200725e7403f54bd77898c6444785033ae737b33e5ac85416",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 9,
+          "reachable_instructions": 9,
+          "outside_successors": []
+        },
+        "annotations": []
+      },
+      "candidate": {
+        "address": 1189280,
+        "bytes": 72,
+        "instructions": 9,
+        "raw_sha256": "55149527e5340f3615cfc29f03703643d3c7938f779b96ae7db851a9d47bd761",
+        "signature": "05fa3ed47e31c2d200725e7403f54bd77898c6444785033ae737b33e5ac85416",
+        "name": "__udivti3",
+        "symbol_bytes": 72,
+        "cfg": {
+          "instructions": 9,
+          "reachable_instructions": 9,
+          "outside_successors": []
+        },
+        "annotations": []
+      }
+    }
+  ],
+  "data_refs": [],
+  "raw_gained_original_windows": [
+    {
+      "address": 999808,
+      "bytes": 368,
+      "instructions": 45,
+      "raw_sha256": "ca29ee4dbc058096d18d3d19f71e105de0ef9980129b82599de15017f690db3f",
+      "signature": "e52b8bda4cd0008ca98f9839401f2d4cda4d3674d34a07a651e68b34c5932034",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 45,
+        "reachable_instructions": 45,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1014040,
+      "bytes": 1056,
+      "instructions": 129,
+      "raw_sha256": "9b776af2b198b7ee96391e72f56cb10a3d1f84e828d5ef73f6ec16bd14eb9f4a",
+      "signature": "d284fb5f044aa619bbb978fe6d0f637b25b1f28ab2e40796b5a4355a7014a3f0",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 129,
+        "reachable_instructions": 129,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1017688,
+      "bytes": 104,
+      "instructions": 13,
+      "raw_sha256": "6b4ca21da427d21ebb664f299fac7684ec2019db8df69cb9c5c87bb9ffbed498",
+      "signature": "3807b9b8697d97831458232bd6d75feaabc0079e2b2395be1ac50d8ebce3abc9",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 13,
+        "reachable_instructions": 13,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1019144,
+      "bytes": 688,
+      "instructions": 86,
+      "raw_sha256": "ccdec2b17bab8762858ecf177efad51c2fb167c5da58ac54383cb44c6f488d1c",
+      "signature": "ee99af70d942346d627102909f55203026d26711600aec923ec06f30ad868a60",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 86,
+        "reachable_instructions": 86,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1019832,
+      "bytes": 168,
+      "instructions": 21,
+      "raw_sha256": "83e15f4736f3033de58f1a866922bd073fe03a730d6899a7aa0d8087fd90986b",
+      "signature": "c35c006cb395f63dc592708c89e6912c4f793c7dfc5348b67b19b16ae627dca7",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 21,
+        "reachable_instructions": 21,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1020336,
+      "bytes": 328,
+      "instructions": 41,
+      "raw_sha256": "21e4ead3f02f47df8e68a879ea8b57e7fa75494329298ed9120920824a0c2b0a",
+      "signature": "f72ec465350ad84416cc81c52a88cc32ece7eb83f99c8b57a76f0cf9de12944a",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 41,
+        "reachable_instructions": 41,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1020664,
+      "bytes": 352,
+      "instructions": 43,
+      "raw_sha256": "e626a3d4b5a877c13f811df996cc518efa4551418051b1193cb9675eccc44628",
+      "signature": "634f85f03b65270b243a43ed662e0a13597f40dc015ec9299c6600398ca43736",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 43,
+        "reachable_instructions": 43,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1021016,
+      "bytes": 320,
+      "instructions": 40,
+      "raw_sha256": "c77310625a84e8b5612d721c66299300db00a58e09be4789e9b7d38750e1690b",
+      "signature": "f7dc60252c03ad4a0bba97a9b4a3b9e7c396a949d4dc291cb71189c771c72a9a",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 40,
+        "reachable_instructions": 40,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1035440,
+      "bytes": 328,
+      "instructions": 41,
+      "raw_sha256": "7f69f6cfe541c2ce9a57f5ec06aa5d9a863018356cea759723171482334a9d1f",
+      "signature": "f72ec465350ad84416cc81c52a88cc32ece7eb83f99c8b57a76f0cf9de12944a",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 41,
+        "reachable_instructions": 41,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1035768,
+      "bytes": 352,
+      "instructions": 43,
+      "raw_sha256": "3e979fd33542b116862ab26c8f1e70dd1c1ecb1a42bd54a30bd2072257db0020",
+      "signature": "634f85f03b65270b243a43ed662e0a13597f40dc015ec9299c6600398ca43736",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 43,
+        "reachable_instructions": 43,
+        "outside_successors": []
+      },
+      "annotations": []
+    },
+    {
+      "address": 1036120,
+      "bytes": 320,
+      "instructions": 40,
+      "raw_sha256": "7fc74464ee98c9626734109fa94c84e88a96c3397c3c85f963dd4729045106c7",
+      "signature": "f7dc60252c03ad4a0bba97a9b4a3b9e7c396a949d4dc291cb71189c771c72a9a",
+      "name": null,
+      "symbol_bytes": null,
+      "cfg": {
+        "instructions": 40,
+        "reachable_instructions": 40,
+        "outside_successors": []
+      },
+      "annotations": []
+    }
+  ],
+  "raw_gain_count": 11
+}

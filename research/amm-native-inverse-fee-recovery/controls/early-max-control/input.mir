@@ -1,0 +1,695 @@
+// WARNING: This output format is intended for human consumers only
+// and is subject to change without notice. Knock yourself out.
+fn <impl at /home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/early-max-control/input.rs:2:10: 2:15>::clone(_1: &DecodedTransferFee) -> DecodedTransferFee {
+    debug self => _1;
+    let mut _0: DecodedTransferFee;
+    scope 1 {
+        scope 2 {
+        }
+    }
+
+    bb0: {
+        _0 = (*_1);
+        return;
+    }
+}
+
+fn <impl at /home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/early-max-control/input.rs:2:21: 2:26>::fmt(_1: &DecodedTransferFee, _2: &mut Formatter<'_>) -> Result<(), core::fmt::Error> {
+    debug self => _1;
+    debug f => _2;
+    let mut _0: core::result::Result<(), core::fmt::Error>;
+    let _3: &str;
+    let _4: &str;
+    let mut _5: &dyn core::fmt::Debug;
+    let mut _6: &u64;
+    let _7: &str;
+    let mut _8: &dyn core::fmt::Debug;
+    let mut _9: &u64;
+    let _10: &str;
+    let mut _11: &dyn core::fmt::Debug;
+    let mut _12: &&u16;
+    let _13: &u16;
+
+    bb0: {
+        _3 = const "DecodedTransferFee";
+        _4 = const "epoch";
+        StorageLive(_5);
+        StorageLive(_6);
+        _6 = &((*_1).0: u64);
+        _5 = move _6 as &dyn core::fmt::Debug (PointerCoercion(Unsize));
+        StorageDead(_6);
+        _7 = const "maximum_fee";
+        StorageLive(_8);
+        StorageLive(_9);
+        _9 = &((*_1).1: u64);
+        _8 = move _9 as &dyn core::fmt::Debug (PointerCoercion(Unsize));
+        StorageDead(_9);
+        _10 = const "transfer_fee_basis_points";
+        StorageLive(_11);
+        StorageLive(_12);
+        StorageLive(_13);
+        _13 = &((*_1).2: u16);
+        _12 = &_13;
+        _11 = move _12 as &dyn core::fmt::Debug (PointerCoercion(Unsize));
+        StorageDead(_12);
+        _0 = Formatter::<'_>::debug_struct_field3_finish(move _2, move _3, move _4, move _5, move _7, move _8, move _10, move _11) -> [return: bb1, unwind unreachable];
+    }
+
+    bb1: {
+        StorageDead(_11);
+        StorageDead(_8);
+        StorageDead(_5);
+        StorageDead(_13);
+        return;
+    }
+}
+
+fn inverse_return(_1: &DecodedTransferFee, _2: u64) -> Option<u64> {
+    debug fee => _1;
+    debug amount => _2;
+    let mut _0: core::option::Option<u64>;
+    let _3: u64;
+    let mut _5: u16;
+    let mut _6: core::ops::ControlFlow<core::option::Option<core::convert::Infallible>, u128>;
+    let mut _7: core::option::Option<u128>;
+    let mut _8: u128;
+    let mut _10: core::ops::ControlFlow<core::option::Option<core::convert::Infallible>, u128>;
+    let mut _11: core::option::Option<u128>;
+    let mut _13: core::ops::ControlFlow<core::option::Option<core::convert::Infallible>, u128>;
+    let mut _14: core::option::Option<u128>;
+    let mut _15: core::ops::ControlFlow<core::option::Option<core::convert::Infallible>, u128>;
+    let mut _16: core::option::Option<u128>;
+    let mut _17: core::ops::ControlFlow<core::option::Option<core::convert::Infallible>, u128>;
+    let mut _18: core::option::Option<u128>;
+    let mut _22: bool;
+    let mut _23: core::ops::ControlFlow<core::option::Option<core::convert::Infallible>, u128>;
+    let mut _24: core::option::Option<u128>;
+    let mut _26: u128;
+    let mut _27: core::result::Result<u64, core::num::TryFromIntError>;
+    scope 1 {
+        debug max => _3;
+        let _4: u128;
+        scope 2 {
+            debug bps => _4;
+            let _9: u128;
+            scope 3 {
+                debug n => _9;
+                let _12: u128;
+                scope 8 {
+                    debug d => _12;
+                    let _19: u128;
+                    let _20: u128;
+                    let _21: u128;
+                    scope 13 {
+                        debug raw => _21;
+                        let _25: u128;
+                        scope 26 {
+                            debug residual => const Option::<Infallible>::None;
+                            scope 27 {
+                                scope 63 (inlined <Option<u64> as FromResidual>::from_residual) {
+                                }
+                            }
+                        }
+                        scope 28 {
+                            debug val => _25;
+                            scope 29 {
+                            }
+                        }
+                        scope 59 (inlined core::num::<impl u128>::checked_sub) {
+                            let mut _52: bool;
+                            let mut _53: u128;
+                        }
+                        scope 61 (inlined <Option<u128> as Try>::branch) {
+                            let _54: u128;
+                            scope 62 {
+                            }
+                        }
+                        scope 64 (inlined core::num::<impl u64>::checked_add) {
+                            let mut _55: bool;
+                            scope 65 {
+                            }
+                            scope 66 (inlined core::num::<impl u64>::overflowing_add) {
+                                let _56: u64;
+                                let _57: bool;
+                                let mut _58: (u64, bool);
+                                scope 67 {
+                                }
+                            }
+                        }
+                        scope 68 (inlined convert::num::<impl TryFrom<u128> for u64>::try_from) {
+                            let mut _59: bool;
+                            let mut _60: u64;
+                        }
+                        scope 69 (inlined Result::<u64, TryFromIntError>::ok) {
+                            let _61: u64;
+                            let mut _62: isize;
+                            scope 70 {
+                            }
+                        }
+                    }
+                    scope 14 {
+                        debug residual => const Option::<Infallible>::None;
+                        scope 15 {
+                            scope 52 (inlined <Option<u64> as FromResidual>::from_residual) {
+                            }
+                        }
+                    }
+                    scope 16 {
+                        debug val => _19;
+                        scope 17 {
+                        }
+                    }
+                    scope 18 {
+                        debug residual => const Option::<Infallible>::None;
+                        scope 19 {
+                            scope 56 (inlined <Option<u64> as FromResidual>::from_residual) {
+                            }
+                        }
+                    }
+                    scope 20 {
+                        debug val => _20;
+                        scope 21 {
+                        }
+                    }
+                    scope 22 {
+                        debug residual => const Option::<Infallible>::None;
+                        scope 23 {
+                            scope 60 (inlined <Option<u64> as FromResidual>::from_residual) {
+                            }
+                        }
+                    }
+                    scope 24 {
+                        debug val => _21;
+                        scope 25 {
+                        }
+                    }
+                    scope 44 (inlined core::num::<impl u128>::checked_add) {
+                        let mut _40: bool;
+                        scope 45 {
+                        }
+                        scope 46 (inlined core::num::<impl u128>::overflowing_add) {
+                            let _41: u128;
+                            let _42: bool;
+                            let mut _43: (u128, bool);
+                            scope 47 {
+                            }
+                        }
+                    }
+                    scope 49 (inlined <Option<u128> as Try>::branch) {
+                        let _44: u128;
+                        scope 50 {
+                        }
+                    }
+                    scope 51 (inlined core::num::<impl u128>::checked_sub) {
+                        let mut _45: bool;
+                        let mut _46: u128;
+                    }
+                    scope 53 (inlined <Option<u128> as Try>::branch) {
+                        let _47: u128;
+                        scope 54 {
+                        }
+                    }
+                    scope 55 (inlined core::num::<impl u128>::checked_div) {
+                        let mut _48: bool;
+                        let mut _49: bool;
+                        let mut _50: u128;
+                    }
+                    scope 57 (inlined <Option<u128> as Try>::branch) {
+                        let _51: u128;
+                        scope 58 {
+                        }
+                    }
+                }
+                scope 9 {
+                    debug residual => const Option::<Infallible>::None;
+                    scope 10 {
+                        scope 48 (inlined <Option<u64> as FromResidual>::from_residual) {
+                        }
+                    }
+                }
+                scope 11 {
+                    debug val => _12;
+                    scope 12 {
+                    }
+                }
+                scope 40 (inlined core::num::<impl u128>::checked_sub) {
+                    let mut _37: bool;
+                    let mut _38: u128;
+                }
+                scope 42 (inlined <Option<u128> as Try>::branch) {
+                    let _39: u128;
+                    scope 43 {
+                    }
+                }
+            }
+            scope 4 {
+                debug residual => const Option::<Infallible>::None;
+                scope 5 {
+                    scope 41 (inlined <Option<u64> as FromResidual>::from_residual) {
+                    }
+                }
+            }
+            scope 6 {
+                debug val => _9;
+                scope 7 {
+                }
+            }
+            scope 30 (inlined core::num::<impl u64>::checked_add) {
+                let mut _28: bool;
+                scope 31 {
+                }
+                scope 32 (inlined core::num::<impl u64>::overflowing_add) {
+                    let _29: u64;
+                    let _30: bool;
+                    let mut _31: (u64, bool);
+                    scope 33 {
+                    }
+                }
+            }
+            scope 34 (inlined core::num::<impl u128>::checked_mul) {
+                let mut _32: bool;
+                scope 35 {
+                }
+                scope 36 (inlined core::num::<impl u128>::overflowing_mul) {
+                    let _33: u128;
+                    let _34: bool;
+                    let mut _35: (u128, bool);
+                    scope 37 {
+                    }
+                }
+            }
+            scope 38 (inlined <Option<u128> as Try>::branch) {
+                let _36: u128;
+                scope 39 {
+                }
+            }
+        }
+    }
+
+    bb0: {
+        _3 = ((*_1).1: u64);
+        StorageLive(_5);
+        _5 = ((*_1).2: u16);
+        _4 = move _5 as u128 (IntToInt);
+        StorageDead(_5);
+        switchInt(move _4) -> [0: bb1, otherwise: bb2];
+    }
+
+    bb1: {
+        _0 = Option::<u64>::Some(_2);
+        goto -> bb16;
+    }
+
+    bb2: {
+        switchInt(move _2) -> [0: bb3, otherwise: bb4];
+    }
+
+    bb3: {
+        _0 = const Option::<u64>::Some(0_u64);
+        goto -> bb16;
+    }
+
+    bb4: {
+        switchInt(move _4) -> [10000: bb5, otherwise: bb6];
+    }
+
+    bb5: {
+        StorageLive(_29);
+        StorageLive(_30);
+        StorageLive(_31);
+        _31 = CheckedAdd(_3, _2);
+        _29 = (_31.0: u64);
+        _30 = (_31.1: bool);
+        StorageDead(_31);
+        StorageLive(_28);
+        _28 = unlikely(move _30) -> [return: bb17, unwind unreachable];
+    }
+
+    bb6: {
+        StorageLive(_6);
+        StorageLive(_7);
+        _8 = _2 as u128 (IntToInt);
+        StorageLive(_33);
+        StorageLive(_34);
+        StorageLive(_35);
+        _35 = CheckedMul(_8, const 10000_u128);
+        _33 = (_35.0: u128);
+        _34 = (_35.1: bool);
+        StorageDead(_35);
+        StorageLive(_32);
+        _32 = unlikely(move _34) -> [return: bb21, unwind unreachable];
+    }
+
+    bb7: {
+        unreachable;
+    }
+
+    bb8: {
+        StorageDead(_26);
+        StorageDead(_23);
+        StorageLive(_56);
+        StorageLive(_57);
+        StorageLive(_58);
+        _58 = CheckedAdd(_2, _3);
+        _56 = (_58.0: u64);
+        _57 = (_58.1: bool);
+        StorageDead(_58);
+        StorageLive(_55);
+        _55 = unlikely(move _57) -> [return: bb36, unwind unreachable];
+    }
+
+    bb9: {
+        StorageDead(_26);
+        StorageDead(_23);
+        StorageLive(_27);
+        StorageLive(_59);
+        _59 = Gt(_21, const 18446744073709551615_u128);
+        switchInt(move _59) -> [0: bb41, otherwise: bb40];
+    }
+
+    bb10: {
+        StorageDead(_22);
+        goto -> bb16;
+    }
+
+    bb11: {
+        StorageDead(_14);
+        goto -> bb12;
+    }
+
+    bb12: {
+        StorageDead(_17);
+        StorageDead(_15);
+        StorageDead(_13);
+        goto -> bb13;
+    }
+
+    bb13: {
+        goto -> bb14;
+    }
+
+    bb14: {
+        goto -> bb15;
+    }
+
+    bb15: {
+        goto -> bb16;
+    }
+
+    bb16: {
+        return;
+    }
+
+    bb17: {
+        switchInt(move _28) -> [0: bb19, otherwise: bb18];
+    }
+
+    bb18: {
+        _0 = const Option::<u64>::None;
+        goto -> bb20;
+    }
+
+    bb19: {
+        _0 = Option::<u64>::Some(_29);
+        goto -> bb20;
+    }
+
+    bb20: {
+        StorageDead(_28);
+        StorageDead(_30);
+        StorageDead(_29);
+        goto -> bb16;
+    }
+
+    bb21: {
+        switchInt(move _32) -> [0: bb23, otherwise: bb22];
+    }
+
+    bb22: {
+        StorageDead(_32);
+        StorageDead(_34);
+        StorageDead(_33);
+        StorageLive(_36);
+        StorageDead(_36);
+        StorageDead(_7);
+        _0 = const Option::<u64>::None;
+        StorageDead(_6);
+        goto -> bb15;
+    }
+
+    bb23: {
+        _7 = Option::<u128>::Some(_33);
+        StorageDead(_32);
+        StorageDead(_34);
+        StorageDead(_33);
+        StorageLive(_36);
+        _36 = move ((_7 as Some).0: u128);
+        _6 = ControlFlow::<Option<Infallible>, u128>::Continue(_36);
+        StorageDead(_36);
+        StorageDead(_7);
+        _9 = ((_6 as Continue).0: u128);
+        StorageDead(_6);
+        StorageLive(_10);
+        StorageLive(_11);
+        StorageLive(_37);
+        _37 = Ge(const 10000_u128, _4);
+        switchInt(move _37) -> [0: bb25, otherwise: bb24];
+    }
+
+    bb24: {
+        StorageLive(_38);
+        _38 = SubUnchecked(const 10000_u128, _4);
+        _11 = Option::<u128>::Some(move _38);
+        StorageDead(_38);
+        StorageDead(_37);
+        StorageLive(_39);
+        _39 = move ((_11 as Some).0: u128);
+        _10 = ControlFlow::<Option<Infallible>, u128>::Continue(_39);
+        StorageDead(_39);
+        StorageDead(_11);
+        _12 = ((_10 as Continue).0: u128);
+        StorageDead(_10);
+        StorageLive(_13);
+        StorageLive(_14);
+        StorageLive(_15);
+        StorageLive(_16);
+        StorageLive(_17);
+        StorageLive(_18);
+        StorageLive(_41);
+        StorageLive(_42);
+        StorageLive(_43);
+        _43 = CheckedAdd(_9, _12);
+        _41 = (_43.0: u128);
+        _42 = (_43.1: bool);
+        StorageDead(_43);
+        StorageLive(_40);
+        _40 = unlikely(move _42) -> [return: bb26, unwind unreachable];
+    }
+
+    bb25: {
+        StorageDead(_37);
+        StorageLive(_39);
+        StorageDead(_39);
+        StorageDead(_11);
+        _0 = const Option::<u64>::None;
+        StorageDead(_10);
+        goto -> bb14;
+    }
+
+    bb26: {
+        switchInt(move _40) -> [0: bb28, otherwise: bb27];
+    }
+
+    bb27: {
+        StorageDead(_40);
+        StorageDead(_42);
+        StorageDead(_41);
+        StorageLive(_44);
+        StorageDead(_44);
+        StorageDead(_18);
+        _0 = const Option::<u64>::None;
+        StorageDead(_16);
+        goto -> bb11;
+    }
+
+    bb28: {
+        _18 = Option::<u128>::Some(_41);
+        StorageDead(_40);
+        StorageDead(_42);
+        StorageDead(_41);
+        StorageLive(_44);
+        _44 = move ((_18 as Some).0: u128);
+        _17 = ControlFlow::<Option<Infallible>, u128>::Continue(_44);
+        StorageDead(_44);
+        StorageDead(_18);
+        _19 = ((_17 as Continue).0: u128);
+        StorageLive(_45);
+        _45 = Ge(_19, const 1_u128);
+        switchInt(move _45) -> [0: bb30, otherwise: bb29];
+    }
+
+    bb29: {
+        StorageLive(_46);
+        _46 = SubUnchecked(_19, const 1_u128);
+        _16 = Option::<u128>::Some(move _46);
+        StorageDead(_46);
+        StorageDead(_45);
+        StorageLive(_47);
+        _47 = move ((_16 as Some).0: u128);
+        _15 = ControlFlow::<Option<Infallible>, u128>::Continue(_47);
+        StorageDead(_47);
+        StorageDead(_16);
+        _20 = ((_15 as Continue).0: u128);
+        StorageLive(_48);
+        StorageLive(_49);
+        _49 = Eq(_12, const 0_u128);
+        _48 = unlikely(move _49) -> [return: bb31, unwind unreachable];
+    }
+
+    bb30: {
+        StorageDead(_45);
+        StorageLive(_47);
+        StorageDead(_47);
+        StorageDead(_16);
+        _0 = const Option::<u64>::None;
+        goto -> bb11;
+    }
+
+    bb31: {
+        switchInt(move _48) -> [0: bb33, otherwise: bb32];
+    }
+
+    bb32: {
+        StorageDead(_49);
+        StorageDead(_48);
+        StorageLive(_51);
+        StorageDead(_51);
+        StorageDead(_14);
+        _0 = const Option::<u64>::None;
+        goto -> bb12;
+    }
+
+    bb33: {
+        StorageDead(_49);
+        StorageLive(_50);
+        _50 = Div(_20, _12);
+        _14 = Option::<u128>::Some(move _50);
+        StorageDead(_50);
+        StorageDead(_48);
+        StorageLive(_51);
+        _51 = move ((_14 as Some).0: u128);
+        _13 = ControlFlow::<Option<Infallible>, u128>::Continue(_51);
+        StorageDead(_51);
+        StorageDead(_14);
+        _21 = ((_13 as Continue).0: u128);
+        StorageDead(_17);
+        StorageDead(_15);
+        StorageDead(_13);
+        StorageLive(_22);
+        StorageLive(_23);
+        StorageLive(_24);
+        StorageLive(_52);
+        _52 = Ge(_21, _8);
+        switchInt(move _52) -> [0: bb35, otherwise: bb34];
+    }
+
+    bb34: {
+        StorageLive(_53);
+        _53 = SubUnchecked(_21, _8);
+        _24 = Option::<u128>::Some(move _53);
+        StorageDead(_53);
+        StorageDead(_52);
+        StorageLive(_54);
+        _54 = move ((_24 as Some).0: u128);
+        _23 = ControlFlow::<Option<Infallible>, u128>::Continue(_54);
+        StorageDead(_54);
+        StorageDead(_24);
+        _25 = ((_23 as Continue).0: u128);
+        StorageLive(_26);
+        _26 = _3 as u128 (IntToInt);
+        _22 = Ge(_25, move _26);
+        switchInt(move _22) -> [0: bb9, otherwise: bb8];
+    }
+
+    bb35: {
+        StorageDead(_52);
+        StorageLive(_54);
+        StorageDead(_54);
+        StorageDead(_24);
+        _0 = const Option::<u64>::None;
+        StorageDead(_23);
+        StorageDead(_22);
+        goto -> bb13;
+    }
+
+    bb36: {
+        switchInt(move _55) -> [0: bb38, otherwise: bb37];
+    }
+
+    bb37: {
+        _0 = const Option::<u64>::None;
+        goto -> bb39;
+    }
+
+    bb38: {
+        _0 = Option::<u64>::Some(_56);
+        goto -> bb39;
+    }
+
+    bb39: {
+        StorageDead(_55);
+        StorageDead(_57);
+        StorageDead(_56);
+        goto -> bb10;
+    }
+
+    bb40: {
+        _27 = const Result::<u64, TryFromIntError>::Err(TryFromIntError(()));
+        StorageDead(_59);
+        StorageLive(_61);
+        StorageLive(_62);
+        _0 = const Option::<u64>::None;
+        goto -> bb43;
+    }
+
+    bb41: {
+        StorageLive(_60);
+        _60 = _21 as u64 (IntToInt);
+        _27 = Result::<u64, TryFromIntError>::Ok(move _60);
+        StorageDead(_60);
+        StorageDead(_59);
+        StorageLive(_61);
+        StorageLive(_62);
+        _61 = move ((_27 as Ok).0: u64);
+        _0 = Option::<u64>::Some(_61);
+        goto -> bb43;
+    }
+
+    bb42: {
+        StorageDead(_62);
+        StorageDead(_61);
+        StorageDead(_27);
+        goto -> bb10;
+    }
+
+    bb43: {
+        _62 = discriminant(_27);
+        switchInt(move _62) -> [0: bb42, 1: bb42, otherwise: bb7];
+    }
+}
+
+alloc33 (size: 16, align: 8) {
+    01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 │ ................
+}
+
+alloc32 (size: 16, align: 8) {
+    00 00 00 00 00 00 00 00 __ __ __ __ __ __ __ __ │ ........░░░░░░░░
+}
+
+alloc30 (size: 16, align: 8) {
+    01 00 00 00 00 00 00 00 __ __ __ __ __ __ __ __ │ ........░░░░░░░░
+}
+
+alloc25 (size: 16, align: 8) {
+    00 00 00 00 00 00 00 00 __ __ __ __ __ __ __ __ │ ........░░░░░░░░
+}

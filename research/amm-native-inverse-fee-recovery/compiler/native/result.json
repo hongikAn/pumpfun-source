@@ -1,0 +1,12 @@
+{
+  "returncode": 0,
+  "normal_rlib_equal": false,
+  "normal_rlib_sha256": "1701abfb0d4acf1e652b808b99745c83045d3b44d04f48630aa2794f0d6b6882",
+  "diagnostic_rlib_sha256": "b0412763d650189980e463d7eb823af6c69115889d5ab3ebfc15363637ea53ef",
+  "object_sha256": {
+    "normal": "b0d31cca4789e595eeb46dc2d66b75ac75cb143247940e69f6b18e92381cc295",
+    "diagnostic": "b0d31cca4789e595eeb46dc2d66b75ac75cb143247940e69f6b18e92381cc295"
+  },
+  "normal_object_equal": true,
+  "qualification": "Complete native code object is byte-identical; rlib metadata differs under extra LLVM/MIR emission. Original first qualification assertion rejected full rlib equality."
+}

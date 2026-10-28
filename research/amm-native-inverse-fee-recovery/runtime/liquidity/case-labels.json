@@ -1,0 +1,4082 @@
+[
+  {
+    "instruction": "deposit",
+    "case": "unsigned-user",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=2",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=3",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=4",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=5",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=6",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=9",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=10",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=11",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=12",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=13",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=14",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=15",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=16",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=17",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=18",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=19",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=20",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=21",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=22",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=23",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=24",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=25",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=26",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=27",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=28",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=29",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=30",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "payload-length=31",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=2",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=1000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=1000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=2097176053360",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=4194352106721",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=4194352106722",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "amount=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=-170141183460469231731687303715884105728",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=-1000000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=-1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=1000000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=1000000000000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=18446744073709551616",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=1267650600228229401496703205376",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "virtual=170141183460469231731687303715884105727",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "mint-supply=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "mint-supply=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "mint-supply=2097176053360",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "mint-supply=4194352106720",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "mint-supply=4194352106721",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "mint-supply=4194352106722",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "mint-supply=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(261, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(261, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(261, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(261, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(271, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(271, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(271, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(271, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(279, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(279, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(279, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-field=(279, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(-1000000000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(-1000000000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(-1000000000, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(-1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(-1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(-1, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(0, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(1, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(1000000000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(1000000000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "effective-virtual=(1000000000, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=210",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=211",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=242",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=243",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=244",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=245",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=260",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=261",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=268",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=269",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=270",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=271",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=278",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=279",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=286",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=287",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=299",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=300",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-size=301",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 0, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 243, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 244, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 269, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 270, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    6dpnPD6UWDw5hbJEuPQwnCCMba1JYwHANKuL6GQ6otAH,\n), 4, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 8, '00')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 11, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "readonly=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "readonly=5",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "readonly=6",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "readonly=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "readonly=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "readonly=9",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "readonly=10",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=3",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=4",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=5",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=6",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=9",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=10",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=11",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=12",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=13",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "substitute=14",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=2",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=4",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=16",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=31",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "disable-flags=255",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(0, 4194352106721)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(0, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1, 4194352106721)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1000000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1000000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1000000, 4194352106721)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "pool-supply=(1000000, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-slippage=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-fee-slippage=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-slippage=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-fee-slippage=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-slippage=29312",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-fee-slippage=29312",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-slippage=29313",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-fee-slippage=29313",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-slippage=29609",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-fee-slippage=29609",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-slippage=29610",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-fee-slippage=29610",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-slippage=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "quote-fee-slippage=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "base-slippage=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "base-slippage=160619894",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "base-slippage=160619895",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "base-slippage=160619896",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "base-slippage=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "self-transfer=(6, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "self-transfer=(6, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "self-transfer=(6, 1000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "self-transfer=(7, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "self-transfer=(7, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "self-transfer=(7, 1000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=So11111111111111111111111111111111111111112",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=6dpnPD6UWDw5hbJEuPQwnCCMba1JYwHANKuL6GQ6otAH",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "wrong-owner=43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "classic-lp-owner=6dpnPD6UWDw5hbJEuPQwnCCMba1JYwHANKuL6GQ6otAH",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "classic-lp-owner=5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(0, 2097176053360, 4294967381, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(1, 1000, -51, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(2, 4194352106721, -13, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(3, 1000000, 4294967389, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(4, 1000000, 1329227995784915872903807060280344600, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(5, 1000, 1267650600228229401496703205361, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(6, 0, 7, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(7, 1, 1208925819614629174706261, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(8, 1, 1208925819614629174706098, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(9, 1, 42, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(10, 1000, -1000000086, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(11, 1000000, 18446744073709551536, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(12, 1000000, 37, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(13, 4194352106721, -1000000053, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(14, 4194352106721, 18446744073709551519, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(15, 2097176053360, 4, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(16, 1000, 4294967239, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(17, 1000000, 4294967354, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(18, 4194352106721, 1329227995784915872903807060280344619, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(19, 4194352106721, 18446744073709551592, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(20, 4194352106721, 18446744073709551529, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(21, 4194352106721, -999999936, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(22, 2097176053360, 1208925819614629174706148, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(23, 1, 4294967369, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(24, 4194352106721, -54, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(25, 1, 1329227995784915872903807060280344558, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(26, 1000000, 4294967372, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(27, 1000, 1329227995784915872903807060280344568, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(28, 4194352106721, 1208925819614629174706214, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(29, 4194352106721, 1208925819614629174706101, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(30, 4194352106721, 18446744073709551708, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(31, 4194352106721, -51, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(32, 1000000, 78, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(33, 2097176053360, -1000000077, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(34, 1000000, -22, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(35, 0, 1267650600228229401496703205342, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(36, 4194352106721, 81, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(37, 4194352106721, -1000000075, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(38, 0, -90, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(39, 1000000, 1329227995784915872903807060280344648, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(40, 2097176053360, 1267650600228229401496703205409, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(41, 1000, 1329227995784915872903807060280344538, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(42, 1000, 18446744073709551599, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(43, 2097176053360, 1329227995784915872903807060280344569, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(44, 2097176053360, 4294967266, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(45, 0, 1329227995784915872903807060280344549, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(46, 4194352106721, 1329227995784915872903807060280344537, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(47, 0, 4294967227, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(48, 0, 1267650600228229401496703205454, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(49, 4194352106721, 1208925819614629174706128, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(50, 0, 18446744073709551645, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(51, 1000, 1208925819614629174706134, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(52, 1, 56, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(53, 1000, 68, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(54, 1000, -1000000091, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(55, 4194352106721, -49, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(56, 2097176053360, 18446744073709551538, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(57, 4194352106721, 1208925819614629174706130, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(58, 1000, 1208925819614629174706267, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(59, 0, -86, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(60, 1000, 1267650600228229401496703205341, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(61, 1, 1208925819614629174706127, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(62, 1000000, 1329227995784915872903807060280344494, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(63, 2097176053360, 4294967226, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(64, 2097176053360, 1208925819614629174706160, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(65, 4194352106721, 1267650600228229401496703205339, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(66, 1, 1267650600228229401496703205346, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(67, 1000, 66, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(68, 0, 1208925819614629174706101, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(69, 4194352106721, 4294967379, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(70, 2097176053360, 18446744073709551704, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(71, 1000, 1267650600228229401496703205470, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(72, 0, 1208925819614629174706141, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(73, 2097176053360, -999999981, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(74, 2097176053360, -22, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(75, 1, 4294967256, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(76, 1000000, 1208925819614629174706189, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(77, 4194352106721, 1329227995784915872903807060280344632, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(78, 1000, 1329227995784915872903807060280344596, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "deposit",
+    "case": "seeded-math=(79, 1000, -1000000083, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "unsigned-user",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=2",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=3",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=4",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=5",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=6",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=9",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=10",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=11",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=12",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=13",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=14",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=15",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=16",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=17",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=18",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=19",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=20",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=21",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=22",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=23",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=24",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=25",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=26",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=27",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=28",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=29",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=30",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "payload-length=31",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=2",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=1000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=1000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=2097176053360",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=4194352106721",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=4194352106722",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "amount=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=-170141183460469231731687303715884105728",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=-1000000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=-1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=1000000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=1000000000000000",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=18446744073709551616",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=1267650600228229401496703205376",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "virtual=170141183460469231731687303715884105727",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "mint-supply=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "mint-supply=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "mint-supply=2097176053360",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "mint-supply=4194352106720",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "mint-supply=4194352106721",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "mint-supply=4194352106722",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "mint-supply=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(261, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(261, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(261, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(261, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(271, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(271, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(271, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(271, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(279, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(279, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(279, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-field=(279, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(-1000000000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(-1000000000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(-1000000000, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(-1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(-1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(-1, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(0, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(1, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(1000000000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(1000000000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "effective-virtual=(1000000000, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 123)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=210",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=211",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=242",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=243",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=244",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=245",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=260",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=261",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=268",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=269",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=270",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=271",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=278",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=279",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=286",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=287",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=299",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=300",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-size=301",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 0, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 243, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 244, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 269, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 270, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 32, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    6dpnPD6UWDw5hbJEuPQwnCCMba1JYwHANKuL6GQ6otAH,\n), 4, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 8, '00')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "field=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), 11, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "readonly=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "readonly=5",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "readonly=6",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "readonly=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "readonly=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "readonly=9",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "readonly=10",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=3",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=4",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=5",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=6",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=7",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=9",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=10",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=11",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=12",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=13",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "substitute=14",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=2",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=4",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=16",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=31",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "disable-flags=255",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(0, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(0, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(0, 4194352106721)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(0, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1, 4194352106721)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1000000, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1000000, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1000000, 4194352106721)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "pool-supply=(1000000, 18446744073709551615)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-slippage=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-fee-slippage=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-slippage=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-fee-slippage=1",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-slippage=29312",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-fee-slippage=29312",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-slippage=29313",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-fee-slippage=29313",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-slippage=29609",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-fee-slippage=29609",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-slippage=29610",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-fee-slippage=29610",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-slippage=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "quote-fee-slippage=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "base-slippage=0",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "base-slippage=160619894",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "base-slippage=160619895",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "base-slippage=160619896",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "base-slippage=18446744073709551615",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "self-transfer=(6, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "self-transfer=(6, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "self-transfer=(6, 1000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "self-transfer=(7, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "self-transfer=(7, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "self-transfer=(7, 1000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=So11111111111111111111111111111111111111112",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=6dpnPD6UWDw5hbJEuPQwnCCMba1JYwHANKuL6GQ6otAH",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "wrong-owner=43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "classic-lp-owner=6dpnPD6UWDw5hbJEuPQwnCCMba1JYwHANKuL6GQ6otAH",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "classic-lp-owner=5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5sAHJgXjaUPK3X1YQWV9x2ZvaS9VVaS3ENzFCNE8nzDu,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 64, '0000000000000000')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 108, '02')",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(0, 2097176053360, 4294967381, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(1, 1000, -51, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(2, 4194352106721, -13, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(3, 1000000, 4294967389, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(4, 1000000, 1329227995784915872903807060280344600, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(5, 1000, 1267650600228229401496703205361, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(6, 0, 7, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(7, 1, 1208925819614629174706261, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(8, 1, 1208925819614629174706098, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(9, 1, 42, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(10, 1000, -1000000086, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(11, 1000000, 18446744073709551536, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(12, 1000000, 37, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(13, 4194352106721, -1000000053, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(14, 4194352106721, 18446744073709551519, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(15, 2097176053360, 4, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(16, 1000, 4294967239, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(17, 1000000, 4294967354, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(18, 4194352106721, 1329227995784915872903807060280344619, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(19, 4194352106721, 18446744073709551592, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(20, 4194352106721, 18446744073709551529, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(21, 4194352106721, -999999936, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(22, 2097176053360, 1208925819614629174706148, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(23, 1, 4294967369, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(24, 4194352106721, -54, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(25, 1, 1329227995784915872903807060280344558, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(26, 1000000, 4294967372, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(27, 1000, 1329227995784915872903807060280344568, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(28, 4194352106721, 1208925819614629174706214, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(29, 4194352106721, 1208925819614629174706101, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(30, 4194352106721, 18446744073709551708, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(31, 4194352106721, -51, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(32, 1000000, 78, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(33, 2097176053360, -1000000077, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(34, 1000000, -22, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(35, 0, 1267650600228229401496703205342, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(36, 4194352106721, 81, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(37, 4194352106721, -1000000075, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(38, 0, -90, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(39, 1000000, 1329227995784915872903807060280344648, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(40, 2097176053360, 1267650600228229401496703205409, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(41, 1000, 1329227995784915872903807060280344538, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(42, 1000, 18446744073709551599, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(43, 2097176053360, 1329227995784915872903807060280344569, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(44, 2097176053360, 4294967266, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(45, 0, 1329227995784915872903807060280344549, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(46, 4194352106721, 1329227995784915872903807060280344537, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(47, 0, 4294967227, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(48, 0, 1267650600228229401496703205454, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(49, 4194352106721, 1208925819614629174706128, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(50, 0, 18446744073709551645, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(51, 1000, 1208925819614629174706134, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(52, 1, 56, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(53, 1000, 68, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(54, 1000, -1000000091, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(55, 4194352106721, -49, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(56, 2097176053360, 18446744073709551538, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(57, 4194352106721, 1208925819614629174706130, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(58, 1000, 1208925819614629174706267, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(59, 0, -86, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(60, 1000, 1267650600228229401496703205341, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(61, 1, 1208925819614629174706127, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(62, 1000000, 1329227995784915872903807060280344494, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(63, 2097176053360, 4294967226, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(64, 2097176053360, 1208925819614629174706160, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(65, 4194352106721, 1267650600228229401496703205339, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(66, 1, 1267650600228229401496703205346, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(67, 1000, 66, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(68, 0, 1208925819614629174706101, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(69, 4194352106721, 4294967379, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(70, 2097176053360, 18446744073709551704, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(71, 1000, 1267650600228229401496703205470, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(72, 0, 1208925819614629174706141, 1000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(73, 2097176053360, -999999981, 0)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(74, 2097176053360, -22, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(75, 1, 4294967256, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(76, 1000000, 1208925819614629174706189, 100000000000)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(77, 4194352106721, 1329227995784915872903807060280344632, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(78, 1000, 1329227995784915872903807060280344596, 1)",
+    "mismatched_fields": [],
+    "match": true
+  },
+  {
+    "instruction": "withdraw",
+    "case": "seeded-math=(79, 1000, -1000000083, 1)",
+    "mismatched_fields": [],
+    "match": true
+  }
+]

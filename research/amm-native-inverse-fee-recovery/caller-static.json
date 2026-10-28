@@ -1,0 +1,1881 @@
+{
+  "inputs": {
+    "original": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
+    "baseline": "fe66adb9f12e94851b19190d7bdff1f5849f802595d4feb24d280b6a983f496a",
+    "candidate": "9b4d6a1aaed8a31e807905d50894c715abd17bb980b3defffec2309c2be2fd57"
+  },
+  "original": {
+    "address": 478080,
+    "bytes": 688,
+    "instructions": 79,
+    "raw_sha256": "b3cb4fd7da3ab36b36a51d691f40295437811567a08d300ca42aba052fc777da",
+    "signature": "c3e05c05c7355e3078df591796d9a9368e550efbd8965ea06c387201a1c02ff3",
+    "name": null,
+    "symbol_bytes": null,
+    "cfg": {
+      "instructions": 79,
+      "reachable_instructions": 79,
+      "outside_successors": []
+    },
+    "annotations": [
+      [
+        192,
+        "opaque_relocated_pointer"
+      ],
+      [
+        240,
+        "opaque_relocated_pointer"
+      ],
+      [
+        336,
+        "opaque_relocated_pointer"
+      ],
+      [
+        384,
+        "opaque_relocated_pointer"
+      ],
+      [
+        408,
+        "opaque_relocated_pointer"
+      ],
+      [
+        424,
+        "opaque_relocated_pointer"
+      ],
+      [
+        544,
+        "opaque_relocated_pointer"
+      ]
+    ]
+  },
+  "candidate": {
+    "address": 173016,
+    "bytes": 688,
+    "instructions": 79,
+    "raw_sha256": "297c3b2cd50a57fc4b6df477b5a8e5bd6295ea7277cd1c72d8e7f4fadb02d9a4",
+    "signature": "c3e05c05c7355e3078df591796d9a9368e550efbd8965ea06c387201a1c02ff3",
+    "name": "_ZN18pump_amm_recovered5utils12transfer_fee17amount_before_fee17h2c1d02fd8f1c202fE",
+    "symbol_bytes": 688,
+    "cfg": {
+      "instructions": 79,
+      "reachable_instructions": 79,
+      "outside_successors": []
+    },
+    "annotations": [
+      [
+        192,
+        "opaque_relocated_pointer"
+      ],
+      [
+        240,
+        "opaque_relocated_pointer"
+      ],
+      [
+        336,
+        "opaque_relocated_pointer"
+      ],
+      [
+        384,
+        "opaque_relocated_pointer"
+      ],
+      [
+        408,
+        "opaque_relocated_pointer"
+      ],
+      [
+        424,
+        "opaque_relocated_pointer"
+      ],
+      [
+        544,
+        "opaque_relocated_pointer"
+      ]
+    ]
+  },
+  "direct_calls": [
+    {
+      "offset": 120,
+      "original": {
+        "address": 995024,
+        "bytes": 776,
+        "instructions": 97,
+        "raw_sha256": "1580deba194a657010a34bf4c247f7aaa89eeccaf774e453bec5356b47d04ec1",
+        "signature": "d7f93d0f1b15f3b837610d1f036e23e696f10dc13ba7ee7bdc37934c37c9d882",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 97,
+          "reachable_instructions": 97,
+          "outside_successors": []
+        },
+        "annotations": []
+      },
+      "candidate": {
+        "address": 1029144,
+        "bytes": 776,
+        "instructions": 97,
+        "raw_sha256": "19ec3dac85dae4519e2f835ee6f3cf613e51106caa61b38906341525c0dbb2ed",
+        "signature": "d7f93d0f1b15f3b837610d1f036e23e696f10dc13ba7ee7bdc37934c37c9d882",
+        "name": "_ZN19native_transfer_fee18DecodedTransferFee24calculate_pre_fee_amount17hd5a2ad6e6f9aa53bE",
+        "symbol_bytes": 776,
+        "cfg": {
+          "instructions": 97,
+          "reachable_instructions": 97,
+          "outside_successors": []
+        },
+        "annotations": []
+      }
+    },
+    {
+      "offset": 208,
+      "original": {
+        "address": 480248,
+        "bytes": 21936,
+        "instructions": 2223,
+        "raw_sha256": "69f6fa832794b494c2f237417f1410c7dad36abb66d219182b141513eb0e831f",
+        "signature": "cbd82deb11a2653b5f6adace54bdac963868b11f4d1c5e9f249e01209caa7ce5",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 2223,
+          "reachable_instructions": 2223,
+          "outside_successors": []
+        },
+        "annotations": []
+      },
+      "candidate": {
+        "address": 949384,
+        "bytes": 21936,
+        "instructions": 2223,
+        "raw_sha256": "e46de39f81d9b494689873d47a3a2880516a04ee5f412a9c6a9b421cf24d1b88",
+        "signature": "cbd82deb11a2653b5f6adace54bdac963868b11f4d1c5e9f249e01209caa7ce5",
+        "name": "_ZN18pump_amm_recovered12PumpAmmError4name17h7a0105055247a4bfE",
+        "symbol_bytes": 21936,
+        "cfg": {
+          "instructions": 2223,
+          "reachable_instructions": 2223,
+          "outside_successors": []
+        },
+        "annotations": []
+      }
+    },
+    {
+      "offset": 352,
+      "original": {
+        "address": 502688,
+        "bytes": 2936,
+        "instructions": 329,
+        "raw_sha256": "daa96bc63061e4658eb7291d1c6e3cd547a87d7e120e34d86f4fd175a50b1a74",
+        "signature": "0730b1c367a84abc023b891a128166a90711b7e7ed322c99405c72c248ae3959",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 329,
+          "reachable_instructions": 329,
+          "outside_successors": []
+        },
+        "annotations": [
+          [
+            176,
+            "opaque_relocated_pointer"
+          ],
+          [
+            288,
+            "opaque_relocated_pointer"
+          ],
+          [
+            336,
+            "opaque_relocated_pointer"
+          ],
+          [
+            528,
+            "opaque_relocated_pointer"
+          ],
+          [
+            720,
+            "opaque_relocated_pointer"
+          ],
+          [
+            768,
+            "opaque_relocated_pointer"
+          ],
+          [
+            816,
+            "opaque_relocated_pointer"
+          ],
+          [
+            856,
+            "opaque_relocated_pointer"
+          ],
+          [
+            896,
+            "opaque_relocated_pointer"
+          ],
+          [
+            976,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1176,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1376,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1416,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1456,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1504,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1528,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1552,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1600,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1720,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1744,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2032,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2056,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2104,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2128,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2152,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2176,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2200,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2224,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2248,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2368,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2488,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2584,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2704,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2728,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2752,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2776,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2800,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2824,
+            "opaque_relocated_pointer"
+          ]
+        ]
+      },
+      "candidate": {
+        "address": 971824,
+        "bytes": 2936,
+        "instructions": 329,
+        "raw_sha256": "b0e4ffddbba4722069982f45e719604d138aa9283642654973e78a99293c9fc7",
+        "signature": "0730b1c367a84abc023b891a128166a90711b7e7ed322c99405c72c248ae3959",
+        "name": "_ZN71_$LT$pump_amm_recovered..PumpAmmError$u20$as$u20$core..fmt..Display$GT$3fmt17h2aa5cc74834c3184E",
+        "symbol_bytes": 2936,
+        "cfg": {
+          "instructions": 329,
+          "reachable_instructions": 329,
+          "outside_successors": []
+        },
+        "annotations": [
+          [
+            176,
+            "opaque_relocated_pointer"
+          ],
+          [
+            288,
+            "opaque_relocated_pointer"
+          ],
+          [
+            336,
+            "opaque_relocated_pointer"
+          ],
+          [
+            528,
+            "opaque_relocated_pointer"
+          ],
+          [
+            720,
+            "opaque_relocated_pointer"
+          ],
+          [
+            768,
+            "opaque_relocated_pointer"
+          ],
+          [
+            816,
+            "opaque_relocated_pointer"
+          ],
+          [
+            856,
+            "opaque_relocated_pointer"
+          ],
+          [
+            896,
+            "opaque_relocated_pointer"
+          ],
+          [
+            976,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1176,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1376,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1416,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1456,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1504,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1528,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1552,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1600,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1720,
+            "opaque_relocated_pointer"
+          ],
+          [
+            1744,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2032,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2056,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2104,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2128,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2152,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2176,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2200,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2224,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2248,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2368,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2488,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2584,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2704,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2728,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2752,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2776,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2800,
+            "opaque_relocated_pointer"
+          ],
+          [
+            2824,
+            "opaque_relocated_pointer"
+          ]
+        ]
+      }
+    },
+    {
+      "offset": 440,
+      "original": {
+        "address": 1126296,
+        "bytes": 232,
+        "instructions": 26,
+        "raw_sha256": "a1eaddbd6be5d336e09a761f471f1a853fd77581b63ee4adf30b0c229c6b0e18",
+        "signature": "c79782bd89533c754a9bd812012b5ae09f8126681e6aa6d0cc6f54c274e89941",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 26,
+          "reachable_instructions": 26,
+          "outside_successors": [
+            232
+          ]
+        },
+        "annotations": [
+          [
+            32,
+            "opaque_relocated_pointer"
+          ],
+          [
+            80,
+            "opaque_relocated_pointer"
+          ],
+          [
+            128,
+            "opaque_relocated_pointer"
+          ]
+        ]
+      },
+      "candidate": {
+        "address": 1159752,
+        "bytes": 232,
+        "instructions": 26,
+        "raw_sha256": "8dc0a00d2e0281992c89556b345148bf2e3d64fabb943169eae946d48ab3d690",
+        "signature": "c79782bd89533c754a9bd812012b5ae09f8126681e6aa6d0cc6f54c274e89941",
+        "name": "_ZN4core6result13unwrap_failed17h2dbd2ef42161686dE",
+        "symbol_bytes": 232,
+        "cfg": {
+          "instructions": 26,
+          "reachable_instructions": 26,
+          "outside_successors": [
+            232
+          ]
+        },
+        "annotations": [
+          [
+            32,
+            "opaque_relocated_pointer"
+          ],
+          [
+            80,
+            "opaque_relocated_pointer"
+          ],
+          [
+            128,
+            "opaque_relocated_pointer"
+          ]
+        ]
+      }
+    },
+    {
+      "offset": 640,
+      "original": {
+        "address": 1060792,
+        "bytes": 136,
+        "instructions": 17,
+        "raw_sha256": "449bce97690e398699f5d178bbe5137474429183affc1c291674cf21e866748c",
+        "signature": "82e2eebfc3cda2beeca522552cbc9179f4c48510a45c2c7e084cf2942c067f8f",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 17,
+          "reachable_instructions": 17,
+          "outside_successors": []
+        },
+        "annotations": []
+      },
+      "candidate": {
+        "address": 1094248,
+        "bytes": 136,
+        "instructions": 17,
+        "raw_sha256": "23ab8fc9d7056474790cc80b5529ce11e7390b0534852aec959abae27d1b554b",
+        "signature": "82e2eebfc3cda2beeca522552cbc9179f4c48510a45c2c7e084cf2942c067f8f",
+        "name": "_ZN104_$LT$anchor_lang..error..Error$u20$as$u20$core..convert..From$LT$anchor_lang..error..AnchorError$GT$$GT$4from17hefc4a4c4d9276c8eE",
+        "symbol_bytes": 136,
+        "cfg": {
+          "instructions": 17,
+          "reachable_instructions": 17,
+          "outside_successors": []
+        },
+        "annotations": []
+      }
+    }
+  ],
+  "typed_references": [
+    {
+      "offset": 192,
+      "original": 1163328,
+      "candidate": 1196784,
+      "kind": "Overflow discriminant",
+      "bytes": 4,
+      "value": 23
+    },
+    {
+      "offset": 240,
+      "original": 1188320,
+      "candidate": 1221320,
+      "kind": "vtable",
+      "bytes": 48,
+      "layout": [
+        24,
+        8
+      ],
+      "methods": [
+        {
+          "slot": 0,
+          "original": {
+            "address": 39728,
+            "bytes": 8,
+            "instructions": 1,
+            "raw_sha256": "e1425229c865ac8b8222d13972f05098f084426a258428c2b5a470933aca6cc4",
+            "signature": "a458659ec79bf5bcaead04f3acb1da2da5bc620bfa0dcf76c3be1ced4ebcd39b",
+            "name": null,
+            "symbol_bytes": null,
+            "cfg": {
+              "instructions": 1,
+              "reachable_instructions": 1,
+              "outside_successors": []
+            },
+            "annotations": []
+          },
+          "candidate": {
+            "address": 38032,
+            "bytes": 8,
+            "instructions": 1,
+            "raw_sha256": "e1425229c865ac8b8222d13972f05098f084426a258428c2b5a470933aca6cc4",
+            "signature": "a458659ec79bf5bcaead04f3acb1da2da5bc620bfa0dcf76c3be1ced4ebcd39b",
+            "name": "_ZN4core3ptr42drop_in_place$LT$alloc..string..String$GT$17he2272e788e4f95ffE",
+            "symbol_bytes": 8,
+            "cfg": {
+              "instructions": 1,
+              "reachable_instructions": 1,
+              "outside_successors": []
+            },
+            "annotations": []
+          }
+        },
+        {
+          "slot": 24,
+          "original": {
+            "address": 44800,
+            "bytes": 168,
+            "instructions": 21,
+            "raw_sha256": "ba48fd3d2768a09744a0867801c38a6bca8b34c0575221aebfe5144ac7572f05",
+            "signature": "c35c006cb395f63dc592708c89e6912c4f793c7dfc5348b67b19b16ae627dca7",
+            "name": null,
+            "symbol_bytes": null,
+            "cfg": {
+              "instructions": 21,
+              "reachable_instructions": 21,
+              "outside_successors": []
+            },
+            "annotations": []
+          },
+          "candidate": {
+            "address": 45128,
+            "bytes": 168,
+            "instructions": 21,
+            "raw_sha256": "47f050534e6f24ae38d4b324d68fdeec45b9b89d13c1d0220245d54097050339",
+            "signature": "c35c006cb395f63dc592708c89e6912c4f793c7dfc5348b67b19b16ae627dca7",
+            "name": "_ZN58_$LT$alloc..string..String$u20$as$u20$core..fmt..Write$GT$9write_str17h4b62f46a222bd5b2E",
+            "symbol_bytes": 168,
+            "cfg": {
+              "instructions": 21,
+              "reachable_instructions": 21,
+              "outside_successors": []
+            },
+            "annotations": []
+          }
+        },
+        {
+          "slot": 32,
+          "original": {
+            "address": 44112,
+            "bytes": 688,
+            "instructions": 86,
+            "raw_sha256": "5ae761591cf10e6b02cdbd4857670df8101b3ddda0d7ffa76d61edeb1111abdb",
+            "signature": "ee99af70d942346d627102909f55203026d26711600aec923ec06f30ad868a60",
+            "name": null,
+            "symbol_bytes": null,
+            "cfg": {
+              "instructions": 86,
+              "reachable_instructions": 86,
+              "outside_successors": []
+            },
+            "annotations": []
+          },
+          "candidate": {
+            "address": 44440,
+            "bytes": 688,
+            "instructions": 86,
+            "raw_sha256": "13d1307748ca93e3f681cf966ea4814092eceaddf51180aa7982a85e5a60d5d5",
+            "signature": "ee99af70d942346d627102909f55203026d26711600aec923ec06f30ad868a60",
+            "name": "_ZN58_$LT$alloc..string..String$u20$as$u20$core..fmt..Write$GT$10write_char17hfde5b685689164ccE",
+            "symbol_bytes": 688,
+            "cfg": {
+              "instructions": 86,
+              "reachable_instructions": 86,
+              "outside_successors": []
+            },
+            "annotations": []
+          }
+        },
+        {
+          "slot": 40,
+          "original": {
+            "address": 35224,
+            "bytes": 40,
+            "instructions": 4,
+            "raw_sha256": "968bfefd04c06e947cc8b6dfff4a2e4369e7e9f8a265540a8aae9272a754cf40",
+            "signature": "7cb0e37500e7ace51f829adf1bd7e526482ac4734c0a8026798acb8440d56ac5",
+            "name": null,
+            "symbol_bytes": null,
+            "cfg": {
+              "instructions": 4,
+              "reachable_instructions": 4,
+              "outside_successors": []
+            },
+            "annotations": [
+              [
+                8,
+                "opaque_relocated_pointer"
+              ]
+            ]
+          },
+          "candidate": {
+            "address": 35344,
+            "bytes": 40,
+            "instructions": 4,
+            "raw_sha256": "6017050b1532a56a424b16a4cb90599d9c914224c940dac1176cd0f84f8a4829",
+            "signature": "7cb0e37500e7ace51f829adf1bd7e526482ac4734c0a8026798acb8440d56ac5",
+            "name": "_ZN4core3fmt5Write9write_fmt17hcb12465dfbb18dbaE",
+            "symbol_bytes": 40,
+            "cfg": {
+              "instructions": 4,
+              "reachable_instructions": 4,
+              "outside_successors": []
+            },
+            "annotations": [
+              [
+                8,
+                "opaque_relocated_pointer"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "offset": 336,
+      "original": 1163328,
+      "candidate": 1196784,
+      "kind": "Overflow discriminant",
+      "bytes": 4,
+      "value": 23
+    },
+    {
+      "offset": 384,
+      "original": 1163514,
+      "candidate": 1196970,
+      "kind": "panic message",
+      "bytes": 55,
+      "value": "a Display implementation returned an error unexpectedly"
+    },
+    {
+      "offset": 408,
+      "original": 1188368,
+      "candidate": 1221368,
+      "kind": "vtable",
+      "bytes": 32,
+      "layout": [
+        0,
+        1
+      ],
+      "methods": [
+        {
+          "slot": 0,
+          "original": {
+            "address": 39720,
+            "bytes": 8,
+            "instructions": 1,
+            "raw_sha256": "e1425229c865ac8b8222d13972f05098f084426a258428c2b5a470933aca6cc4",
+            "signature": "a458659ec79bf5bcaead04f3acb1da2da5bc620bfa0dcf76c3be1ced4ebcd39b",
+            "name": null,
+            "symbol_bytes": null,
+            "cfg": {
+              "instructions": 1,
+              "reachable_instructions": 1,
+              "outside_successors": []
+            },
+            "annotations": []
+          },
+          "candidate": {
+            "address": 38024,
+            "bytes": 8,
+            "instructions": 1,
+            "raw_sha256": "e1425229c865ac8b8222d13972f05098f084426a258428c2b5a470933aca6cc4",
+            "signature": "a458659ec79bf5bcaead04f3acb1da2da5bc620bfa0dcf76c3be1ced4ebcd39b",
+            "name": "_ZN4core3ptr37drop_in_place$LT$core..fmt..Error$GT$17h22bfd183d48243ceE",
+            "symbol_bytes": 8,
+            "cfg": {
+              "instructions": 1,
+              "reachable_instructions": 1,
+              "outside_successors": []
+            },
+            "annotations": []
+          }
+        },
+        {
+          "slot": 24,
+          "original": {
+            "address": 44064,
+            "bytes": 48,
+            "instructions": 5,
+            "raw_sha256": "37b08d08223cb8cebd4dcd3b6740a9af2551809d5f6992ce1e4c0b0cd2cd828c",
+            "signature": "4d55a83ce3080b32c65e041d28f65a77a6341fe5d1c849b1530eef2bb0e7ac23",
+            "name": null,
+            "symbol_bytes": null,
+            "cfg": {
+              "instructions": 5,
+              "reachable_instructions": 5,
+              "outside_successors": []
+            },
+            "annotations": [
+              [
+                8,
+                "opaque_relocated_pointer"
+              ]
+            ]
+          },
+          "candidate": {
+            "address": 44392,
+            "bytes": 48,
+            "instructions": 5,
+            "raw_sha256": "f6f329fb07d878e2ef7d1111794ad3aa394d03f34263a59adec77af5d85badfd",
+            "signature": "4d55a83ce3080b32c65e041d28f65a77a6341fe5d1c849b1530eef2bb0e7ac23",
+            "name": "_ZN53_$LT$core..fmt..Error$u20$as$u20$core..fmt..Debug$GT$3fmt17h85666afa16c4890eE",
+            "symbol_bytes": 48,
+            "cfg": {
+              "instructions": 5,
+              "reachable_instructions": 5,
+              "outside_successors": []
+            },
+            "annotations": [
+              [
+                8,
+                "opaque_relocated_pointer"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "offset": 424,
+      "original": 1188400,
+      "candidate": 1221400,
+      "kind": "panic Location",
+      "bytes": 24,
+      "filename": "/home/runner/work/platform-tools/platform-tools/out/rust/library/alloc/src/string.rs",
+      "line": 2559,
+      "column": 14
+    },
+    {
+      "offset": 544,
+      "original": 1167428,
+      "candidate": 1198783,
+      "kind": "Source filename",
+      "bytes": 43,
+      "value": "programs/pump-amm/src/utils/transfer_fee.rs"
+    }
+  ],
+  "source_records": [
+    {
+      "offset": 544,
+      "filename": "programs/pump-amm/src/utils/transfer_fee.rs",
+      "line": 67,
+      "error": 6023
+    }
+  ],
+  "incoming": {
+    "original": [
+      {
+        "caller": {
+          "address": 195384,
+          "bytes": 7128,
+          "instructions": 868,
+          "raw_sha256": "055604b7173e48c60c8ba60a73ccdacca4be6a4f97d4509e48f125fdd5c77642",
+          "signature": "395238ea1e1d713b7c71edcf8369c7cbc97aab190916e30fc06eb958e2018ca7",
+          "name": null,
+          "symbol_bytes": null,
+          "cfg": {
+            "instructions": 868,
+            "reachable_instructions": 868,
+            "outside_successors": []
+          },
+          "annotations": [
+            [
+              472,
+              "opaque_relocated_pointer"
+            ],
+            [
+              520,
+              "opaque_relocated_pointer"
+            ],
+            [
+              616,
+              "opaque_relocated_pointer"
+            ],
+            [
+              760,
+              "opaque_relocated_pointer"
+            ],
+            [
+              936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              984,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1080,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1144,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1192,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1288,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1336,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1360,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1376,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1496,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1880,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3872,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3912,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6104,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6120,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6448,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6584,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 2608,
+        "target": 478080
+      },
+      {
+        "caller": {
+          "address": 226992,
+          "bytes": 9936,
+          "instructions": 1214,
+          "raw_sha256": "7698a0bf6f4aa5a8a28b85cc738b345538c5fce7c0aae40abdf4ada79ccf8299",
+          "signature": "beb3ea8e46fdbb9d980e3283ea26fb17ff7cf242ff6499a8da23c7101826ef1b",
+          "name": null,
+          "symbol_bytes": null,
+          "cfg": {
+            "instructions": 1214,
+            "reachable_instructions": 1214,
+            "outside_successors": []
+          },
+          "annotations": [
+            [
+              848,
+              "opaque_relocated_pointer"
+            ],
+            [
+              896,
+              "opaque_relocated_pointer"
+            ],
+            [
+              992,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1128,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1312,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1360,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1456,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1512,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1560,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1656,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1704,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1728,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1744,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1864,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2104,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3800,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3840,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3864,
+              "opaque_relocated_pointer"
+            ],
+            [
+              8920,
+              "opaque_relocated_pointer"
+            ],
+            [
+              8936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9264,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9400,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 3512,
+        "target": 478080
+      },
+      {
+        "caller": {
+          "address": 251944,
+          "bytes": 168,
+          "instructions": 21,
+          "raw_sha256": "3ff224cc72f86eed8e03fa8a6a366a65334ded15a8f5ebd6af4e468f01282f25",
+          "signature": "59a2805ba749403c02bf66d2745733807aaf010a7c800d745bd3cb414cbf9f16",
+          "name": null,
+          "symbol_bytes": null,
+          "cfg": {
+            "instructions": 21,
+            "reachable_instructions": 21,
+            "outside_successors": []
+          },
+          "annotations": []
+        },
+        "offset": 64,
+        "target": 478080
+      },
+      {
+        "caller": {
+          "address": 329112,
+          "bytes": 1808,
+          "instructions": 210,
+          "raw_sha256": "9c773bbfcfcc3378bd2fbec1884ef6b9e3d27156577b7fe16f201b80b2d65240",
+          "signature": "920c1a7b3791cbce4d294704efd60af713deeb2333a07986329cbde5b26f6ef6",
+          "name": null,
+          "symbol_bytes": null,
+          "cfg": {
+            "instructions": 210,
+            "reachable_instructions": 210,
+            "outside_successors": [
+              1808
+            ]
+          },
+          "annotations": [
+            [
+              448,
+              "opaque_relocated_pointer"
+            ],
+            [
+              496,
+              "opaque_relocated_pointer"
+            ],
+            [
+              592,
+              "opaque_relocated_pointer"
+            ],
+            [
+              640,
+              "opaque_relocated_pointer"
+            ],
+            [
+              664,
+              "opaque_relocated_pointer"
+            ],
+            [
+              680,
+              "opaque_relocated_pointer"
+            ],
+            [
+              824,
+              "opaque_relocated_pointer"
+            ],
+            [
+              872,
+              "opaque_relocated_pointer"
+            ],
+            [
+              968,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1288,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1512,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1696,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1720,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1736,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1760,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1784,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 760,
+        "target": 478080
+      }
+    ],
+    "baseline": [
+      {
+        "caller": {
+          "address": 185440,
+          "bytes": 1776,
+          "instructions": 206,
+          "raw_sha256": "4943934f0f566816596599d104dc9ff1a61bed273ca5bc10fbf189997b974ebe",
+          "signature": "22c5bc8cb27f74618eb808a3bb5c9fd026fbf7b9d2b002294a782205158850e7",
+          "name": "_ZN18pump_amm_recovered12instructions4swap8trade_v220calculate_buy_result17hb6085f66a7d4af48E",
+          "symbol_bytes": 1776,
+          "cfg": {
+            "instructions": 206,
+            "reachable_instructions": 206,
+            "outside_successors": [
+              1776
+            ]
+          },
+          "annotations": [
+            [
+              360,
+              "opaque_relocated_pointer"
+            ],
+            [
+              408,
+              "opaque_relocated_pointer"
+            ],
+            [
+              504,
+              "opaque_relocated_pointer"
+            ],
+            [
+              744,
+              "opaque_relocated_pointer"
+            ],
+            [
+              792,
+              "opaque_relocated_pointer"
+            ],
+            [
+              888,
+              "opaque_relocated_pointer"
+            ],
+            [
+              936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              960,
+              "opaque_relocated_pointer"
+            ],
+            [
+              976,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1264,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1488,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1664,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1688,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1704,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1728,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1752,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 296,
+        "target": 173016
+      },
+      {
+        "caller": {
+          "address": 238760,
+          "bytes": 168,
+          "instructions": 21,
+          "raw_sha256": "56ca4fd24bda095b1e8941a86ef161cac3b1b36b184ffc0aa376a88ce9d3e742",
+          "signature": "59a2805ba749403c02bf66d2745733807aaf010a7c800d745bd3cb414cbf9f16",
+          "name": "_ZN18pump_amm_recovered12instructions4swap3buy7execute28_$u7b$$u7b$closure$u7d$$u7d$17h06c3e09fd788282dE",
+          "symbol_bytes": 168,
+          "cfg": {
+            "instructions": 21,
+            "reachable_instructions": 21,
+            "outside_successors": []
+          },
+          "annotations": []
+        },
+        "offset": 64,
+        "target": 173016
+      },
+      {
+        "caller": {
+          "address": 799368,
+          "bytes": 7016,
+          "instructions": 852,
+          "raw_sha256": "991a1e1edd0bef2254b16fc5bf17ce7d5d88a097109880855a26970b0e58a0d0",
+          "signature": "030e02f485f026d061030f549669d57b19d1e3ece8f3ffd2a6ab6478092c5e47",
+          "name": "_ZN18pump_amm_recovered18pump_amm_recovered7deposit17h669ec4013545dd50E",
+          "symbol_bytes": 7016,
+          "cfg": {
+            "instructions": 852,
+            "reachable_instructions": 852,
+            "outside_successors": []
+          },
+          "annotations": [
+            [
+              480,
+              "opaque_relocated_pointer"
+            ],
+            [
+              528,
+              "opaque_relocated_pointer"
+            ],
+            [
+              624,
+              "opaque_relocated_pointer"
+            ],
+            [
+              768,
+              "opaque_relocated_pointer"
+            ],
+            [
+              944,
+              "opaque_relocated_pointer"
+            ],
+            [
+              992,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1088,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1152,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1200,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1296,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1344,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1368,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1384,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1504,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1888,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2824,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3240,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3872,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3912,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6008,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6024,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6352,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6488,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 2616,
+        "target": 173016
+      },
+      {
+        "caller": {
+          "address": 830784,
+          "bytes": 10048,
+          "instructions": 1228,
+          "raw_sha256": "3940c5e8c7f307c1c6416906755d5b6b5bc6f85414d8e05f8c579c7c020ba64a",
+          "signature": "82a79b62f5a91c895133a975e286ec83b436ff0243062f29f6962c029e8d762f",
+          "name": "_ZN18pump_amm_recovered18pump_amm_recovered3buy17h0f19644a422cdaf8E",
+          "symbol_bytes": 10048,
+          "cfg": {
+            "instructions": 1228,
+            "reachable_instructions": 1228,
+            "outside_successors": []
+          },
+          "annotations": [
+            [
+              1416,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1464,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1560,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1696,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1880,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1928,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2024,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2080,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2128,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2224,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2272,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2296,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2312,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2432,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2672,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3872,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3912,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9024,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9040,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9368,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9504,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 3512,
+        "target": 173016
+      }
+    ],
+    "candidate": [
+      {
+        "caller": {
+          "address": 185440,
+          "bytes": 1776,
+          "instructions": 206,
+          "raw_sha256": "a7dd4908142e7ad59d96145439fe0372fbf86b9343afd81da0e5c5a1de62a319",
+          "signature": "22c5bc8cb27f74618eb808a3bb5c9fd026fbf7b9d2b002294a782205158850e7",
+          "name": "_ZN18pump_amm_recovered12instructions4swap8trade_v220calculate_buy_result17hb6085f66a7d4af48E",
+          "symbol_bytes": 1776,
+          "cfg": {
+            "instructions": 206,
+            "reachable_instructions": 206,
+            "outside_successors": [
+              1776
+            ]
+          },
+          "annotations": [
+            [
+              360,
+              "opaque_relocated_pointer"
+            ],
+            [
+              408,
+              "opaque_relocated_pointer"
+            ],
+            [
+              504,
+              "opaque_relocated_pointer"
+            ],
+            [
+              744,
+              "opaque_relocated_pointer"
+            ],
+            [
+              792,
+              "opaque_relocated_pointer"
+            ],
+            [
+              888,
+              "opaque_relocated_pointer"
+            ],
+            [
+              936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              960,
+              "opaque_relocated_pointer"
+            ],
+            [
+              976,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1264,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1488,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1664,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1688,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1704,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1728,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1752,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 296,
+        "target": 173016
+      },
+      {
+        "caller": {
+          "address": 238760,
+          "bytes": 168,
+          "instructions": 21,
+          "raw_sha256": "56ca4fd24bda095b1e8941a86ef161cac3b1b36b184ffc0aa376a88ce9d3e742",
+          "signature": "59a2805ba749403c02bf66d2745733807aaf010a7c800d745bd3cb414cbf9f16",
+          "name": "_ZN18pump_amm_recovered12instructions4swap3buy7execute28_$u7b$$u7b$closure$u7d$$u7d$17h06c3e09fd788282dE",
+          "symbol_bytes": 168,
+          "cfg": {
+            "instructions": 21,
+            "reachable_instructions": 21,
+            "outside_successors": []
+          },
+          "annotations": []
+        },
+        "offset": 64,
+        "target": 173016
+      },
+      {
+        "caller": {
+          "address": 799368,
+          "bytes": 7016,
+          "instructions": 852,
+          "raw_sha256": "77797c7b2c535ad6ee85369d98c22834bd2e77949cb919300f118f8e35f6a74b",
+          "signature": "030e02f485f026d061030f549669d57b19d1e3ece8f3ffd2a6ab6478092c5e47",
+          "name": "_ZN18pump_amm_recovered18pump_amm_recovered7deposit17h669ec4013545dd50E",
+          "symbol_bytes": 7016,
+          "cfg": {
+            "instructions": 852,
+            "reachable_instructions": 852,
+            "outside_successors": []
+          },
+          "annotations": [
+            [
+              480,
+              "opaque_relocated_pointer"
+            ],
+            [
+              528,
+              "opaque_relocated_pointer"
+            ],
+            [
+              624,
+              "opaque_relocated_pointer"
+            ],
+            [
+              768,
+              "opaque_relocated_pointer"
+            ],
+            [
+              944,
+              "opaque_relocated_pointer"
+            ],
+            [
+              992,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1088,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1152,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1200,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1296,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1344,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1368,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1384,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1504,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1888,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2824,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3240,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3872,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3912,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6008,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6024,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6352,
+              "opaque_relocated_pointer"
+            ],
+            [
+              6488,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 2616,
+        "target": 173016
+      },
+      {
+        "caller": {
+          "address": 830784,
+          "bytes": 10048,
+          "instructions": 1228,
+          "raw_sha256": "b8f814cebbd9816bdbb5f7c81b000bc6e4487c133691d5aa4b6458c5d649e2b0",
+          "signature": "82a79b62f5a91c895133a975e286ec83b436ff0243062f29f6962c029e8d762f",
+          "name": "_ZN18pump_amm_recovered18pump_amm_recovered3buy17h0f19644a422cdaf8E",
+          "symbol_bytes": 10048,
+          "cfg": {
+            "instructions": 1228,
+            "reachable_instructions": 1228,
+            "outside_successors": []
+          },
+          "annotations": [
+            [
+              1416,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1464,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1560,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1696,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1880,
+              "opaque_relocated_pointer"
+            ],
+            [
+              1928,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2024,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2080,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2128,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2224,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2272,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2296,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2312,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2432,
+              "opaque_relocated_pointer"
+            ],
+            [
+              2672,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3872,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3912,
+              "opaque_relocated_pointer"
+            ],
+            [
+              3936,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9024,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9040,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9368,
+              "opaque_relocated_pointer"
+            ],
+            [
+              9504,
+              "opaque_relocated_pointer"
+            ]
+          ]
+        },
+        "offset": 3512,
+        "target": 173016
+      }
+    ]
+  }
+}

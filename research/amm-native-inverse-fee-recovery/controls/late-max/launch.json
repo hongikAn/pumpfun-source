@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/ahi200/pumpfun-work/20261027-crank/sdk/rust/bin/rustc",
+    "--crate-type=lib",
+    "--edition=2021",
+    "--target=sbpf-solana-solana",
+    "-Copt-level=3",
+    "-Coverflow-checks=true",
+    "-Cpanic=abort",
+    "--emit=obj,llvm-ir,mir",
+    "--out-dir",
+    "/home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/late-max",
+    "/home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/late-max/input.rs"
+  ],
+  "source_sha256": "b2cbfb1872519e3e7f8761f505759d5096a15ebc7d0c4cf59bcb8a671b9d4b27",
+  "returncode": 0
+}

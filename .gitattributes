@@ -1510,3 +1510,4 @@ research/mayhem-current436-linux-dependency-control-20261028/**/link.map -whites
 
 research/mayhem-current436-sweep-address-selection-20261028/sweep/source.patch -whitespace
 research/mayhem-current436-sweep-address-selection-20261028/sweep/**/link.map -whitespace
+research/amm-native-inverse-fee-recovery/** -text -whitespace

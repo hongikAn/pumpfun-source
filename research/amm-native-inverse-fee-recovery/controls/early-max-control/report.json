@@ -1,0 +1,6 @@
+{
+  "original_instructions": 97,
+  "candidate_instructions": 92,
+  "equal_after_call_mask": false,
+  "source_sha256": "471c15f67b5a6ad9ff06810382d1efe5b29e4d6749d256c49ec9556cf0a9dd9d"
+}

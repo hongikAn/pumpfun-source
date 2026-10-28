@@ -1,0 +1,5057 @@
+[
+  {
+    "instruction": "buy",
+    "case": "amount=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=1000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=10000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=10000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=673696395912745",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=673696395912746",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount=18446744073709551615",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "limit=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "limit=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "limit=1847795",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "limit=1847796",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "limit=1847797",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "limit=18446744073709551615",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "track=",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "track=00",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "track=01",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "track=02",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "track=ff",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "track=0101",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=6",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=9",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=10",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=11",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=12",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=13",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=14",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=15",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=16",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=17",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=18",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=19",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=20",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=21",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=22",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=23",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=24",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "payload=25",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "unsigned",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=6",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=9",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=10",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=11",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=12",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=13",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=14",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=15",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=16",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=17",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=18",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=19",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=20",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=21",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=22",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=23",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=24",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "substitute=25",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=6",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=10",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=17",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=20",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "readonly=25",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    C2aFPdENg4A2HQsmrd5rTw5TaYBX5Ku887cWjbFKtZpw,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    C2aFPdENg4A2HQsmrd5rTw5TaYBX5Ku887cWjbFKtZpw,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "owner=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-field=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=-170141183460469231731687303715884105728",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=-10000000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=-125882",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=1000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=18446744073709551616",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "virtual=170141183460469231731687303715884105727",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=16",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=31",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "disable=255",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=210",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=211",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=243",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=244",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=245",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=261",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=270",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=271",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=286",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=287",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-layout=300",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=65",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=69",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=1068",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=1069",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=2511",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=2512",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=3000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=4072",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=4073",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=4096",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-layout=4097",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(261, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(261, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(261, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(261, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(271, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(271, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(271, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(271, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(279, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(279, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(279, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-fees=(279, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "buyback-bps=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "buyback-bps=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "buyback-bps=9999",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "buyback-bps=10000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "buyback-bps=10001",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "buyback-bps=18446744073709551615",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-table=[]",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-table=[(0, (0, 0, 0))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-table=[(0, (10, 20, 30))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-table=[(1329227995784915872903807060280344576, (10, 20, 30)), (0, (40, 50, 60))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-table=[(0, (10, 20, 30)), (0, (40, 50, 60))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-table=[(0, (10000, 10000, 10000))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "fee-table=[(0, (18446744073709551615, 0, 0))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "missing-token=5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "missing-token=5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "missing-token=5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "missing-token=43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "missing-token=94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "missing-token=3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "missing-token=HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-flag=243",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-flag=244",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-flag=270",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=40",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=73",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=89",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=90",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=136",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=137",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-layout=138",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(8, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(8, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(40, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(41, '7b00000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(49, 'c801000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(57, '1503000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(65, '7b00000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(73, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(74, '7b00000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "volume-field=(82, 'c801000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=32",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=64",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=543",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=544",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-layout=1024",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-times=(0, 0, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-times=(0, 9223372036854775807, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-times=(1234500000, 1234600000, 86400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "global-volume-times=(-9223372036854775808, 9223372036854775807, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "tail=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "tail=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "tail=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "tail=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash=(False, '')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash=(False, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash=(False, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash=(True, '')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash=(True, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash=(True, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-meta=(23, 'substitute')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-meta=(23, 'readonly')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-meta=(24, 'substitute')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-meta=(24, 'readonly')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-overflow",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "alias=(5, 7)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "alias=(6, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "alias=(10, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "alias=(17, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "alias=(25, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=1000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=10000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=10000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=673696395912745",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=673696395912746",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount=18446744073709551615",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "limit=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "limit=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "limit=1847795",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "limit=1847796",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "limit=1847797",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "limit=18446744073709551615",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "track=",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "track=00",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "track=01",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "track=02",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "track=ff",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "track=0101",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=6",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=9",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=10",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=11",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=12",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=13",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=14",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=15",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=16",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=17",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=18",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=19",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=20",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=21",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=22",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=23",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=24",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "payload=25",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "unsigned",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=6",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=9",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=10",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=11",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=12",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=13",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=14",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=15",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=16",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=17",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=18",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=19",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=20",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=21",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=22",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=23",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=24",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "substitute=25",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=5",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=6",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=10",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=17",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=20",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "readonly=25",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    C2aFPdENg4A2HQsmrd5rTw5TaYBX5Ku887cWjbFKtZpw,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    C2aFPdENg4A2HQsmrd5rTw5TaYBX5Ku887cWjbFKtZpw,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "owner=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), Pubkey(\n    TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-field=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=-170141183460469231731687303715884105728",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=-10000000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=-125882",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=1000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=18446744073709551616",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "virtual=170141183460469231731687303715884105727",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=16",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=31",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "disable=255",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=210",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=211",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=243",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=244",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=245",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=261",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=270",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=271",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=286",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=287",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-layout=300",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=65",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=69",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=1068",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=1069",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=2511",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=2512",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=3000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=4072",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=4073",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=4096",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-layout=4097",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(261, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(261, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(261, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(261, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(271, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(271, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(271, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(271, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(279, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(279, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(279, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-fees=(279, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "buyback-bps=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "buyback-bps=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "buyback-bps=9999",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "buyback-bps=10000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "buyback-bps=10001",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "buyback-bps=18446744073709551615",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 0, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 9999, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump,\n), 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 0, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 9999, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 123)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "transfer-fee=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), False, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    So11111111111111111111111111111111111111112,\n), True, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), False, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\n), True, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), False, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 2511)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 2512)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4072)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4073)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4096)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "quote=(Pubkey(\n    75hbt6uvDqjPZ9WgFtMhBnTeyHw7cinoHiz4FD2vEz2d,\n), True, 4097)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-table=[]",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-table=[(0, (0, 0, 0))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-table=[(0, (10, 20, 30))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-table=[(1329227995784915872903807060280344576, (10, 20, 30)), (0, (40, 50, 60))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-table=[(0, (10, 20, 30)), (0, (40, 50, 60))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-table=[(0, (10000, 10000, 10000))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "fee-table=[(0, (18446744073709551615, 0, 0))]",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "missing-token=5jKh25biPsnrmLWXXuqKNH2Q67j69T4Q7Zew5c8wJKaV",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "missing-token=5oEzAP4izB65uRm2yDAEf9oALGwHpWkDfyKb8zBY3euC",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "missing-token=5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "missing-token=43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "missing-token=94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "missing-token=3E6RtRCxo7Yz64zi8aSmC9DtNKcaMp5rFUcBnJKsc2fg",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "token-field=(Pubkey(\n    HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i,\n), 108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "missing-token=HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-flag=243",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-flag=244",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-flag=270",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=40",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=73",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=89",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=90",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=136",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=137",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-layout=138",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(8, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(8, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(40, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(41, '7b00000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(49, 'c801000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(57, '1503000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(65, '7b00000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(73, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(74, '7b00000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "volume-field=(82, 'c801000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=7",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=32",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=64",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=543",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=544",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-layout=1024",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-times=(0, 0, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-times=(0, 9223372036854775807, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-times=(1234500000, 1234600000, 86400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "global-volume-times=(-9223372036854775808, 9223372036854775807, 0)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "tail=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "tail=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "tail=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "tail=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash=(False, '')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash=(False, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash=(False, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash=(True, '')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash=(True, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash=(True, '01')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-meta=(23, 'substitute')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-meta=(23, 'readonly')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-meta=(24, 'substitute')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-meta=(24, 'readonly')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-overflow",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "alias=(5, 7)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "alias=(6, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "alias=(10, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "alias=(17, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "alias=(25, 8)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(1000000, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "amount-tail=(10000000000, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(False, 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(False, 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(False, 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(False, 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(False, 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(False, 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(True, 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(True, 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(True, 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(True, 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(True, 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-transfer-fee=(True, 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-owner=(Pubkey(\n    8NyBnxo9mS5MsqY4qoKmrt7MS89d7MNV6rh5fu2YsQPT,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-owner=(Pubkey(\n    8NyBnxo9mS5MsqY4qoKmrt7MS89d7MNV6rh5fu2YsQPT,\n), Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-owner=(Pubkey(\n    8NyBnxo9mS5MsqY4qoKmrt7MS89d7MNV6rh5fu2YsQPT,\n), Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-owner=(Pubkey(\n    BEaaJNs1cVZKv29qYcXaaDSgm6Defa5b6kt5pRcUkHWe,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-owner=(Pubkey(\n    BEaaJNs1cVZKv29qYcXaaDSgm6Defa5b6kt5pRcUkHWe,\n), Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-owner=(Pubkey(\n    BEaaJNs1cVZKv29qYcXaaDSgm6Defa5b6kt5pRcUkHWe,\n), Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-token-field=(0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-token-field=(32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-token-field=(108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-token-field=(108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-tail=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-tail=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-tail=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-tail=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "cash-tail=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "mayhem-tail=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "mayhem-tail=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "mayhem-tail=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "mayhem-tail=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "flags=(243, 244)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "flags=(243, 270)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "flags=(244, 270)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "creator=(Pubkey(\n    11111111111111111111111111111111,\n), False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "creator=(Pubkey(\n    11111111111111111111111111111111,\n), True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "creator=(Pubkey(\n    5jotNjSnm9ZJRefVfqHato9FC4d9t6CHb2xS1726MTyY,\n), False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "creator=(Pubkey(\n    5jotNjSnm9ZJRefVfqHato9FC4d9t6CHb2xS1726MTyY,\n), True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(17, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(17, 1844399)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(17, 1844400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(17, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(10, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(10, 1844399)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(10, 1844400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(10, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(25, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(25, 1844399)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(25, 1844400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-ata=(25, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-volume=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-volume=1844399",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-volume=1844400",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "prefunded-volume=1000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "low-rent-pool=211",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "low-rent-pool=245",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "low-rent-pool=287",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "low-rent-pool=300",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(23, Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(23, Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(23, Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(24, Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(24, Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(24, Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(25, Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(25, Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "remaining-owner=(25, Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-v2-data=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-v2-data=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-v2-data=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-v2-data=90",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "pool-v2-data=287",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(1000000, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 0, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 0, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 1, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 1, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 2, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 2, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 3, False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "amount-tail=(10000000000, 3, True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(False, 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(False, 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(False, 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(False, 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(False, 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(False, 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(True, 1, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(True, 1, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(True, 100, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(True, 100, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(True, 10000, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-transfer-fee=(True, 10000, 18446744073709551615)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-owner=(Pubkey(\n    8NyBnxo9mS5MsqY4qoKmrt7MS89d7MNV6rh5fu2YsQPT,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-owner=(Pubkey(\n    8NyBnxo9mS5MsqY4qoKmrt7MS89d7MNV6rh5fu2YsQPT,\n), Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-owner=(Pubkey(\n    8NyBnxo9mS5MsqY4qoKmrt7MS89d7MNV6rh5fu2YsQPT,\n), Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-owner=(Pubkey(\n    BEaaJNs1cVZKv29qYcXaaDSgm6Defa5b6kt5pRcUkHWe,\n), Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-owner=(Pubkey(\n    BEaaJNs1cVZKv29qYcXaaDSgm6Defa5b6kt5pRcUkHWe,\n), Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-owner=(Pubkey(\n    BEaaJNs1cVZKv29qYcXaaDSgm6Defa5b6kt5pRcUkHWe,\n), Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-token-field=(0, '0000000000000000000000000000000000000000000000000000000000000000')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-token-field=(32, '466627d52773c9d5cda6c8fd28ea31ec7b94e68aa8d42e2ad31a75dc8d24ed07')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-token-field=(108, '00')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-token-field=(108, '02')",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-tail=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-tail=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-tail=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-tail=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "cash-tail=4",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "mayhem-tail=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "mayhem-tail=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "mayhem-tail=2",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "mayhem-tail=3",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "flags=(243, 244)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "flags=(243, 270)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "flags=(244, 270)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "creator=(Pubkey(\n    11111111111111111111111111111111,\n), False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "creator=(Pubkey(\n    11111111111111111111111111111111,\n), True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "creator=(Pubkey(\n    5jotNjSnm9ZJRefVfqHato9FC4d9t6CHb2xS1726MTyY,\n), False)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "creator=(Pubkey(\n    5jotNjSnm9ZJRefVfqHato9FC4d9t6CHb2xS1726MTyY,\n), True)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(17, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(17, 1844399)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(17, 1844400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(17, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(10, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(10, 1844399)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(10, 1844400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(10, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(25, 1)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(25, 1844399)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(25, 1844400)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-ata=(25, 1000000000)",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-volume=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-volume=1844399",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-volume=1844400",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "prefunded-volume=1000000000",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "low-rent-pool=211",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "low-rent-pool=245",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "low-rent-pool=287",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "low-rent-pool=300",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(23, Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(23, Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(23, Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(24, Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(24, Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(24, Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(25, Pubkey(\n    11111111111111111111111111111111,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(25, Pubkey(\n    TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "remaining-owner=(25, Pubkey(\n    pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA,\n))",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-v2-data=0",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-v2-data=1",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-v2-data=8",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-v2-data=90",
+    "diff": []
+  },
+  {
+    "instruction": "buy_exact_quote_in",
+    "case": "pool-v2-data=287",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 1, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 123, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(1, 18446744073709551615, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 1, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 123, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(100, 18446744073709551615, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 1, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 123, 1866235)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1847795)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1847796)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1847797)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1847918)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1847919)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1847920)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1866233)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1866234)",
+    "diff": []
+  },
+  {
+    "instruction": "buy",
+    "case": "transferfee-limit=(10000, 18446744073709551615, 1866235)",
+    "diff": []
+  }
+]

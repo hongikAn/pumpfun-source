@@ -1,0 +1,29 @@
+--- a/programs/pump-amm/src/utils/transfer_fee.rs
++++ b/programs/pump-amm/src/utils/transfer_fee.rs
+@@ -59,10 +59,10 @@
+ 
+ /// Gross amount to send so that `amount` arrives after the transfer fee.
+ pub fn amount_before_fee(data: &TransferFeeData, amount: u64) -> Result<u64> {
+-    match data {
++    match *data {
+         None => Ok(amount),
+         Some(fee) => fee
+-            .spl_fee()
++
+             .calculate_pre_fee_amount(amount)
+             .ok_or_else(|| error!(PumpAmmError::Overflow)),
+     }
+--- a/crates/native-transfer-fee/src/lib.rs
++++ b/crates/native-transfer-fee/src/lib.rs
+@@ -17,4 +17,11 @@
+     let raw=n.checked_add(10000)?.checked_sub(1)?.checked_div(10000)?.try_into().ok()?;
+     Some(core::cmp::min(raw,self.maximum_fee))
+ }
++    #[inline(never)]
++pub fn calculate_pre_fee_amount(&self, amount:u64)->Option<u64> {
++    let bps=self.transfer_fee_basis_points as u128;
++    if bps==0{return Some(amount);} if amount==0{return Some(0);} if bps==10000{return self.maximum_fee.checked_add(amount);}
++    let n=(amount as u128).checked_mul(10000)?;let d=10000u128.checked_sub(bps)?;let raw=n.checked_add(d)?.checked_sub(1)?.checked_div(d)?;
++    if raw.checked_sub(amount as u128)? >= self.maximum_fee as u128 {amount.checked_add(self.maximum_fee)}else{u64::try_from(raw).ok()}
+ }
++}

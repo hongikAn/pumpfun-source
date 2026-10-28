@@ -1,0 +1,12 @@
+[
+  "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/bin/python",
+  "-I",
+  "-B",
+  "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/research/amm-native-inverse-fee-recovery/focused.py",
+  "--control",
+  "/home/ahi200/pumpfun-work/20261028-amm-fee-wrapper/value-match/candidate.so",
+  "--candidate",
+  "/home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/native-corrected/candidate.so",
+  "--output",
+  "/home/ahi200/pumpfun-work/20261028-amm-inverse-arithmetic/focused/report.json"
+]

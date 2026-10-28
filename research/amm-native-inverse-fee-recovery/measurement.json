@@ -1,0 +1,180 @@
+{
+  "base733": {
+    "normalized": 733,
+    "raw": 148,
+    "symbols_sha256": "fe66adb9f12e94851b19190d7bdff1f5849f802595d4feb24d280b6a983f496a",
+    "candidate_sha256": "f7c4850c6529bf40ffc490753b0a3470aed9b5d630023c8a7df5bd3992c6dee6",
+    "target": {
+      "address": 173016,
+      "bytes": 688,
+      "instructions": 79,
+      "raw_sha256": "a24d4b891e504f839283f02810454d9a14173059ae588b8156f4a7b2b89978b5",
+      "signature": "1ec135b104d6bad132b3bf7b8a2993560138aa41c034ec86f45ebb162a38b6ba",
+      "name": "_ZN18pump_amm_recovered5utils12transfer_fee17amount_before_fee17h2c1d02fd8f1c202fE",
+      "symbol_bytes": 688,
+      "cfg": {
+        "instructions": 79,
+        "reachable_instructions": 79,
+        "outside_successors": []
+      },
+      "annotations": [
+        [
+          192,
+          "opaque_relocated_pointer"
+        ],
+        [
+          240,
+          "opaque_relocated_pointer"
+        ],
+        [
+          336,
+          "opaque_relocated_pointer"
+        ],
+        [
+          384,
+          "opaque_relocated_pointer"
+        ],
+        [
+          408,
+          "opaque_relocated_pointer"
+        ],
+        [
+          424,
+          "opaque_relocated_pointer"
+        ],
+        [
+          544,
+          "opaque_relocated_pointer"
+        ]
+      ]
+    }
+  },
+  "native-corrected": {
+    "normalized": 735,
+    "raw": 159,
+    "symbols_sha256": "9b4d6a1aaed8a31e807905d50894c715abd17bb980b3defffec2309c2be2fd57",
+    "candidate_sha256": "785e9078efb31e8ff472075bd079394fba33d564e67371bac7c51461c7686b34",
+    "target": {
+      "address": 173016,
+      "bytes": 688,
+      "instructions": 79,
+      "raw_sha256": "297c3b2cd50a57fc4b6df477b5a8e5bd6295ea7277cd1c72d8e7f4fadb02d9a4",
+      "signature": "c3e05c05c7355e3078df591796d9a9368e550efbd8965ea06c387201a1c02ff3",
+      "name": "_ZN18pump_amm_recovered5utils12transfer_fee17amount_before_fee17h2c1d02fd8f1c202fE",
+      "symbol_bytes": 688,
+      "cfg": {
+        "instructions": 79,
+        "reachable_instructions": 79,
+        "outside_successors": []
+      },
+      "annotations": [
+        [
+          192,
+          "opaque_relocated_pointer"
+        ],
+        [
+          240,
+          "opaque_relocated_pointer"
+        ],
+        [
+          336,
+          "opaque_relocated_pointer"
+        ],
+        [
+          384,
+          "opaque_relocated_pointer"
+        ],
+        [
+          408,
+          "opaque_relocated_pointer"
+        ],
+        [
+          424,
+          "opaque_relocated_pointer"
+        ],
+        [
+          544,
+          "opaque_relocated_pointer"
+        ]
+      ]
+    }
+  },
+  "delta": {
+    "gains": [
+      {
+        "address": 478080,
+        "bytes": 688,
+        "instructions": 79,
+        "raw_sha256": "b3cb4fd7da3ab36b36a51d691f40295437811567a08d300ca42aba052fc777da",
+        "signature": "c3e05c05c7355e3078df591796d9a9368e550efbd8965ea06c387201a1c02ff3",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 79,
+          "reachable_instructions": 79,
+          "outside_successors": []
+        },
+        "annotations": [
+          [
+            192,
+            "opaque_relocated_pointer"
+          ],
+          [
+            240,
+            "opaque_relocated_pointer"
+          ],
+          [
+            336,
+            "opaque_relocated_pointer"
+          ],
+          [
+            384,
+            "opaque_relocated_pointer"
+          ],
+          [
+            408,
+            "opaque_relocated_pointer"
+          ],
+          [
+            424,
+            "opaque_relocated_pointer"
+          ],
+          [
+            544,
+            "opaque_relocated_pointer"
+          ]
+        ]
+      },
+      {
+        "address": 995024,
+        "bytes": 776,
+        "instructions": 97,
+        "raw_sha256": "1580deba194a657010a34bf4c247f7aaa89eeccaf774e453bec5356b47d04ec1",
+        "signature": "d7f93d0f1b15f3b837610d1f036e23e696f10dc13ba7ee7bdc37934c37c9d882",
+        "name": null,
+        "symbol_bytes": null,
+        "cfg": {
+          "instructions": 97,
+          "reachable_instructions": 97,
+          "outside_successors": []
+        },
+        "annotations": []
+      }
+    ],
+    "losses": [],
+    "raw_gains": {
+      "ca29ee4dbc058096d18d3d19f71e105de0ef9980129b82599de15017f690db3f": 1,
+      "9b776af2b198b7ee96391e72f56cb10a3d1f84e828d5ef73f6ec16bd14eb9f4a": 1,
+      "6b4ca21da427d21ebb664f299fac7684ec2019db8df69cb9c5c87bb9ffbed498": 1,
+      "ccdec2b17bab8762858ecf177efad51c2fb167c5da58ac54383cb44c6f488d1c": 1,
+      "83e15f4736f3033de58f1a866922bd073fe03a730d6899a7aa0d8087fd90986b": 1,
+      "21e4ead3f02f47df8e68a879ea8b57e7fa75494329298ed9120920824a0c2b0a": 1,
+      "e626a3d4b5a877c13f811df996cc518efa4551418051b1193cb9675eccc44628": 1,
+      "c77310625a84e8b5612d721c66299300db00a58e09be4789e9b7d38750e1690b": 1,
+      "7f69f6cfe541c2ce9a57f5ec06aa5d9a863018356cea759723171482334a9d1f": 1,
+      "3e979fd33542b116862ab26c8f1e70dd1c1ecb1a42bd54a30bd2072257db0020": 1,
+      "7fc74464ee98c9626734109fa94c84e88a96c3397c3c85f963dd4729045106c7": 1
+    },
+    "raw_losses": {}
+  }
+}

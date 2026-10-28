@@ -1,0 +1,22 @@
+{
+  "family": "sell",
+  "case_count": 575,
+  "returncode": false,
+  "fresh_vm": false,
+  "functional_mismatches": {
+    "baseline": [],
+    "candidate": []
+  },
+  "noncompute_log_mismatches": {
+    "baseline": 88,
+    "candidate": 88
+  },
+  "log_gains": [],
+  "log_losses": [],
+  "artifact_sha256": {
+    "original": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
+    "baseline": "f7c4850c6529bf40ffc490753b0a3470aed9b5d630023c8a7df5bd3992c6dee6",
+    "candidate": "785e9078efb31e8ff472075bd079394fba33d564e67371bac7c51461c7686b34"
+  },
+  "controller_sha256": "ed3f2617b43b7af82599375a730aadbd27653544846c35ca242dab9b108a87c9"
+}
