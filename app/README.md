@@ -107,6 +107,16 @@ says nothing about the current Pump market. See
 [`packages/frontend/EXPLORE-EVIDENCE.md`](packages/frontend/EXPLORE-EVIDENCE.md)
 for the exact provenance and unknowns.
 
+## Local user search
+
+The shared search dialog now offers explicitly synthetic profile results from
+five hash-bound local examples. It reuses the captured user-search query and
+selection adapter with a bounded 500 ms timer and a server-only local read. Results
+link to exact local profiles; Enter still searches the historical Explore snapshot.
+No API key, live user service or authenticated identity is used. See
+[`packages/frontend/LOCAL-USER-SEARCH.md`](packages/frontend/LOCAL-USER-SEARCH.md)
+for source provenance, local projection/ordering and lifecycle limits.
+
 ## Offline profiles
 
 `/profile/[id]` resolves the hash-bound synthetic backend users by exact user id

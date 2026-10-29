@@ -4,13 +4,14 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { useSidebar } from "@/components/ui/sidebar";
 import { SearchMobileIcon } from "../captured-icons";
+import { LocalUserSearch } from "./LocalUserSearch";
 import { onOpenSearch } from "./search-events";
 import { createSearchShortcutHandler } from "./search-shortcuts.mjs";
 
 /**
  * The shell's search entry point (the captured search box and ⌘K hint open it).
- * Live results need the market-discovery API, which is not implemented locally, so
- * submitting hands the query to Explore. A native <dialog> provides the modal focus
+ * The local user list reads validated synthetic profiles; live market results
+ * remain unavailable, so submitting hands the query to Explore. A native <dialog> provides the modal focus
  * handling and Escape-to-close.
  */
 export function SearchDialog() {
@@ -21,6 +22,7 @@ export function SearchDialog() {
   const currentQuery = params.get("q") ?? "";
   const [query, setQuery] = useState(currentQuery);
   const pendingClear = useRef(false);
+  const [open, setOpen] = useState(false);
   const { closeMobile } = useSidebar();
   useEffect(() => {
     // Clear already updated the input; its delayed URL commit must not erase
@@ -34,7 +36,10 @@ export function SearchDialog() {
     const open = () => {
       closeMobile();
       const dialog = dialogRef.current;
-      if (dialog && !dialog.open) dialog.showModal();
+      if (dialog && !dialog.open) {
+        dialog.showModal();
+        setOpen(true);
+      }
     };
     const toggle = () => {
       const dialog = dialogRef.current;
@@ -78,6 +83,7 @@ export function SearchDialog() {
   return (
     <dialog
       ref={dialogRef}
+      onClose={() => setOpen(false)}
       aria-label="Search for coins and users"
       onKeyDown={(event) => {
         if (event.key !== "Escape") return;
@@ -133,6 +139,11 @@ export function SearchDialog() {
           Esc
         </kbd>
       </form>
+      <LocalUserSearch
+        query={query}
+        open={open}
+        onNavigate={() => dialogRef.current?.close()}
+      />
       <p className="border-t border-border-secondary px-3 py-2 text-xs text-text-tertiary">
         Live results need the market-discovery API, which is not implemented
         locally. Press Enter to search on Explore.
