@@ -227,3 +227,36 @@ cases also pass. Local screenshots at 320 and 1280 pixels are in
 `visual/profile-follow-graph-20261029/`; no equivalent original profile screenshot
 was captured, so original visual parity and full profile/graph compatibility
 remain unqualified. No feature completion milestone is newly credited.
+
+## Recorded X identity link (2026-10-29)
+
+The local profile adapter already retains `xUsername`, but the header previously
+omitted it. `ProfileXLink` now exposes that recorded identity as an ordinary
+external link. The surrounding synthetic-profile disclosure remains; this does
+not verify that the example handle belongs to a real account.
+
+The captured identity primitive `107240` passes its `xUsername` to `875737.f`.
+The selected `875737` factory in the same captured object
+`evidence/web/objects/eb0b23ee6feb7543.js` has SHA-256
+`5298ba552997b00aa1fec680b6f1300c94e06b990a5f0060d62a62bb5e938f57`
+and UTF-16 range `4834..6233`; the object's SHA-256 is
+`8ff9a060d8b1c540a04bb505094eb61ce0c2b2c5d83579af3e3976bf49a16d54`.
+Both the caller range recorded above and this callee range were hash-checked
+against the retained raw object without executing either factory.
+
+The implemented username branch trims whitespace, removes exactly one leading
+`@`, omits an empty result, and uses `encodeURIComponent` for the complete
+username in `https://x.com/…`. The accessible label, `_blank`, `noreferrer`, and
+click propagation stop follow the captured badge. No username validation,
+account lookup, or external-confirmation behavior is invented. The factory's
+legacy `twitterUrl` fallback, icon, tooltip and exact original layout are outside
+this slice; placement and visible text in the offline profile are local design.
+No seed, capture, SDK, auth or API behavior changes.
+
+On base `f634ae0aaaf719ee51507ef7c971d2a1d4f5e026`, the added browser regression
+failed because Alice's recorded X link was absent. After the change, three
+rendering controls and eight profile browser cases pass, including keyboard
+activation, missing handles, existing history/404/readonly states and five
+responsive viewports. The keyboard-opened tab is fulfilled by a Playwright route
+interceptor; no production X response or account existence is tested. These
+checks do not establish original visual parity or a feature milestone.

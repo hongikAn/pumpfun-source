@@ -113,6 +113,17 @@
         "packages/frontend/tests/search-local-users.spec.ts"
       ],
       "limits": "Five fixed synthetic profiles and exact local navigation only. Existing local UsersStore matching/ordering is not website ranking. No authenticated viewer, live transport, remote paging, query-cache runtime, original layout or full compatibility qualification."
+    },
+    "profileXIdentityLink": {
+      "status": "captured-username-link-in-local-profile",
+      "qualified": false,
+      "evidence": [
+        "packages/frontend/PROFILE-EVIDENCE.md",
+        "packages/frontend/src/components/profile/ProfileXLink.tsx",
+        "packages/frontend/tests/profile-x-link.node.ts",
+        "packages/frontend/tests/profile-x-link.spec.ts"
+      ],
+      "limits": "Recorded xUsername branch only; local synthetic placement, no account verification, twitterUrl fallback, tooltip/icon or original profile visual parity. No native API or milestone claim."
     }
   },
   "sdk": {

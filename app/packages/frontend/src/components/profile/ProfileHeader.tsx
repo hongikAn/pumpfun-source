@@ -1,4 +1,5 @@
 import { CopyAddressButton } from "./CopyAddressButton";
+import { ProfileXLink } from "./ProfileXLink";
 import type { LocalProfile } from "./profile-data";
 
 function initial(name: string): string {
@@ -43,6 +44,8 @@ export function ProfileHeader({ profile }: { profile: LocalProfile }) {
             No local bio was recorded.
           </p>
         )}
+
+        <ProfileXLink xUsername={profile.xUsername} />
 
         <dl className="profile-stats" aria-label="Local example profile counts">
           <div>
