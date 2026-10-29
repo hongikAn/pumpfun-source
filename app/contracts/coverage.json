@@ -184,6 +184,19 @@
         "packages/backend/test/profile-leaders.test.ts"
       ],
       "limits": "Existing local daily combined board and UserStore projection only; unresolved or duplicate selected profiles remain 501. No production PnL, ranking/deduplication/backfill policy, key/scope authorization or full operation compatibility claim."
+    },
+    "accountResolution": {
+      "operations": [
+        "GET /search/resolve"
+      ],
+      "status": "opt-in-known-uuid-account-resolution",
+      "defaultEnabled": false,
+      "qualified": false,
+      "evidence": [
+        "packages/backend/SEARCH-RESOLVE.md",
+        "packages/backend/test/search-resolve.test.ts"
+      ],
+      "limits": "Explicit injected UserStore, exact known UUID account IDs only; preserves order and repeated/mixed identifiers. Missing accounts, addresses, coins and unsupported shapes remain whole-request 501. No live registry, absence/chain classification, upstream fallback, production key/scope authorization or full operation compatibility claim."
     }
   },
   "frontendReadClients": {
