@@ -1,0 +1,80 @@
+{
+  "kind": "retrospective observable work record; not a full model transcript",
+  "pr": 1212,
+  "implementation_commit": "5a94cd48ecc8ca9dcba19698cec9c6e46c967faa",
+  "base_commit": "f45853cffebd5449266551667793201c822f641b",
+  "source_and_test_sha256": {
+    "app/packages/backend/LEADERBOARD-PERIODS.md": "17f88a98caa4f69ac2c83b2f15eb5494c87f06f9150badbf1dd3a32b41b351de",
+    "app/packages/backend/src/leaderboard-store.ts": "0ba81dd251328e8b31b882fd33eedd9116fc9603dabd3f125db19d22259aa478",
+    "app/packages/backend/test/leaderboard-query-enums.test.ts": "4c2745e3b6dbf75df96d044b6dccd2899118e90875e240c7ba4df6627bbf5151",
+    "app/packages/backend/test/leaderboard.test.ts": "28083ef9ff25e0b628f29c2481682a2a99f171388097ee59d8d810c9990ea723"
+  },
+  "retained_test_results": {
+    "before": {
+      "pass": 13,
+      "fail": 4
+    },
+    "after": {
+      "pass": 36,
+      "fail": 0
+    }
+  },
+  "focused_reproduction": {
+    "cwd": "app/packages/backend",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "--test",
+      "test/leaderboard.test.ts"
+    ],
+    "note": "Reproduction command provided for review; the retained focused logs are original prior runs, not reruns of this evidence update."
+  },
+  "ordered_actions": [
+    {
+      "action": "Read the first-party contract",
+      "artifact": "source-proof.json"
+    },
+    {
+      "action": "Run focused regression against unchanged implementation",
+      "artifact": "before.log",
+      "result": {
+        "pass": 13,
+        "fail": 4
+      }
+    },
+    {
+      "action": "Apply the bounded source fix and regression coverage",
+      "commit": "5a94cd48ecc8ca9dcba19698cec9c6e46c967faa",
+      "files": [
+        "app/packages/backend/LEADERBOARD-PERIODS.md",
+        "app/packages/backend/src/leaderboard-store.ts",
+        "app/packages/backend/test/leaderboard-query-enums.test.ts",
+        "app/packages/backend/test/leaderboard.test.ts"
+      ]
+    },
+    {
+      "action": "Run the affected leaderboard and profile-leader tests",
+      "artifact": "after.log",
+      "result": {
+        "pass": 36,
+        "fail": 0
+      }
+    },
+    {
+      "action": "Run exact-implementation workspace build and typecheck",
+      "artifact": "build-results.json",
+      "result": "both exit 0"
+    },
+    {
+      "action": "Package existing receipts after evidence review",
+      "result": "No source/test change, new execution, or full-suite/hosted-CI success claimed."
+    }
+  ],
+  "excluded_attempt": "after-intermediate.log retains the one stale daily=1 test assumption before its correction; only after.log is the final passing run.",
+  "limits": [
+    "A complete assistant execution transcript was not retained. This record is reconstructed only from saved receipts and commits, not private reasoning.",
+    "No production request, live-chain execution, visual parity or overall API-compatibility qualification.",
+    "The historical build and typecheck refer to the implementation commit above; the later evidence-only commit is not relabelled as a fresh build."
+  ]
+}

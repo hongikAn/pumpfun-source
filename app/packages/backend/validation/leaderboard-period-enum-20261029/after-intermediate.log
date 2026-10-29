@@ -1,0 +1,71 @@
+✔ each deterministic board uses the documented 2025-10-01 anchor (2.0796ms)
+✔ seed rows were refreshed within 31 days before the anchor (0.2677ms)
+✔ leaderboard HTTP failures cancel unused bodies and preserve their mapped errors (52.1187ms)
+✔ leaderboard seeds reject nonfinite measures before ranking or JSON serialization (44.5196ms)
+✔ finite losses, zero and fractional PnL retain their supplied values (1.246ms)
+▶ integer pagination on /v1/pnl-leaderboard
+  ✔ non-integer limit is rejected before any board is served (117.91ms)
+  ✔ non-integer positionsLimit is rejected before any board is served (42.6824ms)
+  ✔ valid integers and the existing clamp behavior are unchanged (39.8435ms)
+✔ integer pagination on /v1/pnl-leaderboard (202.6942ms)
+✔ duplicate decoded query keys and invalid filters fail without a network request (37.9261ms)
+✖ unsupported board enums cannot generate undefined metadata (3.6635ms)
+✔ seed changes cannot corrupt leaderboard reads after construction (2.1975ms)
+✔ returned top positions cannot corrupt later leaderboard reads (0.3806ms)
+✔ stores built from one seed do not leak position edits to each other (0.3248ms)
+✔ a wallet appears at most once in each leaderboard period (1.7796ms)
+▶ GET /v1/pnl-leaderboard
+  ✔ 200 conforms to the published schema and is marked synthetic (121.1841ms)
+  ✔ default ranking is the combined measure, descending, ranks 1..N (45.0529ms)
+  ✔ sort=realized reorders on the realized measure (30.4716ms)
+  ✔ positionsLimit clamps to 5, 0 is count-only, positionsCount stays whole (28.1617ms)
+  ✔ limit ceilings at 100 and never goes negative (29.1632ms)
+  ✔ a missing period is a 400 on the Error schema (17.4289ms)
+  ✔ an unknown period is a 400 on the Error schema (21.7996ms)
+  ✔ profiles hydrate from the user store; bare-wallet rows stay anonymous (20.9328ms)
+  ✔ daily returns the captured numeric period type (20.3898ms)
+  ✔ weekly returns the captured numeric period type (18.0348ms)
+  ✔ monthly returns the captured numeric period type (18.4788ms)
+  ✔ the board is deterministic across identical reads (17.1606ms)
+✔ GET /v1/pnl-leaderboard (390.4757ms)
+▶ duplicate query keys on GET /v1/pnl-leaderboard
+  ✔ repeated period fails closed instead of a 400 with an array received (28.7855ms)
+  ✔ repeated limit fails closed instead of silently defaulting (29.3426ms)
+  ✔ repeated sort and positionsLimit fail closed (36.0109ms)
+  ✔ percent-encoded duplicate key cannot bypass the check (20.7633ms)
+  ✔ single-valued queries still serve the board (20.0626ms)
+✔ duplicate query keys on GET /v1/pnl-leaderboard (135.5673ms)
+✔ GET verified serves full daily leader profiles, including unverified leaders (118.8837ms)
+✔ leader selection uses the daily combined board, caps at ten and owns returned profiles (64.4227ms)
+✔ an empty daily board serves an empty profile list (28.6774ms)
+✔ unresolved or repeated selected profile identities remain explicitly unavailable (69.1858ms)
+✔ new GET keeps the developer key gate, duplicate-query policy and existing POST (49.0969ms)
+ℹ tests 36
+ℹ suites 3
+ℹ pass 35
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1813.9956
+
+✖ failing tests:
+
+test at test\leaderboard-query-enums.test.ts:1:126
+✖ unsupported board enums cannot generate undefined metadata (3.6635ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  3 !== 1
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard-query-enums.test.ts:11:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.start (node:internal/test_runner/test:1096:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

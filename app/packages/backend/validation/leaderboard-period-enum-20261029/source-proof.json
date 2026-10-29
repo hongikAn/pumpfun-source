@@ -1,0 +1,16 @@
+{
+  "route": "GET /pnl-leaderboard",
+  "factory_id": 154263,
+  "source": "evidence/web/objects/2b47dd0b38a1608f.js",
+  "source_sha256": "e78d2f38b06f971847c18dd05457c75afc85208135f50d6e4022a5f197e8839d",
+  "start_utf16": 303120,
+  "end_utf16": 316163,
+  "factory_sha256": "cd01bde47e65d8950932e98d4dc853a8e18e53e527de909f905b5caf1b4fc878",
+  "mapping": {
+    "unspecified": 0,
+    "weekly": 1,
+    "monthly": 2,
+    "daily": 3
+  },
+  "captured_js_executed": false
+}

@@ -1,0 +1,105 @@
+▶ GET /v1/pnl-leaderboard
+  ✖ 200 conforms to the published schema and is marked synthetic (91.3395ms)
+  ✔ default ranking is the combined measure, descending, ranks 1..N (30.7935ms)
+  ✔ sort=realized reorders on the realized measure (24.2301ms)
+  ✔ positionsLimit clamps to 5, 0 is count-only, positionsCount stays whole (22.4294ms)
+  ✔ limit ceilings at 100 and never goes negative (24.066ms)
+  ✔ a missing period is a 400 on the Error schema (18.6139ms)
+  ✔ an unknown period is a 400 on the Error schema (24.6773ms)
+  ✔ profiles hydrate from the user store; bare-wallet rows stay anonymous (19.8396ms)
+  ✖ daily returns the captured numeric period type (22.0731ms)
+  ✖ weekly returns the captured numeric period type (32.1716ms)
+  ✖ monthly returns the captured numeric period type (25.9827ms)
+  ✔ the board is deterministic across identical reads (28.1234ms)
+✖ GET /v1/pnl-leaderboard (366.4726ms)
+▶ duplicate query keys on GET /v1/pnl-leaderboard
+  ✔ repeated period fails closed instead of a 400 with an array received (31.839ms)
+  ✔ repeated limit fails closed instead of silently defaulting (17.4933ms)
+  ✔ repeated sort and positionsLimit fail closed (18.2335ms)
+  ✔ percent-encoded duplicate key cannot bypass the check (19.1557ms)
+  ✔ single-valued queries still serve the board (20.5616ms)
+✔ duplicate query keys on GET /v1/pnl-leaderboard (107.9732ms)
+ℹ tests 17
+ℹ suites 2
+ℹ pass 13
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1413.6497
+
+✖ failing tests:
+
+test at test\leaderboard.test.ts:1:1273
+✖ 200 conforms to the published schema and is marked synthetic (91.3395ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard.test.ts:57:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Promise.all (index 0)
+      at async Suite.run (node:internal/test_runner/test:1619:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\leaderboard.test.ts:1:5286
+✖ daily returns the captured numeric period type (22.0731ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 3
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard.test.ts:191:16)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 3,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\leaderboard.test.ts:1:5286
+✖ weekly returns the captured numeric period type (32.1716ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard.test.ts:191:16)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\leaderboard.test.ts:1:5286
+✖ monthly returns the captured numeric period type (25.9827ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  3 !== 2
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard.test.ts:191:16)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
