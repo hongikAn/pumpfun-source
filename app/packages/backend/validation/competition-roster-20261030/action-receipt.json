@@ -1,0 +1,45 @@
+{
+  "kind": "Retrospective observable action receipt; not private reasoning or a full model transcript",
+  "recorded_at": "2026-10-29T15:08:04.027101+00:00",
+  "base": "0eb5c16095935b2a9e4c33e43a334616dabac578",
+  "test_path": "app/packages/backend/test/competition-roster.test.ts",
+  "test_sha256": "955ff092dd6bf0cd438b95a67d8acb7d7a30ce989ee15129521ac197ba60e009",
+  "actions": [
+    {
+      "command": "git fetch --no-auto-maintenance --filter=blob:none upstream main",
+      "result": "Fetched0eb5c160; no app delta from ef400863. API later c0af74b also has no app/AGENTS/README delta."
+    },
+    {
+      "action": "Authenticated exact-head reviews and actual open PR patches",
+      "result": "1345/1179/1212 unchanged, no new review or CI failure. Open1351 constructor identity,1282 pagination,1208 bucket ordering do not implement roster projection."
+    },
+    {
+      "action": "Read and hash original object/factory range without executing captured code",
+      "result": "Both expected hashes and three literal declarations matched."
+    },
+    {
+      "command": "node --import tsx --test test/competition-roster.test.ts",
+      "source": "Unmodified base production source plus new regression test",
+      "exit_code": 1,
+      "result": "7 tests:5 pass,2 fail. HTTP200 upcoming/registration count1/member instead of0/empty."
+    },
+    {
+      "action": "Gate automatic person roster by supplied lifecycle; document local boundary",
+      "result": "No change to explicit group rows, ranking, or authorization."
+    },
+    {
+      "command": "node --import tsx --test --test-reporter=tap test/competition-roster.test.ts",
+      "exit_code": 0,
+      "result": "7/7 pass"
+    },
+    {
+      "command": "node --import tsx --test --test-reporter=tap test/competitions.test.ts test/competition-roster.test.ts",
+      "exit_code": 0,
+      "result": "47/47 pass, includes7 new cases"
+    }
+  ],
+  "boundaries": [
+    "No production HTTP, snapshot writer, runtime clock, captured-code execution, dependency installation, or UI change.",
+    "Shared build/typecheck receipts supplied separately after exact-commit root validation."
+  ]
+}

@@ -371,7 +371,9 @@ export class CompetitionStore {
         .map((position) => ({ ...position }));
     }
 
-    const memberCount = isPerson ? 1 : (entry.members ? entry.members.length : 0);
+    // The supplied lifecycle phase represents startsAt; a board build is a later event.
+    const hasPersonRoster = comp.phase === 'live' || comp.phase === 'ended';
+    const memberCount = isPerson ? (hasPersonRoster ? 1 : 0) : (entry.members ? entry.members.length : 0);
 
     return {
       entryId: entry.entryId,
@@ -591,8 +593,8 @@ export class CompetitionStore {
         });
       }
       members.sort((a, b) => b.pnlUsd - a.pnlUsd);
-    } else {
-      // For person competitions, the trader is the sole member
+    } else if (comp.phase === 'live' || comp.phase === 'ended') {
+      // After startsAt, the trader is the sole snapshot member (even before a board build)
       const profile = this.hydrateProfile(target.participantId);
       members.push({
         userId: target.participantId,

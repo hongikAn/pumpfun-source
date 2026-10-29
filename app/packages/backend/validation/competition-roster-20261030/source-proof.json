@@ -1,0 +1,50 @@
+{
+  "classification": "Declared captured client contract; not original backend implementation or production traffic",
+  "base": "0eb5c16095935b2a9e4c33e43a334616dabac578",
+  "observed_api_main": "c0af74b5073c74e365118e1fa1e17de578c4fcf0",
+  "app_rules_readme_delta_to_observed_main": [],
+  "source_path": "app/packages/backend/src/competitions-store.ts",
+  "base_source_sha256": "2881c1809fb34e990cbb1445bc981a541a7091a59053fd0afc82c7cae9d901e7",
+  "candidate_source_sha256": "223e8a015e289ba9054df0c1ab8e416f19ee8142dc93073d7d4d70b009ced01b",
+  "raw_asset": "app/evidence/web/objects/2b47dd0b38a1608f.js",
+  "raw_asset_sha256": "e78d2f38b06f971847c18dd05457c75afc85208135f50d6e4022a5f197e8839d",
+  "factory_id": 139209,
+  "factory_utf16_range": [
+    124767,
+    145775
+  ],
+  "factory_sha256": "8d4ffb7afbfae1b99df53cf4d8421f1fb6f85c290468471f2e4f71f58358ed9b",
+  "literal_statements": [
+    "cc's derived lifecycle at read time: upcoming (listed, registration not open yet), registration (joinable, no scores yet), live (scoring from startsAt), ended (closed; scores freeze once isFinal)",
+    "Roster size (snapshot rows, walletless members included); 0 before the snapshot at startsAt",
+    "Snapshot roster with counted legs, pnlUsd descending; empty before the snapshot at startsAt"
+  ],
+  "readable_factory": "app/recovered/modules/139209-8d4ffb7afbfa.js",
+  "readable_lines": [
+    [
+      16,
+      17
+    ],
+    [
+      77,
+      80
+    ],
+    [
+      552,
+      562
+    ]
+  ],
+  "openapi_path": "app/contracts/developer.openapi.json",
+  "openapi_sha256": "ad2fdc2bbf0b86d92e01f539ca609fff8164fcc44556bb2691378a869f73ad73",
+  "openapi_bindings": [
+    {
+      "json_pointer": "/paths/~1competitions~1{id}~1entries~1{entryId}/get/responses/200/content/application~1json/schema/properties/entry/properties/memberCount/description",
+      "description": "Roster size (snapshot rows, walletless members included); 0 before the snapshot at startsAt"
+    },
+    {
+      "json_pointer": "/paths/~1competitions~1{id}~1entries~1{entryId}/get/responses/200/content/application~1json/schema/properties/members/description",
+      "description": "Snapshot roster with counted legs, pnlUsd descending; empty before the snapshot at startsAt"
+    }
+  ],
+  "local_policy": "Use supplied lifecycle phase, without wall-clock or snapshot-writer claims. Only automatic person roster synthesis changes; supplied group rows stay unchanged."
+}

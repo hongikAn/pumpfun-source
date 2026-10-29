@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: upcoming person detail has no snapshot roster before startsAt
+ok 1 - upcoming person detail has no snapshot roster before startsAt
+  ---
+  duration_ms: 76.7358
+  type: 'test'
+  ...
+# Subtest: registration person detail has no snapshot roster before startsAt
+ok 2 - registration person detail has no snapshot roster before startsAt
+  ---
+  duration_ms: 28.5632
+  type: 'test'
+  ...
+# Subtest: live person keeps its snapshot roster before the first board build
+ok 3 - live person keeps its snapshot roster before the first board build
+  ---
+  duration_ms: 14.0276
+  type: 'test'
+  ...
+# Subtest: live built person retains its sole member
+ok 4 - live built person retains its sole member
+  ---
+  duration_ms: 17.8106
+  type: 'test'
+  ...
+# Subtest: ended built person retains its sole member
+ok 5 - ended built person retains its sole member
+  ---
+  duration_ms: 13.6803
+  type: 'test'
+  ...
+# Subtest: live walletless and struck people retain their snapshot member
+ok 6 - live walletless and struck people retain their snapshot member
+  ---
+  duration_ms: 20.8941
+  type: 'test'
+  ...
+# Subtest: supplied group snapshot members are retained
+ok 7 - supplied group snapshot members are retained
+  ---
+  duration_ms: 19.2137
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 835.2276

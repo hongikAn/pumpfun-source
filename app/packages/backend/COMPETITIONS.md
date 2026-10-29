@@ -125,6 +125,14 @@ is a contract decision, not a bug fix.
     served legs were read at: the last board build (`builtAtMs`, in seconds) while the board is not final, and
     `endsAt` once `isFinal` is true. Before the first build `builtAtMs` and `endSec` are both 0.
 
+51. **Person roster before startsAt**: Factory `139209-8d4ffb7afbfa` declares `memberCount: 0`
+    and `members: []` before the roster snapshot at startsAt. The local model uses its supplied
+    lifecycle phase (assumption 35): `upcoming` and `registration` do not synthesize a person
+    roster; `live` and `ended` retain the sole member, including walletless and struck entries.
+    The first board build is separate: a live entry with `builtAtMs: 0` can already have a roster.
+    Explicit group member rows are unchanged. This is a read projection of operator-supplied
+    lifecycle facts, not a snapshot writer or a production lifecycle derivation.
+
 ## Not implemented
 
 The following competition-related endpoints belong to internal operations, mutation flows, or uncatalogued

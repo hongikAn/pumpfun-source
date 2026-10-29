@@ -1,0 +1,95 @@
+✖ upcoming person detail has no snapshot roster before startsAt (58.9522ms)
+✖ registration person detail has no snapshot roster before startsAt (21.3429ms)
+✔ live person keeps its snapshot roster before the first board build (15.676ms)
+✔ live built person retains its sole member (21.6167ms)
+✔ ended built person retains its sole member (15.1398ms)
+✔ live walletless and struck people retain their snapshot member (23.8399ms)
+✔ supplied group snapshot members are retained (11.05ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 5
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 831.5241
+
+✖ failing tests:
+
+test at test\competition-roster.test.ts:1:1806
+✖ upcoming person detail has no snapshot roster before startsAt (58.9522ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   memberCount: 1,
+  +   members: [
+  +     {
+  +       buySpendSol: 0,
+  +       fresh: false,
+  +       isVerified: true,
+  +       lastRefreshedAtMs: 0,
+  +       pnlUsd: 0,
+  +       profileImageUrl: 'https://pump.mypinata.cloud/ipfs/QmAlice',
+  +       realizedPnlUsd: 0,
+  +       unrealizedPnlUsd: 0,
+  +       userId: 'user-001',
+  +       username: 'alice_pump',
+  +       verifiedBadgeVisible: true,
+  +       walletAddress: '7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU'
+  +     }
+  +   ]
+  -   memberCount: 0,
+  -   members: []
+    }
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\competition-roster.test.ts:49:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { memberCount: 1, members: [ [Object] ] },
+    expected: { memberCount: 0, members: [] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test\competition-roster.test.ts:1:1806
+✖ registration person detail has no snapshot roster before startsAt (21.3429ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   memberCount: 1,
+  +   members: [
+  +     {
+  +       buySpendSol: 0,
+  +       fresh: false,
+  +       isVerified: true,
+  +       lastRefreshedAtMs: 0,
+  +       pnlUsd: 0,
+  +       profileImageUrl: 'https://pump.mypinata.cloud/ipfs/QmAlice',
+  +       realizedPnlUsd: 0,
+  +       unrealizedPnlUsd: 0,
+  +       userId: 'user-001',
+  +       username: 'alice_pump',
+  +       verifiedBadgeVisible: true,
+  +       walletAddress: '7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU'
+  +     }
+  +   ]
+  -   memberCount: 0,
+  -   members: []
+    }
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\competition-roster.test.ts:49:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { memberCount: 1, members: [ [Object] ] },
+    expected: { memberCount: 0, members: [] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
