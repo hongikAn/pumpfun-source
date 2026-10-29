@@ -18,12 +18,8 @@ export type SortKey = 'realized' | 'unrealized' | 'combined';
 const PERIODS: Period[] = ['daily', 'weekly', 'monthly'];
 const SORTS: SortKey[] = ['realized', 'unrealized', 'combined'];
 
-/**
- * Documented reconstruction assumption: the contract's `periodType` is the
- * numeric enum 0|1|2|3. The three selectable windows map to 1/2/3; 0 is left
- * for an all-time board that this endpoint's `period` enum cannot request.
- */
-const PERIOD_TYPE: Record<Period, 0 | 1 | 2 | 3> = { daily: 1, weekly: 2, monthly: 3 };
+/** Captured /pnl-leaderboard proto values; 0 is unspecified (LEADERBOARD-PERIODS.md). */
+const PERIOD_TYPE: Record<Period, 0 | 1 | 2 | 3> = { daily: 3, weekly: 1, monthly: 2 };
 const PERIOD_LABEL: Record<Period, string> = { daily: 'Daily', weekly: 'Weekly', monthly: 'Monthly' };
 const PERIOD_SECONDS: Record<Period, number> = { daily: 86_400, weekly: 604_800, monthly: 2_592_000 };
 

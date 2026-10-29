@@ -54,7 +54,7 @@ describe('GET /v1/pnl-leaderboard', () => {
       assert.equal(r.headers[SYNTHETIC_HEADER.toLowerCase()], DATA_SOURCE);
       assertSchema(r.json(), boardSchema, 'GET /v1/pnl-leaderboard?period=weekly', specRoot);
       const body = r.json() as { periodType: number; periodLabel: string; windowStartSec: number; entries: unknown[] };
-      assert.equal(body.periodType, 2);
+      assert.equal(body.periodType, 1);
       assert.equal(body.periodLabel, 'Weekly');
       assert.ok(Number.isInteger(body.windowStartSec) && body.windowStartSec > 0);
       assert.ok(body.entries.length > 0);
@@ -177,19 +177,24 @@ describe('GET /v1/pnl-leaderboard', () => {
     }
   });
 
-  test('daily and monthly windows resolve to their period types', async () => {
-    const app = buildApp([]);
-    try {
-      for (const [period, type] of [['daily', 1], ['monthly', 3]] as const) {
+  // Captured factory 154263 binds these proto values to this exact response.
+  // See LEADERBOARD-PERIODS.md for the authenticated raw-source coordinates.
+  for (const [period, type, label] of [
+    ['daily', 3, 'Daily'], ['weekly', 1, 'Weekly'], ['monthly', 2, 'Monthly'],
+  ] as const) {
+    test(`${period} returns the captured numeric period type`, async () => {
+      const app = buildApp([]);
+      try {
         const r = await app.inject(`/v1/pnl-leaderboard?period=${period}`);
         assert.equal(r.statusCode, 200);
         assertSchema(r.json(), boardSchema, `GET /v1/pnl-leaderboard?period=${period}`, specRoot);
-        assert.equal((r.json() as { periodType: number }).periodType, type);
+        assert.equal(r.json().periodType, type);
+        assert.equal(r.json().periodLabel, label);
+      } finally {
+        await app.close();
       }
-    } finally {
-      await app.close();
-    }
-  });
+    });
+  }
 
   test('the board is deterministic across identical reads', async () => {
     const app = buildApp([]);

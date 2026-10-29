@@ -8,5 +8,5 @@ test("unsupported board enums cannot generate undefined metadata", () => {
     () => s.getBoard({ period: "daily", sort: "other" } as any),
     /query/,
   );
-  assert.equal(s.getBoard({ period: "daily" }).periodType, 1);
+  assert.equal(s.getBoard({ period: "daily" }).periodType, 3);
 });
