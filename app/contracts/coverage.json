@@ -99,6 +99,18 @@
         "packages/frontend/tests/profile-follow-list.spec.ts"
       ],
       "limits": "Local synthetic directed-edge reads and exact profile navigation only. Stored profile counters remain independent. No website/developer transport, credential, authenticated viewer, follow write, live graph, original layout or full compatibility qualification."
+    },
+    "offlineFeedAuthorNavigation": {
+      "status": "known-synthetic-feed-author-profile-navigation",
+      "qualified": false,
+      "uiIntegrated": true,
+      "evidence": [
+        "packages/frontend/HOME-FEED-EVIDENCE.md#local-author-profile-navigation-2026-10-29",
+        "packages/frontend/src/components/feed/FeedItem.tsx",
+        "packages/frontend/tests/home-feed.spec.ts",
+        "packages/frontend/tests/profile-walletless-render.node.ts"
+      ],
+      "limits": "Only exact known local author identities; unresolved names remain plain text. No username lookup, authenticated viewer, native callout resolver, original hover-card behavior, visual parity or API compatibility qualification."
     }
   },
   "sdk": {
