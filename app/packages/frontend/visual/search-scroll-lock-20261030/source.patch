@@ -1,0 +1,11 @@
+diff --git a/app/packages/frontend/src/components/shell/search/SearchDialog.tsx b/app/packages/frontend/src/components/shell/search/SearchDialog.tsx
+index ebedbdaf55..4a4673eaf1 100644
+--- a/app/packages/frontend/src/components/shell/search/SearchDialog.tsx
++++ b/app/packages/frontend/src/components/shell/search/SearchDialog.tsx
+@@ -5,0 +6 @@ import { useSidebar } from "@/components/ui/sidebar";
++import { lockBodyScroll } from "@/lib/body-scroll-lock";
+@@ -36,0 +38,4 @@ export function SearchDialog() {
++  useEffect(() => {
++    if (!open) return;
++    return lockBodyScroll();
++  }, [open]);

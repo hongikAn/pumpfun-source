@@ -1,0 +1,48 @@
+{
+  "baseline_base": "b08fd908203a76d84c8dd68b60310582aa2c4fba",
+  "candidate_base": "2c8a7900f240c8a50cccc2b4d263bdbd32a68924",
+  "source_equal_between_bases": true,
+  "source_parent_sha256": "a47fb602cc3a1793f30715fe324bca602ed1b5aeba9768bcdeb6958868057e87",
+  "source_sha256": "7339542ebf91f8871a0c3079b8c683270ed806c33bb69255aeb936a0e22c2703",
+  "test_sha256": "c7b5b21deb46e6f8848a96855ac6d9b48b577f5910c2c1cb59fae49186bca917",
+  "baseline_test_sha256": "7e85765fae1426defbf1532d304d7a0cddf7b1e93c0ad1517c22c7aa4347ca28",
+  "results": {
+    "baseline": "1 actual desktop wheel failure:scrollY0->500",
+    "focused": "5 passed (22.5s)",
+    "source_check": "verify-search-shortcuts.mjs --check PASS"
+  },
+  "logs": {
+    "baseline.log": {
+      "raw_sha256": "da42653e647deeb9da0f84300e4ae46dee01c705083dfdc4fbc9616c7511f6cf",
+      "published_sha256": "530155b4497dff16258c5b022df321bc130be6e77dcf3d203723960c0acf8844",
+      "normalization": "UTF-8, LF, trailing whitespace trim, ANSI presentation sequences removed"
+    },
+    "focused-after.log": {
+      "raw_sha256": "5a015085e310d271d06ee9b6446aecb4d82c43a7e29a600b4c0d7f60d6bc7067",
+      "published_sha256": "a6dbbd668b8812713e423626cbb722c26de1d18c0b3b9dd745fa1c0927b9581a",
+      "normalization": "UTF-8, LF, trailing whitespace trim, ANSI presentation sequences removed"
+    },
+    "source-shortcuts.log": {
+      "raw_sha256": "72af4095250001d9215524a6161f66b97d37d6b4469c5b276d3c41095d4a3b92",
+      "published_sha256": "c509dd2970326273042f5987e90e8a6724ac9b307fd99f5ebb3fe2b3c6486995",
+      "normalization": "UTF-8, LF, trailing whitespace trim, ANSI presentation sequences removed"
+    },
+    "frontend-before.log": {
+      "raw_sha256": "d40be7641144ac2731ddcf6bfaf59c6829b293dbf5a5a0f40ad3e39c0ecd98e1",
+      "published_sha256": "5698f4bd6a3a6223b856e8f7bdb0d08e47bf1454a6715411c4002d022563dabf",
+      "normalization": "UTF-8, LF, trailing whitespace trim, ANSI presentation sequences removed"
+    },
+    "frontend-after.log": {
+      "raw_sha256": "aa6d939abc91afb26267f12de3939362bcdcac0b60e0d110c7598494c770f6ea",
+      "published_sha256": "d6f7cbb7545d671a6fbb6768c03acdeeee80eb89231ce972fce946480c5200b7",
+      "normalization": "UTF-8, LF, trailing whitespace trim, ANSI presentation sequences removed"
+    }
+  },
+  "scope": "Local modal scroll ownership only. No original search modal parity or total feature completion. Query, original-bound shortcut effect and shared helper unchanged.",
+  "environment": {
+    "node": "24.15.0",
+    "next": "16.4.1",
+    "browser": "existing Playwright Chromium",
+    "origin": "http://127.0.0.1:3010"
+  }
+}

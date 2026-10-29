@@ -1,0 +1,13 @@
+
+Running 5 tests using 1 worker
+
+
+
+(node:47124) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/5] tests\search-scroll-lock.spec.ts:10:7 › search keeps the background still and releases it after desktop Escape
+[2/5] tests\search-scroll-lock.spec.ts:10:7 › search keeps the background still and releases it after mobile Escape
+[3/5] tests\search-scroll-lock.spec.ts:10:7 › search keeps the background still and releases it after desktop shortcut toggle
+[4/5] tests\search-scroll-lock.spec.ts:43:5 › search submission releases the modal scroll lock
+[5/5] tests\search-scroll-lock.spec.ts:57:5 › closing Search preserves the underlying Settings scroll lock
+  5 passed (22.5s)

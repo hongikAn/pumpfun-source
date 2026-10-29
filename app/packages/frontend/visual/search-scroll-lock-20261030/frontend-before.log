@@ -1,0 +1,8 @@
+▲ Next.js 16.4.1 (webpack)
+- Local:         http://127.0.0.1:3010
+- Network:       http://127.0.0.1:3010
+✓ Ready in 508ms
+✓ Running next.config.ts took 53ms
+
+ GET /docs/fees 200 in 1096ms (next.js: 259ms, application-code: 837ms)
+ GET /api/local-users/search?q=alice 200 in 169ms (next.js: 129ms, application-code: 40ms)

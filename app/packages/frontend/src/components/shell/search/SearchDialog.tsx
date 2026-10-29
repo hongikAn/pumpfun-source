@@ -3,6 +3,7 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { useSidebar } from "@/components/ui/sidebar";
+import { lockBodyScroll } from "@/lib/body-scroll-lock";
 import { SearchMobileIcon } from "../captured-icons";
 import { LocalUserSearch } from "./LocalUserSearch";
 import { onOpenSearch } from "./search-events";
@@ -34,6 +35,10 @@ export function SearchDialog() {
     syncOpen();
     return () => observer.disconnect();
   }, []);
+  useEffect(() => {
+    if (!open) return;
+    return lockBodyScroll();
+  }, [open]);
   useEffect(() => {
     // Clear already updated the input; its delayed URL commit must not erase
     // text entered since that click. Other navigation still follows the URL.

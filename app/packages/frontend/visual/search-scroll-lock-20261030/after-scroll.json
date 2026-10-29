@@ -1,0 +1,35 @@
+{
+  "shortcut": {
+    "before": 0,
+    "open": {
+      "scrollY": 0,
+      "overflow": "hidden"
+    },
+    "closed": {
+      "scrollY": 500,
+      "overflow": ""
+    }
+  },
+  "mobile": {
+    "before": 0,
+    "open": {
+      "scrollY": 0,
+      "overflow": "hidden"
+    },
+    "closed": {
+      "scrollY": 500,
+      "overflow": ""
+    }
+  },
+  "desktop": {
+    "before": 0,
+    "open": {
+      "scrollY": 0,
+      "overflow": "hidden"
+    },
+    "closed": {
+      "scrollY": 500,
+      "overflow": ""
+    }
+  }
+}

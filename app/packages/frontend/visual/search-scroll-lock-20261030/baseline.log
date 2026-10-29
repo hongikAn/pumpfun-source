@@ -1,0 +1,45 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:19236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\search-scroll-lock.spec.ts:10:7 › search keeps the background still and releases it after desktop Escape
+  1) tests\search-scroll-lock.spec.ts:10:7 › search keeps the background still and releases it after desktop Escape
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 500
+
+      26 |     await writeFile(testInfo.outputPath("scroll.json"), JSON.stringify({ before, open }, null, 2));
+      27 |     await writeFile(testInfo.outputPath("browser-requests.json"), JSON.stringify(requests, null, 2));
+    > 28 |     expect(open.scrollY).toBe(before);
+         |                          ^
+      29 |     if (close === "escape") await page.keyboard.press("Escape");
+      30 |     else await page.keyboard.press("Control+k");
+      31 |     await expect(dialog).not.toBeVisible();
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\search-scroll-lock.spec.ts:28:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-search-scroll-lock-20261030\before\search-scroll-lock-search--f7a43-ses-it-after-desktop-Escape\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-search-scroll-lock-20261030\before\search-scroll-lock-search--f7a43-ses-it-after-desktop-Escape\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-search-scroll-lock-20261030\before\search-scroll-lock-search--f7a43-ses-it-after-desktop-Escape\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-search-scroll-lock-20261030\before\search-scroll-lock-search--f7a43-ses-it-after-desktop-Escape\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-search-scroll-lock-20261030\before\search-scroll-lock-search--f7a43-ses-it-after-desktop-Escape\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\search-scroll-lock.spec.ts:10:7 › search keeps the background still and releases it after desktop Escape
