@@ -1,0 +1,42 @@
+[
+  {
+    "commit": "d268d5d803b524927aae37f263930d36f5c7c7a8",
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "npx",
+      "--yes",
+      "pnpm@10.24.0",
+      "build"
+    ],
+    "cwd": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\pump-legacy-exact-sol-20261029\\pr-worktree\\app",
+    "start": "2026-10-29T11:47:38.510338+00:00",
+    "end": "2026-10-29T11:48:00.931488+00:00",
+    "exit_code": 0,
+    "log": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\app-batch3-20261029\\leaderboard-profile-miss-checks\\build.log",
+    "environment": {
+      "python3": "local-tools/python3.cmd -> Python 3.12.10"
+    }
+  },
+  {
+    "commit": "d268d5d803b524927aae37f263930d36f5c7c7a8",
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "npx",
+      "--yes",
+      "pnpm@10.24.0",
+      "typecheck"
+    ],
+    "cwd": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\pump-legacy-exact-sol-20261029\\pr-worktree\\app",
+    "start": "2026-10-29T11:48:00.931488+00:00",
+    "end": "2026-10-29T11:48:10.113509+00:00",
+    "exit_code": 0,
+    "log": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\app-batch3-20261029\\leaderboard-profile-miss-checks\\typecheck.log",
+    "environment": {
+      "python3": "local-tools/python3.cmd -> Python 3.12.10"
+    }
+  }
+]

@@ -1,0 +1,98 @@
+✖ leaderboard identity hydration: missing profile (62.821ms)
+✖ leaderboard identity hydration: known canonical id (28.4229ms)
+✖ leaderboard identity hydration: known address alias (18.769ms)
+✖ leaderboard identity hydration: wallet-only row (17.231ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 0
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 859.1609
+
+✖ failing tests:
+
+test at test\leaderboard-profile-miss.test.ts:1:972
+✖ leaderboard identity hydration: missing profile (62.821ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'synthetic-seed-play'
+  - 'synthetic'
+              ^
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard-profile-miss.test.ts:38:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'synthetic-seed-play',
+    expected: 'synthetic',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\leaderboard-profile-miss.test.ts:1:972
+✖ leaderboard identity hydration: known canonical id (28.4229ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'synthetic-seed-play'
+  - 'synthetic'
+              ^
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard-profile-miss.test.ts:38:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'synthetic-seed-play',
+    expected: 'synthetic',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\leaderboard-profile-miss.test.ts:1:972
+✖ leaderboard identity hydration: known address alias (18.769ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'synthetic-seed-play'
+  - 'synthetic'
+              ^
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard-profile-miss.test.ts:38:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'synthetic-seed-play',
+    expected: 'synthetic',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\leaderboard-profile-miss.test.ts:1:972
+✖ leaderboard identity hydration: wallet-only row (17.231ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'synthetic-seed-play'
+  - 'synthetic'
+              ^
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\leaderboard-profile-miss.test.ts:38:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'synthetic-seed-play',
+    expected: 'synthetic',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

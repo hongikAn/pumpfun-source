@@ -1,0 +1,11 @@
+{
+  "source": "app/contracts/developer.openapi.json",
+  "source_sha256": "ad2fdc2bbf0b86d92e01f539ca609fff8164fcc44556bb2691378a869f73ad73",
+  "source_commit": "d268d5d803b524927aae37f263930d36f5c7c7a8",
+  "json_pointer": "/paths/~1pnl-leaderboard/get/responses/200/content/application~1json/schema/properties/entries/items/properties/userId",
+  "schema": {
+    "nullable": true,
+    "description": "Null when the profile lookup missed",
+    "type": "string"
+  }
+}

@@ -1,0 +1,52 @@
+✔ each deterministic board uses the documented 2025-10-01 anchor (2.0197ms)
+✔ seed rows were refreshed within 31 days before the anchor (0.3147ms)
+✔ leaderboard HTTP failures cancel unused bodies and preserve their mapped errors (48.1194ms)
+✔ leaderboard seeds reject nonfinite measures before ranking or JSON serialization (36.4688ms)
+✔ finite losses, zero and fractional PnL retain their supplied values (1.1413ms)
+▶ integer pagination on /v1/pnl-leaderboard
+  ✔ non-integer limit is rejected before any board is served (69.3123ms)
+  ✔ non-integer positionsLimit is rejected before any board is served (21.3334ms)
+  ✔ valid integers and the existing clamp behavior are unchanged (21.9146ms)
+✔ integer pagination on /v1/pnl-leaderboard (113.4704ms)
+✔ leaderboard identity hydration: missing profile (67.4888ms)
+✔ leaderboard identity hydration: known canonical id (28.0574ms)
+✔ leaderboard identity hydration: known address alias (20.7661ms)
+✔ leaderboard identity hydration: wallet-only row (25.1121ms)
+✔ duplicate decoded query keys and invalid filters fail without a network request (25.4822ms)
+✔ unsupported board enums cannot generate undefined metadata (2.7531ms)
+✔ seed changes cannot corrupt leaderboard reads after construction (2.6228ms)
+✔ returned top positions cannot corrupt later leaderboard reads (0.4947ms)
+✔ stores built from one seed do not leak position edits to each other (0.313ms)
+✔ a wallet appears at most once in each leaderboard period (2.3151ms)
+▶ GET /v1/pnl-leaderboard
+  ✔ 200 conforms to the published schema and is marked synthetic (70.8253ms)
+  ✔ default ranking is the combined measure, descending, ranks 1..N (29.8871ms)
+  ✔ sort=realized reorders on the realized measure (21.0388ms)
+  ✔ positionsLimit clamps to 5, 0 is count-only, positionsCount stays whole (22.4796ms)
+  ✔ limit ceilings at 100 and never goes negative (16.961ms)
+  ✔ a missing period is a 400 on the Error schema (13.2991ms)
+  ✔ an unknown period is a 400 on the Error schema (16.5871ms)
+  ✔ profiles hydrate from the user store; bare-wallet rows stay anonymous (18.9673ms)
+  ✔ daily and monthly windows resolve to their period types (13.7212ms)
+  ✔ the board is deterministic across identical reads (14.8393ms)
+✔ GET /v1/pnl-leaderboard (240.2141ms)
+▶ duplicate query keys on GET /v1/pnl-leaderboard
+  ✔ repeated period fails closed instead of a 400 with an array received (22.4882ms)
+  ✔ repeated limit fails closed instead of silently defaulting (12.5748ms)
+  ✔ repeated sort and positionsLimit fail closed (12.5774ms)
+  ✔ percent-encoded duplicate key cannot bypass the check (15.6822ms)
+  ✔ single-valued queries still serve the board (11.3269ms)
+✔ duplicate query keys on GET /v1/pnl-leaderboard (75.041ms)
+✔ GET verified serves full daily leader profiles, including unverified leaders (70.5687ms)
+✔ leader selection uses the daily combined board, caps at ten and owns returned profiles (34.6304ms)
+✔ an empty daily board serves an empty profile list (20.8857ms)
+✔ unresolved or repeated selected profile identities remain explicitly unavailable (51.8189ms)
+✔ new GET keeps the developer key gate, duplicate-query policy and existing POST (35.0468ms)
+ℹ tests 38
+ℹ suites 3
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1320.8919
