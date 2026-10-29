@@ -1558,3 +1558,5 @@ repro/pump_amm/v2-mint-clone-recovery-20261028/followup/** -whitespace
 
 # Preserve exact source, compiler and signed-runtime evidence bytes.
 research/pump-multihop-token-quote-20261029/** -text -whitespace
+
+research/pump-multihop-sell-fees-20261029/** -text -whitespace

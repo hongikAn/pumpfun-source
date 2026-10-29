@@ -291,7 +291,7 @@ pub(crate) fn add3(a:u64,b:u64,c:u64)->Result<u64>{a.checked_add(b).and_then(|x|
 
 
 #[inline(never)]
-fn sub3(a:u64,b:u64,c:u64)->Result<u64>{a.checked_sub(b).and_then(|x|x.checked_sub(c)).ok_or_else(||error!(PumpError::Overflow))}
+pub(crate) fn sub3(a:u64,b:u64,c:u64)->Result<u64>{a.checked_sub(b).and_then(|x|x.checked_sub(c)).ok_or_else(||error!(PumpError::Overflow))}
 // layout-pad(14): aligns the next Source site with the original line
 
 

@@ -676,7 +676,7 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
             let c_rate = if flag & 2 != 0 { selected.creator_fee_bps } else { 0 };
             let pf = if flag & 1 != 0 { selected.protocol_fee } else { 0 };
             let cf = if flag & 2 != 0 { selected.creator_fee } else { 0 };
-            let net = sub(sub(gross_sell,pf)?,cf)?;
+            let net = crate::trade::sub3(gross_sell,pf,cf)?;
 // layout-pad(6): aligns the next Source site with the original line
 
 
