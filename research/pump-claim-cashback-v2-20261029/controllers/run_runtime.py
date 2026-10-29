@@ -1,0 +1,13 @@
+from pathlib import Path
+import hashlib,json,subprocess,sys,time,os
+import solders,solders.solders
+R=Path('/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source');B=Path('/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029');L=Path('/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol');P=L/'multihop-sell-sub3/candidate.so';C=L/'claim-v2-empty-before-borrow/candidate.so';out=L/'claim-v2-empty-before-borrow/runtime-eight';assert not out.exists();out.mkdir();sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+inputs=[Path(__file__),B/'focused_runtime.py',P,C,B/'probe-inputs.json',B/'source.patch',L/'multihop-sell-sub3/launch.json',L/'multihop-sell-sub3/result.json',L/'claim-v2-empty-before-borrow/launch.json',L/'claim-v2-empty-before-borrow/result.json',R/'scripts/pump_captured_loader.py',R/'scripts/pump_cashback_differential.py',R/'scripts/pump_trade_fixture.py',R/'evidence/upstream/pump.json',R/'research/imported-lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json',R/'evidence/original/pump/program-account.bin',R/'evidence/original/pump/programdata-account.bin',Path(sys.executable).resolve(),Path(solders.solders.__file__).resolve()]
+for family,names in [('original',['pump','pump_fees']),('dependencies',['spl_token','spl_token_2022','associated_token'])]:
+ for name in names:
+  for file in ['deployed.so','capture.json']:inputs.append(R/'evidence'/family/name/file)
+inputs=list(dict.fromkeys(inputs));initial={str(p):dict(sha256=sha(p),bytes=p.stat().st_size)for p in inputs};cmd=[sys.executable,str(B/'focused_runtime.py'),'--parent',str(P),'--candidate',str(C),'--output',str(out/'eight.json.gz')];record=dict(scope='Eight unchanged existing claim_v2 cases; signed original/B13-parent/candidate triples',python=sys.version,python_executable=sys.executable,environment={k:os.environ.get(k)for k in ['PYTHONPATH','PYTHONSAFEPATH']},inputs=initial,command=cmd,cwd=str(R))
+def save():(out/'execution.json').write_bytes((json.dumps(record,indent=2)+'\n').encode())
+save();start=time.time()
+with(out/'stdout.log').open('wb')as stdout,(out/'stderr.log').open('wb')as stderr:r=subprocess.run(cmd,cwd=R,stdout=stdout,stderr=stderr)
+record.update(returncode=r.returncode,elapsed_seconds=round(time.time()-start,3),inputs_unchanged={str(p):sha(p)==initial[str(p)]['sha256']for p in inputs},output_files={p.name:dict(sha256=sha(p),bytes=p.stat().st_size)for p in out.iterdir()if p.is_file()and p.name!='execution.json'});save();print(json.dumps({k:record[k]for k in ['returncode','elapsed_seconds','output_files']}),flush=True);assert all(record['inputs_unchanged'].values());sys.exit(r.returncode)

@@ -1,0 +1,43 @@
+{
+  "selected_parent_pr": 1164,
+  "selected_parent_pr_head": "8e54625df475761af3f34ca046fd27694c5bca69",
+  "selected_parent_packet_manifest_sha256": "0ad92cb265987af2c1c6317274a923db5530b512e79d959b3e141a768044c6b5",
+  "parent_source_map_canonical_sha256": "a4c2686840a534a8cf15b66de7105e7a2a8453e144fbd8e5bd6d9e3ac85bf8ef",
+  "parent_members": {
+    "source-parent.json": {
+      "previous_member": "source-candidate.json",
+      "sha256": "ccc286560228f9c0fadf4ad0ac76f83d831060f5fad3f3c56a993c90e9123f40"
+    },
+    "source-parent.tar.gz": {
+      "previous_member": "source-candidate.tar.gz",
+      "sha256": "36149c1eaa5fd7ad2e57211fb2ab21ff687c26425b6b262ebf5ec8c1d3a9461f"
+    },
+    "build/parent/symbols.so.gz": {
+      "previous_member": "build/candidate/symbols.so.gz",
+      "sha256": "81f686b290a3bc9c6a8a03a4b0074ac55af571e63155d5c6058d10b418e0596c"
+    },
+    "build/parent/candidate.so.gz": {
+      "previous_member": "build/candidate/candidate.so.gz",
+      "sha256": "a68b8d2d4d2e29917a26e4d725977066c6fed81d5fccc75fff17fc341cab62c5"
+    },
+    "build/parent/build.log.gz": {
+      "previous_member": "build/candidate/build.log.gz",
+      "sha256": "e6cf6fda20c0240bc427b4d9cbf359692ee0006a73b852751289621b2dc244f7"
+    },
+    "build/parent/launch.json": {
+      "previous_member": "build/candidate/launch.json",
+      "sha256": "91b3e2efe9d8972c0906c7720a49bcde27ef225d1a7b3c066405588b9503e6c7"
+    },
+    "build/parent/result.json": {
+      "previous_member": "build/candidate/result.json",
+      "sha256": "11501b8477b14c77dc7c81bb4686622cbefd4a387bd529f0825efd0556f0357d"
+    },
+    "build/parent/census.json.gz": {
+      "previous_member": "build/candidate/census.json.gz",
+      "sha256": "a249efd7669a268bb46c36efb741bf7a3c9076dca95c112c93540525fbacd77c"
+    }
+  },
+  "pending_parent_status": "PR1164 was open at probe time. This packet includes every necessary parent source/build member and does not require that PR to be merged.",
+  "source_branch_base": "f634ae0aaaf719ee51507ef7c971d2a1d4f5e026",
+  "selected_cohort_note": "66 input selected Linux recipe: current main differs only in three D037 Cargo inputs and the two pending1164 Rust source files. Those files are not changed by this independent claim-only source PR."
+}

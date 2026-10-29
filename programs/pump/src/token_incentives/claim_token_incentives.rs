@@ -308,7 +308,7 @@ pub mod cashback {
 
 
    require_keys_eq!(*a.quote_mint.owner,a.quote_token_program.key(),PumpError::AccountTypeNotSupported);}
-  let amount=if native{a.user_volume_accumulator.to_account_info().lamports().saturating_sub(Rent::get()?.minimum_balance(a.user_volume_accumulator.to_account_info().data_len()))}else{let data=a.associated_user_volume_accumulator.try_borrow_data()?;if data.is_empty(){0}else{TokenAccount::try_deserialize(&mut &data[..])?.amount}};
+  let amount=if native{a.user_volume_accumulator.to_account_info().lamports().saturating_sub(Rent::get()?.minimum_balance(a.user_volume_accumulator.to_account_info().data_len()))}else if a.associated_user_volume_accumulator.data_is_empty(){0}else{let data=a.associated_user_volume_accumulator.try_borrow_data()?;TokenAccount::try_deserialize(&mut &data[..])?.amount};
   if amount==0{msg!("No cashback to claim");return Ok(());}
   if native{a.user_volume_accumulator.sub_lamports(amount)?;a.user.add_lamports(amount)?;}
   else{

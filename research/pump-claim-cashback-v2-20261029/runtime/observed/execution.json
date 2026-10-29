@@ -1,0 +1,185 @@
+{
+  "scope": "Eight unchanged existing claim_v2 cases; signed original/B13-parent/candidate triples",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_executable": "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/bin/python",
+  "environment": {
+    "PYTHONPATH": null,
+    "PYTHONSAFEPATH": null
+  },
+  "inputs": {
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/run_runtime.py": {
+      "sha256": "ca6c4019c953011fb22085370c8390e81c3e8fa0d6c20d2b647357c48b1a0a6e",
+      "bytes": 2672
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/focused_runtime.py": {
+      "sha256": "2cb23139819d2f48c6ce60912637f1dc9425b1158faf822611809b85ebd911a7",
+      "bytes": 4266
+    },
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/multihop-sell-sub3/candidate.so": {
+      "sha256": "a1a9223a33274b687d263a7ed263dbbd29429abe9532a61c3959b4d5b6e6bd2e",
+      "bytes": 1937144
+    },
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/candidate.so": {
+      "sha256": "10252ecd3dd7054efb12ef905ad40d972a477be85bcb320d46052371a80a302d",
+      "bytes": 1937128
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/probe-inputs.json": {
+      "sha256": "e9dfc8ccf7922805e3bc5fa72c279a35477c4fa8b237f7a59a8090e7f0438b75",
+      "bytes": 15500
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/source.patch": {
+      "sha256": "5f5ccb92fb0be84492e6776521f68252066103c8d48e96f01c91e92904fa3db5",
+      "bytes": 1129
+    },
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/multihop-sell-sub3/launch.json": {
+      "sha256": "91b3e2efe9d8972c0906c7720a49bcde27ef225d1a7b3c066405588b9503e6c7",
+      "bytes": 11275
+    },
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/multihop-sell-sub3/result.json": {
+      "sha256": "11501b8477b14c77dc7c81bb4686622cbefd4a387bd529f0825efd0556f0357d",
+      "bytes": 260
+    },
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/launch.json": {
+      "sha256": "abd913b49cc2e9e45dd0aab4da313dc4d1cbc974cabb80f328a8ba0955eb0c40",
+      "bytes": 11295
+    },
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/result.json": {
+      "sha256": "1b3492890748de817d2b64c28b8d1ee496cffa073832f59a3cba3a81f9f42f6b",
+      "bytes": 260
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/scripts/pump_captured_loader.py": {
+      "sha256": "8d51ba5feab9e74f67fb80f5827222308d45a36022151bc77ad076c401f65067",
+      "bytes": 4035
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/scripts/pump_cashback_differential.py": {
+      "sha256": "05d99973eab0e31e1fdb6a0062424f38bfb27d44aa2561b14e073193ab8534db",
+      "bytes": 10452
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/scripts/pump_trade_fixture.py": {
+      "sha256": "9ee647c928070734fe700929b87d4016f76ec244c873e6f484318b5212aea1e1",
+      "bytes": 1869
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/upstream/pump.json": {
+      "sha256": "7616681ea557975f9f623ac211080f22a93060781eaf4765b0a488d980997207",
+      "bytes": 328788
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/research/imported-lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json": {
+      "sha256": "54d69dd4f11a61cc6cea3076e3e89fd4aa31ea6ff835f8ea316646a7b1642920",
+      "bytes": 125196
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/program-account.bin": {
+      "sha256": "8101492b544ce08703d5de95363bf796e7e4cd17d03639cfe603071fb59652eb",
+      "bytes": 36
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/programdata-account.bin": {
+      "sha256": "0b692730f9707139fd86d1c1e3a7d63a3f7cb0702278975fa99df90883aab508",
+      "bytes": 10485760
+    },
+    "/usr/bin/python3.12": {
+      "sha256": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f",
+      "bytes": 8020928
+    },
+    "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/lib/python3.12/site-packages/solders/solders.abi3.so": {
+      "sha256": "3ff2cff4ff026cda6c0662e2518c79fbb3ecd7f915b5360d3fb2a4fc6e086eb2",
+      "bytes": 40350952
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/deployed.so": {
+      "sha256": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d",
+      "bytes": 10485715
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/capture.json": {
+      "sha256": "ffb53e71ce9cbee60df91e54cc1d677527a6eeb5806cb8d68e525af698744110",
+      "bytes": 884
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump_fees/deployed.so": {
+      "sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+      "bytes": 948944
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump_fees/capture.json": {
+      "sha256": "a98928432afc25e4aa422559d4aa3bd73062e1f634ca6189ff5495d1fe158334",
+      "bytes": 879
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token/deployed.so": {
+      "sha256": "8190d3f7ceb6cb7a7a8d8924bff89f9f611e15ce1f806f2b6237f3311a98f697",
+      "bytes": 108600
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token/capture.json": {
+      "sha256": "26b905e633fd869d9e9a9e34627ddf8308d0323d51565f35973d47d125e34213",
+      "bytes": 836
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token_2022/deployed.so": {
+      "sha256": "15a2e615a42e20f31714bbaaee43002ae6f1cda2e8d7118243117ab3c1342e2d",
+      "bytes": 1382016
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token_2022/capture.json": {
+      "sha256": "f114c064c5a1d08d75bcce3e01552204816048b8aa74dfd59cacb74f9a85fe54",
+      "bytes": 881
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/associated_token/deployed.so": {
+      "sha256": "6804554e69fd3a58caa191dc4a58f4c67223d30ca28ab8987f39fc18d2f7374d",
+      "bytes": 105032
+    },
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/associated_token/capture.json": {
+      "sha256": "0b1b18d80b6ccde58f96ffe879be4cc8f2a1ceba5a40c1a3ba2c1b6bcf618327",
+      "bytes": 614
+    }
+  },
+  "command": [
+    "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/bin/python",
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/focused_runtime.py",
+    "--parent",
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/multihop-sell-sub3/candidate.so",
+    "--candidate",
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/candidate.so",
+    "--output",
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/runtime-eight/eight.json.gz"
+  ],
+  "cwd": "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source",
+  "returncode": 0,
+  "elapsed_seconds": 7.475,
+  "inputs_unchanged": {
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/run_runtime.py": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/focused_runtime.py": true,
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/multihop-sell-sub3/candidate.so": true,
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/candidate.so": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/probe-inputs.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/pump-claim-cashback-v2-20261029/source.patch": true,
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/multihop-sell-sub3/launch.json": true,
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/multihop-sell-sub3/result.json": true,
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/launch.json": true,
+    "/home/ahi200/pumpfun-work/20261029-pump-legacy-exact-sol/claim-v2-empty-before-borrow/result.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/scripts/pump_captured_loader.py": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/scripts/pump_cashback_differential.py": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/scripts/pump_trade_fixture.py": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/upstream/pump.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/research/imported-lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/program-account.bin": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/programdata-account.bin": true,
+    "/usr/bin/python3.12": true,
+    "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/lib/python3.12/site-packages/solders/solders.abi3.so": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/deployed.so": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump/capture.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump_fees/deployed.so": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/original/pump_fees/capture.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token/deployed.so": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token/capture.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token_2022/deployed.so": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/spl_token_2022/capture.json": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/associated_token/deployed.so": true,
+    "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/evidence/dependencies/associated_token/capture.json": true
+  },
+  "output_files": {
+    "eight.json.gz": {
+      "sha256": "173051d5f75873f3352708297546358e814d936d1a466fce6473b768ff5d5045",
+      "bytes": 7900
+    },
+    "stdout.log": {
+      "sha256": "da6e56e69fbe1bfe7b491bbdaa271be80bdb76d0eabbbdcc1a729c05e715240e",
+      "bytes": 2436
+    },
+    "stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+}

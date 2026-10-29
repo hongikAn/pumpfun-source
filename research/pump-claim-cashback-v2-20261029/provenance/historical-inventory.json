@@ -1,0 +1,11 @@
+{
+  "historical_commit": "8e54625df475761af3f34ca046fd27694c5bca69",
+  "historical_path": "repro/reconstruction-status-2026-10-26/functions.tsv",
+  "git_blob": "774a1acb30f1cf4e017dd0ca8bf61fa33cf46880",
+  "sha256": "fb2c0a47514567d65eb45c1e268dacd5291e4659bb7dceb575a767dc20bcaff8",
+  "bytes": 1459668,
+  "current_main_absent": true,
+  "use": "Unchanged historical selected Pump 1035-window denominator. The retained census and normalizer tools remain byte-identical. Verification supplies this literal-pinned inventory and the literal-pinned original ELF in a temporary read root.",
+  "packet_path": "tools/functions.tsv.gz",
+  "compressed_bytes": 109133
+}

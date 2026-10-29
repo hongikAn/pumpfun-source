@@ -1,0 +1,46 @@
+name: Verify Pump claim-v2 empty-account recovery
+on:
+  pull_request:
+    paths:
+      - 'research/pump-claim-cashback-v2-20261029/**'
+      - 'programs/pump/src/token_incentives/claim_token_incentives.rs'
+      - '.github/workflows/verify-pump-claim-v2-empty-borrow.yml'
+  push:
+    paths:
+      - 'research/pump-claim-cashback-v2-20261029/**'
+      - 'programs/pump/src/token_incentives/claim_token_incentives.rs'
+      - '.github/workflows/verify-pump-claim-v2-empty-borrow.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: pump-claim-v2-empty-borrow-evidence
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /research/pump-claim-cashback-v2-20261029
+            /programs/pump/src/token_incentives/claim_token_incentives.rs
+            /scripts/pump_cashback_differential.py
+            /scripts/pump_trade_fixture.py
+            /research/imported-lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json
+            /evidence/original/pump
+            /evidence/original/pump_fees
+            /evidence/dependencies/spl_token
+            /evidence/dependencies/spl_token_2022
+            /evidence/dependencies/associated_token
+            /evidence/upstream/pump.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install solders==0.27.1
+      - name: Verify source, actual builds, signed observations and whole census
+        run: python -B research/pump-claim-cashback-v2-20261029/verify.py --repo-root .
+      - name: Recompute receiver, helper and data reference audit
+        run: python -B research/pump-claim-cashback-v2-20261029/audit_refs.py --repo-root . --compare-retained
+      - name: Reject finite resealed evidence mutations
+        run: python -B research/pump-claim-cashback-v2-20261029/test_verify.py --repo-root .
