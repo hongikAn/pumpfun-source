@@ -1,0 +1,125 @@
+{
+  "source": "app/contracts/developer.openapi.json",
+  "base_commit": "ef400863f4e476b2eaaab0866c0b1187d8060abc",
+  "sha256": "ad2fdc2bbf0b86d92e01f539ca609fff8164fcc44556bb2691378a869f73ad73",
+  "version": "0.294.0",
+  "error_schema": {
+    "type": "object",
+    "properties": {
+      "statusCode": {
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "timestamp": {
+        "type": "string"
+      },
+      "path": {
+        "type": "string"
+      },
+      "error": {
+        "description": "A documented error code (`API_*` for the platform, a route code from `x-error-codes`), or an HTTP reason phrase.",
+        "type": "string"
+      },
+      "message": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "requiredScope": {
+        "type": "string",
+        "description": "Only on `API_SCOPE_FORBIDDEN`: the scope the key is missing."
+      },
+      "retryAfterMs": {
+        "type": "integer",
+        "description": "Only on `API_KEY_RATE_LIMITED`: milliseconds until the next request is accepted."
+      },
+      "limit": {
+        "type": "integer",
+        "description": "Only on `API_KEY_RATE_LIMITED`: the limit that was hit."
+      },
+      "window": {
+        "type": "string",
+        "enum": [
+          "burst",
+          "day",
+          "auth",
+          "lookup"
+        ],
+        "description": "Only on `API_KEY_RATE_LIMITED`: which limit was hit: `burst` (per-key per-second budget with a 60 s bucket), `day` (per-key UTC daily limit), `auth` (per-IP failed authentications), `lookup` (per-IP unknown-key lookups)."
+      },
+      "retryAfterSeconds": {
+        "type": "integer",
+        "description": "Only on the 503: seconds before retrying, the same value as `Retry-After`. That body carries `message` and no `error` code."
+      }
+    },
+    "required": [
+      "statusCode"
+    ],
+    "description": "The envelope every refused request carries. Only `statusCode` is always present; `error` is the code to branch on."
+  },
+  "bindings": {
+    "/callout/{calloutId}": {
+      "operationId": "get_callout_by_calloutId",
+      "400": {
+        "$ref": "#/components/responses/BadRequestCredential"
+      },
+      "default": {
+        "$ref": "#/components/responses/Default"
+      }
+    },
+    "/callout/list/{userId}": {
+      "operationId": "get_callout_list_by_userId",
+      "400": {
+        "$ref": "#/components/responses/BadRequestCredential"
+      },
+      "default": {
+        "$ref": "#/components/responses/Default"
+      }
+    },
+    "/callout/user/{userId}/mint/{coinMint}": {
+      "operationId": "get_callout_user_by_userId_mint_by_coinMint",
+      "400": {
+        "$ref": "#/components/responses/BadRequestCredential"
+      },
+      "default": {
+        "$ref": "#/components/responses/Default"
+      }
+    },
+    "/callout/{calloutId}/replies": {
+      "operationId": "get_callout_by_calloutId_replies",
+      "400": {
+        "$ref": "#/components/responses/BadRequestCredential"
+      },
+      "default": {
+        "$ref": "#/components/responses/Default"
+      }
+    },
+    "/callout/replies/{replyId}/chain": {
+      "operationId": "get_callout_replies_by_replyId_chain",
+      "400": {
+        "$ref": "#/components/responses/BadRequestCredential"
+      },
+      "default": {
+        "$ref": "#/components/responses/Default"
+      }
+    }
+  },
+  "shared_response_schemas": {
+    "BadRequestCredential": {
+      "$ref": "#/components/schemas/Error"
+    },
+    "Default": {
+      "$ref": "#/components/schemas/Error"
+    }
+  },
+  "claim": "Every refused request requires integer statusCode; this change preserves local error codes/status decisions and adds only the omitted envelope field. No 404 behavior or production qualification is claimed."
+}

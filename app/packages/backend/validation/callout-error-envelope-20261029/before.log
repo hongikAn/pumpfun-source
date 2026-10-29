@@ -1,0 +1,261 @@
+✖ callout error envelope: 400 /callout/user/known/mint/m?quotesLimit=0&quotesLimit=0 (57.3809ms)
+✖ callout error envelope: 400 /callout/user/known/mint/m?quotesLimit=21 (20.8058ms)
+✖ callout error envelope: 501 /callout/user/known/mint/m?unsupported=1 (14.8182ms)
+✖ callout error envelope: 501 /callout/user/known/mint/m?quotesLimit=1 (14.5503ms)
+✖ callout error envelope: 501 /callout/user/unknown/mint/m (14.0906ms)
+✖ callout error envelope: 400 /callout/list/known?limit=0 (11.1207ms)
+✖ callout error envelope: 501 /callout/list/unknown (15.2921ms)
+✖ callout error envelope: 501 /callout/list/known?window=daily (11.1511ms)
+✖ callout error envelope: 501 /callout/missing?unsupported=1 (11.5289ms)
+✖ callout error envelope: 400 /callout/missing/replies?limit=0 (12.7481ms)
+✖ callout error envelope: 501 /callout/missing/replies (24.3033ms)
+✖ callout error envelope: 501 /callout/replies/missing/chain?unsupported=1 (11.9005ms)
+✖ callout error envelope: 501 /callout/replies/missing/chain (11.7755ms)
+✔ callout success envelope remains unchanged: /callout/missing (13.2974ms)
+✔ callout success envelope remains unchanged: /callout/list/known (11.8537ms)
+✔ callout success envelope remains unchanged: /callout/user/known/mint/m (12.0718ms)
+✔ callout API key rejection still precedes the native error path (11.9019ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 4
+ℹ fail 13
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 964.3002
+
+✖ failing tests:
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 400 /callout/user/known/mint/m?quotesLimit=0&quotesLimit=0 (57.3809ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 400
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 400,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 400 /callout/user/known/mint/m?quotesLimit=21 (20.8058ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 400
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 400,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/user/known/mint/m?unsupported=1 (14.8182ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/user/known/mint/m?quotesLimit=1 (14.5503ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/user/unknown/mint/m (14.0906ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 400 /callout/list/known?limit=0 (11.1207ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 400
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 400,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/list/unknown (15.2921ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/list/known?window=daily (11.1511ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/missing?unsupported=1 (11.5289ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 400 /callout/missing/replies?limit=0 (12.7481ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 400
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 400,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/missing/replies (24.3033ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/replies/missing/chain?unsupported=1 (11.9005ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\callout-error-envelope.test.ts:1:2587
+✖ callout error envelope: 501 /callout/replies/missing/chain (11.7755ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 501
+  
+      at TestContext.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-positions\app\packages\backend\test\callout-error-envelope.test.ts:51:14)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 501,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -21,6 +21,7 @@ export function registerCalloutRoutes(
         return reply
           .code(400)
           .send({
+            statusCode: 400,
             error: "BAD_REQUEST",
             reason: "CALLOUT_LOOKUP_QUERY_INVALID",
           });
@@ -28,6 +29,7 @@ export function registerCalloutRoutes(
         return reply
           .code(501)
           .send({
+            statusCode: 501,
             error: "COMPATIBILITY_NOT_IMPLEMENTED",
             reason: "CALLOUT_LOOKUP_QUERY_UNSUPPORTED",
           });
@@ -36,12 +38,14 @@ export function registerCalloutRoutes(
     if (!/^(0|[1-9]\d*)$/.test(limit) || Number(limit) > 20)
       return reply
         .code(400)
-        .send({ error: "BAD_REQUEST", reason: "CALLOUT_LOOKUP_QUERY_INVALID" });
+        .send({
+          statusCode: 400, error: "BAD_REQUEST", reason: "CALLOUT_LOOKUP_QUERY_INVALID" });
     // The materialization has no cross-chain resolver or complete reply-quote carousel.
     if (query.has("chain") || Number(limit) !== 0)
       return reply
         .code(501)
         .send({
+          statusCode: 501,
           error: "COMPATIBILITY_NOT_IMPLEMENTED",
           reason: "CALLOUT_LOOKUP_QUERY_UNSUPPORTED",
         });
@@ -61,6 +65,7 @@ export function registerCalloutRoutes(
       return reply
         .code(501)
         .send({
+          statusCode: 501,
           error: "COMPATIBILITY_NOT_IMPLEMENTED",
           reason: error.message,
         });
@@ -84,6 +89,7 @@ export function registerCalloutRoutes(
     } catch (error) {
       if (!(error instanceof CalloutListError)) throw error;
       return reply.code(error.status).send({
+        statusCode: error.status,
         error:
           error.status === 501
             ? "COMPATIBILITY_NOT_IMPLEMENTED"
@@ -102,6 +108,7 @@ export function registerCalloutRoutes(
       return reply
         .code(501)
         .send({
+          statusCode: 501,
           error: "COMPATIBILITY_NOT_IMPLEMENTED",
           reason: "CALLOUT_QUERY_UNSUPPORTED",
         });

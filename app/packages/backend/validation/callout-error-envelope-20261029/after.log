@@ -1,0 +1,25 @@
+✔ callout error envelope: 400 /callout/user/known/mint/m?quotesLimit=0&quotesLimit=0 (58.1883ms)
+✔ callout error envelope: 400 /callout/user/known/mint/m?quotesLimit=21 (20.1883ms)
+✔ callout error envelope: 501 /callout/user/known/mint/m?unsupported=1 (20.581ms)
+✔ callout error envelope: 501 /callout/user/known/mint/m?quotesLimit=1 (15.9463ms)
+✔ callout error envelope: 501 /callout/user/unknown/mint/m (14.4909ms)
+✔ callout error envelope: 400 /callout/list/known?limit=0 (10.5492ms)
+✔ callout error envelope: 501 /callout/list/unknown (13.0264ms)
+✔ callout error envelope: 501 /callout/list/known?window=daily (10.7708ms)
+✔ callout error envelope: 501 /callout/missing?unsupported=1 (10.6721ms)
+✔ callout error envelope: 400 /callout/missing/replies?limit=0 (12.7012ms)
+✔ callout error envelope: 501 /callout/missing/replies (11.1477ms)
+✔ callout error envelope: 501 /callout/replies/missing/chain?unsupported=1 (10.3447ms)
+✔ callout error envelope: 501 /callout/replies/missing/chain (19.2066ms)
+✔ callout success envelope remains unchanged: /callout/missing (12.1784ms)
+✔ callout success envelope remains unchanged: /callout/list/known (12.0019ms)
+✔ callout success envelope remains unchanged: /callout/user/known/mint/m (10.4967ms)
+✔ callout API key rejection still precedes the native error path (10.7726ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 917.2766

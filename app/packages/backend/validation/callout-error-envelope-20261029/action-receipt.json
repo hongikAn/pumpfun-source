@@ -1,0 +1,91 @@
+{
+  "recorded_at": "2026-10-29T14:36:40.551008+00:00",
+  "type": "Observable public action/result receipt, not private reasoning or a complete model transcript.",
+  "base_commit": "ef400863f4e476b2eaaab0866c0b1187d8060abc",
+  "cwd": "app/packages/backend",
+  "actions": [
+    {
+      "action": "Check original Error schema and operation response bindings",
+      "artifact": "source-proof.json"
+    },
+    {
+      "action": "Reproduce all eight missing-field send paths through thirteen ordinary local error requests",
+      "artifact": "before.log"
+    },
+    {
+      "action": "Add statusCode matching the unchanged HTTP status in the two native callout route modules",
+      "changed_files": [
+        "app/packages/backend/src/callouts-routes.ts",
+        "app/packages/backend/src/callout-discussions-routes.ts"
+      ]
+    },
+    {
+      "action": "Run direct regression plus affected callout read suites",
+      "artifacts": [
+        "after.log",
+        "focused.log"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "phase": "before",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "test/callout-error-envelope.test.ts"
+      ],
+      "exit_code": 1,
+      "tests": 17,
+      "pass": 4,
+      "fail": 13,
+      "log": "before.log"
+    },
+    {
+      "phase": "after",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "test/callout-error-envelope.test.ts"
+      ],
+      "exit_code": 0,
+      "tests": 17,
+      "pass": 17,
+      "fail": 0,
+      "log": "after.log"
+    },
+    {
+      "phase": "affected suites",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "test/callouts.test.ts",
+        "test/callout-list.test.ts",
+        "test/callout-user-mint.test.ts",
+        "test/callout-discussions.test.ts",
+        "test/callout-error-envelope.test.ts"
+      ],
+      "exit_code": 0,
+      "tests": 254,
+      "pass": 254,
+      "fail": 0,
+      "log": "focused.log"
+    }
+  ],
+  "final_source_test_sha256": {
+    "app/packages/backend/src/callouts-routes.ts": "8982dd9c7db9b4834a940a7fb580f4e70469dd912db705a933e57126007cf2e7",
+    "app/packages/backend/src/callout-discussions-routes.ts": "8cdd79cceaa3f185243c0a5e752c874115cad71e41cc2af8c075cbb8a0dc2866",
+    "app/packages/backend/test/callout-error-envelope.test.ts": "2ee9dab94b70abd8c76b0b4685d7e87b5eff9ed743f266cd36e8a3d71fa82088"
+  },
+  "limits": [
+    "Fastify local injection with explicitly synthetic immutable stores; no live production, real API credential, RPC, wallet signing or mutation.",
+    "No full workspace test suite, frontend runtime or production compatibility qualification.",
+    "Build/typecheck will be selected and recorded separately by the validation owner; these are focused test receipts only."
+  ]
+}

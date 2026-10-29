@@ -49,6 +49,7 @@ export function registerCalloutDiscussionRoutes(
         return reply
           .code(error.status)
           .send({
+            statusCode: error.status,
             error:
               error.status === 501
                 ? "COMPATIBILITY_NOT_IMPLEMENTED"
