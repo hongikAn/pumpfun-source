@@ -17,7 +17,10 @@ still authenticates those factories without executing any captured bundle.
 A companion TypeScript declaration types the new host; no generated adapter or
 provenance hash is changed.
 
-`LocalUserSearch` supplies a bounded timer and a first-page HTTP port. It honors
+`LocalUserSearch` supplies a bounded timer and a first-page HTTP port. A separate
+observer synchronizes the native dialog open attribute, including its initial
+state, and disconnects on unmount. The existing source-bound shortcut effect and
+its provenance fingerprint remain unchanged. The host honors
 query enablement, forwards the AbortSignal and request options to a same-origin
 local GET, runs the original non-OK response hook, validates the local projection,
 and applies the original selection. A new trimmed term immediately hides the

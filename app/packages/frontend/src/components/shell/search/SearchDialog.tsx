@@ -25,6 +25,16 @@ export function SearchDialog() {
   const [open, setOpen] = useState(false);
   const { closeMobile } = useSidebar();
   useEffect(() => {
+    const dialog = dialogRef.current;
+    if (!dialog) return;
+    // Observe the native state without changing the source-bound shortcut effect.
+    const syncOpen = () => setOpen(dialog.open);
+    const observer = new MutationObserver(syncOpen);
+    observer.observe(dialog, { attributes: true, attributeFilter: ["open"] });
+    syncOpen();
+    return () => observer.disconnect();
+  }, []);
+  useEffect(() => {
     // Clear already updated the input; its delayed URL commit must not erase
     // text entered since that click. Other navigation still follows the URL.
     const completedClear = pendingClear.current && currentQuery === "";
@@ -36,10 +46,7 @@ export function SearchDialog() {
     const open = () => {
       closeMobile();
       const dialog = dialogRef.current;
-      if (dialog && !dialog.open) {
-        dialog.showModal();
-        setOpen(true);
-      }
+      if (dialog && !dialog.open) dialog.showModal();
     };
     const toggle = () => {
       const dialog = dialogRef.current;
@@ -83,7 +90,6 @@ export function SearchDialog() {
   return (
     <dialog
       ref={dialogRef}
-      onClose={() => setOpen(false)}
       aria-label="Search for coins and users"
       onKeyDown={(event) => {
         if (event.key !== "Escape") return;
