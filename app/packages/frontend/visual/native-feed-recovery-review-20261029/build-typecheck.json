@@ -1,0 +1,42 @@
+[
+  {
+    "commit": "b5190a6e88b07e18ffe6bd8b8a92fcf00b12790d",
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "npx",
+      "--yes",
+      "pnpm@10.24.0",
+      "build"
+    ],
+    "cwd": "app",
+    "start": "2026-10-29T12:32:18.217595+00:00",
+    "end": "2026-10-29T12:32:38.205097+00:00",
+    "exit_code": 0,
+    "log": "build.log",
+    "environment": {
+      "python3": "local-tools/python3.cmd -> Python 3.12.10"
+    }
+  },
+  {
+    "commit": "b5190a6e88b07e18ffe6bd8b8a92fcf00b12790d",
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "npx",
+      "--yes",
+      "pnpm@10.24.0",
+      "typecheck"
+    ],
+    "cwd": "app",
+    "start": "2026-10-29T12:32:38.206096+00:00",
+    "end": "2026-10-29T12:32:45.544469+00:00",
+    "exit_code": 0,
+    "log": "typecheck.log",
+    "environment": {
+      "python3": "local-tools/python3.cmd -> Python 3.12.10"
+    }
+  }
+]

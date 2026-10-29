@@ -1,0 +1,9 @@
+{
+  "requests": [
+    "GET /services/frontend/home-feed/new?pageSize=3&pageToken=YWJj.ZGVm",
+    "GET /services/frontend/home-feed/new?pageSize=3",
+    "GET /services/frontend/home-feed/new/count?since=eyJ2IjoxLCJrIjoiaGVhZCJ9.head_signature",
+    "GET /services/frontend/home-feed/new?pageSize=3",
+    "GET /services/frontend/home-feed/new/count?since=eyJ2IjoxLCJrIjoiaGVhZCJ9.head_signature"
+  ]
+}

@@ -1,0 +1,50 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:44488) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\native-home-feed.spec.ts:231:7 › recovers backend-rejected newest cursors without switching ordering
+  1) tests\native-home-feed.spec.ts:231:7 › recovers backend-rejected newest cursors without switching ordering
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByRole('link', { name: 'Return to first local page' })
+    Expected: "/?tab=local-callouts&nativeView=newest"
+    Received: "/?tab=local-callouts&nativeView=ranked"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('link', { name: 'Return to first local page' }) with timeout 5000ms
+      - waiting for getByRole('link', { name: 'Return to first local page' })
+        14 × locator resolved to <a class="feed-state-link" href="/?tab=local-callouts&nativeView=ranked">Return to first local page</a>
+           - unexpected value "/?tab=local-callouts&nativeView=ranked"
+
+
+      233 |     await expect(page.getByTestId("native-feed-error")).toContainText("Local page cursor rejected");
+      234 |     const recovery = page.getByRole("link", { name: "Return to first local page" });
+    > 235 |     await expect(recovery).toHaveAttribute("href", "/?tab=local-callouts&nativeView=newest");
+          |                            ^
+      236 |     await expect(page.getByRole("link", { name: "Local newest" })).toHaveAttribute("aria-current", "page");
+      237 |     await setMode("normal");
+      238 |     await recovery.click();
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\native-home-feed.spec.ts:235:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-batch3-20261029\native-feed-recovery-before-artifacts\native-home-feed-recovers--70933--without-switching-ordering\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-batch3-20261029\native-feed-recovery-before-artifacts\native-home-feed-recovers--70933--without-switching-ordering\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-batch3-20261029\native-feed-recovery-before-artifacts\native-home-feed-recovers--70933--without-switching-ordering\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-batch3-20261029\native-feed-recovery-before-artifacts\native-home-feed-recovers--70933--without-switching-ordering\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\native-home-feed.spec.ts:231:7 › recovers backend-rejected newest cursors without switching ordering

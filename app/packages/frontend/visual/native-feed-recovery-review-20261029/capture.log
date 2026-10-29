@@ -1,0 +1,7 @@
+{"at":"2026-10-29T13:27:25.911Z","name":"start","mode":"1219","sourceHead":"b5190a6e88b07e18ffe6bd8b8a92fcf00b12790d","scope":"fresh review-response capture, not the earlier qualification run"}
+{"at":"2026-10-29T13:27:30.453Z","name":"cursor rejected; selected view retained","label":"backend-rejected","url":"http://127.0.0.1:3011/?tab=local-callouts&nativeView=newest&nativeCursor=YWJj.ZGVm","recoveryHref":"/?tab=local-callouts&nativeView=newest"}
+{"at":"2026-10-29T13:27:31.720Z","name":"recovered to first newest page","label":"backend-rejected","url":"http://127.0.0.1:3011/?tab=local-callouts&nativeView=newest","cards":3}
+{"at":"2026-10-29T13:27:33.484Z","name":"cursor rejected; selected view retained","label":"malformed","url":"http://127.0.0.1:3011/?tab=local-callouts&nativeView=newest&nativeCursor=not-a-cursor","recoveryHref":"/?tab=local-callouts&nativeView=newest"}
+{"at":"2026-10-29T13:27:34.734Z","name":"recovered to first newest page","label":"malformed","url":"http://127.0.0.1:3011/?tab=local-callouts&nativeView=newest","cards":3}
+{"at":"2026-10-29T13:27:34.749Z","name":"backend requests saved","requests":["GET /services/frontend/home-feed/new?pageSize=3&pageToken=YWJj.ZGVm","GET /services/frontend/home-feed/new?pageSize=3","GET /services/frontend/home-feed/new/count?since=eyJ2IjoxLCJrIjoiaGVhZCJ9.head_signature","GET /services/frontend/home-feed/new?pageSize=3","GET /services/frontend/home-feed/new/count?since=eyJ2IjoxLCJrIjoiaGVhZCJ9.head_signature"]}
+{"at":"2026-10-29T13:27:34.750Z","name":"pass","violations":[],"consoleErrors":[]}

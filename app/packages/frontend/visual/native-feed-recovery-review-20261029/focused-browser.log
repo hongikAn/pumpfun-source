@@ -1,0 +1,20 @@
+
+Running 12 tests using 1 worker
+
+
+
+(node:24192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/12] tests\native-home-feed.spec.ts:41:5 › keeps the offline post feed as the default opt-in landing state
+[2/12] tests\native-home-feed.spec.ts:51:5 › renders validated local callouts without browser-side backend traffic
+[3/12] tests\native-home-feed.spec.ts:82:5 › supports ranked pagination and browser history with opaque cursors
+[4/12] tests\native-home-feed.spec.ts:108:5 › keeps newest pagination separate and binds count to the exact head token
+[5/12] tests\native-home-feed.spec.ts:129:5 › fails closed for unavailable, unproven and malformed local responses
+[6/12] tests\native-home-feed.spec.ts:148:5 › renders an explicit empty local result without inventing records
+[7/12] tests\native-home-feed.spec.ts:159:5 › rejects malformed and backend-invalid cursors without request loops
+[8/12] tests\native-home-feed.spec.ts:183:5 › retains Following and keyboard-accessible local navigation
+[9/12] tests\native-home-feed.spec.ts:199:5 › keeps local callout cards responsive across required viewports
+[10/12] tests\native-home-feed.spec.ts:231:7 › recovers backend-rejected newest cursors without switching ordering
+[11/12] tests\native-home-feed.spec.ts:231:7 › recovers malformed newest cursors without switching ordering
+[12/12] tests\native-home-feed.spec.ts:266:5 › ambiguous or unknown local ordering still recovers to ranked
+  12 passed (34.5s)

@@ -1,0 +1,10 @@
+▲ Next.js 16.4.1 (webpack)
+- Local:         http://127.0.0.1:3011
+- Network:       http://127.0.0.1:3011
+✓ Ready in 533ms
+✓ Running next.config.ts took 53ms
+
+ GET /?tab=local-callouts&nativeView=newest&nativeCursor=YWJj.ZGVm 200 in 544ms (next.js: 221ms, application-code: 323ms)
+ GET /?tab=local-callouts&nativeView=newest 200 in 60ms (next.js: 4ms, application-code: 56ms)
+ GET /?tab=local-callouts&nativeView=newest&nativeCursor=not-a-cursor 200 in 75ms (next.js: 2ms, application-code: 73ms)
+ GET /?tab=local-callouts&nativeView=newest 200 in 39ms (next.js: 2ms, application-code: 37ms)
