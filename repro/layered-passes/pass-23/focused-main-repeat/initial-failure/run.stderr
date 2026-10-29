@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/fees-focused-authorize-main/validation-layer/harness/fees_donation_business_differential.py", line 134, in <module>
-    if __name__=='__main__': main()
-                             ~~~~^^
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/fees-focused-authorize-main/validation-layer/harness/fees_donation_business_differential.py", line 37, in main
-    assert observed == approved, 'Source differs from the explicitly pinned reviewed proposal'
-           ^^^^^^^^^^^^^^^^^^^^
-AssertionError: Source differs from the explicitly pinned reviewed proposal

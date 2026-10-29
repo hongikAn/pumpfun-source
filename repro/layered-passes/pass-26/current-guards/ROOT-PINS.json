@@ -1,9 +1,0 @@
-{
-  "root_reviewed_final": true,
-  "acceptance_capsule_sha256": "77abefd0a1624d3bb2df53fb27f6879d7b85aa0568d72063b360c81526b5c00c",
-  "accepted_selection_seal": "11367fcbd6eedcafb51697d6183dc88ba2a1d8a2bb54b3f8a372cb18f9dca7ea",
-  "accepted_public_seal": "422a6589111b00a2d04e0be10ee52575ef6d1254975cea0b395de0fbdc2851d4",
-  "reason": "Explicit root-authorized finalization after actual coherent selection commit and after docs/workflow/attributes reconciliation.",
-  "accepted_public_crypto_script_sha256": "5d839d4d7e1c2bf1940722ed5f2e09fc74bba510c5256744732d3770dc0d0edb",
-  "accepted_selection_commit": "c5e3acdcc638dcc8591db2510a21665140cbd0a7"
-}

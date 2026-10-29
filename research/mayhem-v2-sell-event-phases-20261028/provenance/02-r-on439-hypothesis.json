@@ -1,7 +1,0 @@
-{
-  "hypothesis": "Rebase only the two archived R V2 source files onto exact qualified439; preserves a separate base for new controls.",
-  "source_paths": [
-    "src/instructions/buy_v2.rs",
-    "src/instructions/pump_interface_v2.rs"
-  ]
-}

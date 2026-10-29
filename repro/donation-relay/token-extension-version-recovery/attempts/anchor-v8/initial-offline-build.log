@@ -1,6 +1,0 @@
-error: no matching package named `regex` found
-location searched: crates.io index
-required by package `anchor-lang-idl v0.1.4`
-    ... which satisfies dependency `anchor-lang-idl = "^0.1.2"` of package `anchor-lang v0.31.1`
-    ... which satisfies dependency `anchor-lang = "=0.31.1"` of package `donation-relay-source-proposal v0.1.0 (/Users/shawwalters/.codex/worktrees/pr-queue-review/pumpfun-source/work/relay-residual-20261026/source-anchor-v8)`
-As a reminder, you're using offline mode (--offline) which can sometimes cause surprising resolution failures, if this error is too confusing you may wish to retry without the offline flag.

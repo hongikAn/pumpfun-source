@@ -1,5 +1,0 @@
-{
-  "returncode": 1,
-  "failure": "macOS tempfile /var ancestor is symlink; strict no-links correctly rejected test path",
-  "correction": "resolve synthetic temp root to physical/private/var; real guards unchanged"
-}

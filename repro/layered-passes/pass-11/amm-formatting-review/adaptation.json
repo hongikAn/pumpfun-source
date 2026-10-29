@@ -1,8 +1,0 @@
-{
-  "original_manifest_sha256": "79ca124eed800a3c3dd1bf2885b213584bb8a1e978c8eb528f59e9f49a0d72f2",
-  "changes": [
-    "Explicit --repo and package-relative working directory",
-    "Exact manifest and payload checks"
-  ],
-  "core_static_assertions_unchanged": true
-}

@@ -1,5 +1,0 @@
-{
-  "harness_bindings": "44 recorded baseline paths map to 42 current public paths. All original cases and controls remain.",
-  "negative_test_scope": "Only missing copied candidate and changed copied source; no binary-byte mutation.",
-  "scratch_manifest_sha256": "998740bf13a64c32deeca43f2121b7e6ac3fd802096536e8e197d41e140b6135"
-}

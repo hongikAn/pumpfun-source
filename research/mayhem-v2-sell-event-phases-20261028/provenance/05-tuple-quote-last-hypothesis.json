@@ -1,7 +1,0 @@
-{
-  "hypothesis": "Keep the original R scalar branch grouping, move only the Pubkey result out of its 12-field tuple to a late key expression, and use03 final store ordering. This separates tuple key lifetime from scalar branch topology while preserving native-accounting behavior.",
-  "source_paths": [
-    "src/instructions/buy_v2.rs",
-    "src/instructions/pump_interface_v2.rs"
-  ]
-}

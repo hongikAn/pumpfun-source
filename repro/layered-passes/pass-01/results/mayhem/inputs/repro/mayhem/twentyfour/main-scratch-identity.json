@@ -1,8 +1,0 @@
-{
-  "whole_file_equal": true,
-  "candidate_sha256": "9e4e19dfb3b3fefbec13ecfc0d43ffd2ff0bea7b74ac7b2fe14126d23c79c05b",
-  "bytes": 667552,
-  "scratch_build": "work/mayhem-pump-swap-followup/build-02/build-comparison.json",
-  "main_build": "repro/mayhem/twentyfour/build-comparison.json",
-  "source_comment_rebind": "Only leading draft description replaced in buy/sell PumpSwap module; same line counts. Full clean executable identity confirmed."
-}

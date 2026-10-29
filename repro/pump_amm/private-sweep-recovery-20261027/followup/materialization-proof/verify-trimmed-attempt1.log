@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-checkpoint-materialization-review-20261027/verify_trimmed.py", line 12, in <module>
-    for field,expected in value.items():assert reference[field]==expected,(key,field,reference.get(field),expected)
-                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: ('expanded', 'buyback_cases', 72, 24)

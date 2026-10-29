@@ -1,9 +1,0 @@
-# Independent static review of Linux controller v2a
-
-Authenticated all304 payloads of immutable461e157f97bb9179bfb7b885f68710dc47121d14fc8306a07b5e70ac3502709d, controllerf672b9b3dbc193c5afbefd500cbe391f17d4995876493a35bc32ba9e2b9877ac. R1–R5 repairs are present and their27 saved helper cases have actual exit0/empty stderr. The1197-byte saved JSON matches receiptSHA1e88d6c932d7256be2c070cdba0b14fe667278543c317e878b374a064090ce42. Tests ran against v2; v2a preserves the exact controller/test bytes and repairs only the separate static verifier. The independent reviewer read the tests but did not execute them.
-
-All source23/282c input bytes and workflowff9dcaec remain unchanged. Authority_guard, Attempt, safe_extract, other untouched functions and all controller constants are AST-identical to v1. The authority schema changes only the exact controller hash. Execute's explicit run argv nodes remain identical. No source/target/profile/feature/remap/one-attempt/authority weakening was found in the reviewed deltas. Static helper results are not network/compiler/Linux measurement evidence.
-
-A remaining concrete inherited-config execution path was reported to root and AME: HOME inheritance exposes user Git configuration, while head/status commands lack Git-specific isolation. Git status can invoke configured fsmonitor or clean-filter helpers. Root assigned a fresh successor;461e remains immutable and uninstalled. R6-Git-configuration-constraint.json specifies closure and negative cases, including Gitdir/info attributes/local config indirection and avoiding credential leakage. This is a reachable configuration path, not an observed hosted failure.
-
-No controller/helper-test/adapter/compiler/VM/network/dispatch or active source/script/CI/Git mutation was performed by this reviewer. Review of the successor will use only its completed seal after AME supplies it.

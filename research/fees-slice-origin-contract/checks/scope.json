@@ -1,8 +1,0 @@
-{
-  "checkout": "32f9d8dbb2f898a55e8de182b3623b523a17b4c6",
-  "metadata": "repro/layered-passes/pass-27/current-metadata",
-  "source_selection_promoted": false,
-  "later_research_branch_guard_pass_claimed": false,
-  "missing_assets_restored_from_git_blobs": true,
-  "no_guard_rule_weakened": true
-}

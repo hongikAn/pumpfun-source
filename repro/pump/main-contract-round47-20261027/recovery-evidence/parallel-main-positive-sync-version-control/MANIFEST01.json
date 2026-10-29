@@ -1,9 +1,0 @@
-{
-  "status": "two_historical_controls_matched_predicted_missing_sync",
-  "new_distinct_case_count": 0,
-  "files": {
-    "run_control.py": "2b42d365d627de47e5ecb9aaf780477063bc88e9c9b193a81c45176c5152cba2",
-    "run01.log": "3e202ac1ed0be274011838742f8a437d23160816636e72482643d59548be5c4c",
-    "RESULT01.json.gz": "d88f69fbda3db89ff2753d28b2de248c16cb3907a085da9b892eef840b85d8ea"
-  }
-}

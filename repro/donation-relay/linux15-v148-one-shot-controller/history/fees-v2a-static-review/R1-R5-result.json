@@ -1,9 +1,0 @@
-{
-  "R1": "PASS static: HOME inherited byte-for-byte in all child environments; task home removed",
-  "R2": "PASS static: streamed body/partial/IncompleteRead retention, complete gate before release parse",
-  "R3": "PASS static: reject registry containers/members/specials before regular nofollow hashes",
-  "R4": "PASS static: canonical approved namespace/package/member/hash and separate generated source scope",
-  "R5": "PASS static: curl -q first; inherited curl/proxy/cert env rejected",
-  "remaining": "R6 Git configuration inheritance must be closed in a fresh immutable successor; root has assigned repair",
-  "no_measured_recipe_or_Linux15_result_claimed": true
-}

@@ -1,5 +1,0 @@
---- control/lib.rs
-+++ optional/lib.rs
-@@ -174 +174 @@
--    pub fn get_fees(ctx: Context<GetFees>, is_pump_pool: bool, market_cap_lamports: u128, trade_size_lamports: u64, is_new_quote_mint: OptionBool) -> Result<Fees> { let config = &ctx.accounts.fee_config; if !is_pump_pool { return Ok(config.flat_fees.clone()); } Ok(select_fee_tier(if is_new_quote_mint.0 { &config.stable_fee_tiers } else { &config.fee_tiers }, market_cap_lamports)) }
-+    pub fn get_fees(ctx: Context<GetFees>, is_pump_pool: bool, market_cap_lamports: u128, trade_size_lamports: u64, is_new_quote_mint: OptionBool) -> Result<Fees> { let config = &ctx.accounts.fee_config; let fees = if !is_pump_pool { config.flat_fees.clone() } else if is_new_quote_mint.0 { select_fee_tier(&config.stable_fee_tiers, market_cap_lamports) } else { select_fee_tier(&config.fee_tiers, market_cap_lamports) }; Ok(fees) }

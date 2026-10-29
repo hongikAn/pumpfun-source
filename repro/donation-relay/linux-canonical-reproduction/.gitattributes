@@ -1,2 +1,0 @@
-# Preserve terminal control characters in the original build/setup logs.
-*.log -whitespace

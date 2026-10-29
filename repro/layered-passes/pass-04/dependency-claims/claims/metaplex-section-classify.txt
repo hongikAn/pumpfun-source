@@ -1,4 +1,0 @@
-diffs per section:
-  .text                1477 bytes   range 0x3a4d2-0x3b042
-  .data.rel.ro         30 bytes   range 0x9edd8-0x9fac8
-  .rel.dyn             2 bytes   range 0xa3f80-0xa3f90

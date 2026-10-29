@@ -1,9 +1,0 @@
-{
-  "preserved_v4_seal": "5f3907302fa99c4257e89cfb17aff45cd0d790df51fc642317aeed35d52475ee",
-  "E299_seal": "e299855a87efe5770e3a22033c37bb969557854ea289fd8d231726c7bad15037",
-  "new_global_command": "python -B repro/layered-passes/pass-25/verify_pass.py --repo . --relay-python python --runtime-signatures",
-  "global_command_count": 1,
-  "global_invoked_by_current_reconciliation": false,
-  "direct_catalogue_current_guards_policy": "integrity-only; no commands, independently enforced by metadata verifier v2",
-  "new_builds_VM_cases_fixtures": 0
-}

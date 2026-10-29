@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/fees/verify.py", line 39, in <module>
-    if args.current_main:assert H(args.current_main/n)==h,n
-                                ^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: programs/pump-fees/src/sharing.rs

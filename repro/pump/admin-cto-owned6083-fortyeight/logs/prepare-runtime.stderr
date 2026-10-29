@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-admin-cto-owned6083-build/prepare_runtime.py", line 18, in <module>
-    for n,h in i[group].items():assert H(R/n)==h,(group,n)
-                                       ^^^^^^^^^
-AssertionError: ('harness_sha256', 'scripts/verify_recovered_builds.py')

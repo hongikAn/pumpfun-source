@@ -1,5 +1,0 @@
---- dispatch-order/lib.rs
-+++ declaration-lines/lib.rs
-@@ -1,2 +0,0 @@
--//! Partial reconstruction: all thirty-one instruction bodies implemented with bounded validation.
--//! It is not the deployed program source.

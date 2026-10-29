@@ -1,9 +1,0 @@
-# Pump admin-CTO owned6083 scratch checkpoint
-
-One reviewed guard-only source correction on accepted c261 baseline. Candidateffa0f3bab34b8cfca6d6aeef5e6b8dcabad0a16eccfeb3d22d5781e22ae3b193 (1581624B), symbols964c06b5bfa5611f7297a590e53edce44cd38372661ad3bd231e6bc1805496a4. Exact name/message and160Bowned AnchorError replace128Bgeneric ProgramError for6083; truthful current Source103 differs from original289. Full original executable equality remains false.
-
-See STATIC-REVIEW.md, approved-proposal/REVIEW.md, owned-static/acceptance.json and owned-coverage-review.json. Full raw1035/780function/call/data and complete byte residuals retained. Runtime receipts and saved signatures are the unchanged permitted9269+1024 corpus; no new fixtures/probes. Initial static runtime-preparation hash failure and root-approved single orchestration hash refresh are preserved, not hidden. No target rebuild/retry occurred.
-
-Portable verify.py checks strict cache-free manifest, source37, recorded build gates, all1815rawfunction hashes and68saved receipt/signature bindings. --current-main PATH additionally checks baseline sources. It performs no signing/network/VM/build. Later main integration requires root approval.
-
-Recorded integrity limit: both differential and Surfpool orchestrators exited1 at their final global check because the build helper changed concurrently. All target child suites exited0 and saved signatures/effects passed. The frozen build passed old-helper before/after gates. Root-reviewed explicit-version AST equivalence proof seal `eb9173e77c85d1b5e55c8556b52e002ad655e5abe3b8a430a13e5a7fe7cb3223` admits only exact old→current helper transition with explicit nonempty v1.44/v1.52; all other inputs were rechecked. This is not a blanket whole-integrity PASS; no runtime rerun occurred.

@@ -1,8 +1,0 @@
-{
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "work/amm-claim-overflow-order-build/publication/candidate.so": "eeca5a51c40489452a71b698e7d7ff5bf3cc6c5002659807133907a4cb5eb5e8",
-  "work/amm-claim-overflow-order-build/publication/unstripped.so": "1d806ab8ec2d0e9bbac9e6a07c12cda8f03f21d05f59916b3384a8ddd350b785",
-  "work/amm-claim-overflow-order-build/publication/inventory/after/residual-ledger.json.gz": "425597e9f684aa2782273496c5967459631eacafaef29f81b8fae1e30a9b0580",
-  "work/amm-claim-overflow-order-build/publication/source/programs/pump-amm/src/incentives.rs": "e697022632e35e6555926824a4842c9f3a8579aa7c76d88d886085a0fe8e8a75",
-  "work/amm-claim-overflow-order-build/publication/source/programs/pump-amm/src/lib.rs": "cff257b40ac9dc2c1a609532d52d9f54b9fae4724b256949f7115cba76406dea"
-}

@@ -1,8 +1,0 @@
-{
-  "selected_toolchain": "bpf",
-  "installed_toolchains": "bpf\n1.59.0-x86_64-unknown-linux-gnu (default)",
-  "selected_rustc_path": "/usr/local/rustup/toolchains/bpf/bin/rustc",
-  "selected_rustc_resolved": "/root/.cache/solana/v1.27/bpf-tools/rust/bin/rustc",
-  "selected_rustc_sha256": "1f070433db37406c128936f1b5baa734a7d4f4c94c6db31d07b890a649ed7a39",
-  "selected_rustc_version": "rustc 1.59.0-dev\nbinary: rustc\ncommit-hash: unknown\ncommit-date: unknown\nhost: x86_64-unknown-linux-gnu\nrelease: 1.59.0-dev\nLLVM version: 13.0.0"
-}

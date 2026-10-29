@@ -1,8 +1,0 @@
-{
-  "first_packaging_returncode": 1,
-  "cause": "Driver stdout was empty at prebuild snapshot and filled only after successful build/identity verification. No source, compiler input, dependency, or build helper changed.",
-  "recorded_initial_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "final_driver_stdout_sha256": "9e49ea73a6e8fa4d3ac6a2c19b0e103bb98752780168f0aebea9429142666cbb",
-  "snapshot_handling": "Archive contains explicitly reconstructed empty driver output matching the observed prebuild digest. Final driver output retained separately.",
-  "build_repeats": 0
-}

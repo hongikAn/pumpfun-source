@@ -1,5 +1,0 @@
-{
-  "scope": "Ordered Program log and Program data messages across all invocation depths; compute-use and runtime invocation bookkeeping excluded.",
-  "case_count": 363,
-  "mismatches": []
-}

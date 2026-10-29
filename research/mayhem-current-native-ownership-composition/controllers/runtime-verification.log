@@ -1,1 +1,0 @@
-{'cases': 486, 'successes': 187, 'rejections': 299, 'verified_signed_records': 972, 'raw_log_differences': 339, 'noncompute_log_differences': 0, 'scope': 'Fresh Legacy Buy corpus on the composed current-source artifact only. No fresh AMM/initializer/Burn/sweep or actual CPI-error-callback execution claim.'}

@@ -1,6 +1,0 @@
-{
-  "base_candidate": "3fcae02128464717b29a0b3842fbba993d5d0befb4362c4094c8af8e32a8589d",
-  "candidate": "7f501a865b83cf1dfbc4072191967162c700d3e7e487d2f6400e8d230f15ca62",
-  "scope": "Reserved account validation, original arithmetic boundaries, claim transfer and evidence-backed InitBoost source organization.",
-  "combined_patch_sha256": "e6a5d6066716c28bd9bafe104ef3d9a8bc3615616626cb892e196228995de4d8"
-}

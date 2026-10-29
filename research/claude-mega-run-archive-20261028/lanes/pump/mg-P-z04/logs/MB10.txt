@@ -1,1 +1,0 @@
-MB10: FAIL None 0 None None G None L None RL None ['error[E0308]: mismatched types', 'error[E0716]: temporary value dropped while borrowed', 'error: could not compile `pump-recovered` (lib) due to 2 previous errors; 64 warnings emitted']

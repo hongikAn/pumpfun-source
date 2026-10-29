@@ -1,9 +1,0 @@
-from pathlib import Path
-import json,gzip,hashlib,collections,subprocess
-R=Path.cwd();W=Path(__file__).resolve().parent;P=R/'work/amm-sync-log-build/publication';L=json.load(gzip.open(P/'inventory/after/residual-ledger.json.gz'));H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();roots={'original':0x5dc20,'candidate':0xaf120};targets={};records={}
-for side,a in roots.items():
- rows={r['start']:r for r in L[side]};root=rows[a];rs=[root,*[rows[x['target']]for x in root['direct_calls']]];records[side]=list({r['start']:r for r in rs}.values());targets[side]=collections.Counter(r['normalized_sha256']for r in rs[1:]);d=W/side;d.mkdir(exist_ok=True)
- for r in records[side]:
-  f=R/'evidence/original/pump_amm/deployed.so'if side=='original'else P/'unstripped.so';z=subprocess.run(['/Users/shawwalters/.cache/solana/v1.54/platform-tools/llvm/bin/llvm-objdump','-d','--start-address='+str(r['start']),'--stop-address='+str(r['end']),str(f)],capture_output=True);assert z.returncode==0;(d/(hex(r['start'])+'.asm')).write_bytes(z.stdout)
-(W/'rows.json').write_text(json.dumps(records,indent=2)+'\n');assert targets['original']==targets['candidate'];(W/'call-multiset.json').write_text(json.dumps({'normalized_callee_body_multiset_equal':True,'callsite_count_each':10,'original':dict(targets['original']),'candidate':dict(targets['candidate']),'scope':'Does not assert callsite ordering, argument equality, recursive/data closure or whole-body identity.'},indent=2)+'\n')
-(W/'source.rs').write_bytes((P/'source/programs/pump-amm/src/incentives.rs').read_bytes());files=[R/'evidence/original/pump_amm/deployed.so',P/'candidate.so',P/'unstripped.so',P/'source/programs/pump-amm/src/incentives.rs',P/'inventory/after/residual-ledger.json.gz',P/'nochange-log-verification.json'];(W/'bindings.json').write_text(json.dumps({str(f.relative_to(R)):H(f)for f in files},indent=2)+'\n');(W/'accepted-nochange-check.json').write_bytes((P/'nochange-log-verification.json').read_bytes())

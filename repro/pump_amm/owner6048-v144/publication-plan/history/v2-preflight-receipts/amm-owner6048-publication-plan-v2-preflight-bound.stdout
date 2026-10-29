@@ -1,8 +1,0 @@
-{
-  "status": "PASS_UNEXECUTED_PUBLIC_ASSEMBLER_WITH_ACTUAL_MAIN_BINDING",
-  "compiler_VM_runs": 0,
-  "publication_assembled": false,
-  "actual_main_root_terminal_exit": 0,
-  "actual_main_after_gates": 11,
-  "maximum_physical_payload_bytes": 67108864
-}

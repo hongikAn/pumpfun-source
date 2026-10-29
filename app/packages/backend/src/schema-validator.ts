@@ -99,6 +99,7 @@ function resolveRef(ref: string, root?: SchemaRoot): SchemaNode | undefined {
   let node: unknown = root;
   let pointer: string;
   try { pointer = decodeURIComponent(ref.slice(1)); } catch { return undefined; }
+  if (pointer === '') return root as SchemaNode;
   if (!pointer.startsWith('/')) return undefined;
   for (const rawPart of pointer.slice(1).split('/')) {
     if (/~(?![01])/.test(rawPart)) return undefined;
@@ -165,7 +166,7 @@ export function validateAgainstSchema(
       issues.push({ path, message: matches === 0 ? 'value matched none of the oneOf branches' : 'value matched multiple oneOf branches' });
     }
   }
-  if (schema.anyOf && schema.anyOf.length > 0) {
+  if (schema.anyOf) {
     const passed = schema.anyOf.some(branch => validateAgainstSchema(value, branch, path, root).length === 0);
     if (!passed) issues.push({ path, message: 'value matched none of the anyOf branches' });
   }

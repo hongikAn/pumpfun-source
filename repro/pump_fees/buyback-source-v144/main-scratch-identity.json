@@ -1,9 +1,0 @@
-{
-  "main_binary_sha256": "f7697d83d22f2fa812bcdc5667399fb4c859d866f24d01c583f2b87c311ecbfb",
-  "scratch_binary_sha256": "f7697d83d22f2fa812bcdc5667399fb4c859d866f24d01c583f2b87c311ecbfb",
-  "main_bytes": 768976,
-  "byte_equal": true,
-  "main_source_manifest": "source-sha256.json",
-  "scratch_build": "scratch/typed-macro-box/build-comparison.json",
-  "scope": "Exact whole-ELF identity allows runtime receipts from the scratch candidate to apply to the clean main build. This is not equality with the captured program."
-}

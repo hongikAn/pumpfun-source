@@ -1,6 +1,0 @@
-{
-  "source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/parallel-main-create-context/source-metadata-program",
-  "base_create_sha256": "48aa7f67be8b02895290fc1a5961d0c0cb4c690065d58128a63551bd99ed27e1",
-  "create_sha256": "addab08015bc25437db83ae69ad350ff4290239532c662f4d0b87111f7c9b280",
-  "hypothesis": "Use existing Anchor SPL Metadata program type in place of local Id marker; same on-chain program ID and constraints."
-}

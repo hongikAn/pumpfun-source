@@ -1,9 +1,0 @@
-{
-  "README.md": "f2a0b48731e852f462df5139edab6687d064d2e5e9459043522a9656021693cc",
-  "helpers.py": "e0ab43abe905ba6df26b53ed95ff99f9e6c2d852aaae7d85fbff3bdb72c269f8",
-  "live-finalized-configs.json": "a3e86832114804163911f62013e061f6686a7f17b1b45726dffeb6bed0cbeaf2",
-  "offline-init-and-query.json": "283ce63c6562e7e8fa6a442dfa13882512d54be5d97e2b52793436ac53634e40",
-  "programdata-head-check.json": "07d1395142df5082bfab0d56c8c17014d9c6a2c83e5a97518b44b9dd65035bfe",
-  "replay.py": "45a4e07f0f0e5b05957d930bf613be5c7993f66e16b6783807efa5ba0c62266d",
-  "verify.py": "b700e20867c8e6b72ba7bf4e82d976e74c6f61472d742d6c9f33203a1f809d00"
-}

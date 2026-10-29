@@ -1,3 +1,0 @@
-03:38 c5 N=988 R=166 gains=[] losses=[] rawg=[] rawl=[] valid=True t=27.2
-0x138b20 11928B -- ratio=0.2935 cand=11296B@0x1551a8 diffslots=1474 pump_recovered::pump_recovered::create
-0x13b9b8 15480B -- ratio=0.1487 cand=17960B@0x33978 diffslots=3178 pump_recovered::buy_v2::buy_handler

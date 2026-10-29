@@ -1,5 +1,0 @@
-export function getBuybackFeeRecipient(globalConfig: GlobalConfig): PublicKey {
-  return globalConfig.buybackFeeRecipients[
-    Math.floor(Math.random() * globalConfig.buybackFeeRecipients.length)
-  ];
-}

@@ -1,8 +1,0 @@
-{
-  "registry_packages": 252,
-  "reverified_files": 14281,
-  "lock_sha256": "486cbaa1eab7a945e849df5f72ca7c1e0b172ab8a17a1cd7a353fde123a84e95",
-  "all_prior_hashes_match": true,
-  "cargo_home": "work/fees-v144-cargo-home",
-  "scope": "Read-only observed cached archive/expanded-source closure; no fetch/compiler/runtime execution."
-}

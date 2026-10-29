@@ -1,9 +1,0 @@
-{
-  "programs/pump-amm/src/lib.rs": "c3f981d5d17057eeb951a41fcd8a244b95151b057efcbb37f00400ef4319e6ba",
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "repro/pump_amm/destination-rent-v144/candidate.so": "2a8a69f1e2f91f470b9742fe1c7caa129fa9ea126d54588473e8e3d490b7e706",
-  "repro/pump_amm/destination-rent-v144/unstripped.so": "3208594d62e12b12399a3a574491cc86893021547dae475d584dba49087d560c",
-  "repro/layered-passes/pass-02/after-fixes/ledgers/amm/after/residual-ledger.json.gz": "46a8066b62682e9f340fd9b9c75a37a22a4bac6b486d0064c8becdfc371b0cfc",
-  "evidence/upstream/pump_amm.json": "b7d8c57a4d9c4dd0109a9ab893052352333252d4eedced10ac091d4d66cab89b",
-  "programs/pump-amm/src/state.rs": "32b73eee0e2bcb25aff69391e9e3283e3b785dd18e591132d940aa462793a75e"
-}

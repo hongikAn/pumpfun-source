@@ -1,5 +1,0 @@
-{
-  "analysis": "First complete verifier incorrectly assumed ELF symbol iteration order for the two extra functions. Sorted by actual start address, retaining both original artifacts and the failure log.",
-  "manifest": "First sealing command accidentally excluded every basename manifest.json, omitting the retained upstream manifest. Two replay tests rejected this; sealing now excludes only the root packet manifest. Ten other counterexample tests passed in that run.",
-  "compiler_failures": "No failed native compilation in this packet. The initial linker-member binding rejection occurred before compilation and is separately retained."
-}

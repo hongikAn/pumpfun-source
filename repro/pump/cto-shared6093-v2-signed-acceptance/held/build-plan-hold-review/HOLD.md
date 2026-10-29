@@ -1,9 +1,0 @@
-# HOLD — source-readiness approval withdrawn
-
-The earlier PASS records integrity/controller/source-delta checks but missed an empty-account semantic boundary. It is preserved as historical evidence and MUST NOT be used as approval to execute plan8d378/source66. No attempt claim/output existed when this hold was written.
-
-Existing authenticated363-case receipt ec1c1e contains stable-6: shared holder/new-none, nonnative quote, no source token-account patch, creator_vault_quote_token_account=null before execution, original and6e both errorNone. The new source66 calls token_raw_amount unconditionally in the later nonnative shared route, while that current helper immediately deserializes and has no empty-neutral return. This can turn the retained success into a decode error. No new target execution is required to identify the source mismatch risk.
-
-The already admitted original169712 helper first calls empty-data1715000 at169736. Its empty branch169976 writes success tag2 and169984 amount0, then exits170152. The already admitted frozen169240 helper likewise returns success/false for empty at169504/169512. The original later caller invokes raw then frozen, preserving both helper calls and their possible error/read behavior. The proposal substitutes stricter existing helpers, so direct call-name analogy was insufficient. This review did not adequately flag it initially.
-
-Root held the plan before execution and the SDK agent is preparing a separately sealed successor. Restore empty-neutral behavior only under a reviewed scoped source composition; do not change prior tests/assertions, force coordinates, bypass headers or claim full alias/ABI equivalence. Shared guard fixes and zero gates remain useful hypotheses, but the immutable8d plan must stay unexecuted. Existing f5/ff7/8d source/material receipts remain unchanged.

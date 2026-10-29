@@ -1,7 +1,0 @@
-{
-  "composition": "repro/pump/buy-v3-authentic-partial-composition",
-  "event": "repro/pump/buy-v3-source-composition/prior/pump_buy_event_field_closure",
-  "parser": "repro/pump/buy-v3-typed-parser-contract",
-  "settlement": "work/cli-swarm-2026-10-25/pass04_buy_settlement/publication",
-  "quote": "work/cli-swarm-2026-10-25/pass04_buy_quote_vaults/public"
-}

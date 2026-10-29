@@ -1,8 +1,0 @@
-{
-  "commit": "c1ffdd0667608d4755227e68aab9f27a7e9a0d37",
-  "git_path": "evidence/original/pump_fees/deployed.so",
-  "git_blob_sha1": "e330cbb6dfbc3351dbaaf594ba6e873d89af5f5e",
-  "sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
-  "bytes": 948944,
-  "retained_path": "layer01/inputs/original.so"
-}

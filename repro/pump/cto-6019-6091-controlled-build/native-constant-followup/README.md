@@ -1,5 +1,0 @@
-# Evidence-directed native constant correction, unbuilt
-
-The first controlled two-guard candidate f2901021 emits a real call at444120 to Pubkey::from_str_const1401320 before the explicit-WSOL comparison at444152. Original source proof uses a direct32-byte WSOL literal with no corresponding conversion. This proposal replaces only the6091 guard expression with the already resolved SPL Token native_mint::ID constant. Existing baseline Pump modules use that exact constant API; no dependency/profile/version changes are proposed. The account constraint macro and other code remain unchanged.
-
-This is a separately reviewed source refinement, not a retry of the consumed oneattempt controller. Source37 remains isolated, the two named guard recoveries remain,6092 stays unchanged. No build or callable acceptance is claimed. A separately pinned controller must be reviewed before another native build. Actual emitted literal/call removal must be checked, not assumed; path/origin/cleanup mismatch remains.

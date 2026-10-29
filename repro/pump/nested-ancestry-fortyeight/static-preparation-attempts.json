@@ -1,5 +1,0 @@
-{
-  "attempt01": "Serializer recomputed PASS. Depth script failed before comparison because fresh-walk.asm had not yet been generated in the new main work directory.",
-  "repair": "Generated fresh read-only llvm-objdump output from exact main symbol ELF; unchanged depth script then passed. No source/build/runtime changes.",
-  "objdump_sha256": "24f83fd4c314fdc358920bf9936261985b8c39266f1ba7d556716c9dec1d24f9"
-}

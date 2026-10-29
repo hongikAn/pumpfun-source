@@ -1,9 +1,0 @@
-{
-  "same_v153_legacy_and_supported_target_spec": true,
-  "v152_v153_V0_linker_script_identical": true,
-  "V0_linker_script_sha256": "5e8370b9380f55411d827721e2e43c8cfd1eac71d1383e20b938397bc0bd82c3",
-  "v153_features": "",
-  "v152_source_v0_features": "+store-imm,+jmp-ext",
-  "intrinsic_stock_target_features_changed": true,
-  "scope": "Aliasadaptationequivalentwithinrelease;releasev0featuredefaultchangeisreportednotoverridden"
-}

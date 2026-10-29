@@ -1,3 +1,0 @@
-WINDOW 302 [669720,669736)
-669720: external {'record_pc': 817520, 'type': 10, 'symbol': 'sol_set_return_data'}
-669728: exit

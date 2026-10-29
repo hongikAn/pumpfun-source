@@ -1,6 +1,0 @@
-{
-  "reason": "Added separately counted current-main CI repeats to status; candidate paths and all artifact bytes unchanged.",
-  "prior_status_sha256": "cefa08eb4dcac7b25316d057645333ba29e36f1839d66d649c18008392453e23",
-  "current_status_sha256": "892ac2e304327462e6b4098e4e585f5916887713c72fe76afbc249f618dce68e",
-  "range_ledger_unchanged": true
-}

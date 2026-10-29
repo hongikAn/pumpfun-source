@@ -1,8 +1,0 @@
-{
-  "scope": "379 data pointers plus431 unique normalized function pairs; relative address audit, not whole-ELF acceptance",
-  "counts": {
-    "readonly_references": 1608,
-    "readonly_offset_equal": 1608
-  },
-  "differences": []
-}

@@ -1,5 +1,0 @@
-{
-  "new_fixtures": 0,
-  "new_probes": 0,
-  "scope": "Existing permitted9269 differential and1024Surfpool preservation corpus only; no added short-layout, malformed-bool, allocator or Clock-error probe. Passing cases do not establish exhaustive full-curve/error equivalence."
-}

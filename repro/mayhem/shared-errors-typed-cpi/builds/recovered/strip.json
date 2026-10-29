@@ -1,9 +1,0 @@
-{
-  "command": [
-    "/Users/shawwalters/.cache/solana/v1.52/platform-tools/llvm/bin/llvm-objcopy",
-    "--strip-all",
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/mayhem-next-residual-plan/build-run/typed-sell-cpi/unstripped.so",
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/mayhem-next-residual-plan/build-run/typed-sell-cpi/candidate.so"
-  ],
-  "returncode": 0
-}

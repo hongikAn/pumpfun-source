@@ -1,1 +1,0 @@
-{"actual_helper_bytes": 1336, "candidate_actual_helper_callers": 3, "candidate_other_helper_callers": 6, "complete_scalar_bodies": 3, "helper_immediate_calls": 8, "original_helper_callers": 24, "patch_produced": false, "runtime_executed": false, "source_inputs": 22, "verified": true, "whole_original_equal": false}

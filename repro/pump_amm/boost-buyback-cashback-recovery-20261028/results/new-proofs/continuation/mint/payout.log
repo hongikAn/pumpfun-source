@@ -1,2 +1,0 @@
-{"scope": "Signed payout TLV edge collisions beyond the existing payout corpus.", "candidate_sha256": "01a038ead3614b09af8d9431d3253be2db9efc142ac17ced923d12ab6afe2609", "original_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7", "producer_sha256": "fb45597b05b8c36cda99cf0a372e4565570f024bd4b1997130d1bbd15d19a0a3", "shared_fixture_helper_sha256": "842251f64e4db1f5739e15677d8c8df116a2f4442e0c1a100035db52cfae12de", "case_count": 176, "mismatch_count": 0}
-[]

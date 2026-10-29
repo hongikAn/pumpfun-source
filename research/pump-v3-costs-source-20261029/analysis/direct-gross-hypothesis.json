@@ -1,9 +1,0 @@
-{
-  "hypothesis": "Qualified optimized IR shows pre_fee_amount Err and gross_up_quote_error converging through intermediary helper-Result bb33 phi before outer result stores. Original merges pre_fee failure with both add3 failures. Expand only the 2 arithmetic statements into caller, keeping the existing same Source382 callback and shared helper unchanged; removes intermediary Result boundary rather than changing error expression. Preserve sequential-mode improvement.",
-  "changed_lines_from_parent": [
-    366,
-    376
-  ],
-  "source_sha256": "1e437df3fa4e7bc182427ba2304f57393ecc4239fc395eb00d0ff2e27d6cfcc1",
-  "patch_from_sequential": "--- \n+++ \n@@ -373,7 +373,7 @@\n     let second=match post{Some(p)=>add3(p.quote_in,p.fees.protocol_fee,p.fees.creator_fee)?,None=>0};\n     let net=first.checked_add(second).and_then(|sum|sum.checked_sub(total_buyback))\n         .ok_or_else(||error!(PumpError::Overflow))?;\n-    let (pool_quote,quote_transfer_fee)=gross_up_quote(quote_fee,net)?; Ok((pool_quote,total_buyback,quote_transfer_fee))\n+    let pool_quote=crate::transfer_fee_recovered::pre_fee_amount(quote_fee,net)?; let quote_transfer_fee=pool_quote.checked_sub(net).ok_or_else(gross_up_quote_error)?; Ok((pool_quote,total_buyback,quote_transfer_fee))\n }\n /// Gross-up of the pool-side quote by the quote mint's transfer fee; the fee is re-derived from the gross.\n #[inline(always)]\n"
-}

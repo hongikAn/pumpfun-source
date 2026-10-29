@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Wind\Documents\Codex\2026-10-26\https-x-com-shawmakesmagic-status-2114560456891445597\work\mayhem-v2-phases\source_controls.py", line 31, in <module>
-    assert native_new.count(' let native=a.quote_mint.key()==WSOL;')==1
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

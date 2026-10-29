@@ -1,9 +1,0 @@
-# Fees focused20 accepted-main repeat02
-
-Approved preparation helper61c077ada4048a9113f56a2aaab5ca81edbbf767df6683f28a097316dc4abecb rebound only generated source map to verified current4049/main2387 source26. Exact historical map and binding witness retained; harness/cases/assertions unchanged. Fresh preparation exit0; unchanged focused20 command exit0. Full receipt retained:20 comparisons,40 normally signed executions,80 signature fields. Existing expected effects check complete donation encoding/event/self-CPI payload, no-op state/log and error code/noevent/rollback. Runtime sigverify/blockhash enabled, default history, fresh VM per case.
-
-Raw logs differ for all20 pairs. Unchanged comparator removes compute-unit lines and source-coordinate differences; direct-vs-origin form and Left/Right remain. This is finite repeated donation coverage, not new unique-case/admin-only coverage, whole-byte equality or security completeness. Saved verifier checks original expected assertions and verifies signatures from retained transaction bytes without VM execution. Exact initial failurefa0 packet retained under initial-failure; it remains an honest pre-VM source-pin failure.
-
-before.json/after.json bind canonical4049 package, helper inputs and original ELF; identical. No builds/network/active source/metadata/Git edits in this run. prepare.py and prepared/ contain exact preparation/harness bindings. No fixture/assertion changes or authority/source-origin probes.
-
-Saved signature verification establishes only1 unique transaction and2 unique signatures across40 executions: these20 existing cases vary VM state around the same transaction. This repeat adds no unique transaction design. Actual success execution count22; expected rejection execution count18 (6021:4,6009:2,6016:6,6018:2,6007:4).

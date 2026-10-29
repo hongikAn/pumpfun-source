@@ -1,9 +1,0 @@
-{
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "research/mayhem-current434-composition-20261027/builds/first/symbols.so.gz": "844bb85da9a16526fb45586b22ccd6f3b4e83774aa0d40d39597c77d43b85768",
-  "research/mayhem-current-macro-call-closure-20261027/reader.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1",
-  "research/mayhem-current-macro-call-closure-20261027/verify.py": "7d7b017bee67fd65c39ee6a1551ff650002c19e3d3a170ccb375bc08110b7f90",
-  "research/mayhem-current-macro-call-closure-20261027/original-windows.json": "58f3eca2439d73824e55d5272cabb653b42e07c4b5d422ef329045eb037ed682",
-  "research/mayhem-current434-code-reference-closure-20261027/proof.py": "b4ce93405f42228e89238eba694dc3895f370220a6412c8128a8cfae90123e20",
-  "research/mayhem-current434-format-route-20261027/reader.py": "a8289e452523ba39778a4b30a8095b7ad49b1ffc305a0b682d7d26f95d976e92"
-}

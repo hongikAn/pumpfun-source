@@ -1,7 +1,0 @@
-{
-  "base_source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/pump_amm/diagnostic-parity-20261027/results/source",
-  "candidate_source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-account-recovery-agent-20261027/source",
-  "modified_file": "programs/pump-amm/src/trade.rs",
-  "before_sha256": "4595f55d6e1b8fd4e2ff8bdd3877a1189988e627e669e040af4e889f9ad5aa0e",
-  "after_sha256": "f858718c600d13cebb5680943e1084fbc4989d225923bc7c0ee140e57e0b160c"
-}

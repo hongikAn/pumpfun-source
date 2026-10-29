@@ -1,1 +1,0 @@
-{"first_assembly_exit":1,"reason":"Packaging-only list substitution incorrectly requested check_retained_social.py under reference/ instead of package root; corrected copy list, resumed unsealed assembly. No build, program source, runtime or evidence changed."}

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/workspace/scratch/08cb9746963a/pumpfun-body/research/mayhem-historical-macro-linux/runtime_check.py", line 104, in <module>
-    print(json.dumps(check(), sort_keys=True))
-                     ^^^^^^^
-  File "/workspace/scratch/08cb9746963a/pumpfun-body/research/mayhem-historical-macro-linux/runtime_check.py", line 48, in check
-    assert sha(source[path]) == digest
-               ~~~~~~^^^^^^
-KeyError: 'research/imported-lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json'

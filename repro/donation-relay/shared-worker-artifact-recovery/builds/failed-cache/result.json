@@ -1,9 +1,0 @@
-{
-  "exit_code": 101,
-  "elapsed_seconds": 0.9669267909994232,
-  "build_log_sha256": "7929528290ab2f2cb6bc575fd772a780c38f4ecebfc43bb88519fe54d02d70d0",
-  "source_unchanged": true,
-  "compiled_root": false,
-  "binary_patching": false,
-  "allocation_padding": false
-}

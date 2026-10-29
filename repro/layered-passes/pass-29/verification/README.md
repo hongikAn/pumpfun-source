@@ -1,5 +1,0 @@
-# Pass29 actual verification receipts
-
-Current source107/Relay23 and complete metadata53/3338 checks exit0. Final portable savedcrypto uses the existing completePython3.12.11 environment, probe+five savedreaders exit0; allthreeearlier environment failures remain raw. This is current saved-reader evidence, not originating runtime/compile identity. Relocated24-group archive stream0,4386members/twoparts78173384B; three-package actualGitindex59paths51blobs0. SDK0003 incoming128package indexpaths126blobs0 and protected compiler projection unchanged. ExactSDKreview220544 retained.
-
-The raw staged whitespace command returned2 on four authentic unified-diff blankcontext lines. Firstprecommit outer assertion1 and qualification remain raw; no payload/attribute edits or falsePASS. Main53 historical snapshot whitespace is separately retained in its owning package. Initialpublication commit/push and PR15 creation receipts remain historical. Later final-head hosted checks are a separate external gate. No compiler, VM, live target, signature creation or original parser execution is performed by these saved readers.

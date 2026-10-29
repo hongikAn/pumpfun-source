@@ -1,9 +1,0 @@
-{
-  "README.md": "75af0a9524e78d6f595e46caa0f15ae3a0d5b01dae349e906de1ee732644ce14",
-  "delta.json": "fb8e63f9008ad2c1f56f1c3b1b74ee38025fac90508cb49af19c3a71d79e6c62",
-  "source-inputs.json": "68c472e0c51288daca951bcfbad245e2b97b60bed737ebde6672efdb8c635fbf",
-  "source.patch": "091b3444d97cf0c7e5d34b4c3b66f901707d7f44fb341c76289c3ec58d884d37",
-  "utilize.before.rs": "9ce4753676e73e6565b957d86eecf113ce16cade3f782d849e2f7a97b640bed7",
-  "utilize.proposed.rs": "c52a5f72d8012a7d6d4bffb3cb1b09eb237361b12da7b42672b0235e40b2b773",
-  "verify.py": "fb3614edaae839a9546f84fe26ae8c9379617a5514ae80838dbde4a8a8edb0ef"
-}

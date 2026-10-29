@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "candidate_sha256": "01a038ead3614b09af8d9431d3253be2db9efc142ac17ced923d12ab6afe2609",
-  "cases": 14,
-  "transactions": 28,
-  "signature_fields": 28,
-  "mismatches": 0,
-  "scope": "Supplemental synthetic hook/self-alias/owner controls; current exact saved state,events,inner instructions and normalized diagnostics."
-}

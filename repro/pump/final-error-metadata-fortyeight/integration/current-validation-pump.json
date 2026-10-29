@@ -1,6 +1,0 @@
-{
-  "candidate_artifact": "repro/pump/final-error-metadata-fortyeight/candidate.so",
-  "candidate_sha256": "2aa18c73e517d9f74063633ea5d5b15f187d63e4dd4c09678b852afdd588cbc3",
-  "differential_comparisons": 9269,
-  "comparison_report": "repro/pump/final-error-metadata-fortyeight/build-comparison.json"
-}

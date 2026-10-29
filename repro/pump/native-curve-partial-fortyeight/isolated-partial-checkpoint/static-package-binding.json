@@ -1,6 +1,0 @@
-{
-  "path": "work/pump-multi-hop-curve-static",
-  "manifest_sha256": "f7f81d8a5fc2684b57ea86ca2f030f365e28a16323748840cb995c0b5541d183",
-  "report_sha256": "60e92402399ef2c22f5f58059ca84ac145197f818e4426bfd520c20cb3519018",
-  "scope": "Independent immutable static inventory; no runtime claims."
-}

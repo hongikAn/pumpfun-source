@@ -1,6 +1,0 @@
-{
-  "extraction": "address and metadata retained; sole instruction sell retained verbatim; other top-level sections omitted",
-  "instruction_name": "sell",
-  "upstream_path": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/evidence/upstream/pump.json",
-  "upstream_sha256": "7616681ea557975f9f623ac211080f22a93060781eaf4765b0a488d980997207"
-}

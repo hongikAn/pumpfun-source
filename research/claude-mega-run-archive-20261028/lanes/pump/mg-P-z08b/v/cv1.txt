@@ -1,8 +1,0 @@
-v0           size 11296 (orig 11928) ratio=0.2928 diffslots=1491
-v1           size 11480 (orig 11928) ratio=0.1819 diffslots=1945
-v2           size 176 (orig 11928) ratio=0.0054 diffslots=1464
-v3           size 11520 (orig 11928) ratio=0.1872 diffslots=1910
-v4           size 11616 (orig 11928) ratio=0.1809 diffslots=1970
-v5           size 11520 (orig 11928) ratio=0.1872 diffslots=1908
-v6           size 11520 (orig 11928) ratio=0.1858 diffslots=1949
-v7           size 11560 (orig 11928) ratio=0.1938 diffslots=1895

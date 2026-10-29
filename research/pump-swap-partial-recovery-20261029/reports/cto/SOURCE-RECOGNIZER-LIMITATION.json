@@ -1,8 +1,0 @@
-{
-  "legacy_report": "Source-ROWS-AUDIT.json",
-  "legacy_report_sha256": "9289377123f959ed974858148bd4d2cd6a582e192eb5a9a3e731971616a9e8c5",
-  "status": "superseded_for_source_coordinate_comparison",
-  "reason": "The old nearest-store heuristic can associate a neighboring error construction with the wrong line, including in the runtime-qualified frozen image. Its false comparisons are not evidence of an actual Source mismatch.",
-  "replacement": "SOURCE-ARGUMENTS-AUDIT.json",
-  "replacement_method": "Trace the actual From<AnchorError> stack argument and its filename,line,code fields at16 actual call sites; bounded static evidence with its own limits."
-}

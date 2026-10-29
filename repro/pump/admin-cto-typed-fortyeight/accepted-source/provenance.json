@@ -1,7 +1,0 @@
-{
-  "semantic_proposal_manifest_sha256": "6499003a632b96535293d69bcfabbb307ad922e62db92001daa2c3d62b199837",
-  "borrow_repair_manifest_sha256": "edc8ab57f5aba3c6aec9a3139a9b762bafa7846f9da7c7e36ebc1d64b6993da3",
-  "combined_patch_sha256": "f7424feea97aa10450a07bdb6fbfdc85af1f1ead775cddc0720f431d68aa47a5",
-  "compiled_source_sha256": "1f97a0c234b5cb4e6428152987b8bc8c42eb13736b273673441a3f9a4324634c",
-  "source_files_changed": 1
-}

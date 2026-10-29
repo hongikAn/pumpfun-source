@@ -1,6 +1,0 @@
-debouncer_mint_field TransactionErrorInstructionError((1, Tagged(InstructionErrorCustom(2012)))) {'control': ['logs'], 'candidate': ['logs']}
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-just-accountinfo-v148/run-just-mint-negative-control.py", line 56, in <module>
-    (P/'just-mint-negative-control.json').write_text(json.dumps(report,indent=2)+'\n');assert report['all_requested_completed'] and report['passed']==len(specs)
-                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

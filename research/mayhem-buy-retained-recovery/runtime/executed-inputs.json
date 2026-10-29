@@ -1,8 +1,0 @@
-{
-  "scripts/mayhem_pump_swap_differential.py": "7bc6cb8dd8b9afc28eefba37fb2e904c41b25ab4bbe9637360884ba8fa8823ac",
-  "scripts/mayhem_pump_swap_fixture.py": "198a23ee9e4eebeff673c335fde2dd7e3613a4aa8c836a319196f953d55c4224",
-  "repro/mayhem/twentyfour/buy-pump-swap-cases.json": "1f0a6d50be6dd8f976bcc3f8cdd6e3794e674b088b018378a4d78e788f68639d",
-  "research/imported-lab/analysis/pump_fun/amm-v2-trade-fixture.json": "2e775505852caf55203c826ee08b9341aa275f52f59a933c4fb0740535ee316f",
-  "research/imported-lab/analysis/pump_fun/config-snapshot.json": "17b886a6b4aa7fdc89f2fca9a1b67b318d33998794da59fe4df1fe89ca70bd27",
-  "repro/mayhem/twentyfour/sell-pump-swap-cases.json": "9b1d1f71563dc6197eb519c9b2f43e815402268631a2466dd2adde599d8241da"
-}

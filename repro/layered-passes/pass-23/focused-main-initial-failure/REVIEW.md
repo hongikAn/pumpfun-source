@@ -1,9 +1,0 @@
-# Exact Fees focused20 current-main wiring failure
-
-Preparation exit0; exact requested focused20 command exit1 at harness line37, before VM imports or transaction execution. No output receipt was created. Zero new cases, signatures or admin-only coverage. No fixture, assertion or source pin changed.
-
-The unchanged extracted harness is from sharing-second-pump-cpi-v144 and insists observed source26 equal its older corrected-source-sha256.json. Current authorize main source differs on exactly programs/pump-fees/README.md, programs/pump-fees/idls/pump_amm.json, programs/pump-fees/src/sharing.rs. Thus CI's source-root path exists but its source gate rejects the later accepted source. Candidate2387 binding itself passes before that assertion. A reviewed explicit current source map/binding adaptation is needed before this CI command can run; do not remove the source assertion or infer target equivalence from this failed attempt.
-
-Exact invocation: python3 -B work/fees-focused-authorize-main/validation-layer/harness/fees_donation_business_differential.py --repo . --source-root repro/pump_fees/sharing-authorize-main-v144/source --candidate repro/pump_fees/sharing-authorize-main-v144/main/candidate.so --candidate-sha256 2387f8139a13918a5c9c523f140ecdd72db7243c8e2ed9cd7e1ff9d42ad6c8af --build-record repro/pump_fees/sharing-authorize-main-v144/main/build-comparison.json --output work/fees-authorize-focused-main-repeat.json
-
-before.json/after.json bind all126 original main-package files plus preparation helper and are identical. prepared-files.json binds exact extracted harness/input bytes; helper-observed-after.json is an after-only observation of imported-module candidates, not a before/after attestation. Actual stdout/stderr and numeric exits are preserved. Original4049 packet/source/ELFs unchanged. No build/network/Git/current metadata edits. Root notified before any retry.

@@ -1,9 +1,0 @@
-{
-  "returncode": 0,
-  "source_unchanged": true,
-  "log_sha256": "93eb18280cfdf314ae0f53208c37d1a915a67c6aa679a49c4543300742e8e136",
-  "scope": "Fresh offline combined Anchor reserved-framework and recovered Relay business Rust build; whole-program byte identity unproven.",
-  "candidate_sha256": "ea357734b4d5be969e03f93fcdeb8a26af0444b55067bbcec1ce433901a609d7",
-  "candidate_bytes": 855104,
-  "unstripped_sha256": "38237c0b2e412d235001660150d1fbb7967a546feaf75a3b87d70927939be0d3"
-}

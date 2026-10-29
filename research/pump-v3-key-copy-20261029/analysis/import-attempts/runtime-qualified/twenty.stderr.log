@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/scripts/pump_with_captured_loader.py", line 5, in <module>
-    import pump_captured_loader as loader
-ModuleNotFoundError: No module named 'pump_captured_loader'

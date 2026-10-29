@@ -1,9 +1,0 @@
-{
-  "source_path": "src/sweep_fees.rs",
-  "frozen_file": "sweep-read-timing.rs",
-  "before_sha256": "8735adba8b670c3b4ee63a6fd716d1d639be6efa56269a15365c15ff2f44ba0c",
-  "after_sha256": "3d3363ddd7713999363bf950fb404fa4e35e42731d43806cb6ceeccda94985e9",
-  "immediate_parent_source_sha256": "15dbbd46bdbe7af62c6b7bb436f657c45e290c080c185fc075b7a3c08e3df7e8",
-  "state": "eighth one-shot after seventh complete; original CFG/def-use backed native-read timing",
-  "source_scope": "One used quoteMint/native read moved after fee clear/nonzero exit; preserves guards,state,helpers,event/order and five bangmacro positions. Vacatedline27 leftblank and existingelseblank reused, disclosed; no predicted byte gain."
-}

@@ -1,7 +1,0 @@
-{
-  "base_ref": "a0c77e08cfd3b40f8319eaa7088b1e49eaaaa031",
-  "scope": "Only Pump nested CI preparation binding; no compiled source/candidate/case/assertion changes",
-  "harness_package": "repro/pump/buy-mode-order-fortyeight",
-  "harness_manifest_sha256": "84849c316aa1e9c0bb8ae05050480cd641fdd9546e69cf875085f29645bbd3a0",
-  "current_package": "repro/pump/admin-cto-error-batch-main-fortyeight"
-}

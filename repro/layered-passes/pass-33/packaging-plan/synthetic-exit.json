@@ -1,7 +1,0 @@
-{
-  "returncode": 0,
-  "pretest_plan_seal": "d09b1abc74cad2e38462df2dee5a1037e76353d4c9c52620c79bd622b1e4b1dc",
-  "real_group_packager_runs": 0,
-  "stdout_sha256": "bd83b3780ae0829487895ae9c9558d69072672db0597c2c2b9133c17cb54aabb",
-  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-}

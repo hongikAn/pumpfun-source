@@ -1,8 +1,0 @@
-{
-  "package": "anchor-spl",
-  "version": "0.31.1",
-  "archive_sha256": "3c08cb5d762c0694f74bd02c9a5b04ea53cefc496e2c27b3234acffca5cd076b",
-  "member": "anchor-spl-0.31.1/src/token_2022_extensions/transfer_fee.rs",
-  "source_sha256": "659cdae6abff19276b82a2b7978a94ce417f5ee009e92622c5715167b751b55b",
-  "physical_source": "work/amm-legacy-arithmetic-next-20261027/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/anchor-spl-0.31.1/src/token_2022_extensions/transfer_fee.rs"
-}

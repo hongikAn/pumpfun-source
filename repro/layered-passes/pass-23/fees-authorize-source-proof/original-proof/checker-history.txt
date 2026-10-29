@@ -1,1 +1,0 @@
-Initial verify.py SyntaxError: else32 lacked separating whitespace. Corrected to else 32. Next run passed all cursor/branch assertions then failed stale manifest verify.py hash; manifest regenerated only after report/final verifier frozen. No target execution.

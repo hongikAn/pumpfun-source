@@ -1,7 +1,0 @@
-# Preserve exact owning-source and patch context receipts.
-sort-scratch-compiler-discriminator/owning-source.diff -whitespace
-sort-scratch-compiler-discriminator/v148-build.sh -whitespace
-source-build-12-v148-measurement/owning-preflight/owning-source.diff -whitespace
-source-build-12-v148-measurement/owning-preflight/v148-build.sh -whitespace
-source-build-12-v148-measurement/source/src/dispatch.rs -whitespace
-source-build-12-v148-measurement/v148-build.sh -whitespace

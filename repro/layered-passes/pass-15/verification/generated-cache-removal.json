@@ -1,9 +1,0 @@
-{
-  "change": "Exclude generated Python bytecode from first public publication",
-  "original_manifest_sha256": "35e1949414964a2e384a8162d7dcfa6bd8cc5f0c1490b8d7e46b04211bf54ce6",
-  "excluded_file": "static-tool/__pycache__/elf_reader.cpython-314.pyc",
-  "excluded_sha256": "599693953ef9b37fb37a1ba88aae72ca07b2e6a2cafe8922b6375c227845e6df",
-  "sources_artifacts_receipts_unchanged": true,
-  "published_manifest_sha256": "5d89e747203eebd0e30217a6b2f7a048b58e2b5d72850e06867160c4e73f6bbe",
-  "main_companion_manifest_sha256": "6f5433fd414b584e4fa7845b9672679238d8031d6f4cf80db541753451939b3b"
-}

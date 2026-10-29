@@ -1,6 +1,0 @@
-{
-  "static_failure": "First unsealed Source-origin decoder required a fixed error-field store order. Parent/explicit-clone actually store error6008 after other Source fields. The guard failed; decoder now checks exact typed store widths and frame-relative destinations, including filename pointer,+8length,+16line,+72tag2,+144error6008. Full-function matching/normalization are unchanged.",
-  "runtime_smoke": "One native original/proposed pair passed before the full corpus; it is separate, adds no unique corpus case, and is not reused as full-corpus evidence.",
-  "environment": "Temporary exec transport outage recovered; unfinished typed-price build was verified absent before launching it. No artifact or VM receipt was fabricated or retagged.",
-  "offline_failure": "First sealed offline comparison caught tuple/list representation mismatch in recomputed call-order opcodes versus JSON. Canonicalized these rows as lists without changing any measurement, normalizer, artifact, compiler or VM result. Failed log retained; no new compiler/VM execution."
-}

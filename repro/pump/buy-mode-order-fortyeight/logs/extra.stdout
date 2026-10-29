@@ -1,5 +1,0 @@
-nested-original 0
-nested-differential 0
-route-original 0
-route-candidate 0
-PASS: repeated nested16 and route16; no new unique coverage

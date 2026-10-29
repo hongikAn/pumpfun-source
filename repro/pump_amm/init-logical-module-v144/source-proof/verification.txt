@@ -1,1 +1,0 @@
-PASS: exact4-file logical-module proposal; context verbatim;28 accepted inputs fixed; no build or runtime evidence.

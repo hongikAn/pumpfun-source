@@ -1,6 +1,0 @@
-{
-  "notes": [
-    "Initial framework lookup for .cargo-checksum.json found no such file. Corrected provenance uses retained official .crate archives, verifies their complete SHA against Cargo.lock and compares selected extracted member bytes with local registry sources. No build, source modification or runtime execution occurred.",
-    "A preparation assertion rejected an erroneous slot-index argument for the candidate wrapper length load. Corrected to byte address 357072; raw instruction is b703000030030000 (816). No candidate or source bytes were changed by this failed preparation."
-  ]
-}

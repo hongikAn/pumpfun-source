@@ -1,7 +1,0 @@
-{
-  "upstream_commit": "2fc654a20e9c7be2b9529f585942bb82c4c83ab2",
-  "packet": "repro/pump/canonical-frontier-20261028",
-  "canonical_primary_archive_sha256": "d479185fe9ab5aa3a42012e775b3c57be6f5d9d8c82907cfdbaf91dd407c19fe",
-  "candidate_sha256": "1d031f64b9656ba572817c20a46e0bcb3d43716fee4c857d9b59447724a28904",
-  "symbols_sha256": "c1ae752d631721c468191a8f49df9fbbde292a0e36a914e2788c89a11ac8bf73"
-}

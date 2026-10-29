@@ -1,8 +1,0 @@
-{
-  "command": [
-    "work/test-env/bin/python",
-    "-B",
-    "work/pump-final-error-metadata-build/verify_receipts.py"
-  ],
-  "returncode": 0
-}

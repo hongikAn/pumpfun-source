@@ -1,3 +1,0 @@
-# Independent PR12 read-only acceptance checkpoint
-
-These raw streams and numeric exit records came from a fresh detached checkout at67608d457c096cebf73f1685f78f2f0ab9f9bdb0. Current107/Relay23 bindings, all3338queue records/both raw matrices and portable saved-signature checks each returned0. The actual driver completed0 and git status was empty afterward. Supported Python3.12 with existing solders0.27.1 was used for saved crypto; originating native runtime identity is not claimed. No new compiler, VM, target fixture, original body collection or runtime acceptance ran. Hosted CI is separate and was still running at publication preparation; cancelled earlier attempts are not passes.

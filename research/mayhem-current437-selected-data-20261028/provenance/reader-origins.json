@@ -1,7 +1,0 @@
-{
-  "helpers/literals.py": {
-    "sha256": "d496854fa6655d11ffcecf0dfc27a5e66fd0c77155d32d8866d2f56459e18357",
-    "prior_manifest_sha256": "bd9468fcf7132b3c93b8897488077d0d613dada034a3a13ce097c1b8dbc05548",
-    "scope": "Unchanged admitted436 counted-literal reader; inspect receives437 bytes explicitly."
-  }
-}

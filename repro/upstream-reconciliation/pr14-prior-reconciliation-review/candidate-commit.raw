@@ -1,9 +1,0 @@
-tree beae1eef346b345c6be2073bf10ec3c02e429658
-parent 723dfc91aad7506dd7ad4840e8eb8a726264bc84
-parent 0003e7fa9997c0a7acbedd0f32dfdc394f264acf
-author Shaw <shawmakesmagic@gmail.com> 1792980746 -0700
-committer Shaw <shawmakesmagic@gmail.com> 1792980746 -0700
-
-Preserve complete PR14 research delta while retaining current selected source
-
-Reconcile the incoming 723dfc91 history with current main. Preserve all1898 changed paths/modes/endpoints and ten commits as authenticated passive Git bytes. Do not select the unverified Relay candidate or run reference-derived assembly tools.

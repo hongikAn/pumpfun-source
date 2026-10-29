@@ -1,3 +1,0 @@
-# Preserve exact source snapshot receipt bytes.
-action-account-matrix-20261025/source-snapshot/pump/cashback.rs -whitespace
-action-account-matrix-20261025/source-snapshot/pump/create_v2.rs -whitespace

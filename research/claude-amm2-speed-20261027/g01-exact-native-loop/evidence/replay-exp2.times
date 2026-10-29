@@ -1,4 +1,0 @@
-a(link) rc=0 22s
-c(llvm-ir) rc=0 8s
-d(ir+link,time-passes) rc=0 10s
-e(link,-Zthreads=4) rc=0 11s

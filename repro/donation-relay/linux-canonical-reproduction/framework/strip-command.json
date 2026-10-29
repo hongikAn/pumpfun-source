@@ -1,9 +1,0 @@
-[
-  "podman",
-  "exec",
-  "codex-relay-linux-canonical-20261026",
-  "/sdk/llvm/bin/llvm-objcopy",
-  "--strip-all",
-  "/work/final-output/symbols.so",
-  "/work/final-output/candidate.so"
-]

@@ -1,2 +1,0 @@
-rustc -Cllvm-args="..." with: Unknown command line argument '-debug-only=isel-sched'.  Try: 'rustc -Cllvm-args="..." with --help'
-rustc -Cllvm-args="..." with: Did you mean '--debug-pass=isel-sched'?

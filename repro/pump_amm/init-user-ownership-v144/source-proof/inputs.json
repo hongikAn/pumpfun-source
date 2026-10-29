@@ -1,6 +1,0 @@
-{
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "work/amm-sync-log-build/publication/unstripped.so": "c7f024ee7078d9b063cbd1d22303e768b1b85baf6d8a8d807a5052ef8c085213",
-  "work/amm-sync-log-build/publication/inventory/after/residual-ledger.json.gz": "8b100855cda1d01493bd72846e11f15e08ac44d8c801bc235dd7ee2930209621",
-  "programs/pump-amm/src/lib.rs": "cff257b40ac9dc2c1a609532d52d9f54b9fae4724b256949f7115cba76406dea"
-}

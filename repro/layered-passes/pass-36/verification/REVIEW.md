@@ -1,3 +1,0 @@
-# P36 actual transport and final document observations
-
-Actual12synthetics/realpackager/relocatedstream all0. Researchaf477 has24groups/1906members/33053228B/onepart; no extraction/import/membercodeexecution. Actual2packageindex0/18paths14blobs. The nested finaldocreview8ea is retained unchanged. Preparedreport is a historical before-publication snapshot; laterthreepackageindex andhostedresults are separate observations. Two lateRootreceipts record pre-filter stalegeneratedtype references andactualautomaticfilterstop; they are laterthan24groupfreeze and belongtoTHISverificationpacket, notmisrepresentedarchivemembers. P37work stays excluded/stopped. Source/status/selectedartifacts/currentcontrols unchanged; no build/VM/sourceactivation or oldV3PASS invented.

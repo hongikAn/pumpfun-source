@@ -1,4 +1,0 @@
-copied src/instructions/buy_v2.rs
-copied src/instructions/pump_interface_v2.rs
-copied src/lib.rs
-copied src/state.rs

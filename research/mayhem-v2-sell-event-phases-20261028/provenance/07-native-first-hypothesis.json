@@ -1,7 +1,0 @@
-{
-  "hypothesis": "On05, compute the existing WSOL flag before the default-key accounting test and reuse it after sizing. Pure key membership is unchanged. Tests short-circuit/phi lifetime behind the first sizing CFG divergence, without changing price arithmetic or event values.",
-  "source_paths": [
-    "src/instructions/buy_v2.rs",
-    "src/instructions/pump_interface_v2.rs"
-  ]
-}

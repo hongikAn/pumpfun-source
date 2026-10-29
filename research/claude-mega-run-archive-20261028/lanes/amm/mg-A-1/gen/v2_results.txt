@@ -1,4 +1,0 @@
-v2_V9a.rs: 744 150 G [] L [] | 0x14088 orig 1656 bytes, cand 1696 bytes   |  -104 +109
-v2_V9b.rs: 744 150 G [] L [] | 0x14088 orig 1656 bytes, cand 1752 bytes   |  -103 +115
-v2_V9c.rs: 744 150 G [] L [] | 0x14088 orig 1656 bytes, cand 1744 bytes   |  -90 +101
-v2_V9d.rs: 744 150 G [] L [] | 0x14088 orig 1656 bytes, cand 1624 bytes   |  -85 +81

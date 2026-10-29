@@ -1,5 +1,0 @@
-{
-  "stage": "unsealed verifier preparation",
-  "failure": "SDK path ancestry comparison used two parents for llvm/bin/llvm-objcopy; requires three to obtain platform-tools root",
-  "correction": "compare parent.parent.parent; tool/source/build records unchanged"
-}

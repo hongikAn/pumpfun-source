@@ -1,1 +1,0 @@
-These are the exact capture scripts used for this checkpoint. They preserve the original absolute source paths as provenance and are not portable rebuild commands. Use ../restore.py to verify or restore the saved work. The capture index records exclusions and the completed snapshot time.

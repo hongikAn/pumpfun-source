@@ -1,3 +1,0 @@
-# Preserve exact incoming source receipts.
-main-e8338e77/incoming/programs/donation-relay/src/dispatch.rs -whitespace
-main-e8338e77/incoming/programs/pump/src/create_v2.rs -whitespace

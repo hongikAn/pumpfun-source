@@ -1,7 +1,0 @@
-{
-  "state": "failed_before_JS_execution",
-  "error": "A nested lock placement created its parent package directory before the parent archive was placed; strict destination-nonexistence gate rejected it",
-  "partial_root": "resolution/node_modules",
-  "next_change": "Prevalidate all archive payloads then materialize lock paths by increasing depth into a fresh materialized-02 root; retain original partial files. No resolver/compiler/runtime retry or graph change.",
-  "lifecycle_scripts_executed": false
-}

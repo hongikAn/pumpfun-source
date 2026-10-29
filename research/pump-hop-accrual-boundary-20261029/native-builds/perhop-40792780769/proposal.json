@@ -1,9 +1,0 @@
-{
-  "source_path": "src/multi_hop_curve_swap.rs",
-  "frozen_file": "perhop.rs",
-  "before_sha256": "679b34ae4965bf1cdc999e0f45f3ae5e171116c5f04173e7394c3b9e48a0fb43",
-  "after_sha256": "734bdae1189dd4e4f54a27fd215624611228f36b92d3877b63f00df19ccc9e44",
-  "state": "uncompiled independent proposal; not accepted coverage",
-  "source_proposal": "https://github.com/lalalune/pumpfun-source/pull/711",
-  "source_proposal_head": "9c20f6a5316e3423345fee04206a7819a797af7c"
-}

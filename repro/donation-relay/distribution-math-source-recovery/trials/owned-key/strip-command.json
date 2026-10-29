@@ -1,6 +1,0 @@
-[
-  "/Users/shawwalters/.cache/solana/v1.48/platform-tools/llvm/bin/llvm-objcopy",
-  "--strip-all",
-  "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-distribution-owned-key-v148/target/sbf-solana-solana/release/donation_relay_source_proposal.so",
-  "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-distribution-owned-key-v148/candidate.so"
-]

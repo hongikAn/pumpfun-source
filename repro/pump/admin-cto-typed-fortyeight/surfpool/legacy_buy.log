@@ -1,8 +1,0 @@
-{
-  "cases": 34,
-  "signed_transactions": 68,
-  "mismatches": [],
-  "unexpected_original_errors": [],
-  "original_sha256": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d",
-  "candidate_sha256": "5d35884bf79de90850e23ac5e6781b328430b8748f62e4c1381cb77b9f2e0a6c"
-}

@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Wind\Documents\Codex\2026-10-26\https-x-com-shawmakesmagic-status-2114560456891445597\work\mayhem-dynamic-order\build_module_order.py", line 5, in <module>
-    text=text.replace('\nmod bpf_writer;\n','\n\n');old='}\n\n#[cfg(feature = "event-cpi")]';assert text.count(old)==1;text=text.replace(old,'}\nmod bpf_writer;\n#[cfg(feature = "event-cpi")]');after=text.encode();assert before.count(b'\n')==after.count(b'\n');changed=[i+1 for i,(a,b) in enumerate(zip(before.splitlines(),after.splitlines())) if a!=b];assert changed==[40,152],changed
-                                                                                                                                                                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^
-AssertionError: [40, 151]

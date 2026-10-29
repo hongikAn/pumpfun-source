@@ -1,9 +1,0 @@
-[
-  {
-    "path": "work/amm-reserved-context-20261027/target/sbpf-solana-solana/release/.fingerprint/pump-amm-recovered-f4fd87042f2f98e6",
-    "files": {
-      "output-lib-pump_amm_recovered": "0b0a25dd39857fe58fefbfb68440cb8dd4f928d5359782cabc39ff910b1651a0",
-      "invoked.timestamp": "5a109e6643e8d3e88642e3f35e85d2a83e639d07523aa6e99166c48178e965c3"
-    }
-  }
-]

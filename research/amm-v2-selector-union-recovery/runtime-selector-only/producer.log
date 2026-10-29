@@ -1,8 +1,0 @@
-multi-hop 100 newdiff 0
-multi-hop 200 newdiff 0
-multi-hop 300 newdiff 1
-multi-hop 400 newdiff 1
-multi-hop 500 newdiff 1
-multi-hop 600 newdiff 2
-multi-hop 700 newdiff 2
-{'case_count': 735, 'functional_mismatches': {'original': 0, 'baseline': 0, 'candidate': 0}, 'candidate_baseline_mismatches': 2, 'noncompute_log_mismatches': {'original': 0, 'baseline': 99, 'candidate': 97}, 'original_successes': 306}

@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "frozen_source_and_patch_exceptions": [
-    "repro/donation-relay/source-build-09-idl-owned/previous/source/src/dispatch.rs",
-    "repro/donation-relay/source-build-09-idl-owned/proposal/source.patch",
-    "repro/donation-relay/source-build-09-idl-owned/source/src/dispatch.rs"
-  ],
-  "other_staged_files_pass": true
-}

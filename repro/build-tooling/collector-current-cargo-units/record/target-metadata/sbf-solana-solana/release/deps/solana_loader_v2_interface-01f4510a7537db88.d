@@ -1,7 +1,0 @@
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/build-01/target/sbf-solana-solana/release/deps/libsolana_loader_v2_interface-01f4510a7537db88.rmeta: /Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v2-interface-2.2.1/src/lib.rs
-
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/build-01/target/sbf-solana-solana/release/deps/libsolana_loader_v2_interface-01f4510a7537db88.rlib: /Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v2-interface-2.2.1/src/lib.rs
-
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/build-01/target/sbf-solana-solana/release/deps/solana_loader_v2_interface-01f4510a7537db88.d: /Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v2-interface-2.2.1/src/lib.rs
-
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v2-interface-2.2.1/src/lib.rs:

@@ -1,8 +1,0 @@
-{
-  "base_candidate": "e995d6a8211dcd3d05c07cdcb1a7147ec4f4e2b2a81b56c268fd1a3d76a01ce1",
-  "candidate": "3fcae02128464717b29a0b3842fbba993d5d0befb4362c4094c8af8e32a8589d",
-  "source": "Exact frozen fourth-wave source, including typed resize and sweep ordering, legacy reserve methods, authenticated entrypoint2.2.1, shared ATA/payout, const specialization and boost guard.",
-  "normalized": 642,
-  "raw": 129,
-  "combined_patch_sha256": "4d134e4a0a0a8fc01457792360dc7b3ea95170fff0f3a14bdce47b4336ef4d85"
-}

@@ -1,7 +1,0 @@
-{
-  "returncode": 101,
-  "elapsed_seconds": 7.905704917007824,
-  "source_unchanged": true,
-  "log_sha256": "809a2d29b51066e5bad7ba93dc38a549c21bd9483ac3f40d38b281ce552cfa6f",
-  "scope": "Fresh official Linux v1.48 Rust build in verified running Ubuntu container; private scratch source/cache/target paths; all 177 registry archives verified; captured ELF never supplied as compiler input."
-}

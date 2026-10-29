@@ -1,6 +1,0 @@
-{
-  "repro/donation-relay/burn-mint-ownership-recovery/manifest.json": "5141f11061b9def91529a368e1b570fbdf55a838a6f4a78a21e4aca3afbcee80",
-  "repro/donation-relay/swap-caller-controls/manifest.json": "ce0b2683c8ca5b12b66b3c3fd0af69402b95014da51cb743740dd5b785d46662",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/analyze.py": "095fc2d63be0fe4233bdf4e5946cac8d03d9b1747fd39147eea9a98c12dda175",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/original-windows.json": "c002df05d4489259f1cfd2b2391220cae38f6ffb0055f35f659e68a4935fd7bd"
-}

@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/pr-queue-review/pumpfun-source/work/mayhem-priority-20261027/compose_current_amm_event.py", line 33, in <module>
-    nv=package['name']+'-'+package['version'];roots=list((cargo/'registry/src').glob('*/'+nv));assert len(roots)==1
-                                                                                                      ^^^^^^^^^^^^^
-AssertionError

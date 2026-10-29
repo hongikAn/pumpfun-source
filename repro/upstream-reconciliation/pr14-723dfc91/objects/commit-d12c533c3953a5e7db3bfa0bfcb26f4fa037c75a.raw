@@ -1,8 +1,0 @@
-tree 8505e5af0afae306a71a9d1695ae501527f54ebb
-parent 45ce5663a8b4b80f2636699169f0ac75dd5d866f
-author Shaw <shawmakesmagic@gmail.com> 1792968122 -0700
-committer Shaw <shawmakesmagic@gmail.com> 1792968122 -0700
-
-Record controlled v1.38 Rust build and corrected compiler-strip phases
-
-The completed source build and independent strip control reproduce candidate11 exactly, while full capture equality remains false. Preserve SDK closure hashes, explicit phase provenance, and the guarded subtraction result. No accepted contract source is changed.

@@ -1,8 +1,0 @@
-{
-  "file_sha256": "1c5f9182ccf4d80076f7392a0d26a7ac3004ccc69124674dcc4bc1cf82f64285",
-  "snippet_first_line": 2547,
-  "canonical_file": "/home/runner/work/platform-tools/platform-tools/out/rust/library/alloc/src/string.rs",
-  "original_location_address": 821320,
-  "line": 2559,
-  "column": 14
-}

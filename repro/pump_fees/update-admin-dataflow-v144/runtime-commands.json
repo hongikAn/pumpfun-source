@@ -1,8 +1,0 @@
-{
-  "cwd": "<repo>",
-  "commands": [
-    "sh repro/pump_fees/authority-guard-v144/reproduce-validation.sh work/fees-update-admin-dataflow/state-accountinfo-build/artifacts/pump_fees_candidate.so work/fees-update-admin-dataflow/runtime work/test-env/bin/python > work/fees-update-admin-dataflow/runtime-validation.log 2>&1",
-    "work/test-env/bin/python work/fees-update-admin-dataflow/signed_transfers.py --candidate work/fees-update-admin-dataflow/state-accountinfo-build/artifacts/pump_fees_candidate.so --output work/fees-update-admin-dataflow/signed-transfers.json"
-  ],
-  "main_receipt_reuse": "Whole main ELF bytes equal the exact scratch ELF that produced every receipt."
-}

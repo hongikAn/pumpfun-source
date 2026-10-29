@@ -1,2 +1,0 @@
-# Preserve the exact frozen source input, including its final blank line.
-source/src/dispatch.rs -whitespace

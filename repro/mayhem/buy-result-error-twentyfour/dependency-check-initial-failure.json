@@ -1,1 +1,0 @@
-{"stage":"post-build dependency integrity","failure":"FileNotFoundError: registry source cache lacks .cargo-checksum.json for aead-0.5.2","disposition":"Use Cargo.lock-authenticated retained .crate archives and compare every archive member file with extracted source; no dependency edits or rebuild."}

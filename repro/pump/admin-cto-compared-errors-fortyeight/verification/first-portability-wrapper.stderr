@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-admin-cto-6030-2006-publication/portability_check.py", line 10, in <module>
-    (P/'portability.stdout').write_text(r.stdout);(P/'portability.stderr').write_text(r.stderr);(P/'portability-exit.json').write_text(json.dumps({'returncode':r.returncode,'relocated':True,'original_work_reads_denied':True,'builds':0,'target_executions':0})+'\n');r.check_returncode()
-                                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~^^
-  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 509, in check_returncode
-    raise CalledProcessError(self.returncode, self.args, self.stdout,
-                             self.stderr)
-subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-B', '/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/pump-cto-portable-sw7lx5pe/packet/verify.py', '--runtime-signatures']' returned non-zero exit status 1.

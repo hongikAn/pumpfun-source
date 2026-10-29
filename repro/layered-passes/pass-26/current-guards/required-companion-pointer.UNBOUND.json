@@ -1,9 +1,0 @@
-{
-  "role": "Mayhem current-ca5d complete residual/action metadata",
-  "known_seal": "016ee97909ac235760ce2063b466c3491b3d7994ebf0b45b85091c4ce8bf2567",
-  "work_path": "work/mayhem-ca5d-current-residual-review",
-  "future_public_path": null,
-  "catalogue_policy": "integrity-only",
-  "command": null,
-  "new_source_or_target_execution_authorized": false
-}

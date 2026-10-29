@@ -1,8 +1,0 @@
-{
-  "artifact_id": 12604389091,
-  "archive_sha256": "d88a7a9137ecffea1b3d5af5323a0389cc5369c3e68c19962a71ad6a00b8a978",
-  "observed_digest": "sha256:d88a7a9137ecffea1b3d5af5323a0389cc5369c3e68c19962a71ad6a00b8a978",
-  "digest_equal": true,
-  "packet_relative_path": "extracted",
-  "zip_entries": 73
-}

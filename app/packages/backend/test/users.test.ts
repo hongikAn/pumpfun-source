@@ -933,6 +933,32 @@ describe('GET /v1/users/search-v2', () => {
  * GET /v1/users/:id/overview
  *────────────────────────────────────────────────────────────*/
 describe('GET /v1/users/:id/overview', () => {
+  for (const flag of [undefined, false, true]) {
+    test(`profile presence determines isPumpUser when the row flag is ${String(flag)}`, async () => {
+      const user: User = {
+        address: 'labelled-wallet', userId: 'labelled-user', username: null,
+        profile_image: null, bio: null, followers: 0, following: 0, x_username: null,
+        wallet_label: 'Synthetic labelled wallet',
+        ...(flag === undefined ? {} : { is_pump_user: flag }),
+      };
+      const store = new UserStore([user]);
+      const app = buildApp([], { userStore: store });
+      try {
+        for (const id of [user.address, user.userId!]) {
+          const response = await app.inject(`/v1/users/${id}/overview`);
+          assert.equal(response.statusCode, 200);
+          const body = response.json();
+          assertOverviewSchema(body);
+          assert.deepEqual(body.profile, user);
+          assert.equal(body.isPumpUser, body.profile !== null);
+        }
+        // The aggregate's presence flag does not rewrite the stored/raw profile field.
+        assert.deepEqual(store.getById(user.address), user);
+        assert.deepEqual((await app.inject(`/v1/users/${user.address}`)).json(), user);
+      } finally { await app.close(); }
+    });
+  }
+
   test('lookup by wallet address returns 200 with conforming schema', async () => {
     const { app } = buildTestApp();
     try {
@@ -942,7 +968,7 @@ describe('GET /v1/users/:id/overview', () => {
       assertOverviewSchema(body, 'by-address-overview');
       assert.equal(body.address, 'AAA111');
       assert.equal(body.verified, true);
-      assert.equal(body.isPumpUser, false);
+      assert.equal(body.isPumpUser, true);
       assert.deepEqual(body.counts, { followers: 100, following: 50 });
       assert.deepEqual(body.achievementBadgeIds, []);
       assert.equal(body.banned, false);

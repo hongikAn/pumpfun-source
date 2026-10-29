@@ -1,7 +1,0 @@
-# Fresh signed controls for both PR434 artifacts
-
-The five synthetic stored-schedule cases were freshly run against the source-only candidate `5a032d6d…` and the separately linked layout candidate `3c0357f9…`. Each current image has two error-order mismatches and three matching controls: original `ProgramFailedToComplete` versus candidate `6035` for start=20/end=-1/now=0 and start=20/end=1/now=10. Paired account prestates, poststates and signed transaction bytes agree. This is ten pairs/twenty executions, not a full 17,462-case qualification.
-
-`producer.py` and `fixture.py` are unchanged from the prior reviewed five-case producer. `commands.json` records exact candidate/output paths and `PUMP_AMM_FRESH_VM=1`; the hash-pinned reusable harness creates a fresh VM per execution in that mode. The fixture sets Clock and synthetic AMM-owned state, assigns a locally owned admin, and records the actual executable-account data hash immediately after execution. No live state/reachability, transaction submission, compiler or whole-ELF claim follows. The two receipt files and all twenty actual signature fields are checked by `verify.py --signatures`.
-
-The standard-library mode verifies saved image/state/error and command/input bindings. The optional signature mode additionally verifies actual Ed25519 signatures, program ID, discriminator and instruction arguments. Both standalone modes perform the parent packet's strict inventory/hash preflight first; the parent verifier may call `verify(packet, validate_packet=False)` only after the same complete preflight.

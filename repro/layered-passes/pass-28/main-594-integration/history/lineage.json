@@ -1,6 +1,0 @@
-{
-  "initial_manifest_sha256": "05db23cf4e83f5230d182b229dfea15cf8a7f4025330ef415f438b28d1ff48f8",
-  "initial_manifest_files": 16,
-  "archive_raw_sha256": "3c00787505b94bdf52adefc65fb450a09ae12782d53789ec349a10caa3c42334",
-  "scope": "Unchanged initial proof retained. Successor stores whitespace stdout/stderr as lossless gzip to avoid duplicating frozen warning text as new Git whitespace diagnostics."
-}

@@ -1,7 +1,0 @@
-{
-  "hypothesis": "Transfer the now proven AMM scalar event phase to V2 Sell, preserving distinct real/virtual reserves and native-accounting condition. Keys remain short-lived literal temporaries before Clock; preserve all source line counts. This targets the observed event-frame displacement and store-order differences, not code padding.",
-  "source_paths": [
-    "src/instructions/buy_v2.rs",
-    "src/instructions/pump_interface_v2.rs"
-  ]
-}

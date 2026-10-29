@@ -1,8 +1,0 @@
-{
-  "compile": "v1.44",
-  "SDK_stripper": "v1.52",
-  "installation_record": "existing completed SDK copy and original marker bytes retained; no installer was run and no success marker fabricated",
-  "global_configuration_read": false,
-  "rustup": "binary hash only; no global settings read",
-  "historical_relay_recipe_claimed": false
-}

@@ -1,1 +1,0 @@
-verify_exit.py exited1 on complete normalized560-byte exit equality. Candidate exit208000 has only one remaining normalized slot difference: offset88 ctx+0xc0 versusoriginalctx+0x120. See exit-hypothesis-diagnostic.json. No further source variant, runtime test, mainpromotion or equality claim was made.

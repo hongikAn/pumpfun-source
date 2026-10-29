@@ -1,8 +1,0 @@
-{
-  "status": "PASS_PASSIVE_PUBLICATION",
-  "agent_verifier_sha256": "4308520b30872b5c4bfdeb05307750e187e79aae46566fffa8cb1b543f343e79",
-  "raw_evidence_changed": false,
-  "root_verifier_result": "PASS 99/91/4747/196/152 and 23/21 + 4/2 PDA",
-  "new_wrapper": "verify_package.py checks complete package membership before importing independently reviewed verifier",
-  "active_sources_changed": false
-}

@@ -1,9 +1,0 @@
-{
-  "scope": "Exact verifier/original-reader subset of a previously sealed worker packet; current candidate is supplied explicitly.",
-  "parent_manifest_sha256": "ae68ff6498b1319eafb2f3c4a900e1b83b81d7e9a59d2f4d99158b7a9e9ae05e",
-  "files": {
-    "elf_reader.py": "247700e9930d5e53daf93a50888ae1e5429f74ccb19155e7a205f72ee21d5883",
-    "original.so.gz": "0e8d80458b77b14e14c40a5097920f2a85aec473db08f68d663758f3051181be",
-    "verify.py": "ba5c4cfd2e7e5724e7eac88af93c5b7e36f96c3e11a44946caeac2f66a40ecdc"
-  }
-}

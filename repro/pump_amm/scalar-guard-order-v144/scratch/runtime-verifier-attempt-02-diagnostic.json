@@ -1,1 +1,0 @@
-{"status":"PRESERVED_VERIFIER_DIAGNOSTIC","error":"The first compressed-payload compatibility edit reused the name payload for local fee bytes, shadowing the read helper and raising TypeError during final saved-report comparison.","fix":"Rename the local variable to fee_payload. No evidence, receipt, source, build or runtime changed.","reruns":0}

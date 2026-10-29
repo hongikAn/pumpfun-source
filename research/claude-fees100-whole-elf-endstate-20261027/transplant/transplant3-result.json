@@ -1,9 +1,0 @@
-{
- "exit_code": 0,
- "seconds": 2.3,
- "substituted_root": "pump_fees_candidate.pump_fees_candidate.85ade9ce1584ca93-cgu.0.rcgu.o",
- "ld": "saved",
- "obj": "/private/tmp/claude-501/-Users-shawwalters-Documents-Codex-2026-10-24-pumpfun-source/e9a70435-0695-431c-bd3e-ac553674cc64/scratchpad/fees100/lanes/layout-elf/diag/transplant3.o",
- "symbols_sha256": "2d43e56aa7d0ae408b122a0b6daf69ec9cffd430d8435ca683b7b7668c83bb65",
- "candidate_sha256": "5b6ceda57863f0dcc3e0e3623052f8342c2c81883379699e71d7ed5383cb3dcf"
-}

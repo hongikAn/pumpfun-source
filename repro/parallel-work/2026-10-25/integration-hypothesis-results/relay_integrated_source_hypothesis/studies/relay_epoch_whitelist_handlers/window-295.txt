@@ -1,3 +1,0 @@
-WINDOW 295 [662240,662256)
-662240: external {'record_pc': 817472, 'type': 10, 'symbol': 'sol_log_data'}
-662248: exit

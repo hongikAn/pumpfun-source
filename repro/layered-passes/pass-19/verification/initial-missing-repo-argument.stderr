@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/layered-passes/pass-19/verify_pass.py", line 25, in <module>
-    assert run.returncode==0,(row['path'],run.stdout,run.stderr)
-           ^^^^^^^^^^^^^^^^^
-AssertionError: ('repro/layered-passes/pass-19/mayhem-globalparams-layout-review', '', 'usage: verify.py [-h] --repo REPO\nverify.py: error: the following arguments are required: --repo\n')

@@ -1,8 +1,0 @@
-{
-  "README.md": "7bc6721d5fcb1cfc1bb82cdb419a57fdac8ca9e967e6562161064dfb618454d3",
-  "inputs.json": "2b3631d876e4312dabd9d9b49b8b0639b01d893322864e8936399dfc30ec9306",
-  "observations.json.gz": "26a63c136765fb7a237b27c7cbc571025b844288f244ebfa9555cd2c17b54cc9",
-  "reader.py": "a8289e452523ba39778a4b30a8095b7ad49b1ffc305a0b682d7d26f95d976e92",
-  "test_verify.py": "b896b37ed6aa40c76e194ac6ccf5da1bdd427cd5f9ef4063f0ef115e89499ce4",
-  "verify.py": "c1ae4949f8165f3e0bd21917c872ec45cae3a92fd8022cb924bb17a6baa3777e"
-}

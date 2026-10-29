@@ -1,7 +1,0 @@
-{
-  "hypothesis": "Extract only SellV2 existing price closure into an inline scalar-argument helper, as in completed AMM Sell. Same arithmetic and error order, no compiler flags or guard changes. Tests caller borrow/register lifetimes against the first opcode divergence near original offset696.",
-  "source_paths": [
-    "src/instructions/buy_v2.rs",
-    "src/instructions/pump_interface_v2.rs"
-  ]
-}

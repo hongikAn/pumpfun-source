@@ -1,9 +1,0 @@
-{
-  "LLVM-LICENSE.txt": {
-    "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-20.1.7/llvm/LICENSE.TXT",
-    "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
-  },
-  "source-MIT.txt": "repository LICENSE copied unchanged",
-  "rust-LICENSE-APACHE.txt": "SDK Rust library/portable-simd/LICENSE-APACHE copied unchanged; generic Apache2.0 terms also used by vendored anchor-lang",
-  "rust-LICENSE-MIT.txt": "SDK Rust library/portable-simd/LICENSE-MIT copied unchanged; Rust project copyright retained"
-}

@@ -1,6 +1,0 @@
-{
-  "cause": "One actual primary-crate dep-info uses31 relative source paths, while duplicate root dep-info uses absolute paths. Version2 wrongly required every source path absolute.",
-  "actual_exit": 1,
-  "VM_target_build_source_mutations": 0,
-  "correction": "Accept relative paths ONLY in the observed primary pump_recovered dep-info, resolve against its declared manifest directory, and require exact source37 hash binding. Preserve raw spelling/referrer. Cross-check against absolute primary dep-info in portable analysis."
-}

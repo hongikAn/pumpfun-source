@@ -1,5 +1,0 @@
-{
-  "state": "complete",
-  "candidate_sha256": "da217317cd82d23898b846c1d3b47d8643b495fad90796c2a6ef62b37cfbbeef",
-  "scope": "Fresh signed trade, initializer, sweep and rate replays, independently rechecked from actual receipts."
-}

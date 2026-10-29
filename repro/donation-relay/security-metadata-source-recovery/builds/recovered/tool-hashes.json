@@ -1,5 +1,0 @@
-{
-  "llvm/bin/llvm-objcopy": "3a871eab7279dee53f2580e8a022c980305738b575755b7d3529a6230ec4f672",
-  "rust/bin/cargo": "5614db715dddef5793dc5dc6403fea384993ea429337620aab9020438356d8ca",
-  "rust/bin/rustc": "89fd4ccdd6e678a24c2cda074b498b46a352fcfce21018119c9526751afc678d"
-}

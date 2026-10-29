@@ -1,6 +1,0 @@
-{
-  "scope": "Proposed status.json field changes to switch pump/pump_amm/pump_fees to the corrected v1.43 compiler. Apply atomically together with replacing each candidate .so, its build-comparison/build-attempt, the checkpoint's hardcoded verify.py hash, manifest-sha256.json, and the regenerated receipts. mayhem stays v1.52.",
-  "pump": {"compiler": {"from": "unresolved", "to": "v1.43"}, "current_compilation_tools": {"to": "v1.43"}, "candidate_sha256": {"to": "e3bae5a887d60260dddfc1ef1e2dc4bccaeb52e64bd18bd6aff8fa9cce481c42"}, "candidate_bytes": 1662912},
-  "pump_amm": {"compiler": {"from": "unresolved", "to": "v1.43"}, "current_compilation_tools": {"to": "v1.43"}, "candidate_sha256": {"to": "0750daa6cc1e6fdf3cb4199b933f5dc96ee376616051dadde941fc6f18f3b6ca"}, "candidate_bytes": 1254848},
-  "pump_fees": {"compiler": {"from": "unresolved", "to": "v1.43"}, "current_compilation_tools": {"to": "v1.43"}, "candidate_sha256": {"to": "a6eab56245a7fc7dff923524fcd7fa01d754840d6378aa118eb4ebf125c3deed"}, "candidate_bytes": 888568}
-}

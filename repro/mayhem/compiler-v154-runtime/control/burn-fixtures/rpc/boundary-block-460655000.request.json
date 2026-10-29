@@ -1,1 +1,0 @@
-{"jsonrpc":"2.0","id":1,"method":"getBlock","params":[460655000,{"commitment":"finalized","encoding":"base64","transactionDetails":"full","rewards":false,"maxSupportedTransactionVersion":1}]}

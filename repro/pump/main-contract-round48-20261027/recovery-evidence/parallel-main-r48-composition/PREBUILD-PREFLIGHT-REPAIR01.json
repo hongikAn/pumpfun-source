@@ -1,6 +1,0 @@
-{
-  "status": "failed_before_layout_or_build_started",
-  "cause": "Inherited r47-composition path was rejected by full source-map check",
-  "repair": "Use exact r48-composition source and identity validation",
-  "script_sha256": "6800a54506998ba4bda59e052230e5e53771af610da7156aef2ff5f18af68dbc"
-}

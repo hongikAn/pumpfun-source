@@ -1,5 +1,0 @@
-{
-  "path": "repro/layered-passes/pass-02/review-candidates/amm-destination-rent",
-  "manifest_sha256": "18f29d2a5208328b63e2123ab026ea270b4236ad6a241fa52fbf0620a9e834c4",
-  "requirement": "All manifest-bound public files, unchanged. --repo supplies this sealed dependency; no scratch work directory required."
-}

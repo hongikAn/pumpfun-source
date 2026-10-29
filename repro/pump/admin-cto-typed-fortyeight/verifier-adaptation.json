@@ -1,5 +1,0 @@
-{
-  "prior_verifier_sha256": "c33e8fa236a8233e6fa65d5dd2cbe5c890b1f3abe18fb81eeedc81a9000c9297",
-  "verifier_sha256": "3257d64eeae36887606bf62a088529d28b0976f30ec429116eea2434b46b7134",
-  "changes": "Exact proposal and candidate hashes; current before-summary counts; source-change count; added fresh fee-basis/all call-data inventory checks. Saved signature, case, result and effect verification code retained."
-}

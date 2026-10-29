@@ -1,9 +1,0 @@
-{
-  "README.md": "042d97ecff51126a33a0e1bd70ba8893b11ce137d5181f7a383dba404e2e57ec",
-  "build_index.py": "4d4b6efac1c0822384a0c3d1ad0d292dd124b83d87512148d663d5e2b54d6c92",
-  "config.json": "b85f41474b6f132c5828d5bf80c5803089d9a03d737a3c6a54dec405420f7df4",
-  "preparation.json": "9ecee201e606da468a4ab525aacc5997733d4d1e8815d786a55944c16edf8ca0",
-  "verify_pass.before.py": "e7578f8d083494f0a4a0b8ac84bde28d0fbb5d64d8dc9f3996ec16f64412a911",
-  "verify_pass.patch": "9b580aeae5dd0dffe402119c0540f1b83ce0bb276edef3a6764d78fda32e00b3",
-  "verify_pass.py": "427cfc77dedfef1f1cdf1d2bd6c0f6d58c6b30871e6dd4feaac10e548465cccb"
-}

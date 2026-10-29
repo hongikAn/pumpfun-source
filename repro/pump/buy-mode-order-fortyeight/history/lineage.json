@@ -1,9 +1,0 @@
-{
-  "baseline_candidate_sha256": "2b7e104ca71cf680208a72bc2d3eca86f3767c2bf83a6b75abe814356f9e8b66",
-  "baseline_symbols_sha256": "c30e0b0708279172af8adf82fb4877f1db760c1502707aba7ec7a324aa811aec",
-  "source_parent": "repro/pump/buy-fee-basis-fortyeight",
-  "main_parent": "repro/pump/buy-fee-basis-main-fortyeight",
-  "review": "work/pump-buy-next-source-pass",
-  "review_manifest_sha256": "41672b9dcd98b09da36f25261230a8e3c2cf0d1ec3ee2b8f2807703c7e073982",
-  "delta": "Only adjacent complete/cashback requirements in buy changed; exact_quote untouched."
-}

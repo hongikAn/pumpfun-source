@@ -1,9 +1,0 @@
-{
-  "command": [
-    "/workspace/scratch/3bf4e25d877a/pumpfun-source/work/toolchains/platform-tools-v1.48/rust/bin/cargo",
-    "--version",
-    "--verbose"
-  ],
-  "log_sha256": "b52c1a3bd1bbc3e4b513adea20158d7844b8b7d12cd3805e656392486e034e8c",
-  "returncode": 0
-}

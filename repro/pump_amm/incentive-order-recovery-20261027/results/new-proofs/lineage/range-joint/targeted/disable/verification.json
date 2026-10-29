@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "candidate_sha256": "c20007e860f47db1cc443344605afafe505d61bb4de6d61306fa164db3482544",
-  "cases": 148,
-  "signatures": 296,
-  "original_successes": 130,
-  "full_log_state_mismatches": [],
-  "scope": "Disable only:128 flag combinations and20 boundary controls, including accepted noncanonical config and trailing data, with unchanged signed message pairs and full nonexecutable-account snapshots."
-}

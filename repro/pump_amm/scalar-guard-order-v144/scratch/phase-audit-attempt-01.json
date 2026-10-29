@@ -1,7 +1,0 @@
-{
-  "status": "DIAGNOSTIC_PRESERVED",
-  "attempt": "The first postbuild phase check treated the final isolated rustup solana alias as the compilation toolchain and asserted the v1.44 rustc hash.",
-  "observed": "Assertion failed because the unchanged SDK strip.sh/env.sh/install.sh phase relinked that isolated alias to v1.52. The build itself had already succeeded.",
-  "resolution": "Use cargo target/.rustc_info.json's actual v1.44 sysroot, plus recorded compiler hash and SDK strip script/tool identities. No rebuild, flags, versions, source or executable changes.",
-  "rebuilds": 0
-}

@@ -1,7 +1,0 @@
-{
-  "overrides": [
-    "src/instructions/sell_pump_swap.rs",
-    "src/state.rs"
-  ],
-  "removed": []
-}

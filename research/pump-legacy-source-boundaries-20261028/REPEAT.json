@@ -1,7 +1,0 @@
-{
-  "scope": "Two actual ordinary fresh local-crate builds with warm dependencies; no cold claim.",
-  "candidate_sha256": "aebd4e5409c4aa263981be4f57aca27a69cbfa5eeacf92066fe7a54ea7373e9a",
-  "unstripped_sha256": "140201c2868d97b5ec4b9f5f650895aac3c66ccd9795b19f9abad5e8f95b3686",
-  "candidate_full_byte_equal": true,
-  "unstripped_full_byte_equal": true
-}

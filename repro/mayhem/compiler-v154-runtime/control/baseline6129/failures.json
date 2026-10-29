@@ -1,1 +1,0 @@
-{"target_build_failures":[],"target_runtime_failures":[],"note":"Known baseline program rejections and diagnostic differences are preserved in full replay receipts; this file distinguishes infrastructure failures from expected program failures. Build warnings remain unedited in build01/build.log."}

@@ -1,8 +1,0 @@
-{
-  "source": "repro/layered-passes/pass-01/results/pump",
-  "named_by": "docs/COMPLETION.md: fresh full inventory",
-  "baseline": "c1ffdd0667608d4755227e68aab9f27a7e9a0d37",
-  "envelope_manifest_sha256": "c7fd4686a0ce54a21a16530795a25ab95223695c4d7eb74c4c6cc345ddc40f2e",
-  "original_manifest_sha256": "1e2896882e16eecd9fde684c2e3ae5bdc699ac6eb231f74389904dedc84aaf15",
-  "role": "authoritative unchanged complete window ledger; boundaries inferred, not historical function proof"
-}

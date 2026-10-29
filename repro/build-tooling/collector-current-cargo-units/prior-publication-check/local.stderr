@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/collector-current-cargo-unit-witness/verify.py", line 21, in <module>
-    p=argparse.ArgumentParser();p.add_argument('--expected-seal',required=True);a=p.parse_args();verify(a.expected_seal)
-                                                                                                 ~~~~~~^^^^^^^^^^^^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/collector-current-cargo-unit-witness/verify.py", line 17, in verify
-    spec=importlib.util.spec_from_file_location('current_cargo_metadata_analyze',P/'analyze.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);d=module.analyze();assert d==J(P/'analysis.json')
-                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

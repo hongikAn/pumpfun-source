@@ -1,6 +1,0 @@
-{
-  "original_manifest_sha256": "c406421d25f233280d1c4876a7c78e57e509ddbc22f89aa30789b48d0db553e3",
-  "verifier_only_change": "Explicit --repo replaces location-derived repository root and adds payload-hash checking. Original verifier retained. No original/source/target/semantic assertion changed.",
-  "original_verifier": "verify-original.py",
-  "original_report": "REPORT-original.md"
-}

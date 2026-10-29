@@ -1,9 +1,0 @@
-{
-  "files": {
-    "observer.py": "da44052a52ed86ddab3064c5b41fd048dc294f1649f7eb1fd900dd24acd88455",
-    "probe_minimum.py": "01e873841f54fac61b224e58a69ddd62ed04f03fa1cadee1f36ea1f5d82c722b",
-    "expected-inputs.json": "dd7a6f49c5b90297e1870d4f5fc5fc5b4c57979d972cbf18e25ccdc8c5c1cca0",
-    "run_minimum.py": "94f76a26e845693c94051e67ef609fbae2e330492067250b8c8183ed76cee187",
-    "verify_minimum.py": "a77c286b05652f2cd43a690b6af741e9231dcc1af1fa05d667f09178feed88cc"
-  }
-}

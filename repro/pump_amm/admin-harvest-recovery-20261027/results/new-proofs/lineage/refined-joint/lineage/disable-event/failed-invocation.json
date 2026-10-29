@@ -1,7 +1,0 @@
-{
-  "probe": "without_clone",
-  "kind": "setup error",
-  "cause": "Read-only target argument accidentally pointed to the diagnostic directory rather than the warm target; dependency rlibs were therefore absent.",
-  "source_changed": false,
-  "combined_build_affected": false
-}

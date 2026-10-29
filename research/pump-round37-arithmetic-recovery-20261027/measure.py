@@ -1,6 +1,0 @@
-exec(open('/workspace/fees-recovery/measure.py').read().split('original=')[0])
-from collections import Counter
-original=(R/'evidence/original/pump/deployed.so').read_bytes();parent=(R/'repro/pump/main-contract-round37-20261027/unstripped.so').read_bytes();candidate=Path(sys.argv[1]).read_bytes();ow,pw,cw=[w.windows(x)for x in[original,parent,candidate]];oc,pc,cc=[Counter(x['signature']for x in rows)for rows in[ow,pw,cw]];wanted=oc&pc;report=dict(original_windows=len(ow),candidate_windows=len(cw),matched=sum((oc&cc).values()),prior_matches=sum(wanted.values()),prior_retained=sum((wanted&cc).values()),whole_elf_equal=original==candidate,targets=[])
-for addr,needle in [(0x880b0,'16constant_product6output'),(0xa0838,'16constant_product16tokens_for_quote')]:
- a=next(x for x in ow if x['address']==addr);matches=[x for x in cw if x['signature']==a['signature']];named=[x for x in cw if x['name']and needle in x['name']];report['targets'].append(dict(original=a,named=named,matches=matches))
-Path(sys.argv[2]).write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({**{k:v for k,v in report.items()if k!='targets'},'targets':[{'original_address':hex(x['original']['address']),'original_bytes':x['original']['bytes'],'full_matches':len(x['matches']),'named':[(r['name'],r['bytes'],r['instructions'])for r in x['named']]}for x in report['targets']]}))

@@ -1,9 +1,0 @@
-{
-  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
-  "caller_pc": 203080,
-  "instruction_hex": "85100000549dffff",
-  "target": 1008,
-  "current_source_sha256": "94a11c22bc952b060119212b7982e638f8faf56af5e565e15234f88283766956",
-  "source_proposal_sha256": "34e7590537a77f507d06ce51dc14415094bbf2b6225353bad4014f5df63a1ea9",
-  "scope": "Uncompiled legacy payout comparison payload correction only; no account check removed, no main edit."
-}

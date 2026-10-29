@@ -1,5 +1,0 @@
-# Existing-holder CTO error ordering
-
-Ten signed direct-AMM controls reuse the unchanged previously sealed synthetic Pump CPI caller. Two cases with an existing holder-reward pool, holder=true and a wrong requested creator return original6074 HolderRewardCreatorImmutable but reconstructed9278 returns6076 InvalidHolderRewardCoinCreator. All final states agree after rollback. Twelve separate signed captured-Pump controls agree, including valid canonical and holder success; captured Pump rejects wrong holder creators upstream with6090, so the downstream discrepancy is not asserted currently network-reachable.
-
-Both original PDA calls use the captured Pump program ID. The first derives pool-authority before creator validation; the second derives holder-rewards after the mayhem guard and before either holder flag check. Original code also compares the requested creator while enforcing existing-holder immutability. The reconstructed guard checks only the boolean. The binary/CFG evidence and exact caller sources are preserved. No source is changed in this negative packet.

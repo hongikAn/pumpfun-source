@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/p23-portability-t1c9y43j/packet/verify.py", line 14, in <module>
-    d=json.loads(gzip.decompress(f.read_bytes()));assert d['candidate_sha256']=='2387f8139a13918a5c9c523f140ecdd72db7243c8e2ed9cd7e1ff9d42ad6c8af'and not d.get('mismatches',[])
-                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

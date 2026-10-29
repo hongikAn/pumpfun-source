@@ -1,7 +1,0 @@
-# Emitted owned3003 static acceptance
-
-One build passed without type/backend errors. The shared1248byte factory71016 accepts variant0 (deserialize3003) and variant1 (serialize3004), allocates24/22byte names, formats33/31byte messages and initializes the160byte owned box. Complete bodies include formatter failure and allocation paths.
-
-The checked/unchecked typed loader has two folded short-field exits calling71016 at324984 and325496 with r2=0. Each calls the InvalidInput IO constructor1744 first, passing kind20 and exact26byte literal422438. It saves the resulting IO object, invokes the owned factory, then performs its tagged IO destructor at325104/325584. The immutable borrow counter is released only at325696. The direct Create branch in full dispatch108 does the same at113840->113880->113968->114080. It carries no account name; the typed path is decorated by its existing caller after guard release. Neither3001/3002 nor other integer-only error paths were converted.
-
-These full bodies and every selected direct transitive call/data row are retained. Indirect destructor/formatter targets remain explicit rather than asserted to equal historical dynamic vtables. The original W218 performs the same allocation/construction/drop/guard ordering. Complete instruction identity is not claimed. The full file differs from original; all residual intervals and unmatched windows remain in the ledgers. Ordinary12 has not yet been executed at this gate.

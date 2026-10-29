@@ -1,9 +1,0 @@
-{
-  "status": "reproduced",
-  "base_commit": "1285b5e9e3a29c1e2cf32246d6046035e5d66fad",
-  "candidate_sha256": "199fd7379b6881adefd9e54803f75902176c17bded1718bfc1c59b1cf5bc8473",
-  "unstripped_sha256": "49df399b8a36a0a60de03e8d55f1417261dc451e44845ca9d17a94040968c680",
-  "cold_empty_target": true,
-  "source_files": 65,
-  "limits": "Unchanged control only. No new census, runtime, candidate or original whole-ELF identity claim."
-}

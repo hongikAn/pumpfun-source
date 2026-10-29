@@ -1,3 +1,0 @@
-sources/control/programs/pump-fees/src/lib.rs -whitespace
-sources/control/Cargo.toml whitespace=-blank-at-eof
-sources/control/programs/pump-fees/src/sharing_admin.rs whitespace=-blank-at-eof

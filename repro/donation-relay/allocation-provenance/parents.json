@@ -1,6 +1,0 @@
-{
-  "evidence/dependencies/donation_relay/capture.json": "1c604cf91334ae1162f2dac66cdf27f00695b666b5bad0f934969f6cf0509650",
-  "evidence/dependencies/donation_relay/deployed.so": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
-  "evidence/dependencies/donation_relay/programdata-account.bin": "42d80bfd3663975888721e067bb3c7764b090d9146f16fa0ccf97c3bc2ff1014",
-  "scripts/capture.py": "16b2a6e9f747dee5a964afae25d90cdd974d5da76e0db3fdfd4bf018fe80b5f5"
-}

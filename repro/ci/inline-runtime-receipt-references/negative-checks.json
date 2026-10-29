@@ -1,9 +1,0 @@
-{
-  "positive": true,
-  "negative_checks": [
-    "tampered receipt rejected",
-    "missing receipt rejected",
-    "unsealed nested file rejected"
-  ],
-  "new_runtime_cases": 0
-}

@@ -1,6 +1,0 @@
-{
-  "reason": "Shared Cargo target returned a stale scratch artifact; artifact hash differs from independently clean-built identical source. Rejected before aggregate validation.",
-  "observed_candidate_sha256": "b1e3304fdb5b285a3cdc11295eccdba4125d1aa8f1d3dda27f3135909ad3cef5",
-  "expected_candidate_sha256": "90ed3006f67e5ae2e3d1fb5b0a22145cd3ca8f82e4dff6993e9e9911ba3f37f1",
-  "status": "rejected"
-}

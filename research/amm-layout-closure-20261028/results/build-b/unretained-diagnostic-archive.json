@@ -1,9 +1,0 @@
-{
-  "scope": "Actual source-built LLD diagnostic archive retained in local work; not a compiler input or acceptance substitute",
-  "files": {
-    "link.tar": {
-      "bytes": 100679680,
-      "sha256": "8044c54a2d9c644869518bd3d0abf134200dd172590a8313d24bab0040e59826"
-    }
-  }
-}

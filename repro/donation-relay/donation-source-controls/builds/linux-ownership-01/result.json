@@ -1,9 +1,0 @@
-{
-  "exit_code": 0,
-  "elapsed_seconds": 222.15427933301544,
-  "build_log_sha256": "f9a82be9c4c9ba60d35e97610f425e5db8407b5190286808867549ba7e00ada0",
-  "source_unchanged": true,
-  "candidate_sha256": "fdf42400a914700ac7cbcd0a999a90a16f25aaa821cfd2b700f12dc2b9ba0108",
-  "symbols_sha256": "a3e20599a06dbbb15dd31b922c1b92be478c0c2895f90ce1e8705610e0be8e76",
-  "candidate_bytes": 818384
-}

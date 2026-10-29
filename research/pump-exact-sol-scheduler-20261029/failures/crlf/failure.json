@@ -1,6 +1,0 @@
-{
-  "stage": "input pattern check",
-  "compiler_commands": 0,
-  "reason": "LLVM-dis on Windows wrote CRLF; exact LF-only input pattern did not match. Original text unchanged.",
-  "input_sha256": "0a102ab0027816a6e525ae33ae1c236a980a7b19868616c590cdf95d2589d9fc"
-}

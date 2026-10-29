@@ -1,8 +1,0 @@
-{
-  "cases": 1342,
-  "transactions": 2684,
-  "verified_signature_fields": 2684,
-  "mismatches": 0,
-  "candidate_sha256": "e3ba703309eef943852f7e05f39ff6ac5110184d7cc257f056ef69603bcb28e8",
-  "scope": "No instruction accounts; establishes bounded raw argument/discriminator decoding only."
-}

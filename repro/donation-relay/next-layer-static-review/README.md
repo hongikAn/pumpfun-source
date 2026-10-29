@@ -1,5 +1,0 @@
-# Relay complete ledger and streaming-serializer proposal
-
-[Full report](readable/README.md) and [exact source proposal](readable/source-proposal.patch). The relocation-first correction reclassifies146 calls;29 raw original-window matches remain, while normalized shapes decrease112→110. Every original/candidate window, call and data reference remains retained. No executable bytes changed. The one-file streaming-serializer proposal is uncompiled and unaccepted; runtime remains twelve ordinary successes plus one retained diagnostic mismatch.
-
-Root verified the complete static evidence after the worker stopped at the account usage limit. The worker's original sealed package includes one Python bytecode cache. The original package is preserved verbatim as an archive; the readable view omits only that cache. The outer verifier extracts data to a temporary directory, disables bytecode writes and redirects cache lookup before running the original static verifier. No loose cache is published. The retained `test_copy.py` is historical test source; root did not run its candidate-byte mutation case. Root verification uses source/report mutations only.

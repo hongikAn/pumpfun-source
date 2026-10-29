@@ -1,7 +1,0 @@
-# Pass23 authorization main plan — UNEXECUTED
-
-Root reviews this complete plan seal before launch. promote.py --repo MANAGEDROOT --reviewed-plan-sha256 SEAL defaults readonly. --launch alone permits one main build into originalwork/fees-sharing-authorize-main, with sibling-control. Exact26 baseline acceptedpass22 inputs, sourcechange only sharing.rs plus proposedREADME explicit26th input. Freeze52cd scratch, restoredbb helper/tools/CLI/SDK/lockeddeps; scanactualsources before application, after application, builder's own before/after maps and finalcontrol scan. Explicitv1.44/existingv1.52strip only; no flags/profile/remap changes or runtime.
-
-Main must equal scratch2387 executable and4a808 symbols completely. README is sole intentional main/scratch input difference. Actual build/runner exits exclusive and retained. Rootreview/launch mandatory; no main mutation occurred during preparation.
-
-package_main.py is UNEXECUTED and takes explicit --controls --build --scratch --output, requires identity/exit0. Copies complete sealed scratch inside companion, making verifier independent of original work paths. verify_main.py verifies allbytes, source26/README-only delta and wholeELFs; optional --runtime-signatures runs saved archived checks only, --current-root reads actualsource. Past absolute-path preparation plans remain retained history, not portable execution dependencies. No mainpromotion/merge/push implied.

@@ -1,7 +1,0 @@
-{
-  "base": "2f14c36c98e9d69cd1267a22a01435d6f604a715",
-  "root": "1bf4c08bb88a5c240f21548b089bae14958683bc",
-  "incoming": "2508c2be79bc5e66956dcd979e5d2f2a780fd851",
-  "working_HEAD_observed": "1bf4c08bb88a5c240f21548b089bae14958683bc",
-  "method": "git tree names/modes/blob IDs and SHA256; no incoming source body interpreted, no scripts/controllers executed"
-}

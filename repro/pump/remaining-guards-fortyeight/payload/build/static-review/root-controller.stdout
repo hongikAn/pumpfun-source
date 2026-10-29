@@ -1,5 +1,0 @@
-strict manifest PASS 53
-{"passed": true, "optional_early_only": true, "late_guard_unchanged": true, "account_types_unchanged": true, "builds": 0, "runtime_executions": 0}
-strict manifest PASS 24
-{"passed": true, "chosen": "anchor_spl::token::spl_token::native_mint::ID", "type": "same solana-pubkey2.4.0 Pubkey as Anchorprelude", "const_context": true, "value_hex": "069b8857feab8184fb687f634618c035dac439dc1aeb3b5598a0f00000000001", "changes": 1, "builds": 0, "runtime_executions": 0}
-{"passed": true, "candidate": "f2901021fde9354bf2d89098a3e8d8a425b60eda0faa856a2c8aef0d64e3f12f", "symbols": "750456180883c72cc7e94692b75503043357f35222aebad6d67049af8ee2ed99", "preserved": [6030, 2006, 6092], "runtime_executions": 0}

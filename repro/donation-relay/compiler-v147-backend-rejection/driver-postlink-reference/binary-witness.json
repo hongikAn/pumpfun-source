@@ -1,6 +1,0 @@
-{
-  "path": "/Users/shawwalters/.local/share/solana/install/releases/2.1.21/solana-release/bin/cargo-build-sbf",
-  "sha256": "e5b55be5bd22122feedfff845237e7d72ec4134dd2f2186acce15907e15d27a0",
-  "source_role": "retained official tagv2.1.21 source; compiled binary version/help matches, not a reproducible source-to-binary identity proof",
-  "postlink_check_on_failed_artifact": "NOT_RUN"
-}

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-3002-owned-build/result/check_owned3002.py", line 26, in <module>
-    if __name__=='__main__':print(json.dumps(check(),indent=2))
-                                             ~~~~~^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-3002-owned-build/result/check_owned3002.py", line 8, in check
-    assert ins(325792)==(0x62,0x88,152,3002);assert ins(325720)==(0x62,0x08,24,115);assert ins(325728)==(0x7a,0x08,16,10)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

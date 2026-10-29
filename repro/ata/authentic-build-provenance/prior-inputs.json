@@ -1,7 +1,0 @@
-{
-  "repro/identity-audit/2026-10-25/ata/REPORT.md": "30ad6b83caab668e97e322d46522fc57406edd82996dac2fb0009c56d9551acf",
-  "repro/identity-audit/2026-10-25/ata/manifest.json": "274f3bb717a7b93dfff0f0956280854bbd4e53bc627babc8717dc24f26c5ae06",
-  "repro/pump/dependency-exactness/ata-provenance-followup/REPORT.md": "3a2dc11d1931d8e913e255e008ee9109bb3aeefa7e58e5694fd09555ab3ee53c",
-  "repro/pump/dependency-exactness/ata-provenance-followup/access-record.json": "defaa22dbc333fd5a2858bedc4fd0534616779519e9af3c908085b591bbac371",
-  "repro/pump/ata-candidate-build-2/comparison.json": "8cbd543a45c3746b42a3f8592a86abb2e4bb572da6a5a767da7b9d111339fecf"
-}

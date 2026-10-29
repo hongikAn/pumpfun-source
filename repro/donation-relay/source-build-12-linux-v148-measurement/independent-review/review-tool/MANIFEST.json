@@ -1,8 +1,0 @@
-{
-  "scope": "Proposal only: no actual Linux measurement packet supplied or reviewed",
-  "files": {
-    "CHECKLIST.md": "a8e33305e49dd4dbbce6d828a3894c79bd1a8b3263ba606924d02f949be803ed",
-    "review.py": "73dbf0c139d815503dc800f0b380f049c98820660d02341619eda63e57c01d91",
-    "test_review.py": "0a620e6ae72cfcfd011c824d1cb7ff2f04dd6316739ab542ddc6465c0b143b16"
-  }
-}

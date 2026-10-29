@@ -1,1 +1,0 @@
-{"status":"preflight rejected before composition; accidental baseline-only build retained as failed preparation", "reason":"V3 patch used repo paths needing -p3, not -p1", "built_candidate_is_exactquote_base":"2d26b23bd82279ec87515e69adc5c8be85d47692fa7244a13278ac5bda98a0a5", "composition_measurement":false}

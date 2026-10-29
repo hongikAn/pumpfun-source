@@ -1,1 +1,0 @@
-The first static witness attempt used relative offset128 for the mint low-word store. The actual offset is120 (0xc4d90 -0xc4d18). Corrected only the independent verifier offset; no source, build or receipt changes.

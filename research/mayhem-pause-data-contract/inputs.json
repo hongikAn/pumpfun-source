@@ -1,8 +1,0 @@
-{
-  "revision": "caf9152bfe4fd0804f76e4f9636551fbd486e237",
-  "files": {
-    "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-    "research/mayhem-parallel-recovery/artifacts/recovered/symbols.so.gz": "5de78b52f4dff9d8c5e634fcde52b8c2790054d78c8d0214e917cd1a5269e163",
-    "scripts/analyze.py": "dd7fb38d795d4dd72a25aab0d65c2223d9f6f75d8b3ecb0de1d87d6e102910ac"
-  }
-}

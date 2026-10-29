@@ -1,6 +1,0 @@
-{
-  "base_sha256": "4e6a5617a7a8c3474ed7662f0188df4b1824c08253ebfb08212351ca5249da12",
-  "patch_sha256": "03b32d55b30e9fe8de8d8def48bfa67e1e018f0649a9930a2adf421f3a0ac7bd",
-  "source_evidence": "Original tests liquidity >99 after Pool field stores, invokes dedicated TooLittlePoolTokenLiquidity6003 closure on failure, then subtracts100 and mints on success. This motivates checked_sub+ok_or_else after initialization; transactional failure rollback means source ordering is not independently proven by final snapshots.",
-  "minimum_branch_address": "0x2d8f0"
-}

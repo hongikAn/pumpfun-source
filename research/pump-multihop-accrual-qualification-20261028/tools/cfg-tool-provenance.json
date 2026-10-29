@@ -1,6 +1,0 @@
-{
-  "original": "research/amm-checked-constructor-20261028/tools/cfg_attribution.py",
-  "original_sha256": "e04fad698f3baddb659e4a7a3acf0fede76ab5173599f4904e8c585e35e1ed9b",
-  "successor_sha256": "c1fd8438dbb6d7a4b9ace44c09366878efd8e1d14d5bcb74c09fc79157a04be3",
-  "only_change": "Original artifact selector pump_amm\u2192pump; Elf reader remains generic; diagnostic only, no window credit."
-}

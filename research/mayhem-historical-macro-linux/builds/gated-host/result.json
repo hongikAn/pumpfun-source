@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "seconds": 38.175882993000414,
-  "source_unchanged": true,
-  "outputs": {
-    "target/release/libanchor_attribute_program.so": "da0497f1a324d10de2a0cca836721893bf352c0d7064ae71e385da33e07ef91b"
-  }
-}

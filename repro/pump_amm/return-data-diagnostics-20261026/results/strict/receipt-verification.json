@@ -1,6 +1,0 @@
-{
-  "receipt_sha256": "c7f9b383625ec64d85a75900dbfc65aa29aa986f94323d3252164dd13e8898a4",
-  "cases_checked": 65,
-  "signed_executions_checked": 130,
-  "scope": "Receipt integrity and actual oracle invocation only; no behavioral equivalence asserted."
-}

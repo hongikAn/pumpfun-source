@@ -1,6 +1,0 @@
-{
-  "ordinary_primary_and_repeat_both_literal_equal": true,
-  "candidate_sha256": "199fd7379b6881adefd9e54803f75902176c17bded1718bfc1c59b1cf5bc8473",
-  "unstripped_sha256": "49df399b8a36a0a60de03e8d55f1417261dc451e44845ca9d17a94040968c680",
-  "scope": "Fresh local crates; external dependencies explicitly reused. Independent genuinely empty-target build is a separate successor packet."
-}

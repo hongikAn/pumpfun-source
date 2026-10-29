@@ -1,9 +1,0 @@
-{
-  "returncode": 0,
-  "source_unchanged": true,
-  "compiler_unchanged": true,
-  "target_libraries_unchanged": true,
-  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "stderr_sha256": "040f82d2208ca50582357a5d802ea2dbb03e4dcac9453c7efb806e3fd80fc690",
-  "llvm_ir_sha256": "bdb697729dadf64d6928730d42bbae88bf9b269bcd1c8d64e71b8b1fea592208"
-}

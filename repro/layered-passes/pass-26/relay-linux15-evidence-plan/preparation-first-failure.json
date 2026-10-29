@@ -1,8 +1,0 @@
-{
-  "actual_exit": 1,
-  "stage": "metadata-only preparation after exact method/boundary/source23 checks",
-  "reason": "Full Cargo release profile contains fields beyond Linux13 plan summary; exact dict equality was too broad",
-  "source_or_body_mutation": false,
-  "compiler_VM_archived_code_execution": false,
-  "partial_output_preserved": true
-}

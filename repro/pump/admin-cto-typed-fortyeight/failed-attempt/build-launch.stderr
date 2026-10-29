@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/scripts/build_partial_candidate.py", line 31, in <module>
-    r.check_returncode();assert before==after,'source or lockfile changed during build'
-    ~~~~~~~~~~~~~~~~~~^^
-  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 509, in check_returncode
-    raise CalledProcessError(self.returncode, self.args, self.stdout,
-                             self.stderr)
-subprocess.CalledProcessError: Command '['cargo', 'build-sbf', '--manifest-path', '/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-admin-cto-typed-build/source/programs/pump/Cargo.toml', '--tools-version', 'v1.44', '--offline', '--sbf-sdk', '/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-admin-cto-typed-build/build-01/sdk', '--sbf-out-dir', '/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-admin-cto-typed-build/build-01/artifacts', '--', '--locked', '--offline']' returned non-zero exit status 1.

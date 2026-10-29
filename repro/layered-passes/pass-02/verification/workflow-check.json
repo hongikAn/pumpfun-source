@@ -1,7 +1,0 @@
-{
-  "workflow_yaml_parsed": true,
-  "python_heredocs_parsed": 5,
-  "current_pump_hash_assertions": 4,
-  "source_script_doc_diff_check": "PASS",
-  "scope": "Syntax and whitespace checks only; hosted runtime is separate."
-}

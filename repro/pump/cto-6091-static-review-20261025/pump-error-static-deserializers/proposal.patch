@@ -1,7 +1,0 @@
---- a/programs/pump/src/admin_cto.rs
-+++ b/programs/pump/src/admin_cto.rs
-@@ -107,3 +107,3 @@
-  let mut target=if holder{holder_key}else{new.unwrap()};if target==Pubkey::default(){return Err(error!(PumpError::CreatorShouldNotBeZero).with_pubkeys((target,Pubkey::default())));}if !holder && target==a.sharing_config.key(){return Err(err(6019));}
-- if fee.is_some()&&(a.bonding_curve.quote_mint==Pubkey::default()||a.global.whitelisted_quote_mints.contains(&a.bonding_curve.quote_mint)){return Err(err(6091));}
-+ if fee.is_some()&&(a.bonding_curve.quote_mint==Pubkey::default()||a.bonding_curve.quote_mint==anchor_lang::solana_program::pubkey!("So11111111111111111111111111111111111111112")||a.global.whitelisted_quote_mints.contains(&a.bonding_curve.quote_mint)){return Err(error!(PumpError::CreatorFeeNotConfigurableForQuote));}
-  if fee.is_some()&&cashback{return Err(error!(PumpError::CreatorFeeNotAllowedForCashbackCoin));}

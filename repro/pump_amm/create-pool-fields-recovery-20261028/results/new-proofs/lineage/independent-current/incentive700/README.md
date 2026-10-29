@@ -1,1 +1,0 @@
-Fresh joint candidate incentive ownership replay: 668 admin and 32 edge cases. Preserved historical baseline edges separately. Synthetic offline fixtures; no network reachability or whole-program equivalence claim.

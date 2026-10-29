@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-3002-owned-build/result/verify.py", line 22, in <module>
-    if __name__=='__main__':print(json.dumps(verify(),indent=2))
-                                             ~~~~~~^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-3002-owned-build/result/verify.py", line 19, in verify
-    assert check()==json.loads((P/'owned3002-emitted.json').read_text())
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

@@ -1,7 +1,0 @@
-{
-  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
-  "python_executable_sha256": "b502cb4c5b46b8d4192ec6bcb600ce8922f1afc396fcf646e8765c6eba74a0bf",
-  "solders_version": "0.27.1",
-  "solders_extension_sha256": "a39f7bd790676cd4cf8cfde92d743b9647fb292245feb142ae1239c55414962d",
-  "scope": "Signature verification only; no target runtime executed."
-}

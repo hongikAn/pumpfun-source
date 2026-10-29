@@ -1,8 +1,0 @@
-{
-  "source_identity": "ok",
-  "selected_checkpoint_inventory": "656 normalized / 148 raw / 785",
-  "selected_diagnostic_witnesses": "3 retained differences verified",
-  "selected_direct_call_targets": "17/17 resolved; 16 normalized target pairs plus fee -> proposed ceil_div",
-  "same_host_artifacts_checked": false,
-  "maintained_checkpoint_promoted": false
-}

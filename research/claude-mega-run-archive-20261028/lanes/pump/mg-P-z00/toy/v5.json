@@ -1,6 +1,0 @@
-{"k1":"let c=ctx!(x,signer); let v=OK::try_from(None)?; return upd(c,v);",
- "k1t":"let c=ctx!(x,signer); let v=OK::try_from(None)?; upd(c,v)",
- "k2":"let c=ctx!(x,signer); return upd(c, OK::try_from(None)?);",
- "k3":"let c=ctx!(x,signer); let v:OK=None.try_into()?; return upd(c,v);",
- "k4":"let v=OK::try_from(None)?; return upd(ctx!(x,signer),v);",
- "k5":"return upd(ctx!(x,signer), {let v=OK::try_from(None)?; let w=OK(v.0); w});"}

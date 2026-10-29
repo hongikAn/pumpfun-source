@@ -1,3 +1,0 @@
-# P35 publication transport verification
-
-Actual12synthetics/realpackager/relocatedstream each exited0. The34groups/1298archive-members/9346117B transport preserves raw files and modes without extracting/importing/executing archive members. Actual2package index check passed18paths/14distinctblobs; later verification package/finalindex is outside this earlier observation to avoid a seal cycle. Prepared report is a historical local-before-publication snapshot, not a claimed hosted result. Packagef85c0714 and planf00f1c56 preserve all research/failures and exactengine bytes. This verifies transport and actual Git index content, not semantic or binary equivalence.

@@ -1,6 +1,0 @@
-{
-  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
-  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
-  "solders": "0.27.1",
-  "scope": "Public native artifacts loaded locally; no fresh Cargo build in this packet."
-}

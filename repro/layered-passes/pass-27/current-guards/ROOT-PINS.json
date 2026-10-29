@@ -1,7 +1,0 @@
-{
-  "root_reviewed_final": true,
-  "transition_capsule_sha256": "ab6eb990514cdb8d827fc4ae765c497bdbde8d5bea7dee42b7b55b731c214299",
-  "base_metadata_seal": "0ac073c2c17ca609e42a87a79fbfd71b72746de05b45ee3411217beca307c4b3",
-  "base_guard_seal": "13a80187425066a758f319219a4d6857d22e19812dd07cf05b46fddb02c8e4ab",
-  "controller_seal": "627a70041f0e32600528b44a5c116a5ad8460f74bbbc8482809df1716f7b1086"
-}

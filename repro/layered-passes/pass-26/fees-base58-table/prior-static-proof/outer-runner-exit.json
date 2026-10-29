@@ -1,5 +1,0 @@
-{
-  "returncode": 0,
-  "basis": "Actual exec_command result for bounded collect.py invocation; both objdump child returns separately retained in capture.json",
-  "compiler_runtime_probe_fixture": false
-}

@@ -1,7 +1,0 @@
-{
-  "evidence/dependencies/donation_relay/deployed.so": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
-  "repro/donation-relay/allocation-provenance/report.json": "741a9f03eb4beb9b06d5badc3170f79daefc611bd7f2f65df0b315ea58894a11",
-  "repro/donation-relay/donation-wrapper-source-proposal/manifest.json": "9f02988c5b30b463c94dd8af27133757240763c30c3750c1fdbc44352be20e76",
-  "repro/donation-relay/linked-elf-reproduction/manifest.json": "e387e7d0becad9b945552d4ccea38c10c3b8afe2a253a5193368a7076c2d040f",
-  "repro/donation-relay/offline-loader-allocation/verify.py": "741e6be8b0910f440b2ebc4ee65e01254a61d71ffaef416fcc26d815516486e2"
-}

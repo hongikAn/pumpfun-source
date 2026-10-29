@@ -1,8 +1,0 @@
---- a/src/instructions/fee_recipients.rs
-+++ b/src/instructions/fee_recipients.rs
-@@ -54 +54 @@
--        let last = if native {self.field_10}else{self.field_34} as i64;
-+        let previous = if native {&mut self.field_10}else{&mut self.field_34}; let last = *previous as i64;
-@@ -63 +63 @@
--        if native {self.field_10=current_time as u64;}else{self.field_34=current_time as u64;}
-+        *previous=current_time as u64;

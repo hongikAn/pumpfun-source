@@ -1,5 +1,0 @@
-{
-  "rustc": "rustc 1.84.1-dev\nbinary: rustc\ncommit-hash: unknown\ncommit-date: unknown\nhost: aarch64-apple-darwin\nrelease: 1.84.1-dev\nLLVM version: 19.1.7\n",
-  "cargo": "cargo 1.84.0 (12fe57a9d 2025-04-07)\n",
-  "objcopy": "llvm-objcopy, compatible with GNU objcopy\nLLVM (http://llvm.org/):\n  LLVM version 19.1.7-rust-dev\n  Optimized build.\n"
-}

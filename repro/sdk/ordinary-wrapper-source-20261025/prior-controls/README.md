@@ -1,5 +1,0 @@
-# Four ordinary SDK swap-object bindings
-
-Both exact primarye3e2b881 and independentb1b0a236 records are preserved. Two authenticated SDK archives each expose21-field helper objects. Buy supplies19/23 named accounts, leaving four IDL resolver recipes; sell supplies19/21, leaving two. Two buyback fields are appended as remaining accounts. Every dynamic remaining-account route, wrapper, fee selection, external constants, resolver execution and exact JavaScript dependency graph remains open. These are four additional object enumerations after the earlier four liquidity objects; seventeen other nonliteral object sites remain unexpanded. No complete client or account-assembly acceptance follows.
-
-The parent verifier checks every retained payload and replays both unchanged pure checkers against the frozen SDK/interface matrices and prior liquidity record in the supplied repo. No JS/npm/Anchor/PDA/VM/compiler/target execution runs. Active sources, status, workflow, recipe and artifact pointers are unchanged. Run python3 -B repro/sdk/ordinary-swap-followup-20261025/verify.py --repo .

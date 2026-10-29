@@ -1,1 +1,0 @@
-== base0 rv True stack [] norm 982 raw 166 gains [] losses [] rg [] rl []

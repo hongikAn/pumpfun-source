@@ -1,9 +1,0 @@
-{
-  "research/mayhem-current436-composition-20261027/manifest.json": "599bb6d7e5e204d36e3efb40c67a16706e7f6b9b55fa4bae0f37dc03a3867509",
-  "research/mayhem-current436-composition-20261027/source.tar.gz": "88ee2c5ce08ca171d73934af068b8b4b3a787e05b0c0f49f2b6e8bb0ce56786a",
-  "work/mayhem-priority-20261027/fast-curve-pr404-qualified436-build/symbols.so": "f03e73e7b82b152e64e9a999f4f9276ece9ebcd42d2273d0b8adaa7c5fb0c229",
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "research/mayhem-current-macro-call-closure-20261027/verify.py": "7d7b017bee67fd65c39ee6a1551ff650002c19e3d3a170ccb375bc08110b7f90",
-  "research/mayhem-current-macro-call-closure-20261027/reader.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1",
-  "research/mayhem-current-macro-call-closure-20261027/original-windows.json": "58f3eca2439d73824e55d5272cabb653b42e07c4b5d422ef329045eb037ed682"
-}

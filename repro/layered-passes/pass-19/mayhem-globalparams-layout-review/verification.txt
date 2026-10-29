@@ -1,1 +1,0 @@
-PASS: admitted original serializer;26 complete member transports; current admitted codecs; source excerpt. No typed restoration or semantic equivalence asserted.

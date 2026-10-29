@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "command": [
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/test-env/bin/python",
-    "-B",
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-claim-context-main-control/check_dependencies.py"
-  ]
-}

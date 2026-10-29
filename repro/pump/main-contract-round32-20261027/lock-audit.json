@@ -1,7 +1,0 @@
-{
-  "scope": "R32 contract source uses the same Cargo.lock as verified R31; target-library profile is an independently bound SDK input.",
-  "before_sha256": "8307bd5e79789b5190291ea014c2f5556e23fb9829fa2f68a7ede581235eae98",
-  "after_sha256": "8307bd5e79789b5190291ea014c2f5556e23fb9829fa2f68a7ede581235eae98",
-  "package_records": 255,
-  "unchanged": true
-}

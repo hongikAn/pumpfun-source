@@ -87,6 +87,10 @@ is a contract decision, not a bug fix.
     `totalRanked`, `participants`, `top`, and `winners`. Before the first board build (`builtAtMs = 0`,
     derived from the maximum entry refresh time), every entry has rank 0 and public ranked lists are empty.
     Registered non-struck entries still count as `participants` before that build.
+    A person entry with an explicitly supplied `walletAddress: null` also has rank 0 and is
+    excluded from ranked boards, top, winners and competition highlights; it remains registered,
+    non-struck and accessible by entry detail. This follows factory `139209-8d4ffb7afbfa`'s
+    "no scoring wallet" rank-0 state. Omitted wallet facts are not treated as known absence.
 44. **`top` and `winners` calculation on `Competition`**: For competitions in phase `registration` or `live`,
     `top` carries ranks 1..3 from the active board build; for other phases, `top` is `[]`. For competitions
     in phase `ended`, `winners` carries ranks 1..N (where N is the highest `rankTo` in `prizes`, or 3 if `prizes`
@@ -108,8 +112,15 @@ is a contract decision, not a bug fix.
     `/v1/competitions/:idOrSlug` to prevent `:idOrSlug` from capturing multi-segment paths.
 49. **UserStore hydration**: Competition entries and members hydrate profile information (username,
     profileImageUrl, walletAddress, isVerified) from the shared `UserStore` and its synthetic seed
-    (`users-seed.json`), preventing divergent user identities. Squad rows and pre-build entry rows set
-    `walletAddress: null` per contract.
+    (`users-seed.json`), preventing divergent user identities. For person entries, an optional
+    `RawEntry.walletAddress` supplies the board wallet snapshotted at competition start: a string
+    overrides today's profile wallet and null records known absence. The same snapshot is served
+    in the person's member detail. Omission retains the legacy profile fallback, including its
+    limitation that it does not establish a historical wallet; a missing profile never implies an
+    explicit absent snapshot. Group entries ignore this person-only field and retain their separate
+    member-wallet inputs. Squad rows and pre-build entry rows set `walletAddress: null` per contract.
+    These are operator-supplied local model facts, not a recovered snapshot writer or production
+    data. The synthetic provenance and unqualified compatibility boundary are unchanged.
 50. **`leaderboard.startSec` and `endSec`**: `startSec` is `startsAt`. `endSec` is the scoring window end the
     served legs were read at: the last board build (`builtAtMs`, in seconds) while the board is not final, and
     `endsAt` once `isFinal` is true. Before the first build `builtAtMs` and `endSec` are both 0.

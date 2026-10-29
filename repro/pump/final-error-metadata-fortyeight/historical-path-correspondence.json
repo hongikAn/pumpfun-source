@@ -1,6 +1,0 @@
-{
-  "work/pump-multi-hop-curve-recovery/differential.py": "repro/pump/native-curve-partial-fortyeight/harness/pump_multi_hop_curve_differential.py",
-  "work/pump-multi-hop-curve-recovery/verify_saved.py": "repro/pump/native-curve-partial-fortyeight/isolated-partial-checkpoint/verify_saved.py",
-  "work/pump-nested-general-route-recovery/run-01/two-curve-harness/base-fixture.json": "repro/pump/final-error-metadata-fortyeight/harness/base-fixture.json",
-  "work/pump-nested-general-route-recovery/run-01/two-curve-harness/pump_tokenkeg_two_curve_differential.py": "repro/pump/final-error-metadata-fortyeight/harness/pump_tokenkeg_two_curve_differential.py"
-}

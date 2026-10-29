@@ -1,6 +1,0 @@
-{
-  "id": "F01",
-  "status": "scratch_candidate_observation_not_confirmed_original_vulnerability",
-  "observation": "`track` only labels the buy event. Neither buy branch updates current volume/global volume or calls a volume updater. [legacy_buy.rs:96\u2013498](inputs/programs/pump-amm/src/legacy_buy.rs#L96), especially418\u2013455; context41\u201344 keeps global volume readonly.",
-  "reachability_impact_next_prerequisite": "Source omission is established for an otherwise successful track=true buy. Reward undercount requires an active initialized incentive schedule and intended original tracking semantics. Next: parent reconcile exact current-handler identity and retained original volume-update evidence, including successful active-schedule cases if already published. Do not claim original has this omission."
-}

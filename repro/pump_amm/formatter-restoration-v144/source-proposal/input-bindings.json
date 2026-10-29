@@ -1,7 +1,0 @@
-{
-  "programs/pump-amm/Cargo.lock": "dd27205d8d47e4341c8438bb7adf812f38fae150625cec43303a963c319ddef5",
-  "repro/pump_amm/accumulator-order-v144/candidate.so": "8ce5f9588bdf7ca3d357a542518ad47aa1376fd8f3d242c37f18f55cef766a0e",
-  "repro/pump_amm/accumulator-order-v144/unstripped.so": "0c301087d7531271589e192c0e2db01dc3a9d5d08643fde80ddd3bcddf10e92a",
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "repro/pump_amm/accumulator-order-v144/inventory/after/residual-ledger.json.gz": "af56ff24e065e04326398305d185077044a5b4f5921b22f68aeb759db1270ac3"
-}

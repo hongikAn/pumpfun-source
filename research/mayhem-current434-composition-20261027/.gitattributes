@@ -1,3 +1,0 @@
-source.patch -whitespace
-overrides/** -whitespace
-inventory.tsv -whitespace

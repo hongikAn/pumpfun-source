@@ -1,6 +1,0 @@
-{
-  "reason": "Correct expected first filename reference PC:0x806c8+0x4f0=0x80bb8. Actual inventory reference was used; no source mutation occurred before assertion.",
-  "before_sha256": "68b1b36ccb7774bf5ee2c4df3079899df6778788c98b8ccf89b9ecc50ec3953f",
-  "after_sha256": "c79b2352ec97fe71cf8f6c7746f74a848f0aaaff51603c384ec7c8874c1480f6",
-  "retained_failure": "stage01-failed-address.log"
-}

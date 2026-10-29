@@ -1,9 +1,0 @@
-{
-  "reviewed_v3_plan_sha256": "02b611605bd5517d7dcc06e468f0bb0e17f85e54ca0ebaf5f3da13f75ad62e63",
-  "reviewed_v2_plan_sha256": "9860dd2b6bba7e4572de7a03091483ddc40d485e2c217b1fac4706d373456df0",
-  "checkpoint_seal": "d12ad064c15a5e1760f6a566349f982b9e4e4e57430b455a0386b89a4a57248a",
-  "state": "immutable_selection_proposal; application checked separately",
-  "new_builds": 0,
-  "new_target_executions": 0,
-  "v2_stage_record_preserved": true
-}

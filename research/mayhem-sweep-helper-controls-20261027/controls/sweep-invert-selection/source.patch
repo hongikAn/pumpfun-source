@@ -1,5 +1,0 @@
---- a/src/instructions/fee_recipients.rs
-+++ b/src/instructions/fee_recipients.rs
-@@ -54 +54 @@
--        let last = if native {self.field_10}else{self.field_34} as i64;
-+        let last = if !native {self.field_34}else{self.field_10} as i64;

@@ -1,9 +1,0 @@
-{
-  "path": "C:\\Users\\Wind\\Documents\\Codex\\2026-10-26\\https-x-com-shawmakesmagic-status-2114560456891445597\\work\\mayhem-native-build\\sdk\\llvm\\bin\\ld.lld.exe",
-  "sha256": "facbb345cbe9e0bedc51304e53ee1cd13faf4097dd647f8bb6d92ed9cc6f2eaf",
-  "returncode": 0,
-  "stdout": "LLD 20.1.7 (https://github.com/anza-xyz/llvm-project.git 7ab1c5c58f2d29bfcd27e27b50f7e68101cdeaa6) (compatible with GNU linkers)\n",
-  "stderr": "",
-  "rust_revision": "daa3af4a1110ec3f10ce08083bb0b7855a88416f",
-  "llvm_revision": "7ab1c5c58f2d29bfcd27e27b50f7e68101cdeaa6"
-}

@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "candidate_sha256": "4e6a5617a7a8c3474ed7662f0188df4b1824c08253ebfb08212351ca5249da12",
-  "unstripped_sha256": "98195c3cf2c125ce93ec615f840e42730d5abace8358c4b8545d937387cc7b30",
-  "source_inputs": 227,
-  "unchanged_dependency_artifacts": 762,
-  "first_seconds": 62.2890215839725,
-  "repeat_seconds": 70.38589054098702
-}

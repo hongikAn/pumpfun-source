@@ -1,5 +1,0 @@
-{
-  "tool": "match.py",
-  "outcome": "Result serialization failed after read-only analysis: relative candidate path passed to absolute REPO identity helper. No ELF/source mutations.",
-  "fix": "Resolve build path before creating Elf objects."
-}

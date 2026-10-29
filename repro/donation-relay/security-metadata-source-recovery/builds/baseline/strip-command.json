@@ -1,6 +1,0 @@
-[
-  "/workspace/scratch/3bf4e25d877a/pumpfun-source/work/toolchains/platform-tools-v1.48/llvm/bin/llvm-objcopy",
-  "--strip-all",
-  "/workspace/scratch/3bf4e25d877a/pumpfun-source/work/relay-build-482/linux-v148-build02/target/sbpf-solana-solana/release/donation_relay_source_proposal.so",
-  "/workspace/scratch/3bf4e25d877a/pumpfun-source/work/relay-build-482/linux-v148-build02/candidate.so"
-]

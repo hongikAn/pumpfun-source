@@ -1,5 +1,0 @@
-# Preserve exact unified-patch context bytes and source receipts.
-source.patch -text -whitespace
-sources/** -text -whitespace
-composition-cp4/*.rs -text -whitespace
-*.gz binary

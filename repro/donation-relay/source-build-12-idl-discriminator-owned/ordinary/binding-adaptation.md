@@ -1,1 +1,0 @@
-Only package/build binding changes: candidate hash updated, obsolete prior build07 pre-runtime seal assertions removed (this build has independently sealed inputs and emitted checks), launcher source map and candidate/harness checks retained. All fixture, transaction, signature, blockhash/history, effects and comparison assertions unchanged. Original verifier retained.

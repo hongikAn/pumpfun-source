@@ -1,7 +1,0 @@
-{
-  "image": "docker.io/solanafoundation/solana-verifiable-build@sha256:6c73adc767ee7ff212f2532d4695472b12f3d4ac20aea3db22b89d8c614dac50",
-  "rustc_sha256": "c8807b7ebede8578ac5a257ea333780f9d89bd356064fd8184af7e996cb71a97",
-  "anchor_lang_rlib": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-liquidity-continuation-20261027/target/sbpf-solana-solana/release/deps/libanchor_lang-50240640a7ffe506.rlib",
-  "anchor_lang_rlib_sha256": "2c96cb13aff9f26152c891832c7fff4aee8528f63328ce79ed6e8baa39f6a8ad",
-  "scope": "Typed Context layout calibration only; not a standalone rebuild of the complete Sweep helper."
-}

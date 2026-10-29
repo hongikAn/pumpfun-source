@@ -1,6 +1,0 @@
-{
-  "returncode": 0,
-  "stdout": "{\"files\": 148, \"predecessor_results\": [{\"complete_local_cfgs\": 8, \"files\": 58, \"repository_rebound\": true, \"status\": \"PASS\", \"target_execution\": false, \"unique_instructions\": 1399}, {\"files\": 80, \"finding\": \"R1 missing checked call confirmed\", \"instruction_records\": 6727, \"ok\": true, \"semantics_proved\": false, \"target_executed\": false, \"unique_instructions\": 6726, \"whole_git_rebound\": true}], \"repository_rebound\": true, \"status\": \"PASS\", \"target_executed\": false, \"unique_instructions\": 8072}\n",
-  "stderr": "",
-  "manifest_sha256": "367472c24aeaaed589f9b70a1d091f20e91312c43536a33ebc0b2c8c6bfab12c"
-}

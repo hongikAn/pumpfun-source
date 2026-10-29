@@ -1,1 +1,0 @@
-{"phase":"input copy preparation","builds":0,"runtime":0,"failure":"Registry source lacks .cargo-checksum.json; no package seal existed. Resume verifies selected source files against exact lock-hashed .crate archive instead.","preserved_script":"prepare_publication.py"}

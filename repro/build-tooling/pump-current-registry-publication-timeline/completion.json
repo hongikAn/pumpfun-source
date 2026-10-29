@@ -1,9 +1,0 @@
-{
-  "requested": 176,
-  "observed": 176,
-  "all_200": true,
-  "all_locked_checksums_match": true,
-  "elapsed_seconds": 120.30636129199411,
-  "automatic_retries": 0,
-  "network_scope": "Immutable public crates version metadata only; no downloads/install/build/RPC mutation/original-body acquisition"
-}

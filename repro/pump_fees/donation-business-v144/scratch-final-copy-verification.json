@@ -1,8 +1,0 @@
-{
-  "manifest_sha256": "ee487e38055c9bccda0df1d587518bbedcc21df826394b09b5e9a2eb37eedf05",
-  "returncode": 0,
-  "stdout": "{\n  \"verified\": true,\n  \"sealed_files\": 174,\n  \"source_inputs\": 26,\n  \"original_inferred_windows\": 585,\n  \"candidate_symbol_windows\": 546,\n  \"whole_original_elf_equal\": false,\n  \"handler_normalized_equal\": false,\n  \"baseline_comparisons\": 17441,\n  \"donation_steps\": 10,\n  \"focused_cases\": 20,\n  \"focused_transactions\": 40,\n  \"focused_signatures\": 80,\n  \"focused_new_input_combinations\": 12,\n  \"focused_repeated_inputs\": 8,\n  \"saved_diagnostic_rows\": 11,\n  \"saved_signature_verifier_rerun\": true,\n  \"current_baseline_bindings_checked\": false,\n  \"main_source_changed\": false\n}\n",
-  "stderr": "",
-  "no_repository_argument": true,
-  "no_work_or_cache_reads_required": true
-}

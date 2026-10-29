@@ -1,4 +1,0 @@
-# Preserve immutable source patch and build-log whitespace.
-source-changes.diff -whitespace
-builds/** -whitespace
-*.gz binary

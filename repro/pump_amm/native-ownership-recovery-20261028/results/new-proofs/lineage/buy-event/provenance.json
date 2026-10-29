@@ -1,8 +1,0 @@
-{
-  "base": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-curve-cpi-branches-20261027",
-  "base_candidate_sha256": "6975715089a6dee2125e3157a4c579176aa893a386ffa748ed478f886d59f53b",
-  "moved_block_sha256": "769060bc01b42c35bc6bde86beda3b2a1b6af8496c19c66fa2db40e3b47a8ae7",
-  "moved_block_identical": true,
-  "patch_sha256": "b14abe372ae54b4202e8ac0966872d7b3105005266c2985c3537a917160c1da6",
-  "scope": "Only unchanged event declaration moves to original logical module and preserves trade::BuyEvent re-export. No line padding or handler modifications."
-}

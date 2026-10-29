@@ -1,6 +1,0 @@
-[source.crates-io]
-replace-with="locked-vendor"
-[source.locked-vendor]
-directory="C:\\Users\\Wind\\Documents\\Codex\\2026-10-26\\https-x-com-shawmakesmagic-status-2114560456891445597\\work\\mayhem-historical-borsh\\locked-vendor"
-[net]
-offline=true

@@ -1,6 +1,0 @@
-// Review-only replacement fragment; not integrated or independently applicable.
-// Existing OptionBool decoder retained; one BuyV3 parser and success-only exit.
-pub fn buy_v3(ctx: Context<BuyV3>, amount: u64, max_sol_cost: u64,
-    partial_fill: OptionBool) -> Result<()> {
-    trade::buy(ctx, amount, max_sol_cost, partial_fill.0)
-}

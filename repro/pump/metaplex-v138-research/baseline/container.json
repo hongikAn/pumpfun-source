@@ -1,7 +1,0 @@
-{
-  "id": "679ed8cb745287dfcbdfd008f209bace1cf081e3611dc343e07bc9b9a4fe6c1b",
-  "name": "pump-token-rebuild-c29c93c5a5be",
-  "image": "solanafoundation/solana-verifiable-build@sha256:43206149a565ec35da95b1a909f4714f5d5f0d8241c31df24189e517acd18467",
-  "source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/metaplex-v138-clean-source",
-  "keep_container": true
-}

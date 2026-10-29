@@ -1,9 +1,0 @@
-{
-  "reviewed_proposal_seal": "12b3943b4fefbb510c0f7786caf42ade28aeca0031a518a455e3e4d95236b6d8",
-  "recipe": "One pinned v1.44 source build, existing SDK strip behavior recorded separately; isolated SDK/rustup/target.",
-  "source_inputs": 22,
-  "unchanged_runtime_comparisons": 17462,
-  "initializer_status": "static-only; no success fixture, no signer substitution, no altered historical payload",
-  "main_source_edits": false,
-  "source_or_compiler_variant_search": false
-}

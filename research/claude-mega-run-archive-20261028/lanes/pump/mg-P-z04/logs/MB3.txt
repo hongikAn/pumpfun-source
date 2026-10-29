@@ -1,9 +1,0 @@
-MB3: ok True 0 979 165 G ['0x4eb28'] L [] RL [] ['']
-0x52660 ratio=0.5939 -493 +485 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P1 @0x4f1d8 | cand 0x4f1d8   9712B ratio=0.5939  pump_recovered::migrate_v
-0x52660 ratio=0.5689 -523 +515 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P2 @0x517c8 | cand 0x517c8   9712B ratio=0.5689  pump_recovered::migrate_v
-0x52660 ratio=0.1611 -1014 +1006 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P3 @0x53db8 | cand 0x53db8   9712B ratio=0.1611  pump_recovered::migrate_v
-0x52660 ratio=0.1318 -1047 +1075 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P4 @0x563a8 | cand 0x563a8  10000B ratio=0.1318  pump_recovered::migrate_v
-0x52660 ratio=0.5623 -531 +523 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P5 @0x58ab8 | cand 0x58ab8   9712B ratio=0.5623  pump_recovered::migrate_v
-0x52660 ratio=0.5689 -523 +515 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P6 @0x5b0a8 | cand 0x5b0a8   9712B ratio=0.5689  pump_recovered::migrate_v
-0x52660 ratio=0.5027 -605 +588 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P7 @0x5d698 | cand 0x5d698   9640B ratio=0.5027  pump_recovered::migrate_v
-0x52660 ratio=0.5689 -523 +515 pump_recovered::migrate_v2::init_pump_amm_boost_v2_P8 @0x5fc40 | cand 0x5fc40   9712B ratio=0.5689  pump_recovered::migrate_v

@@ -1,6 +1,7 @@
 /**
  * In-memory user store seeded from a small JSON file.
- * All data is deterministic and read-only at runtime.
+ * All data is deterministic and read-only at runtime. The rows are a complete
+ * local account snapshot, not a statement about accounts in upstream services.
  */
 import seedData from './users-seed.json' with { type: 'json' };
 
@@ -42,7 +43,7 @@ export interface GroupBadge {
 
 export interface UserOverview {
   address: string;
-  profile: User;
+  profile: User | null;
   isPumpUser: boolean;
   counts: {
     followers: number | null;
@@ -113,6 +114,32 @@ function comparePrimitive(a: string | number | null, b: string | number | null, 
   return order === 'desc' ? -cmp : cmp;
 }
 
+/**
+ * Decode a canonical base58 address to its byte width, including leading zeroes.
+ * Same decoder as frontend auth/public-wallet; no curve or ownership claim.
+ */
+function isWalletAddress(value: string): boolean {
+  if (value.length < 32 || value.length > 44) return false;
+  const alphabet = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
+  const bytes = [0];
+  for (const character of value) {
+    let carry = alphabet.indexOf(character);
+    if (carry < 0) return false;
+    for (let i = 0; i < bytes.length; i++) {
+      carry += bytes[i] * 58;
+      bytes[i] = carry & 255;
+      carry >>= 8;
+    }
+    while (carry) {
+      bytes.push(carry & 255);
+      carry >>= 8;
+    }
+  }
+  let leading = 0;
+  while (value[leading] === '1') leading++;
+  return (bytes.length === 1 && bytes[0] === 0 ? 0 : bytes.length) + leading === 32;
+}
+
 export class UserStore {
   private users: User[];
   private byAddress: Map<string, User>;
@@ -131,10 +158,10 @@ export class UserStore {
     }
     this.byAddress = new Map(this.users.filter(u => u.address !== '').map(u => [u.address, u]));
     this.byUserId = new Map(
-      this.users.filter(u => u.userId !== undefined).map(u => [u.userId!, u])
+      this.users.filter(u => u.userId !== undefined && u.userId !== '').map(u => [u.userId!, u])
     );
     this.byUsername = new Map(
-      this.users.filter(u => u.username !== null).map(u => [u.username!.toLowerCase(), u])
+      this.users.filter(u => u.username !== null && u.username !== '').map(u => [u.username!.toLowerCase(), u])
     );
     if (verifiedIds) {
       this.verifiedUsers = new Set(verifiedIds);
@@ -218,7 +245,7 @@ export class UserStore {
     return (
       this.verifiedUsers.has(id) ||
       this.verifiedUsers.has(user.address) ||
-      (user.userId !== undefined && this.verifiedUsers.has(user.userId))
+      (user.userId !== undefined && user.userId !== '' && this.verifiedUsers.has(user.userId))
     );
   }
 
@@ -229,14 +256,28 @@ export class UserStore {
     return Object.fromEntries(ids.map(id => [id, this.isVerified(id)]));
   }
 
-  /** Get overview for a user by address or userId. Returns undefined on miss. */
+  /** Get the local account overview; an absent wallet has a null profile. */
   getOverview(id: string): UserOverview | undefined {
     const user = this.getById(id);
-    if (!user) return undefined;
+    if (!user) {
+      if (!isWalletAddress(id)) return undefined;
+      return {
+        address: id,
+        profile: null,
+        isPumpUser: false,
+        counts: { followers: null, following: null },
+        verified: false,
+        achievementBadgeIds: [],
+        banned: null,
+        createdCoinsCount: null,
+        degraded: ['counts', 'banned', 'created_coins'],
+      };
+    }
     return {
       address: id,
       profile: user,
-      isPumpUser: user.is_pump_user ?? false,
+      // The overview contract defines this as profile !== null, not the row flag.
+      isPumpUser: true,
       counts: {
         followers: user.followers,
         following: user.following,

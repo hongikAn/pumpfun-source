@@ -1,3 +1,0 @@
-     Locking 201 packages to latest compatible versions
-      Adding generic-array v0.14.7 (available: v0.14.9)
-      Adding indexmap v2.11.4 (available: v2.14.2, requires Rust 1.85)

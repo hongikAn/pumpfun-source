@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "raw_gained_windows": 0,
-  "raw_lost_windows": 0,
-  "raw_windows": 159,
-  "candidate_sha256": "9e4891b1a25fc8f7413e1e9f2ed8e5730a1c39301e306ab68fc4e82acfd952c3",
-  "scope": "Full independent original/current/baseline raw byte comparisons run in audit.measure; no raw changes from H15."
-}

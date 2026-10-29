@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/pr-queue-review/pumpfun-source/work/mayhem-priority-20261027/compose_current_amm_event.py", line 30, in <module>
-    assert sha(strip/'llvm/bin/llvm-objcopy')=='3a871eab7279dee53f2580e8a022c980305738b575755b7d3529a6230ec4f672'
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

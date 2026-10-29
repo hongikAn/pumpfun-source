@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-saved-result-independent-review/audit.py", line 29, in <module>
-    assert exit['command']==[str(W.parent/'validation-venv/bin/python'),'-B',str(P/'repo/scripts/pump_admin_cto_differential.py'),'--candidate',str(candidate),'--output',str(R/'receipt.json')]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

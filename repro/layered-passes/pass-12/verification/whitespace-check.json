@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "sealed_evidence_exceptions": [
-    "repro/pump_amm/formatter-restoration-v144/inventory/after/all-window-dispositions.tsv",
-    "repro/pump_amm/formatter-restoration-v144/inventory/before/all-window-dispositions.tsv",
-    "repro/pump_amm/formatter-restoration-v144/source-proposal/restore-pubkey-formatter.patch"
-  ],
-  "reason": "TSV empty final fields and exact patch context retain frozen bytes; all other staged files pass."
-}

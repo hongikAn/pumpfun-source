@@ -1,7 +1,0 @@
-{
-  "reviewed_scope_seal": "c58152569d5a4ca2f3e7e1282e50fcc4593eec4f5c85b3adbe72087f8e3986a6",
-  "metadata_only_predecessor_seal": "f762c8a19c386460e2b1880966e40e5f72336e83d53f1665edf717a8424ebe47",
-  "new_original_body_admission": "Root explicitly admitted only142984..147008 and960744..961392, current two bodies and exact30B nofee; root executed one --inspect EXIT0. New directly consumed non-executable data extents bounded by actual operands are recorded separately.",
-  "new_callee_body_decodes": 0,
-  "active_source_build_VM_changes": 0
-}

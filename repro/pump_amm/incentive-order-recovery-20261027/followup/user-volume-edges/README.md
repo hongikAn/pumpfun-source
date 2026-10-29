@@ -1,9 +1,0 @@
-# User-volume reward edge crossproducts
-
-Sixteen named synthetic claim cases compare the captured original with H11 candidate c20007e8. All 32 signed executions agree on errors, complete account snapshots, events, inner instructions, return data, and logs after removing only compute counts and source coordinates. Ten original cases succeed. No candidate source changed and no new build was run.
-
-The prior 807-case claim generator independently varies maximum fields but leaves default token-account funding. This packet combines maximum user volume, supply, denominator, vault balance, and zero destination balance, reaching a successful u64::MAX reward. It also binds unclaimed overflow before token CPI, claimed overflow after token CPI with rollback, reward truncation before addition, zero denominator/supply/volume branches, period zero skipping negative last-time conversion, before-start reset, and final-day bucket guards. The original guard instruction bytes and current source snapshots accompany the receipts. The 700/1,805 incentive and 552 accrual suites remain separate previously qualified coverage; they were not rerun or counted here.
-
-The case named `destination_overflow_precedes_claimed_overflow` is a retained hypothesis label, not a supported outcome: in this runtime the loaded token CPI reports success, followed by the AMM claimed-count panic. It does not establish an SPL destination-overflow boundary. This packet only claims observed AMM parity in the supplied local runtime.
-
-All accounts and clocks are synthetic offline inputs. Maximum balances can be inconsistent with the supplied mint supply; none of this establishes network reachability. The original and rebuilt ELF files remain different. `verify.py` exposes `verify(directory=None)` and rechecks saved hashes, inputs, signatures, loaded-program/log/error bindings, state comparisons, and original guard bytes without executing the VM.

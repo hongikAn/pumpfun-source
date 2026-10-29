@@ -1,5 +1,0 @@
-{
-  "prior_verifier_sha256": "c33e8fa236a8233e6fa65d5dd2cbe5c890b1f3abe18fb81eeedc81a9000c9297",
-  "verifier_sha256": "709359fbe7e379fc06f187f7284144d5dea647fec6408e6886c34627b5b193d3",
-  "changes": "Pinned proposal manifest authentication replaces nonexistent proposal verifier; exact two-file source delta; exact current before/after inventory counts; recompute complete original/candidate call/data and byte ledgers; authenticate6036 original instruction rows and3 full emitted creator application rows; saved signature/case/effect checks retained."
-}

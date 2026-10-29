@@ -1,8 +1,0 @@
-2026-10-25T05:53:53.1496511Z Traceback (most recent call last):
-2026-10-25T05:53:53.1497637Z pump : partial build provenance consistent; 9237 saved differential cases; full byte equality False
-2026-10-25T05:53:53.1506941Z   File "/home/runner/work/pumpfun-source/pumpfun-source/scripts/verify_recovered_builds.py", line 22, in <module>
-2026-10-25T05:53:53.1508131Z pump_amm : partial build provenance consistent; 17462 saved differential cases; full byte equality False
-2026-10-25T05:53:53.1509019Z     assert r['candidate_sha256']==sha(candidate),name
-2026-10-25T05:53:53.1509522Z            ~^^^^^^^^^^^^^^^^^^^^
-2026-10-25T05:53:53.1509917Z KeyError: 'candidate_sha256'
-2026-10-25T05:53:53.1736619Z ##[error]Process completed with exit code 1.

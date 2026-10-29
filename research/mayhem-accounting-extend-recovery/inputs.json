@@ -1,6 +1,0 @@
-{
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "research/mayhem-sell-quote-call-recovery/audit.json": "25da510040c4474668b15594c6bab7c79e4dca6d3c81a095f51f5d7ed1187f86",
-  "research/mayhem-sell-quote-call-recovery/source-inputs.json": "8f3fba9f74daeb20c8421343689bd28f4f85fb598bd30f97a0c1b14d94602e69",
-  "repro/mayhem/global-params-layout-recovery/tools/layer01.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1"
-}

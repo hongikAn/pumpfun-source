@@ -1,5 +1,0 @@
---- a/src/instructions/fee_recipients.rs
-+++ b/src/instructions/fee_recipients.rs
-@@ -56 +56 @@
--        if last != 0 && interval != 0 {
-+        if interval != 0 && last != 0 {

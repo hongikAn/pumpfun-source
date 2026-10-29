@@ -1,1 +1,0 @@
-Initial preflight referenced the old staging source path in registry checker. No compiler/container was invoked. Checker now reads canonical Cargo.lock. Empty output directories removed before starting the fresh build.

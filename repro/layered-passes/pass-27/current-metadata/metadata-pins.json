@@ -1,6 +1,0 @@
-{
-  "transition_capsule_sha256": "ab6eb990514cdb8d827fc4ae765c497bdbde8d5bea7dee42b7b55b731c214299",
-  "guard_manifest_sha256": "a828f3577eaa3c14c2f66c4c5e75ef06eb05703700cb70f1c4318899eaaecba2",
-  "base_metadata_seal": "0ac073c2c17ca609e42a87a79fbfd71b72746de05b45ee3411217beca307c4b3",
-  "controller_seal": "627a70041f0e32600528b44a5c116a5ad8460f74bbbc8482809df1716f7b1086"
-}

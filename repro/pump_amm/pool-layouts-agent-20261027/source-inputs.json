@@ -1,7 +1,0 @@
-{
-  "base_source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/pump_amm/diagnostic-parity-20261027/results/source",
-  "candidate_source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-pool-layouts-agent-20261027/source",
-  "modified_file": "programs/pump-amm/src/state.rs",
-  "before_sha256": "32b73eee0e2bcb25aff69391e9e3283e3b785dd18e591132d940aa462793a75e",
-  "after_sha256": "eca121377f1fc585a512cd96c8282cef6d637ba063863bfcbf72f503b3c47211"
-}

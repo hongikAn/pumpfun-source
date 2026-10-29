@@ -1,7 +1,0 @@
-# Linux v1.44 sysroot evidence publication
-
-The nine sealed research files and their original manifest are retained unchanged. They compare the official Linux and Darwin distributions with referenced bytes in the captured Fees program and its named candidate. The observed Linux allocator filename matches the original; the Darwin filename matches the retained candidate. This supports a controlled build using the actual official Linux distribution. It does not uniquely identify the historical compiler or prove full binary equivalence.
-
-No compiler or program was executed for this research. No source, binary, relocation, filename or line-number patch was made. The large 490,710,349-byte tool archive and extracted libraries remain outside Git. Their official URL, retrieved release metadata, content hashes and relevant member hashes are preserved in archive-evidence.json and the library reports. The publisher supplied no digest; the recorded download hash is a local content-integrity observation.
-
-The archived inspection scripts retain their original repository-local work paths. To reproduce their archive inspection, restore the official archive and selected files at the documented paths in a scratch directory; these scripts are not portable saved-evidence verifiers. The manifests verify the retained metadata/report bytes independently. Current source/build checkpoints and this named static input must not be conflated. No source-build or runtime acceptance follows from this publication alone.

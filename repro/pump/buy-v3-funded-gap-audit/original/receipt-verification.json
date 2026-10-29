@@ -1,9 +1,0 @@
-{
-  "verified": true,
-  "normal_signed_unique_transactions": 36,
-  "paired_executions": 72,
-  "target_successes": 14,
-  "candidate_successes": 9,
-  "mismatching_pairs": 21,
-  "full_handler_or_original_identity": false
-}

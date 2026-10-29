@@ -1,5 +1,0 @@
-error: no matching package named `console_log` found
-location searched: crates.io index
-required by package `solana-program v2.2.1`
-    ... which satisfies dependency `solana-program = "=2.2.1"` (locked to 2.2.1) of package `donation-relay-source-proposal v0.1.0 (/tmp/relay-worker-captured-linux-v148/source)`
-As a reminder, you're using offline mode (--offline) which can sometimes cause surprising resolution failures, if this error is too confusing you may wish to retry without the offline flag.

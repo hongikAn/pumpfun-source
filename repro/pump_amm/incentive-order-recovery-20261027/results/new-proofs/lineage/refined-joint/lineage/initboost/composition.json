@@ -1,8 +1,0 @@
-{
-  "base_candidate_sha256": "4e6a5617a7a8c3474ed7662f0188df4b1824c08253ebfb08212351ca5249da12",
-  "patch_sha256": "10c8436009b311186c4067856980c3cb7f1124af122c65934e3c77d630fecca7",
-  "changed_source_files": [
-    "programs/pump-amm/src/instructions/boost.rs"
-  ],
-  "scope": "Two temporary AccountInfo arguments and inline signer-seed evaluation; no other source changes."
-}

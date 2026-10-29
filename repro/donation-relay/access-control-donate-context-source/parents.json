@@ -1,9 +1,0 @@
-{
-  "evidence/dependencies/donation_relay/deployed.so": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
-  "repro/donation-relay/access-control-layout-source/manifest.json": "bcd99a1d35e645738600381a4b826c4e5d75b259fe139900c51b8d3cd9c80b10",
-  "repro/donation-relay/access-control-layout-source/verify.py": "a8fe8a9a45e86fe199dcee7f0db9b4507b762e2d5556e444d544c515fe82193f",
-  "repro/donation-relay/donate-context-raw-recovery/manifest.json": "a4c3b6e5fa52d8bff1e3d344dbe5d8ffb0c88813eec543afde6afd54a1a86e6c",
-  "repro/donation-relay/donation-wrapper-source-proposal/compare.py": "7edbf5cc4e6fefdf9bf20aefec8e021084f78e3b6a0d8f32f6076c103fa0b608",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/analyze.py": "095fc2d63be0fe4233bdf4e5946cac8d03d9b1747fd39147eea9a98c12dda175",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/original-windows.json": "c002df05d4489259f1cfd2b2391220cae38f6ffb0055f35f659e68a4935fd7bd"
-}

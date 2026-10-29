@@ -1,9 +1,0 @@
-{
-  "pr": 216,
-  "head": "677e3cafac80ebf69f189cab00d8ca6757533ea8",
-  "files_equal_to_pr215_baseline": [
-    "social.rs",
-    "buyback.rs"
-  ],
-  "scope": "Compared decoded candidate source bytes; no composition claimed"
-}

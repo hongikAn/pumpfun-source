@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "candidate_sha256": "dbb5dcfd1a1487e22d61ae68d22a9b74087b78a868a08ab974c7bdbb127f1500",
-  "guarded_subprocess_invocations": 174,
-  "all_explicit_candidates_and_output_roots_validated": true,
-  "relative_fixture_cwd_corrected": "order60-cwd-correction.json"
-}

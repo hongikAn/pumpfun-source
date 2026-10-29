@@ -1,8 +1,0 @@
-[
-  {
-    "group": "harness_sha256",
-    "path": "scripts/build_partial_candidate.py",
-    "before": "bb683621ffc4297c58f030cb03da54484b7370b786fd8eda965a37f4b3198ee9",
-    "current": "e0eccab6f54fee2996039beb53075d9a7b3f411706a90634a44420dec7b173c1"
-  }
-]

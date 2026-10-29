@@ -1,8 +1,0 @@
-{
-  "research/mayhem-direct-call-closure-20261027/verify.py": "60e2c576cdd40e12604d966bae971015798b7b25eec82f7721d0da0f4b8cc990",
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "research/mayhem-quotes-current-recovery-20261027/reader.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1",
-  "research/mayhem-quotes-current-recovery-20261027/inventory.json": "2d94e21c1ff7f5f0ceec8fe90b476a14bf208548f38bf90c7c689e05d5881c24",
-  "research/mayhem-clean-linux-build-20261027/build/symbols.so.gz": "80e885bc2ef02146c328f55dc8754cd887c1602a904e2cb1e9826a02aaf25e42",
-  "research/mayhem-clean-linux-build-20261027/control/symbols.so.gz": "78fca6a84c01e629efec89c919d0bd6c97edd50ae07766b2063f2b388b51953d"
-}

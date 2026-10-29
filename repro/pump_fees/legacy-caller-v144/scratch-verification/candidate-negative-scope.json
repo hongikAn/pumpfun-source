@@ -1,7 +1,0 @@
-{
-  "scope": "Historical disposable-copy packaging negative test only. The candidate-tamper test appended one newline to portability-test/evidence/candidate.so and then restored its original bytes. It never edited the accepted candidate, original program or sealed handoff. Subsequent tests will use missing artifacts or text/source/receipt changes, not binary mutations.",
-  "accepted_candidate_sha256": "e5c811e2a66b540f25b44d9a55dd7b890e7ff01a0074dfc0d0dfc25237c391fe",
-  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
-  "handoff_manifest_sha256": "56fcdea691bae6dacc004dfe65fe0bd6835a7ed8edea60942e3f5e2e639864dc",
-  "original_accepted_files_unchanged": true
-}

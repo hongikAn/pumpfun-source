@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/workspace/scratch/08cb9746963a/pumpfun-body/research/mayhem-native-current432-composition/test_verify.py", line 4, in <module>
-    import verify
-ModuleNotFoundError: No module named 'verify'

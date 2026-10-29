@@ -1,9 +1,0 @@
-{
-  "evidence/original/pump_fees/deployed.so": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
-  "research/fees-composed-frontier188/window_map.py": "eeec82f751ea38827c5149f28590f19a3ff516c7eee57b6aa48949cbaac4a7e5",
-  "research/fees-composed-frontier188/elf_helpers.py": "92d28a886a6e5787c03572e5db380711ab11b64de4491414e9ae9b0d08858cfc",
-  "scripts/analyze.py": "dd7fb38d795d4dd72a25aab0d65c2223d9f6f75d8b3ecb0de1d87d6e102910ac",
-  "research/fees-sweep-buyback-source-proposal/overrides/programs/pump-fees/src/buyback.rs": "aa28eadd72b21d8f6211139b44321c94dc2817888d5fb78120b62649efa43a6f",
-  "research/fees-sweep-buyback-source-proposal/overrides/programs/pump-fees/src/state.rs": "4426a6aa75f6907f311a90cc0c55ade6965da883fa26e0e6e5c6101ba317abba",
-  "research/fees-sweep-buyback-source-proposal/overrides/programs/pump-fees/src/instructions/buyback/mod.rs": "f96148b4b2225981d2d67aa7faa8e2d8363343b6865dbac9dcb2a695954a07b8"
-}

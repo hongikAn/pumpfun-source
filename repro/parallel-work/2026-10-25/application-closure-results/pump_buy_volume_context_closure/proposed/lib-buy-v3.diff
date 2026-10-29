@@ -1,5 +1,0 @@
---- checkpoint/lib.rs:100
-+++ proposal/lib.rs:100
-@@ -1 +1 @@
--    pub fn buy_v3(ctx: Context<SellV3>, amount:u64,max_sol_cost:u64,partial_fill:OptionBool)->Result<()>{let _ = partial_fill;trade::buy(ctx,amount,max_sol_cost)}
-+    pub fn buy_v3(ctx: Context<BuyV3>, amount:u64,max_sol_cost:u64,partial_fill:OptionBool)->Result<()>{let _ = partial_fill;trade::buy(ctx,amount,max_sol_cost)}

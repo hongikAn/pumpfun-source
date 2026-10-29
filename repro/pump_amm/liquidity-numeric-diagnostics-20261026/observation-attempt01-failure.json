@@ -1,4 +1,0 @@
-{
-  "status": "interrupted",
-  "reason": "Initial observer copied executable program-account bytes repeatedly, causing excessive memory/output. Interrupted at save; no accepted receipt. Corrected observer excludes executable accounts while retaining all mutable/data accounts."
-}

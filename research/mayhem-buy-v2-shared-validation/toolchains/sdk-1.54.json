@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/anza-xyz/platform-tools/releases/download/v1.54/platform-tools-linux-x86_64.tar.bz2",
-  "archive_sha256": "fcc41631c7f77561bf5412218bf297501dccf0305ea280f338f0ace2aab9f31e",
-  "tools": {
-    "rust/bin/rustc": "fa2c61467ffa823dc1a64c28cba22c6ce24b2439ebe28fe546609d7fc638569a",
-    "rust/bin/cargo": "638ab45125934a94e94980d5ae6aa3641257914f0882fcbf116d643fa7ec405b",
-    "llvm/bin/llvm-objcopy": "c69ce74d2c5068cb52675aabca60d981a26ddac173518cbc0cd893461db48a48"
-  }
-}

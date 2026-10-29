@@ -1,7 +1,0 @@
-# V2 quote-mint AccountInfo ownership
-
-Three source lines restore an owned AccountInfo temporary before from_mint in buy_v2, buy_exact_quote_in_v2 and sell_v2. Original clone/decode calls are53d78/53d98,55348/55368,56fe0/57000. Each clone receives the mint InterfaceAccount info pointer atboxed-mint+88; decoding receives the same48-byte temporary. Both Rc handles are released afterward. The published Anchor0.31.1 archive is verified against the lock checksum and implements ToAccountInfo through AsRef.clone. No forced attributes, type changes, padding or decoder edits are introduced.
-
-Candidate dbb5 retains660/785 normalized windows and159raw with no losses, plus38wrappers. Buy5824vs5840original, exact6736vs7112, sell5920vs5904 remain unmatched. Allthree missing clone/decode pairs return; the unchanged from_mint body remains1312bytes. The build binds233sourceinputs and preserves765dependency artifacts. Baseline dependency proof stays labeledH18; it does not claim a new native compilation.
-
-Fresh870trade cases and174mint-envelope/TLV cases pass,2088signed transactions. Everymode has12successes and16from_mint6007errors plus2latertransfer-fee6023errors in the174corpus; the other28cases include earlier parsing and later slippage failures. State, error, CPI, logs and full-account snapshots are checked under explicit Source/compute-log normalization. These bounded controls are not exhaustive behavior or whole-handler equality. No strict repeat, fullcore or full13battery was run in this isolated proposal. Their next-checkpoint qualification is separate.

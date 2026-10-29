@@ -1,2 +1,0 @@
-# Preserve exact compiler-emitted assembly, including trailing blank lines.
-*.s -whitespace

@@ -1,5 +1,0 @@
-{
-  "staged-init.patch": "2613a04804b997b822b1af09c0e61d0cc18facfd1cbf91b55b4830b703f65183",
-  "quote-policy-branch.patch": "7411580aeaa86b8d56027116568e7ef5a91c4d49e4905d72545d6f2e7724339f",
-  "canonical-stores.patch": "e8a208eecc426aaa3885ebd0b1d95e5fd6b55564faa9de23e7326686a265f111"
-}

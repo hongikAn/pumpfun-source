@@ -1,9 +1,0 @@
-{
-  "returncode": 125,
-  "seconds": 0.49038243293762207,
-  "source_unchanged": true,
-  "target_initially_empty": true,
-  "source_mount_readonly": true,
-  "registry_and_git_readonly": true,
-  "build_network": "none"
-}

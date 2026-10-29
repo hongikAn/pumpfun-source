@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/fees-donation-borrow-build/prepare_prebuild.py", line 28, in <module>
-    b=raw(Q/name);assert v=={'sha256':sha(b),'bytes':len(b)};write('reviewed-proposal/'+name,b)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

@@ -1,1 +1,0 @@
-side,sol_vault,mint,sol_amount,token_amount,sol_vault_balance,token_vault_balance,state_sol_deployed,state_token_net,end_timestamp,virtual_sol,virtual_tokens,timestamp,global_sol_deployed,real_sol,real_tokens,version,retained_reserve_bps,quote_amount,quote_vault_balance,state_quote_deployed,virtual_quote,global_quote_deployed,real_quote,quote_mint

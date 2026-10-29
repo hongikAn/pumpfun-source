@@ -1,6 +1,0 @@
-{
-  "repro/pump_fees/legacy-caller-v144/validation-layer/harness/assertions.py": "74ee2049eda5e46483c8116ed9e7a61ca5e1bea2a1dab3ac7ef5a74e9103f870",
-  "repro/pump_fees/legacy-caller-v144/validation-layer/harness/check_retained_diagnostics.py": "351da006cacafa613854f33d0629f210851ab748f1b4e72a3656e99c52342a0d",
-  "repro/pump_fees/legacy-caller-v144/validation-layer/harness/fees_donation_business_differential.py": "5fcf2a89a83bdff975e20796c2cb046eebd40b66b57777fe77f71a50ff7577ec",
-  "repro/pump_fees/legacy-caller-v144/validation-layer/harness/fees_donation_create_differential.py": "45ef5fd33fc16f53963a8e71df340b8965d4ae17ff17669c6ea1b26a3b0c1a71"
-}

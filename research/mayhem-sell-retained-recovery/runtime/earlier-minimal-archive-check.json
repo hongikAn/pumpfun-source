@@ -1,8 +1,0 @@
-{
-  "archive_sha256": "e15fb1149d6e1558897f863cb2486da88a20aa7a87116f4bb576df79100f6392",
-  "all_decompressed_files_equal": true,
-  "files": 72,
-  "candidate_sha256": "af987b67c96afa1a9d6cfb13981e28851c14990489f013d9c2be90a364d45a02",
-  "comparisons": 6636,
-  "verified_signed_transactions": 13272
-}

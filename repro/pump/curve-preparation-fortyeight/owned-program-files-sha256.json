@@ -1,6 +1,0 @@
-{
-  "programs/pump/src/trade_types.rs": "c7a00a49c44294f4984f7268c54b0547374484920022b54495acb50ef6700207",
-  "programs/pump/src/trade.rs": "9aa08f196bd3b0d07dfe5517e7a784a6559a88448e14bd3081796f55803b5dde",
-  "programs/pump/src/multi_hop_curve.rs": "7175db4f8c7a6beb9f965562a2b32f61526d38fa3e8cef399b525a6371baba4a",
-  "programs/pump/README.md": "c16f47bd9dac06433282741117d4f9c5478b520c4b0fe828a64bc5ca95847108"
-}

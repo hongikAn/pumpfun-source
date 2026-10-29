@@ -1,8 +1,0 @@
-{
-  "scope": "CurrentretainedbaselineSDKstriptoolpathandobservedv152toolmatch;historicalcommandretained;notclaimofuniqueoriginalstriprecipe",
-  "baseline_sdk_tool": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/mayhem-sell-result-error-main/sdk/dependencies/platform-tools/llvm/bin/llvm-objcopy",
-  "baseline_resolved_tool": "/Users/shawwalters/.cache/solana/v1.52/platform-tools/llvm/bin/llvm-objcopy",
-  "baseline_tool_sha256": "12415dc01e08e4f606a1a4eac8c197d560c7883161d266312c821bf5db7bf8be",
-  "experiment_strip_tool_sha256": "12415dc01e08e4f606a1a4eac8c197d560c7883161d266312c821bf5db7bf8be",
-  "same_current_bytes": true
-}

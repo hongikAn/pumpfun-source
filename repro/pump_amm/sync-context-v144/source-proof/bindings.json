@@ -1,7 +1,0 @@
-{
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "repro/pump_amm/claim-self-transfer-v144/candidate.so": "ad74b08447914cb219624f9e9cc81d4cfe751b332d67534c45aec63ef70aa166",
-  "repro/pump_amm/claim-self-transfer-v144/unstripped.so": "f9147f9eff6b75b34e4ccb08f22326fc68a1c0c320e1eb8b5e6649095cfcf3aa",
-  "repro/pump_amm/claim-self-transfer-v144/inventory/after/residual-ledger.json.gz": "034fd2e9a79e5e8ee591d015e5569e52638a7b424cea1e9f99cca79f2bef6fde",
-  "repro/pump_amm/claim-self-transfer-v144/source/programs/pump-amm/src/incentives.rs": "df08a3413267d3f921acd592ba342630c987022467bb82c4d3e08cae1b024157"
-}

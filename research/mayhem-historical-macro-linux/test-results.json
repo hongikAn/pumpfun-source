@@ -1,1 +1,0 @@
-{"rejected": ["program_root_source", "historical_macro_source", "host_macro_bytes", "root_candidate_bytes", "new_raw_body_register", "new_raw_body_scalar", "initializer_source_line", "initializer_vtable_method", "initializer_clock_call_target", "actual_signature_byte"], "scope": "Only these ten concrete mutations; no target execution."}

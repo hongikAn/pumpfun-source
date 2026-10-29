@@ -1,8 +1,0 @@
-{
-  "tools": {
-    "C:\\Users\\Wind\\Documents\\Codex\\2026-10-26\\https-x-com-shawmakesmagic-status-2114560456891445597\\work\\amm-v144-probe\\sdk\\rust\\bin\\cargo.exe": "a417420b02a9a9d4db7c00d0fe065798e16f0806603b61b813b7d9bef6268f5b",
-    "C:\\Users\\Wind\\Documents\\Codex\\2026-10-26\\https-x-com-shawmakesmagic-status-2114560456891445597\\work\\amm-v144-probe\\sdk\\rust\\bin\\rustc.exe": "8c766e385fbd2a70e799a1a90463f2882422486bb7476d9d7a6823dfa13b66db",
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe": "ca11e6c45debd34bf652dfe984c5360a531a005ed78bf72852330c9c2590cf0d"
-  },
-  "scope": "Retrospective check after controls 10-14 against the parent baseline tool hashes; not a new per-run before/after executable inventory."
-}

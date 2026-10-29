@@ -1,9 +1,0 @@
-[
-  "podman",
-  "exec",
-  "b2cb0e25bb955367657013f709e462481d97a6794b48ea4aeb2f33b9ace89273",
-  "/sdk/llvm/bin/llvm-objcopy",
-  "--strip-all",
-  "/work/context-mfpd/unstripped.so",
-  "/work/context-mfpd/candidate.so"
-]

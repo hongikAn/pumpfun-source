@@ -1,9 +1,0 @@
-{
-  "candidate_source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-account-recovery-agent-20261027/source-all-fee-gates",
-  "modified_files": [
-    "programs/pump-amm/src/trade.rs",
-    "programs/pump-amm/src/multi_hop.rs"
-  ],
-  "multi_hop_before": "53b1eee595b030575ba1240590ac4ba5b71bd04edf73ae8e7151a9ab9e28b781",
-  "multi_hop_after": "22f8b35f325372efa3ae6fdfa68ae7bfae31e31134c8c81939c7244691352de1"
-}

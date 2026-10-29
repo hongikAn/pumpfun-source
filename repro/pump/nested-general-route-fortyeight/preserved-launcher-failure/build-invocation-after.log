@@ -1,6 +1,0 @@
-Frozen prebuild seal bc52a5d19b29f8e5c9c380635827c1f97f6f5ad2fe2335d60e201e3b9efddfc2
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/build_pump_combined_main_once.py", line 34, in <module>
-    assert all(H(W/n)==h for n,h in pre.items());actual={n:H(R/n)for n in source};actualdocs={n:H(R/n)for n in docs};toolafter={n:H(Path(v['path']))for n,v in files.items()}
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

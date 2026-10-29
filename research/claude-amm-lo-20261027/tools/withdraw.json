@@ -1,6 +1,0 @@
-{"file": "wt/programs/pump-amm/src/instructions/liquidity/withdraw.rs",
- "ops": [["blank", 3, 52], ["blank", 6, 4], ["blank", 13, 13], ["blank", 16, 1], ["blank", 17, 9],
-         ["blank", 20, 4], ["blank", 41, 25], ["blank", 45, 6], ["join", 47], ["blank", 52, 1], ["blank", 54, 1]],
- "expect": [[5, 57, "require!"], [6, 62, "require_gte!"], [15, 84, "error!"], [16, 86, "require_gte!"],
-            [19, 98, "error!"], [23, 106, "error!"], [24, 107, "require_gte!"], [42, 150, "error!"],
-            [46, 160, "error!"], [49, 162, "error!"], [52, 166, "error!"], [55, 170, "error!"]]}

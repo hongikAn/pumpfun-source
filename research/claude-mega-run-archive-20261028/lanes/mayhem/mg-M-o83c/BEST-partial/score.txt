@@ -1,7 +1,0 @@
-size 18280 masked 3 {'P': 0, 'C': 0, 'M': 0, 'E': 3} | stackmasked 33 {'P': 0, 'C': 0, 'M': 0, 'E': 33}
-O0081: orig  13848  cand  13848  norm_eq=True raw_eq=False  ratio=1.0000 diffslots~0  (1 cand)
-O0082: orig  12992  cand  12992  norm_eq=True raw_eq=False  ratio=1.0000 diffslots~0  (1 cand)
-O0083: orig  18648  cand  18640  norm_eq=False raw_eq=False  ratio=0.9495 diffslots~129  (1 cand)
-O0084: orig  18096  cand  18096  norm_eq=False raw_eq=False  ratio=0.9784 diffslots~73  (1 cand)
-32336645136387b2c17f84b97c67f0faa5fbd22de72fabd9cc4dd1c147c2ebb3  mayhem-b/out/builds/mg-M-o83c-g01/candidate.so
-5bbbca355b6f681f08a0cf7c1f40122f5420375b1625f6eb809b7a910422adc3  mayhem-b/out/builds/mg-M-o83c-g01/symbols.so

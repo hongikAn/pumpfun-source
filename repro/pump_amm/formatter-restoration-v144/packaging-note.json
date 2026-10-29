@@ -1,5 +1,0 @@
-{
-  "source": "work/amm-formatter-restoration-build",
-  "runtime_json_compression": "lossless gzip mtime0; original raw hashes remain verified",
-  "build_scope_note": "static-comparison.json preserves the inherited historical scope label. Actual build28 source inputs and narrow formatter change are recorded by proposed-source-sha256.json, vendor-origin.json and lock-delta.json."
-}

@@ -1,4 +1,0 @@
-O0081: orig  13848  cand  13848  norm_eq=True raw_eq=False  ratio=1.0000 diffslots~0  (1 cand)
-O0082: orig  12992  cand  12992  norm_eq=True raw_eq=False  ratio=1.0000 diffslots~0  (1 cand)
-O0083: orig  18648  cand  18648  norm_eq=True raw_eq=False  ratio=1.0000 diffslots~0  (1 cand)
-O0084: orig  18096  cand  18096  norm_eq=False raw_eq=False  ratio=0.9784 diffslots~73  (1 cand)

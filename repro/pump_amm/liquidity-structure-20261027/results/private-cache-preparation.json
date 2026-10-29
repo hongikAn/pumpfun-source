@@ -1,9 +1,0 @@
-{
-  "method": "cp -cR (copy-on-write clone)",
-  "source": "work/amm-linux-v144-20261027/build-v2/target",
-  "private_target": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-liquidity-structure-20261027/private-target",
-  "removed_root_fingerprints": [
-    "sbf-solana-solana/release/.fingerprint/pump-amm-recovered-79b27c85817e204f"
-  ],
-  "shared_target_modified": false
-}

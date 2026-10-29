@@ -1,9 +1,0 @@
-remote: warning: See https://gh.io/lfs for more information.        
-remote: warning: File repro/layered-passes/pass-29/research-evidence/payload.tar.gz.part0000 is 64.00 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
-remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
-remote: 
-remote: Create a pull request for 'codex/layered-pass-29' on GitHub by visiting:        
-remote:      https://github.com/lalalune/pumpfun-source/pull/new/codex/layered-pass-29        
-remote: 
-To https://github.com/lalalune/pumpfun-source.git
- * [new branch]        HEAD -> codex/layered-pass-29

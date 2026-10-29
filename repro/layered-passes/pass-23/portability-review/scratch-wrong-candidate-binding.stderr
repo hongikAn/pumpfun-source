@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/p23-portability-f2i_q7u_/packet/verify.py", line 6, in <module>
-    s=J(P/'acceptance.json');assert H(P/'candidate.so')==s['candidate_sha256']and H(P/'symbols.so')==s['symbols_sha256'];assert J(P/'coverage.json')['admin_match_cases']==[]
-                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

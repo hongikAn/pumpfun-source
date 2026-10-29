@@ -1,8 +1,0 @@
-{
-  "source_patch_sha256": "e2aa741d2b7c7787fd0bd4768f6c989cf00390210e5aafc36063c66c19f35b04",
-  "changed": [
-    "programs/pump-amm/src/instructions/swap/trade_v2.rs"
-  ],
-  "before": "145a1402a243ff75e9dcd9bd490e7ef52b09249278bec89d62b3f4132da9d26e",
-  "after": "4bfeaf2c047d65be6c5751b3fdab51b913ef9a173c23bbb369746ef9035c77b5"
-}

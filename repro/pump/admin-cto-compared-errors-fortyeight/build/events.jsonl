@@ -1,3 +1,0 @@
-{"utc": "2026-10-25T12:28:41.411277+00:00", "phase": "build-start"}
-{"utc": "2026-10-25T12:29:02.125651+00:00", "phase": "build-exit", "returncode": 0}
-{"utc": "2026-10-25T12:29:10.057693+00:00", "phase": "awaiting-static-review-no-runtime"}

@@ -1,7 +1,0 @@
-M3: ok True 0 979 165 G ['0x4eb28'] L [] RL [] ['']
-0x4eb28 ratio=1.0000 -0 +0 pump_recovered::migrate_v2::fund_quote_token_account_v2_H1 @0x4f408 | cand 0x4f408   6088B ratio=1.0000  pump_recovered::migrate_v
-0x4eb28 ratio=0.6051 -297 +289 pump_recovered::migrate_v2::fund_quote_token_account_v2_H2 @0x50bd0 | cand 0x50bd0   6024B ratio=0.6051  pump_recovered::migrate_v
-0x4eb28 ratio=0.7617 -177 +179 pump_recovered::migrate_v2::fund_quote_token_account_v2_H3 @0x52358 | cand 0x52358   6104B ratio=0.7617  pump_recovered::migrate_v
-0x4eb28 NO-CAND ?
-0x4eb28 ratio=0.6676 -247 +250 pump_recovered::migrate_v2::fund_quote_token_account_v2_H5 @0x53b30 | cand 0x53b30   6112B ratio=0.6676  pump_recovered::migrate_v
-0x4eb28 ratio=0.8529 -111 +108 pump_recovered::migrate_v2::fund_quote_token_account_v2_H6 @0x55310 | cand 0x55310   6064B ratio=0.8529  pump_recovered::migrate_v

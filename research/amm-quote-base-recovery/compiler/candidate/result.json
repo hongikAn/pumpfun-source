@@ -1,7 +1,0 @@
-{
-  "returncode": 0,
-  "symbols_sha256": "cca78cc2871ab19765dac43923f69863e2e2237378084c6680421b72e54395db",
-  "candidate_sha256": "37f3fdbace558971111418e34d539c0786724e9288dfec5f17e18e5452a3a497",
-  "baseline_stripped_equal": true,
-  "dependencies_unchanged": true
-}

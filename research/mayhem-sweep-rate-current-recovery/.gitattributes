@@ -1,2 +1,0 @@
-source.patch -whitespace
-overrides/src/instructions/fee_recipients.rs whitespace=-blank-at-eof

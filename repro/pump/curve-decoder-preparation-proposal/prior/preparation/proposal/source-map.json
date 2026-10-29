@@ -1,7 +1,0 @@
-{
-  "scope": "Source-only patch against unaccepted partial composition, not main. Existing domain fence remains untouched. No claim of all117-row preservation.",
-  "before": "f750733611036f5518623061dff7155abf10b43ad0fd911025824e89a0061e32",
-  "after": "4fe0d1511f91926e7cf34369cebd7e9fcb46c7ba8be8b50e506353cbb0e76986",
-  "changed_file": "source/admission.rs",
-  "main_edits": []
-}

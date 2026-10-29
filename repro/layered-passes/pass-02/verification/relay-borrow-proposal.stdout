@@ -1,1 +1,0 @@
-{"borrow_sites": 6, "changed_sources": ["src/frames.rs", "src/handlers.rs"], "compiled": false, "effect_functions": 7, "original_role_windows": 24, "payload_files": 70, "role_corrections": 2, "runtime_cases": 0, "source_inputs": 21, "typechecked": false, "verified": true}

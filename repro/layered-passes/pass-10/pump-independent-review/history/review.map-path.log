@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-buy-fee-basis-independent-review/review.py", line 15, in <module>
-    assert [k for k in before if before[k]!=after[k]]==['programs/pump/src/trade.rs']
-                                            ~~~~~^^^
-KeyError: 'programs/pump/Cargo.lock'

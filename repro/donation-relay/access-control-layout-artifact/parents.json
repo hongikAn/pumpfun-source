@@ -1,8 +1,0 @@
-{
-  "evidence/dependencies/spl_token_2022/deployed.so": "15a2e615a42e20f31714bbaaee43002ae6f1cda2e8d7118243117ab3c1342e2d",
-  "repro/donation-relay/access-control-layout-source/manifest.json": "bcd99a1d35e645738600381a4b826c4e5d75b259fe139900c51b8d3cd9c80b10",
-  "repro/donation-relay/donation-wrapper-artifact-recovery/manifest.json": "ce9919a34ebbb984a7cde5114a98fccde70e2652ecc8d5c53eeb9f146c7cb5eb",
-  "repro/donation-relay/local-validation-proposal/harness_proposal.py": "fd6df62699bc5732fffca65d7e6b5c1c872746180563ca3e320f7dbe11f7cb1b",
-  "repro/donation-relay/settlement-artifact-recovery/replay_saved.py": "3bd512d853a15d643760ee17592f2784c76e4cff64e536b1d64d42cd9c0b7100",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/verify.py": "ef7a62cb052ba72b13a7abe82a74cc9b24fde045e52693d8eba4ee0de8345c27"
-}

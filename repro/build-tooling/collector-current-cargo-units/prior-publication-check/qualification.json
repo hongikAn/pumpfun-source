@@ -1,8 +1,0 @@
-{
-  "status": "FAILED_REVIEWER_REPLAY_PRESERVED",
-  "actual_observed_exit": 1,
-  "cause": "Tuple-versus-JSON-array Python object comparison for Compiling pairs; exact JSON-wire equality independently checked true.",
-  "raw_stdout_and_stderr_retained": true,
-  "actual_command_receipt_was_not_written_before_outer_assertion": true,
-  "no_native_build_or_target_action": true
-}

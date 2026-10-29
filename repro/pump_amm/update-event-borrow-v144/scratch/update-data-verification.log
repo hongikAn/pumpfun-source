@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-update-event-build/verify_update_data.py", line 33, in <module>
-    at=a+x['offset'];bt=b+x['offset'];assert ins(o,at-16)['opcode']==ins(c,bt-16)['opcode']==0xbf and ins(o,at-16)['dst']==ins(c,bt-16)['dst']==2 and ins(o,at-16)['src']==ins(c,bt-16)['src']==10
-                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

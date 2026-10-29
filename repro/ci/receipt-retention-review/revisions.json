@@ -1,8 +1,0 @@
-{
-  "before": "517d77db988d8c63b6cf476f0be138c5a4f3128a",
-  "reviewed": "641b0424ddef7da337d72a39efdc0499b291b04b",
-  "fixture_source": "Only git show of the reviewed revision, never mutable main source.",
-  "program_builds": 0,
-  "runtime_replays": 0,
-  "network_requests": 0
-}

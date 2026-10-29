@@ -1,8 +1,0 @@
-{
-  "base_source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-final-source-data-20261027/source",
-  "base_candidate_sha256": "e97b3900800d4378486d9b1f7df040e6b7a57d34b31a9470a5f5eb3a9d2fb24b",
-  "source_before_sha256": "564e2b5cbec30fb3ffab22e5809d87da745dbb65808cea3b0607d6071f2140d2",
-  "source_after_sha256": "6bbeb188fe2052717e25b385853b3b4f35cd9af0d4696c1f8186c86c51e96820",
-  "patch_sha256": "d8c50e26f3bce2f11e972162590f213187526f516b61807e5d917c1e3c86cce7",
-  "hypothesis": "Original two CPI/get calls are chosen by whether a pool signer is required. Move program/accounts/remaining construction before branch and use one or two borrowed seed groups, each followed by generated get(). No forced outline attribute."
-}

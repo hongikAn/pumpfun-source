@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pass25-supplemental-pending-evidence/public/verify.py", line 26, in <module>
-    for key in ['mode','uid','gid','uname','gname','mtime']:assert getattr(member,key)==row[key],(name,key)
-                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: ('amm-source-proof', 'mode')

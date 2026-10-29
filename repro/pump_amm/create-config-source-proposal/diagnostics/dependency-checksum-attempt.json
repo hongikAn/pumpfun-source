@@ -1,5 +1,0 @@
-{
-  "attempt": 1,
-  "outcome": "Missing cached .cargo-checksum.json; no source copied before exception. Switched to verifying the actual public .crate archive SHA against unchanged Cargo.lock and exact selected archive-member bytes. No network/build/runtime performed.",
-  "missing_path": "anchor-attribute-event-0.31.2/.cargo-checksum.json"
-}

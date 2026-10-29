@@ -1,7 +1,0 @@
-  private accountExists(
-    accountInfo: AccountInfo<Buffer> | null,
-    owner: PublicKey,
-  ): boolean {
-    return accountInfo !== null && accountInfo.owner.equals(owner);
-  }
-

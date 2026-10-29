@@ -1,4 +1,0 @@
-{
-  "failure": "Assembly text parser consumed the first two letters of add64 as a ninth byte.",
-  "correction": "Require whitespace or end-of-line after every two-digit byte token; no ELF or assembly data changed."
-}

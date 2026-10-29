@@ -1,7 +1,0 @@
-{
-  "id": "eb0db6d764c53c06d8ddb347da13da1628a1e3374e909977149e5d5665e18511",
-  "name": "pump-token-rebuild-d6dd5f06b707",
-  "image": "solanafoundation/solana-verifiable-build@sha256:43206149a565ec35da95b1a909f4714f5d5f0d8241c31df24189e517acd18467",
-  "source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/metaplex-linux-clean-source",
-  "keep_container": true
-}

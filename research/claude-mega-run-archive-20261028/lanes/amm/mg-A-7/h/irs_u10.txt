@@ -1,6 +1,0 @@
-start (97, 214)
-round 0 [((92, 213), 'bb2.i5.i>bb2'), ((96, 213), 'panic.i>bb2.i.i'), ((96, 213), 'panic.i>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit.i'), ((96, 213), 'panic.i>bb2.i3.i'), ((96, 213), 'panic.i>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i'), ((96, 213), 'panic.i>bb3.i')]
-round 1 [((91, 212), 'panic.i>bb2.i.i'), ((91, 212), 'panic.i>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit.i'), ((91, 212), 'panic.i>bb2.i3.i'), ((91, 212), 'panic.i>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i'), ((91, 212), 'panic.i>bb3.i'), ((91, 212), 'panic.i>bb2.i.i.i')]
-round 2 [((91, 212), 'bb5>start'), ((91, 212), 'bb2.i.i>bb5'), ((91, 212), 'panic.i>bb2.i.i'), ((91, 212), 'panic.i>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit.i'), ((91, 212), 'panic.i>bb2.i3.i'), ((91, 212), 'panic.i>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i')]
-best (91, 212) ['bb2.i5.i>bb2', 'panic.i>bb2.i.i']
-python3 -B irs2.py u10.ll  0x6d408 3  163.30s user 53.01s system 89% cpu 4:00.67 total

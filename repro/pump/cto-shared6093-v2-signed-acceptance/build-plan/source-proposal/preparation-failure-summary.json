@@ -1,8 +1,0 @@
-{
-  "scope": "Author summary not raw process receipt",
-  "superseded_proposal_seal": "3a231a46a6321b28c870de3c3318807a6d198fc36156bdde6098aca951a9582a",
-  "held_unexecuted_build_plan_seal": "8d37820df5dab51cf338b65359146f2a091ede373f75718b942804d67f15b9a1",
-  "no_actual_build_ran": true,
-  "source_bug": "v1 sharedB calledstrict token_raw_amount andtoken_frozen onempty; savedstable-6success andoriginalhelpers emptyOk0/false contradictthat",
-  "v2_preparation_shell_cwd_error": "Initial compose.py invocation pointedatparentworkdir andfailed; emptytemporarysource-after.jsonremoved, thencomposerunfromcorrectv2directory. No sourceapplication orcompiler executed."
-}

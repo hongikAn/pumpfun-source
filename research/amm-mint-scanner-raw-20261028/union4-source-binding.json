@@ -1,9 +1,0 @@
-{
-  "url": "https://raw.githubusercontent.com/lalalune/pumpfun-source/de95501138397befae3837165849e7bd6942edb0/research/claude-amm-union4-20261028/sources/candidate.tar.gz",
-  "revision": "de95501138397befae3837165849e7bd6942edb0",
-  "git_blob": "e69c8ec0dbd9a838e59792be7a66b7297f333c20",
-  "sha256": "474fff983ba65406be4064b94075a331733dc5970f6cbf4b5e33ac30a667330b",
-  "member": "crates/native-transfer-fee/src/lib.rs",
-  "member_sha256": "4b4cfb57e6282ad0e90add34c75135086b8ba6beb92ad99caa1ba66612e36384",
-  "equal_to_union3": true
-}

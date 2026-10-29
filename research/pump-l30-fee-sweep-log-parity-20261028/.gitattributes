@@ -1,5 +1,0 @@
-proposed/sweep_fees.rs whitespace=-blank-at-eof,-blank-at-eol
-source.patch whitespace=-blank-at-eof,-blank-at-eol
-builds/**/*.so binary
-runtime/**/*.gz binary
-measurement/*.gz binary

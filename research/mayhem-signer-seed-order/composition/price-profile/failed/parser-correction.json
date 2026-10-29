@@ -1,7 +1,0 @@
-{
-  "failure": "Strict header pattern rejected genuine CRLF compiler logs; no compiler failure.",
-  "original_pattern": "(?m)^[;#] \\*\\*\\* IR Dump[^\\r\\n]*$",
-  "corrected_pattern": "(?m)^(?:[;#] )?\\*\\*\\* IR Dump[^\\r\\n]*\\r?$",
-  "additional_header": "*** IR Dump After CodeGen Prepare (codegenprepare) ***",
-  "scope": "Header recognition only. Complete original stderr bytes remain unchanged."
-}

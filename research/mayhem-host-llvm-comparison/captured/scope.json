@@ -1,9 +1,0 @@
-{
-  "scope": "Host LLVM lowering diagnostic only. Same complete saved compiler-emitted IR for Mac and Linux; not a new Rust artifact and not source/body recovery evidence.",
-  "input_ir_sha256": "ca8cc7e10774da9acb15ef872539b54dc121ed502b23eaf7b949e283643f9347",
-  "origin_build": "fast-accounts-init-origins-ir-build",
-  "disk_floor_bytes": 2147483648,
-  "estimated_peak_added_bytes": 2400000000,
-  "vm": "mayhem-accounts-linux154",
-  "shared_vms_touched": false
-}

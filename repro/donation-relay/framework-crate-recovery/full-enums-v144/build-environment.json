@@ -1,9 +1,0 @@
-{
-  "PATH": "/Users/shawwalters/.cargo/bin:/Users/shawwalters/.local/share/solana/install/releases/2.1.21/solana-release/bin:/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/fees-compat/toolchains/v1.44/rust/bin:/usr/bin:/bin",
-  "CARGO_HOME": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-discriminator-build/attempt/cargo-home",
-  "RUSTUP_HOME": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-discriminator-build/attempt/rustup",
-  "CARGO_TARGET_DIR": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-full-error-enums/target",
-  "CARGO_NET_OFFLINE": "true",
-  "CARGO_TERM_COLOR": "never",
-  "HOME": "/Users/shawwalters"
-}

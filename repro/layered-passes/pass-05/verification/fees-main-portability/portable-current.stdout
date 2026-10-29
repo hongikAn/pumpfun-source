@@ -1,6 +1,0 @@
-copied-current-runtime PASS
-missing-candidate PASS
-changed-current-source PASS
-wrong-text-binding-resealed PASS
-changed-receipt-resealed PASS
-PASS all main-package tests; original package and ELF files unchanged

@@ -1,8 +1,0 @@
-{
-  "scripts/pump_amm_reserved_differential.py": "3e98874fd275c4605b79d0170c5cd5a74de7a16fcdb7eb63501097e88d6866ca",
-  "scripts/pump_amm_admin_differential.py": "cc3834231f951e3dbf36f38504d85f3135c0edf3792fabecd12fae10c493a72b",
-  "evidence/upstream/pump_amm.json": "b7d8c57a4d9c4dd0109a9ab893052352333252d4eedced10ac091d4d66cab89b",
-  "research/imported-lab/analysis/pump_fun/config-snapshot.json": "17b886a6b4aa7fdc89f2fca9a1b67b318d33998794da59fe4df1fe89ca70bd27",
-  "repro/pump_amm/diagnostic-parity-20261027/compare_direct.py": "443ead19481a1b4f8fbd8758ab0f8db4c6ca0837b644ca90006d0b08ab5a738e",
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7"
-}

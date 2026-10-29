@@ -1,7 +1,0 @@
-{
-  "main_candidate_sha256": "5cf8d567934188d1307d2f9f3d2220ede52f6978e389064b08897441fbdd7d49",
-  "whole_file_equal": true,
-  "whole_symbols_equal": true,
-  "source_inputs": 26,
-  "main_build_attempts": 1
-}

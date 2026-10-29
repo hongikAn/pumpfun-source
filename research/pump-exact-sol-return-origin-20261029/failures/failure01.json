@@ -1,7 +1,0 @@
-{
-  "step": "first static-analysis replay",
-  "failure": "Compared SHA256 string to result.logs.stderr.log object rather than its sha256 field. Saved trace hash itself agrees; no evidence changed.",
-  "expected_trace_sha256": "4a0c6e55ab118c037dcef086bac73ed490956eff16226b46650ee72fcfad0663",
-  "compiler_commands": 0,
-  "target_executions": 0
-}

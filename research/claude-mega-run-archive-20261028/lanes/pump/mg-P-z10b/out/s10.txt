@@ -1,1 +1,0 @@
-ok True rv True stackw [] sec 20.5 norm 984 raw 166 gains [] losses [] rawg [] rawl []

@@ -1,8 +1,0 @@
-{
-  "README.md": "b00dce6e27d4899cecdf54ec930647472b9e7b48b2c7b8bae4234bb693a6f76e",
-  "analysis.json": "8d5e73da926234b594965eb18a328f1ad348addeca52a9ea06740679e9d4fc3f",
-  "buy-transaction.json": "1fad6777f840a00de8266461db150cc72132e784168db2d4927d4ff11d5f5726",
-  "capture.py": "f8d5b672aa07d5a9b0efee91c84169b4d0b47d9f4ba3203f85e148e1509729dc",
-  "sell-transaction.json": "b84f74595054bb6612692ac5c44017ca3e679fe54cd54051ff19aff16a518fea",
-  "verify.py": "fbc28343cd0dcb73e80c5f17b8c9e861115add1f3b6b1aba8a662ce0e8780921"
-}

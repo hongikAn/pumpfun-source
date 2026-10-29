@@ -1,7 +1,0 @@
-{
-  "kind": "author summary, not raw process receipt",
-  "initial_independent_check_returncode": 1,
-  "cause": "Assertednoinlineattributesanywhere, butunchangedpay_token tail alreadyhasinline(never).",
-  "correction": "Compareold/newcounts ofinline/path/file/linemacro tokens and exactunchangedtail. No plan/proposalsourceedit.",
-  "actualbuilds": 0
-}

@@ -1,8 +1,0 @@
-{
-  "evidence/original/pump_fees/deployed.so": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
-  "research/fees-composed-frontier188/window_map.py": "eeec82f751ea38827c5149f28590f19a3ff516c7eee57b6aa48949cbaac4a7e5",
-  "research/fees-sharing-slice-recovery/verify.py": "a40784b99085bd9af5a34ebf7b2bd38c1795eef6e82dbf4c979739b13698fb27",
-  "research/fees-qualified-linker-layout/verify.py": "81f3ce79edba9238db9e889c804a996d5780e58753ffb9b4928327b8765dc6ca",
-  "research/fees-common-quote-data-order/verify.py": "9cb8ee60a3f6802c3bfe5f0e44710084519f1eda692187445b7bdbb29484dbb3",
-  "scripts/fees_validate_all.py": "c0f4a0e78074041cf4a41c5f3578bc3e71d746557a3dc45627eb648f32a4f065"
-}

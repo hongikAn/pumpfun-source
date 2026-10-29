@@ -1,1 +1,0 @@
-{"boost_cases": 16, "boost_rejections_per_binary": 11, "boost_success_controls_per_binary": 5, "original_guard_counts": {"250": 3, "255": 2, "273": 3, "274": 2, "280": 1}, "prior_focused_cases": 36, "verified_signatures": 120, "unique_transaction_bytes": 29, "full_logs_compared": true, "scope": "Only compute lines and the explicitly identified source coordinates are normalized."}

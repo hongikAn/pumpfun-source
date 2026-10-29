@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/anza-xyz/platform-tools/releases/download/v1.44/platform-tools-osx-aarch64.tar.bz2",
-  "asset_size_bytes": 400794156,
-  "asset_sha256": "66e20d135fddd70ff519baf7ff320d762957f9aedf93a50e23756db23ad79351",
-  "official_api_digest": null,
-  "release_metadata": "v144-release-metadata.json",
-  "target": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/fees-compat/toolchains/v1.44",
-  "cache_link": "/Users/shawwalters/.cache/solana/v1.44/platform-tools"
-}

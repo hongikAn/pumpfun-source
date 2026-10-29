@@ -1,3 +1,0 @@
-# Fees main publication portability checks
-
-The unchanged receipt records ten copied-checkout checks for package seal189929d4a870b73a8693b2709f5484eb9118d2aa4982500362a103f7be1c1b31: saved signatures, current tracked inputs, ten-report schema and missing/tampered/untracked source/harness/receipt/candidate failures. All checks reached their expected result, and restored gates passed. No build or target execution occurred. Root inspected the complete receipt and independently passed the sealed package saved verifier. The receipt preserves actual interpreter/error paths as diagnostic provenance; it is not a portable command script.

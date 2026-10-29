@@ -1,8 +1,0 @@
-{
- "returncode": 0,
- "stderr": "",
- "script_sha256": "b1f8671d4dba7d084ef604983ef73d7215a250410b3f089c8b8ba45bbde74563",
- "candidate_sha256": "380157fa6a63e717bd1630c6c4a86a4b66b596caedab6769d4497c8fa2b8d2a9",
- "symbols_sha256": "5fda674541c8a39caf95d304d4cfb14fe5b0493a0c57e16a4dd78447b7169448",
- "candidate_bytes": 775416
-}

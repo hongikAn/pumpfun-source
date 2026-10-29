@@ -1,9 +1,0 @@
-{
-  "scope": "All 64-bit unsigned number_of_uses/remaining/total; identical earlier validation and metadata/error conversion assumed from bound source. This proves local guards and success-subtraction domain, not generated code or full instruction semantics.",
-  "solver": "Z3 4.15.4",
-  "query_sha256": "85e5a64c68253c4baf2bf0400f1e817af98073429afde3c37758c264ddc70428",
-  "all_u64_guard_and_subtraction_domain": "unsat",
-  "branch_polarity_negation": "unsat",
-  "source_unchanged": true,
-  "no_runtime_transactions": true
-}

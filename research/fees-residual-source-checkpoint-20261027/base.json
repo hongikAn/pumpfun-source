@@ -1,7 +1,0 @@
-{
-  "path": "research/fees-residual-parallel-checkpoint-20261027",
-  "archive_manifest_sha256": "81dc434bfa142308185abe40691a3dd7d2859939e4f53cafab5ac01d76021077",
-  "index_sha256": "5ef6f6e07254a8d4cb414dd2f908c897fa574d9fe96b89af4a52fe1ae8c6bda9",
-  "restore_combined_sha256": "ca26c735f8541033168a2d449dc854e9c91601fcf14f6d2f2800347df3675c85",
-  "package_sha256": "cd12671b56d6027854e939703844493c912cc60534b8dc190f6b4f356b5db9c4"
-}

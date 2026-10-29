@@ -1,2 +1,0 @@
-# Opaque incoming Git bytes; preserve without normalization or whitespace repair.
-incoming/** -text -whitespace

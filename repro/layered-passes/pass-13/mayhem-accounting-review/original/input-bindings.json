@@ -1,7 +1,0 @@
-{
-  "repro/layered-passes/pass-01/results/mayhem/residual-ledger.json": "a5c28145c997f5491f0dd9cd4c4929fe7647eb9caeb5ef8d3e5369d1dac7355c",
-  "programs/mayhem/src/instructions/buy.rs": "10a99ac5097a2cd8faee56a1a7baa3a8115c59baf37737f1c1336febb1693bf0",
-  "programs/mayhem/src/instructions/sell.rs": "fd9263e97aa01f3394165297844286509094d87f38019c5df7c4a4e64b4fef64",
-  "programs/mayhem/src/instructions/buy_v2.rs": "e76d57d6eca28de9c1164a856ce15f303bf160f5920f31a63ac34b4598255daf",
-  "programs/mayhem/src/instructions/sell_v2.rs": "e7b64a1f67e13026b6962a5fc229e39546939d0e701e9d4d1d6114713aea5f15"
-}

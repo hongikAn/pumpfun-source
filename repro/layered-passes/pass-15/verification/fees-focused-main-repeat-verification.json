@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "additional_main_repeat_comparisons": 20,
-  "new_unique_cases": 0,
-  "transaction_fields_checked": 40,
-  "signatures_checked": 80,
-  "raw_report_sha256": "77f9d577d6328d80321800e87053e97b3226205115d965e946f0d322c359009d",
-  "scope": "Existing20 focused cases replayed to validate updated current-main CI wiring; excluded from baseline comparison totals."
-}

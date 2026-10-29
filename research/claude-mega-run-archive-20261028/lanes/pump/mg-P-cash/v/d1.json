@@ -1,9 +1,0 @@
-{
- "src/token_incentives/claim_token_incentives.rs": {
-  "152": "  let user_volume_accumulator=&mut ctx.accounts.user_volume_accumulator;let timestamp=Clock::get()?.unix_timestamp;let min=Rent::get()?.minimum_balance(user_volume_accumulator.to_account_info().data_len());let amount=user_volume_accumulator.get_lamports().saturating_sub(min);if amount==0{msg!(\"No cashback to claim\");return Ok(());}",
-  "251": "  user_volume_accumulator.sub_lamports(amount)?;ctx.accounts.user.add_lamports(amount)?;",
-  "252": "  user_volume_accumulator.total_cashback_claimed=user_volume_accumulator.total_cashback_claimed.checked_add(amount).ok_or(error!(PumpError::Overflow))?;",
-  "253": "  let total_cashback_earned=user_volume_accumulator.cashback_earned;",
-  "254": "  let event=ClaimCashbackEvent{user:ctx.accounts.user.key(),amount,timestamp,total_claimed:user_volume_accumulator.total_cashback_claimed,total_cashback_earned};emit!(event);emit_cpi!(event);Ok(())"
- }
-}

@@ -1,5 +1,0 @@
-{
-  "error": "Initially compared to older pre-accumulator historical baseline-source file.",
-  "correction": "Compare new dependency change to accepted-source and prove equality with retained accumulator baseline proposal; older map remains archived.",
-  "assertions_removed": false
-}

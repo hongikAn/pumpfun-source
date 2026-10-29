@@ -1,6 +1,0 @@
-{
-  "scripts/verify_current_checkpoint.py": "ce51bd1004b2f9d1c7187bbae78cb36844798e475f884e6486fc7cf2dec95630",
-  "scripts/verify_current_bindings.py": "d1bda3a60fb4c76e9495bcad1a7b728b2ab4fbc0db56af091d9c41256b67b487",
-  "scripts/verify_recovered_builds.py": "83a84ccedc328eec4e372f3e81ab4f23fbdba281891c200ee4f9592fb753b22f",
-  ".github/workflows/verify.yml": "7a65efc6d2320c69d77f312de7dc062aa6e4ccec90b8c951acd22aca85aad6ad"
-}

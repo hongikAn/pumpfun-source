@@ -1,1 +1,0 @@
-Preserves225afb first subset. New v2 makes the verifier result precise: source membership is checked here; lossless split archive acceptance remains the full outer385 verifier obligation, not a default claim from this small source-only reader. No payload source/evidence changes.

@@ -1,9 +1,0 @@
-{
-  "workflow_id": 396120018,
-  "ref": "main",
-  "expected_head_sha": "a71de2091f0ab56a4eb2996777f0ecbf51986aa3",
-  "expected_tree": "131183734aa8addf0d2b99d2dad7f0d89846d813",
-  "before_request_utc": "2026-10-25T15:36:44.732614+00:00",
-  "dispatch_attempts": 1,
-  "phase": "REQUEST_PREPARED"
-}

@@ -1,6 +1,0 @@
-{
-  "initial_returncode": 1,
-  "failure": "AssertionError: ('handler', [])",
-  "cause": "Handler emitted as exported program method, not incentives::claim; selector corrected only.",
-  "assertions_unchanged": true
-}

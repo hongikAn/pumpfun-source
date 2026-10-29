@@ -1,7 +1,0 @@
-{
-  "kind": "author summary of observed initial verifier failure, not a raw process receipt",
-  "returncode": 1,
-  "assertion": "set(original1bmanifest)|manifest == actual copied original-control files",
-  "cause": "The parent emitted export intentionally contains35completeasm+4metadata files, not all47payloads referenced by original1bmanifest. Eight nonbody payloads absent from parent export.",
-  "correction": "Verify exact39-file exported subset via parent original-copy-bindings and parentmanifest, and cross-check every subset digest against1bmanifest. Do not fabricate missingpayloads or read outside admittedscope."
-}

@@ -1,8 +1,0 @@
-{
-  "initial_returncode": 1,
-  "failure": "AttributeError: 'str' object has no attribute 'current_main'",
-  "cause": "Source-chain loop reused parsed-argument variable a.",
-  "correction": "Rename loop endpoints; all assertions preserved.",
-  "new_builds": 0,
-  "new_runtime_executions": 0
-}

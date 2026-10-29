@@ -1,6 +1,0 @@
-{
-  "review_manifest_sha256": "4fab3ea189b8829028b968b2e6d517e4f24fcef917ddb3f6b3c2b98bd2d64ef1",
-  "integrated_manifest_sha256": "e6110209c65ccbc5c9f68f654a6b47606a2b7545c68751319a9c5346ea8ab565",
-  "archive_sha256": "a2660e594dcab8ff45afe2cd05516939b10f12ca0c0d39a3747f13ee87fa93b3",
-  "scope": "N09 only; context, exit and mint implementations remain separately owned."
-}

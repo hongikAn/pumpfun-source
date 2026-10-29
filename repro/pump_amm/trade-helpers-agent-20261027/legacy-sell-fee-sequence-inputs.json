@@ -1,7 +1,0 @@
-{
-  "base": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-trade-helpers-agent-20261027/legacy-whitelist-source",
-  "source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-trade-helpers-agent-20261027/legacy-fee-sequence-source",
-  "patch_sha256": "50822c38c6af35571c278c56d9f6ff57a5b9be76da3ba0c2cdf83f7422b8d3f9",
-  "source_sha256": "cdbbf9306a63586ccf7dc33df3c457b13cd342524b4b62dfd33556fd4b1897a9",
-  "supersedes_unbuilt_patch": "legacy-sell-fee-order.patch"
-}

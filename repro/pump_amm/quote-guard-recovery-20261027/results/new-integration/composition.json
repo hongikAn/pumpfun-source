@@ -1,6 +1,0 @@
-{
-  "base_candidate": "3fcae02128464717b29a0b3842fbba993d5d0befb4362c4094c8af8e32a8589d",
-  "candidate": "be10ca1a530ef9c62be5c94a5183f339e5d7661dce588a9458767e20a5e488f6",
-  "combined_patch_sha256": "eb4e51c875a36d5346b89d1cee4e5d5b5a5b2d805470c8212ffc144d359f5c9a",
-  "scope": "Reserved-recipient validation, original handler boundaries, native Token2022 quote guard, typed transfer and source-organization recovery."
-}

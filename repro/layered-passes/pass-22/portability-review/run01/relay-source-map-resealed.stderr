@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/relay/verify.py", line 16, in <module>
-    assert J(P/'checkpoint-manifest.json')==J(Q/'manifest.json');checkpoint(Q,c,J(P/'source-map.json'))
-                                                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/relay/bindings.py", line 25, in checkpoint
-    assert src==J(Q/'launcher/resolved-source-sha256.json')and len(src)==23
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

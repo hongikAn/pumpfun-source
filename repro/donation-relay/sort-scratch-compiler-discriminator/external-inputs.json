@@ -1,8 +1,0 @@
-{
-  "evidence/dependencies/donation_relay/deployed.so": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
-  "repro/donation-relay/source-build-12-v147-measurement/build-01/candidate.so": "a6244e332aa2dcfdad3c27852e8c9542ac2c94b33371a71802d538cadf52face",
-  "repro/donation-relay/source-build-12-v147-measurement/build-01/unstripped.so": "8330a56590851c4ca3fa5815112894f57c3b5c90652bf62cc82009a930a7ac0b",
-  "repro/donation-relay/source-build-12-v147-measurement/full-ledger/original-function-ledger.json": "530840e48ae2b06257d9e8ae82f2b554d78df698f9c398a7aaeae96282f8e19a",
-  "repro/donation-relay/source-build-12-v147-measurement/full-ledger/candidate-function-ledger.json": "70a9d97d720cc0a7ad4f19aa8e1f7e4786217716a528cd30e1067ac240e5fbff",
-  "repro/donation-relay/source-build-12-v147-measurement/source/src/arithmetic.rs": "dad871f02920d328665e92aa76ce9c30f3504e04c0e970674a79ceb3491cde79"
-}

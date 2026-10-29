@@ -1,6 +1,0 @@
-{
-  "scripts/pump_compare_function_bytes.py": "43fa359dce1e398f820df445d534e0912ac5f181f1ea15e13a5267b53105b075",
-  "scripts/pump_quote_control_function_match.py": "82206e07010439b62913d38125bbb8b40cd3ecf19ca894952cb932c2ce1822b5",
-  "repro/reconstruction-status-2026-10-26/functions.tsv": "fb2c0a47514567d65eb45c1e268dacd5291e4659bb7dceb575a767dc20bcaff8",
-  "evidence/original/pump/deployed.so": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d"
-}

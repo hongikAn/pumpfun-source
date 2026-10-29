@@ -1,6 +1,0 @@
-{
-  "scope": "Prebuild read-only cache integrity of the1.79 registry directory observed in compiled dependency paths; duplicate archive cache directories are checked independently. Against unchanged locked registry archive checksums and exact public archive member bytes. This verifies the current local dependencies before this build; it is not proof of the historical dependency graph. Public dependency content only; excluded filename metadata is retained without opening keypair files.",
-  "lockfile_sha256": "dd27205d8d47e4341c8438bb7adf812f38fae150625cec43303a963c319ddef5",
-  "registry_packages": 254,
-  "verified_source_files": 5567
-}

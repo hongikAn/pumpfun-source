@@ -1,8 +1,0 @@
-{
-  "scope": "Passive, root-filtered compiler snapshots. No input IR/object editing.",
-  "identical_probe_image": true,
-  "unstripped_sha256": "36027e2167dabbbd66364a407d99a8185243640bd9978d6a92524aafd08b2245",
-  "compiler_log_bytes": 530176,
-  "filter_symbol": "_ZN14pump_recovered15multi_hop_curve8swap_hop17hf9fc08eed996a324E",
-  "new_runtime_executions": 0
-}

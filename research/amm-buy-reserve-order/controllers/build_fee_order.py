@@ -1,6 +1,0 @@
-from pathlib import Path
-import shutil,json,hashlib,subprocess,os,datetime,difflib
-D=Path('/home/ahi200/pumpfun-work/20261028-amm-reserve-source');W=Path('/home/ahi200/pumpfun-work/20261028-amm-sweep-order');src=D/'source-reserve-fee-order';shutil.copytree(D/'source-reserve-slippage',src)
-p=src/'programs/pump-amm/src/instructions/swap/buy.rs';s=p.read_text();start=s.index('    fn legacy_quote');end=s.index('    let b =',start);block=s[start:end];assert block.count('.checked_add(protocol)')==block.count('.checked_add(creator)')==1;block=block.replace('.checked_add(protocol)','.checked_add(_PLACEHOLDER_)').replace('.checked_add(creator)','.checked_add(protocol)').replace('.checked_add(_PLACEHOLDER_)','.checked_add(creator)');s=s[:start]+block+s[end:];p.write_text(s)
-before=(D/'source726/programs/pump-amm/src/instructions/swap/buy.rs').read_text();(D/'reserve-fee-order.patch').write_text(''.join(difflib.unified_diff(before.splitlines(True),s.splitlines(True),fromfile='a/programs/pump-amm/src/instructions/swap/buy.rs',tofile='b/programs/pump-amm/src/instructions/swap/buy.rs')))
-controller=Path('/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/amm-reserve-source-20261028/build_can_boost.py').read_text();body=controller[controller.index('sha=lambda'):].replace("out=D/'reserve-can-boost'","out=D/'reserve-fee-order'");exec(body)

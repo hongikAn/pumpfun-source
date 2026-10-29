@@ -1,8 +1,0 @@
-{
-  "base_candidate_sha256": "5cd7879af0d9733d1f7d3847be46aa4c5ff214fca2250d1c69d03c49cbc85d1a",
-  "candidate_sha256": "5c1e8b18ead27d0b3c1840f37b24ef5044adb65e2a3a566d5be7694ff8737c05",
-  "gained": [],
-  "lost": [],
-  "matched_text_bytes": 644456,
-  "original_text_bytes": 1162040
-}

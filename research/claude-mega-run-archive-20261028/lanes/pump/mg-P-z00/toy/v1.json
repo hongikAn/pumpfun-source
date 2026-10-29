@@ -1,7 +1,0 @@
-{"c3":"upd(ctx!(x,signer), OK::try_from(None)?)",
- "a":"upd(ctx!(x,signer), {let r=OK::try_from(None);r?})",
- "n":"upd(ctx!(x,signer), OK(OK::try_from(None)?.0))",
- "u1":"{let c=ctx!(x,signer); upd(c, OK::try_from(None)?)}",
- "k":"{let c=ctx!(x,signer); let v=OK::try_from(None)?; upd(c,v)}",
- "t1":"{let c=ctx!(x,signer); let r=OK::try_from(None); upd(c,r?)}",
- "t2":"{let c=ctx!(x,signer); let r=OK::try_from(None); let v=r?; upd(c,v)}"}

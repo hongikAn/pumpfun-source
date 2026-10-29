@@ -1,6 +1,0 @@
-void SBFPassConfig::addPreEmitPass() {
-  addPass(createSBFMIPreEmitCheckingPass());
-  if (getOptLevel() != CodeGenOpt::None)
-    if (!DisableMIPeephole)
-      addPass(createSBFMIPreEmitPeepholePass());
-}

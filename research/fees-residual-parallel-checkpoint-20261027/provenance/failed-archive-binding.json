@@ -1,6 +1,0 @@
-{
-  "accepted": false,
-  "bytes": 77489478,
-  "sha256": "d77f9b3e3875dde1f1a1dd34939b38adc241e5f21f13ac285f5018db09daf3b8",
-  "reason": "Incomplete first snapshot interrupted by compiler temporary-file removal; excluded from restoration."
-}

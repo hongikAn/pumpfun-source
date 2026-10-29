@@ -89,6 +89,7 @@ export class FollowingStore {
   constructor(userStore: UserStore = defaultStore, seed: FollowEdge[] = edges) {
     this.users = userStore;
     this.edges = structuredClone(seed);
+    if (this.edges.some(edge => !Number.isSafeInteger(edge.timestamp) || edge.timestamp < 0)) throw new TypeError('Invalid follow timestamp');
     const pairs = this.edges.map((edge) => JSON.stringify([edge.follower_id, edge.following_id]));
     if (new Set(pairs).size !== pairs.length) throw new TypeError('Duplicate follow relation');
   }
@@ -164,6 +165,9 @@ export class FollowingStore {
     rows: Array<{ edge: FollowEdge; user: User }>,
     opts: PageOptions,
   ): FollowRow[] {
+    if ((opts.offset !== undefined && (!Number.isSafeInteger(opts.offset) || opts.offset < 0)) ||
+        (opts.limit !== undefined && (!Number.isSafeInteger(opts.limit) || opts.limit < 1 || opts.limit > 1000)) ||
+        (opts.sort !== undefined && !['followers', 'recent'].includes(opts.sort))) throw new RangeError('Invalid follow page options');
     const sorted = [...rows].sort((a, b) => {
       if ((opts.sort ?? 'followers') === 'recent') {
         if (a.edge.timestamp !== b.edge.timestamp) return b.edge.timestamp - a.edge.timestamp;

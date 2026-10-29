@@ -1,8 +1,0 @@
-{
-  "candidate_sha256": "44e4f5400f18b3667c405d374004f53d0d937bdbcd9a52a1e672ec38ad1d39b9",
-  "control_sha256": "e899e096d903ffe0b6e475bc00d6015dc38f1caed13a85952e4cf83e229f6b08",
-  "controller_sha256": "fb42dfa72089b6696c7fc23e43424e31527f86b5bcb3b99d3a3cd768379b4cf7",
-  "driver_sha256": "cab87b9b3bfd597b796809f5c4a07e5b97f0f84843ffeb9fdf343ed26ec3ee29",
-  "signature_verification": true,
-  "blockhash_check": true
-}

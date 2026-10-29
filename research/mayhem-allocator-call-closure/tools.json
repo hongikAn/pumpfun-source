@@ -1,9 +1,0 @@
-{
-  "rust/bin/rustc": "fa2c61467ffa823dc1a64c28cba22c6ce24b2439ebe28fe546609d7fc638569a",
-  "rust/bin/cargo": "638ab45125934a94e94980d5ae6aa3641257914f0882fcbf116d643fa7ec405b",
-  "rust/bin/rustdoc": "5c88201be47010946fd363bd97dc79ff8698a15102e32f91256f0a565227ec09",
-  "llvm/bin/clang": "cad3fd5da01c3db8ffb102f5ae405f477be78201a137e18c50d88ec3360355a3",
-  "llvm/bin/llvm-ar": "baa43b60f27718df405ed3a12038a9a8a0945d1f79d3d59b0ad7627cc34e54ac",
-  "llvm/bin/llvm-objcopy": "c69ce74d2c5068cb52675aabca60d981a26ddac173518cbc0cd893461db48a48",
-  "rust/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld": "4b6b38fea6c6d6510a406d945e8b5db5763820c3a79b2e6d785deb365788a87c"
-}

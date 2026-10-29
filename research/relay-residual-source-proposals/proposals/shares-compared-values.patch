@@ -1,5 +1,0 @@
---- a/src/settlement_handlers.rs
-+++ b/src/settlement_handlers.rs
-@@ -71 +71 @@
-- if sum!=10000 {return Err(distribution_error!("programs/contracts/src/tools/checks.rs",BpsSumDoesNotEqualTenThousand,204));}
-+ if sum!=10000 {return Err(distribution_error!("programs/contracts/src/tools/checks.rs",BpsSumDoesNotEqualTenThousand,204).with_values((sum, 10_000u32)));}

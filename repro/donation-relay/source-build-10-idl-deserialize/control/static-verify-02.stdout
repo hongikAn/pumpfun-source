@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "candidate_sha256": "5af54232ebb9e8fef524f6f6984d6dbd4567874bcf4a6e6927501c3bca66e549",
-  "source_inputs": 23,
-  "build_exit": 0,
-  "backend_stack_errors": 0,
-  "complete_function_ledgers_recomputed": true,
-  "target_executions_by_verifier": 0
-}

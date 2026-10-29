@@ -1,9 +1,0 @@
-{
-  "compile_exit": 0,
-  "sdk_check_outcome": "WARNING_ONLY",
-  "syscall_authority": "UNRESOLVED_EMPTY_OFFICIAL_ALLOWLIST",
-  "original_candidate_import_set_equal": true,
-  "runtime_packet_seal": "135db1810db389a541870b0f1e543ea1215c5f5946fcb4b5126f38ad16edfbcc",
-  "new_target_executions": 0,
-  "selection_or_promotion_authorized": false
-}

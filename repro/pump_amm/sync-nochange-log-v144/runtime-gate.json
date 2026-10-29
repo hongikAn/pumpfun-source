@@ -1,9 +1,0 @@
-{
-  "pass": true,
-  "returncode": 0,
-  "source_input_files": 28,
-  "vendor_included_explicitly": true,
-  "backend_stack_failures": [],
-  "renderer_proof_sha256": "8014184a3079364dffc975a5593ddb2fb2ca6a8daddfad2f4ceff9f38991c350",
-  "candidate_sha256": "c96ed810bccdcc741ab811c846a2ad76bd50163c4f635ef3a61db6562114d69c"
-}

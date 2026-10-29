@@ -1,8 +1,0 @@
-{
-  "full_dry_plan": "blocked until exact published control path exists",
-  "fixed_path": "repro/donation-relay/source-build-12-linux-v148-measurement/publication",
-  "core_provenance_validation": "PASS against existing actual downloaded control",
-  "execution_authorized": false,
-  "output_created": false,
-  "historical_status": "Before root copied final published control path; superseded by dry-plan.json"
-}

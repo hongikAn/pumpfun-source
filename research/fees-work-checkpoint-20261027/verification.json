@@ -1,9 +1,0 @@
-{
-  "archive_sha256": "38e2baeb0c8013b94584b22433e76be555337650049537cfcfe430272106f5af",
-  "all_blobs_verified": 9103,
-  "all_files_indexed": 52978,
-  "selected_restored_files_verified": 46,
-  "restored_hash_mode_mtime_equal": true,
-  "identity_acceptance": false,
-  "capture_cutoff": "The final in-flight Anchor reload diagnostic remains a pending experiment; this snapshot is not its acceptance receipt."
-}

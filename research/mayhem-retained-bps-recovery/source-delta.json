@@ -1,9 +1,0 @@
-{
-  "overrides": [
-    "src/instructions/buy.rs",
-    "src/instructions/buy_v2.rs",
-    "src/instructions/sell_v2.rs",
-    "src/state.rs"
-  ],
-  "removed": []
-}

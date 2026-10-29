@@ -1,8 +1,0 @@
-{
-  "source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-trade-helpers-agent-20261027/pool-v2-source",
-  "files": {
-    "programs/pump-amm/src/legacy_buy.rs": "d32ebadd90898ba169c4fc481317bbbc06d2e36f9d8abb7fa62c0157c2f4c41d",
-    "programs/pump-amm/src/legacy_sell.rs": "e37d4763893d4ee6cc57da16572473af1382526a00820df497c573dad372c9b8"
-  },
-  "patch_sha256": "71dc763ea837001a252231b0df8be6e616886852c2485c65998c1ea4f1989d12"
-}

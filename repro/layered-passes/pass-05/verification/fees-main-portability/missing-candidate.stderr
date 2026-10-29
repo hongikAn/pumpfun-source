@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/fees-legacy-caller-main/portable-current-test/repo/repro/pump_fees/legacy-caller-v144/verify.py", line 100, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/fees-legacy-caller-main/portable-current-test/repo/repro/pump_fees/legacy-caller-v144/verify.py", line 21, in main
-    files={f.relative_to(P).as_posix()for f in P.rglob('*')if f.is_file()and f.relative_to(P).as_posix()not in['manifest-sha256.json','MANIFEST.sha256']};assert files==set(manifest)
-                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^
-AssertionError

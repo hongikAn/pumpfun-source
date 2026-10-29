@@ -1,5 +1,0 @@
-* -text whitespace=cr-at-eol
-*.gz binary
-*.o binary
-native/*/typeid_probe.s whitespace=cr-at-eol,-blank-at-eof
-public/README.md whitespace=cr-at-eol,-blank-at-eol

@@ -1,1 +1,0 @@
-{"sha256": "303d38d3e0c4db5294239e536c21869bfa33c56e5e55ecc2601c9430bb404a54", "windows": 785, "normalized": 745, "raw": 150, "normalized_text_bytes": 964264, "gains": ["0x74b80"], "losses": []}

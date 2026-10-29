@@ -1,7 +1,0 @@
-{
-  "origin": "research/pump-main-remaining-20261028/native-control",
-  "origin_packet_manifest_sha256": "cf66235e68ccf26f01799c822637b07d6a0a81d670a273cfd6583d496556a368",
-  "scope": "Same-source PR569 native-v144 control. Retained complete ELF is independently censused, not accepted from aggregate counts.",
-  "unstripped_sha256": "0f882cc514e2d984bdf26486d65037b3ab879fafafc1a85853a4636fd5356baf",
-  "inventory_file_sha256": "60feae8c625fca46ef99780518d3537bd0cccbb954ab53b7981d2d5b6e8b3d2e"
-}

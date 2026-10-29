@@ -1,1 +1,0 @@
-{"jsonrpc":"2.0","result":[{"blockTime":1792804568,"confirmationStatus":"finalized","err":{"InstructionError":[2,{"Custom":6020}]},"memo":null,"signature":"3t7LBPzNVG2DDTLpZaQ7y1uiis5N4F4GXviQ52MxnnVMv8i2TbDx71JBR1t7V9djLYZ3dmHjthjKuykc3izMvSK5","slot":460660250,"transactionIndex":235}],"id":1}

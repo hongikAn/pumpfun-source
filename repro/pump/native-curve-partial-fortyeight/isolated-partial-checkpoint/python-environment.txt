@@ -1,4 +1,0 @@
-jsonalias==0.1.1
-pyelftools==0.32
-solders==0.27.1
-typing_extensions==4.16.0

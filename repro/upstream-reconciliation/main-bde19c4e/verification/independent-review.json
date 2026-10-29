@@ -1,7 +1,0 @@
-{
-  "reviewer": "fees_v2_key_review",
-  "status": "PASS",
-  "scope": "All266 incoming rows rechecked; active source/workflow/Cargo/status/verifiers unchanged; no new activation path. Actual protected modes100644. HEAD/MERGE_HEAD and no unresolved entries verified.",
-  "builds": 0,
-  "target_executions": 0
-}

@@ -1,9 +1,0 @@
-{
-  "verified": true,
-  "candidate_sha256": "c20007e860f47db1cc443344605afafe505d61bb4de6d61306fa164db3482544",
-  "cases": 17,
-  "verified_signatures": 34,
-  "mismatches": 0,
-  "original_successes": 12,
-  "executes_runtime": false
-}

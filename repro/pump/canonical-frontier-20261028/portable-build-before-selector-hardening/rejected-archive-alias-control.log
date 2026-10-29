@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/pump-swap-remaining-20261028/pumpfun-source/repro/pump/canonical-frontier-20261028/build.py", line 35, in <module>
-    matches=list((registry/'registry/cache').glob('*/'+name+'-'+version+'.crate'));assert len(matches)==1,(name,version,matches);f=matches[0];assert sha(f)==checksum;archives[name+'-'+version]={'path':str(f),'sha256':checksum}
-                                                                                          ^^^^^^^^^^^^^^^
-AssertionError: ('aead', '0.5.2', [PosixPath('/Users/shawwalters/.cargo/registry/cache/index.crates.io-6f17d22bba15001f/aead-0.5.2.crate'), PosixPath('/Users/shawwalters/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/aead-0.5.2.crate')])

@@ -1,6 +1,0 @@
-{
-  "scope": "Read actual filename through containing ELF section; body() accepts only text. No source mutation before failed assertion.",
-  "before": "77af2c84a4b8beb4602876021239fd8e9f462fe94546a509f8897f96b9d4dd00",
-  "after": "3e4bbdb97f4a57e0aba93241b6132a003f7fb1825bb06ffbf55b1000697bf7df",
-  "preserved_failure": "review_compose01-failed-rodata.log"
-}

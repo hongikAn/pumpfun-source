@@ -1,7 +1,0 @@
-/Users/shawwalters/Documents/Codex/2026-10-24/claude-mayhem-work/mayhem-env/tools/cache-q434/fast-amm-qualified434-20261027/sbpf-solana-solana/release/deps/libcurve_accounts-a46b64d8dfd1b3b9.rlib
-/Users/shawwalters/Documents/Codex/2026-10-24/claude-mayhem-work/mayhem-env/tools/cache-q434/fast-amm-qualified434-20261027/sbpf-solana-solana/release/deps/libanchor_spl-5efd9abd2467cb79.rlib
-/Users/shawwalters/Documents/Codex/2026-10-24/claude-mayhem-work/mayhem-env/tools/cache-q434/fast-amm-qualified434-20261027/sbpf-solana-solana/release/deps/libspl_token_2022_interface-6130131396c4c5c2.rlib
-/Users/shawwalters/Documents/Codex/2026-10-24/claude-mayhem-work/mayhem-env/tools/cache-q434/fast-amm-qualified434-20261027/sbpf-solana-solana/release/deps/libspl_token_metadata_interface-a915c8b67427f38d.rlib
-/Users/shawwalters/Documents/Codex/2026-10-24/claude-mayhem-work/mayhem-env/tools/cache-q434/fast-amm-qualified434-20261027/sbpf-solana-solana/release/deps/libspl_token_interface-a308f8dc9f1303bb.rlib
-/Users/shawwalters/Documents/Codex/2026-10-24/claude-mayhem-work/mayhem-env/tools/cache-q434/fast-amm-qualified434-20261027/sbpf-solana-solana/release/deps/libspl_associated_token_account_interface-68c0323a42ed5034.rlib
-/Users/shawwalters/Documents/Codex/2026-10-24/claude-mayhem-work/mayhem-env/tools/cache-q434/fast-amm-qualified434-20261027/sbpf-solana-solana/release/deps/libanchor_lang-946a3f017ffdc240.rlib

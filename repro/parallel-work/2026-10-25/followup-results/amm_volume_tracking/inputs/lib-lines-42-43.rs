@@ -1,2 +1,0 @@
-    pub fn buy<'info>(ctx:Context<'_,'_,'_,'info,LegacyBuy<'info>>,base_amount_out:u64,max_quote_amount_in:u64,track_volume:OptionBool)->Result<()>{legacy_buy::execute(ctx,base_amount_out,max_quote_amount_in,track_volume.0,false)}
-    pub fn buy_exact_quote_in<'info>(ctx:Context<'_,'_,'_,'info,LegacyBuy<'info>>,spendable_quote_in:u64,min_base_amount_out:u64,track_volume:OptionBool)->Result<()>{legacy_buy::execute(ctx,spendable_quote_in,min_base_amount_out,track_volume.0,true)}

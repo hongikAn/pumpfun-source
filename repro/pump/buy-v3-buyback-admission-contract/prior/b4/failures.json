@@ -1,9 +1,0 @@
-{
-  "preserved_prior": ["prior/failures.json", "prior/REPORT.md", "prior/preservation-ledger.json"],
-  "new_static_analysis_corrections": [
-    {"failure":"Initial preparation asserted a manually transcribed expected call byte string and failed before analysis.","correction":"Removed the guessed byte assertion; decode signed operands from original ELF and verify actual targets."},
-    {"failure":"Initially selected 0x199418 as an instruction-builder start; inferred-boundary check failed with KeyError.","correction":"Fresh resolution of actual 0x199930 call gives 0x1993f0; verified inferred end 0x1998f0. Incorrect generated excerpt removed."},
-    {"failure":"Initial draft described successful creation as proceeding directly to decode.","correction":"Encoded 0x15fc0 branch resolves to 0x14b08, requiring post-CPI owner recheck; source/report corrected before sealing."}
-  ],
-  "historical_disassembly_annotation_limit":"Section-relative printed branch annotations differ from absolute virtual targets; use encoded branch offsets. Original prior evidence remains sealed."
-}

@@ -1,6 +1,0 @@
-{
-  "path": "repro/pump_fees/readme-provenance-v144",
-  "source_manifest_sha256": "db0dd0742af5c6a831321d99de9f6181f547ac42cacc66a60e3c029bdbe1c892",
-  "candidate_sha256": "a9c4ea9e47356a91bf9bd97318746a7c207b873e32485d7786853f048d7d4afa",
-  "runtime_receipts_inherited": false
-}

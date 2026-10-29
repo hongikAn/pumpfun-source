@@ -1,7 +1,0 @@
-{
-  "retained_framework_path": "work/pumpfun-source/repro/pump_fees/legacy-quote-admission-source-proposal/inputs/framework/anchor-lang-0.31.1/src/lib.rs",
-  "sha256": "1977bc48db27f7cf66c6a3473149efd8bf3ffb49efa3efeffd9b55c4e9ee52dd",
-  "line": 424,
-  "text": "    pub use solana_program::msg;",
-  "claim": "existing prelude msg macro API; proposed static literal arguments only; actual emitted syscall/literal and transitive macro closure remain UNBUILT"
-}

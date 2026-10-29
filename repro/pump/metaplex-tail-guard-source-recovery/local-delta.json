@@ -1,9 +1,0 @@
-{
-  "scope": "One whole-continuation source layout trial after positive guard compiled identical to candidate12",
-  "only_changed_file_vs_reviewed_guard": "programs/token-metadata/program/src/processor/uses/utilize.rs",
-  "before_sha256": "dfcfdabd16a2aba63ea76c9b25b096067c433454ec6908a299f56b1a6657aad5",
-  "after_sha256": "ec9542c8b83670c03cd8eb03a4dbd307ee108c19b73f914656ad111d7ba0851a",
-  "initial_guard_preserved": true,
-  "success_continuation_reindented_only": true,
-  "byte_identity": false
-}

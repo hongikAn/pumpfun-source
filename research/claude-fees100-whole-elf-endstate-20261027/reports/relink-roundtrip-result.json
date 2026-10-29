@@ -1,9 +1,0 @@
-{
- "exit_code": 0,
- "seconds": 3.5,
- "substituted_root": "pump_fees_candidate.pump_fees_candidate.85ade9ce1584ca93-cgu.0.rcgu.o",
- "ld": "saved",
- "obj": "/private/tmp/claude-501/-Users-shawwalters-Documents-Codex-2026-10-24-pumpfun-source/e9a70435-0695-431c-bd3e-ac553674cc64/scratchpad/fees100/lanes/layout-elf/diag/roundtrip.o",
- "symbols_sha256": "ca9e6a933d1406743689f7bad609ce6b5e95ea91c064e0233cbd4db100afb335",
- "candidate_sha256": "7fdeefd6a7f36e1d312b7429f826fe4c5118440a059ee3fb49399b8799d3fc3d"
-}

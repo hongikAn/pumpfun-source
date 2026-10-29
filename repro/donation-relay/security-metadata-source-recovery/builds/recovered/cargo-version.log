@@ -1,8 +1,0 @@
-cargo 1.84.0 (12fe57a9d 2025-04-07)
-release: 1.84.0
-commit-hash: 12fe57a9d229b236a595ca14f8946da5833e1fd2
-commit-date: 2025-04-07
-host: x86_64-unknown-linux-gnu
-libgit2: 1.8.1 (sys:0.19.0 vendored)
-libcurl: 8.9.0-DEV (sys:0.4.74+curl-8.9.0 vendored ssl:OpenSSL/3.0.2)
-os: Debian 13.0.0 [64-bit]

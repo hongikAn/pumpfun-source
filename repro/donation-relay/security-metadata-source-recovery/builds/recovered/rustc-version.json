@@ -1,9 +1,0 @@
-{
-  "command": [
-    "/workspace/scratch/3bf4e25d877a/pumpfun-source/work/toolchains/platform-tools-v1.48/rust/bin/rustc",
-    "--version",
-    "--verbose"
-  ],
-  "log_sha256": "6b85bc6b29cd23b5836a0e619ef5dd819189af0b14a6d8269f99d7521334e6db",
-  "returncode": 0
-}

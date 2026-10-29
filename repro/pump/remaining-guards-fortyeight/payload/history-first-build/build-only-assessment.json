@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "candidate_sha256": "f2901021fde9354bf2d89098a3e8d8a425b60eda0faa856a2c8aef0d64e3f12f",
-  "symbols_sha256": "750456180883c72cc7e94692b75503043357f35222aebad6d67049af8ee2ed99",
-  "runtime_executions": 0,
-  "semantic_acceptance": false,
-  "next": "Root full emitted-body/error/tuple/call review required; separate runtime controller and authorization required."
-}

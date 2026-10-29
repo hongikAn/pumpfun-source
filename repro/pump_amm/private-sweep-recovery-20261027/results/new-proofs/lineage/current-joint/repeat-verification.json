@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "candidate_sha256": "9278a52ae4fd93bb6159a72fa625f121394902a93f701d86931a7ec3778055fb",
-  "unstripped_sha256": "62a5b6f3550813e4e5b792fb5060a70295e81292a5fe7c95905afbf6f6f27225",
-  "source_inputs": 227,
-  "dependency_artifacts": 762
-}

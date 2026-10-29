@@ -1,6 +1,0 @@
-{"c3":"upd(ctx!(x,signer), OK::try_from(None)?)",
- "c3r":"return upd(ctx!(x,signer), OK::try_from(None)?);",
- "nr":"return upd(ctx!(x,signer), OK(OK::try_from(None)?.0));",
- "ar":"return upd(ctx!(x,signer), {let r=OK::try_from(None);r?});",
- "mr":"return upd(ctx!(x,signer), match OK::try_from(None) {Ok(v)=>v,Err(e)=>return Err(e.into())});",
- "gr":"return upd(ctx!(x,signer), {let v=OK::try_from(None)?;v});"}

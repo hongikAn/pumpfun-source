@@ -1,5 +1,0 @@
-{
-  "class_source": "repro/pump_fees/compiler-family/match_helpers.py",
-  "class_source_sha256": "0510947b2e727b8b92d43e1b74cb661863628a344f2cb0d9cbf82a7ffc2f5c05",
-  "adaptation": "Copied read-only ELF class; new AMM selector and explicit direct-target closure report. No executable bytes modified."
-}

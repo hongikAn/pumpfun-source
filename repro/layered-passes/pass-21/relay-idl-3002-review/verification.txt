@@ -1,1 +1,0 @@
-PASS: admitted full IDL3002 branch/caller and current adapter bound; coherent ownership replacement remains unproved; no patch/build/runtime.

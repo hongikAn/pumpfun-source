@@ -1,9 +1,0 @@
-{
-  "revision": "557ba3b75823cfb971a56d80b9919a0cf384f66f",
-  "files": {
-    "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-    "research/mayhem-sell-quote-call-recovery/artifacts/recovered/symbols.so.gz": "ac9df99393217c3c6428fcfe44e3bf194cfd9878e0fbce0ad46e949fe8c0c53b",
-    "research/mayhem-account-data-extents/prior-cohort.json": "ec29311dbb866d4ca4676f3b422786cd2a792bb748c0beae155cd5e7686de174",
-    "scripts/analyze.py": "dd7fb38d795d4dd72a25aab0d65c2223d9f6f75d8b3ecb0de1d87d6e102910ac"
-  }
-}

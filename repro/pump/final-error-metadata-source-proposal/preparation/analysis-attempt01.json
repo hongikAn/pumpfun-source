@@ -1,8 +1,0 @@
-{
-  "kind": "static selector implementation boundary",
-  "failure_pc": 1436744,
-  "instruction": "store formatter slice pointer",
-  "disposition": "Revised static selector stops here and decodes the selected 16-byte literal descriptor; no formatter code executes.",
-  "builds": 0,
-  "target_executions": 0
-}

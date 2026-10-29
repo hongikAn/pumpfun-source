@@ -1,7 +1,0 @@
-# Canonical Token2022 CreatePool policy controls
-
-Synthetic local Pump caller239c222f signs its genuine pool-authority PDA via invoke_signed and invokes the captured original AMM or selected7fbbbb candidate with identical account flags/data. Outer transactions retain valid real signatures. This substitutes Pump code only for these explicit synthetic cases; no network reachability is asserted.
-
-Twenty-four cases per budget cover canonical and noncanonical quote mints: plainToken2022, malformed/duplicate TransferFeeConfig, and9valid bounded fee/cap pairs. At200000CU the captured original exhausts the meter in4canonical nonzero-fee cases while both7fbbbb and unchangedH16succeed. These4real resource behavior mismatches are preserved, not normalized away. At explicit1400000CU all24original/candidate pairs agree on errors, account snapshots, inner instructions and logs except compute usage and Source coordinates. Native signatures and loaded imagehashes are independently reverified;144signedexecutions include the unchangedH16resourcebaseline replay.
-
-The higher-budget experiment changes only the explicit common ComputeBudget instruction and preserves the downstream instruction/data/accounts. This establishes bounded arithmetic/state policy behavior while retaining the default-budget difference. It is not default transaction parity or whole-program equivalence. The initial failed caller compilation and interrupted report before the caller existed are retained separately and never count as acceptance.

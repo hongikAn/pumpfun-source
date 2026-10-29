@@ -1,8 +1,0 @@
-{
-  "cases.json": "f222e4c1c2d5f0a8567b3a9b9f10dd154cda71407ed172eccdd87beeb6eb2058",
-  "expected-source-map.json": "15978c8a8bc69d7f656399bf9993f91b8c08f6c7ed85673fd8175b7f990e430a",
-  "proposed/proposal_common.py": "f6f71acdb9a5caebf4607656bf5cff6279345240e96206fbe42aafeea18e302d",
-  "proposed/pump_create_nested_fixture.py": "18fa0a514f62162a0ebd60ccd89230d6ea72ddfc2cf175b64fa264db93e267ad",
-  "proposed/pump_nested_general_differential.py": "c1aca26eb67933b3cdaa71dd57692584df96a6ff0c4790c0870abf70dc518232",
-  "proposed/verify_saved.py": "45c7cf3562390ae666b1f7def754e7ac95c70fc69961b73eb6ed2c113b33e466"
-}

@@ -1,9 +1,0 @@
-{
-  "argv": [
-    "git",
-    "diff",
-    "--cached",
-    "--check"
-  ],
-  "actual_exit": 0
-}

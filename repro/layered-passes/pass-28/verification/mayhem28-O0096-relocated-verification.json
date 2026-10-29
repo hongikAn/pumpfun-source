@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "stdout": "{\"passed\": true, \"records\": 584, \"slots\": 737, \"external_calls_unclosed\": 12, \"opaque_lddw\": 153, \"semantic_ledger_promotion\": false, \"new_body_data_or_target_execution\": 0}\n",
-  "stderr": "",
-  "actual_terminal_completion_observed": true,
-  "seal": "bbdffa80e596b0e62835c47c9eed360b037b6a8c545cbb2eb5851f31a4e0a2ef",
-  "relocated": true
-}

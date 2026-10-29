@@ -1,9 +1,0 @@
-{
-  "returncode": 101,
-  "elapsed_seconds": 18.194692875011242,
-  "source_unchanged": true,
-  "remote_source_unchanged": true,
-  "log_sha256": "3702458ead44d614eb099fd061d1fb5d804afc63973a022ffe47abf0bb081582",
-  "prior_offline_index_failure_preserved": true,
-  "scope": "Official Linux v1.48 Rust control; private scratch paths; pinned public registry; captured executable absent from compiler inputs."
-}

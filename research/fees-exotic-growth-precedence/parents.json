@@ -1,9 +1,0 @@
-{
-  "scripts/analyze.py": "dd7fb38d795d4dd72a25aab0d65c2223d9f6f75d8b3ecb0de1d87d6e102910ac",
-  "research/fees-config-event-recovery/experiment.json": "172128282070f463bf6f2ba51a8cbea99854168f8be9242a0a6f934991cb7f1f",
-  "research/fees-sharing-owned-legacy/experiment.json": "ed16818f781dffc2e5c1ba32f05e1cde57bae9920215a74855451965a7de6c0a",
-  "scripts/fees_validate_all.py": "c0f4a0e78074041cf4a41c5f3578bc3e71d746557a3dc45627eb648f32a4f065",
-  "scripts/fees_config_differential.py": "321462fae4ca2acf8d16ccf7c40f1cec5f5202949f94c1878848e64372cdfb24",
-  "scripts/fees_admin_differential.py": "30ae2037e1bb4288f5fca5a7f1ee4dbf7e59ad8170857113f58e302d65ea3003",
-  "research/fees-sharing-owned-legacy/exhaustive_flags.py": "6b8bcd547ad34cbf0168d735e911bd9cdc8a621a615eee5fe88953366d16bbfa"
-}

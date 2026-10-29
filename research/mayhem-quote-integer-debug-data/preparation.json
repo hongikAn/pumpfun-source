@@ -1,5 +1,0 @@
-{
-  "bootstrap_failure": "Initial seal guard rejected a reader.py bytecode cache created by the non--B bootstrap import. Only that newly generated cache was removed before sealing. All verification commands use -I -B. No report or matcher exception.",
-  "new_compilations": 0,
-  "new_vm_executions": 0
-}

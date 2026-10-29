@@ -1,8 +1,0 @@
-{
-  "README.md": "fca863c9962409255661366d14feef59064b2949416c427c28da56c718525427",
-  "frozen_inventory.py": "2925bcd0f28a33804809431e0ac1e1bb7f1339b114ae0265adff9b8459410c7b",
-  "local-validation.json": "32a6f611383b8fe3e4d314caa49ddbe54e68dc03fee1a1acb18ea9a1bad0c5ca",
-  "pure-reconstruction-policy.json": "849b9af3c25703912d39ec1284471619353d61296eccd9196a8756dd50fe6b28",
-  "test_portability.py": "c2fece84566c95e62b20cd011a4a67ed1a2f66e01443d8747ba5f947358cce1c",
-  "verify.py": "0d944aaaa9866fc51767fc78916239433d54da6c40b370df7ca6934953e2cb9b"
-}

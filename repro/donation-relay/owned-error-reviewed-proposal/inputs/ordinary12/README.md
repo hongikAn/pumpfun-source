@@ -1,9 +1,0 @@
-# Relay build06 ordinary comparison
-
-All12 unchanged ordinary cases pass against the captured original: five donation handlers and seven IDL operations. There are24 submissions,12 unique signed transactions and50 encoded signature fields (25 unique transaction signatures). This is a fresh replay on build06 `522a9799…`, not receipt transfer from an earlier build. No new input case is added.
-
-The exact prior harness, fixtures, state/effect assertions and comparator remain unchanged. The root adapter changes only its module-local expected candidate hash, records that adaptation, then calls the original executor. Before execution, the adapter verifies the new source/build package and the original proposal verifies itself. Signature, blockhash and transaction-history checks remain enabled. No historical signed transaction is rewritten; the same newly signed test-owned transaction is submitted to both local binaries.
-
-Errors, complete ordinary logs except metering, CPI, return data, account state and visible effects match. Relay executable content/rent are accounted for by the established comparator. No live-chain transaction is submitted. These finite successes do not cover the fixed-relayer-authority routes, arbitrary inputs, every serialization-failure boundary or the known source-origin rejection mismatch. That failed rejection was not rerun or relabeled. Whole-file equality remains false.
-
-`verify.py --repo /path/to/repository --runtime` independently rechecks signed bytes, exact fixture messages/privileges, all effects and both receipts. Its transaction/account/effect verification loop is retained unchanged from the prior ordinary12 verifier; the binding prelude now checks the new build and explicit root adapter. The original verifier is preserved under `history/`. The new verifier executes no target. It requires the hash-pinned public original proposal and build06 package in the repository.

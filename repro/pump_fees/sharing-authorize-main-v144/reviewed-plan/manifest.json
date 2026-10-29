@@ -1,9 +1,0 @@
-{
-  "PLAN.md": "168852bdf99b0052dba650e7fcbd9f13522c2b0157ed4583231bdab83d062a18",
-  "README.proposed.md": "4bfba2b9f43bfa49440bcd31799b4cd212c08509b0a3b96ff84f1a9589101dc9",
-  "inputs.json": "b661355def02c9f2cbaa0ffc1841cc47dc8ab46d30102eb011769cc782fb4a42",
-  "package_main.py": "da143663224e7a574cdaa0881dadd4a02dfe059b58977ef23d8e7edf9b52e2b4",
-  "promote.py": "343199d37cad83def15af2dbd21a83789abc777bf32cc18f6ac99837c828b0a2",
-  "sharing.rs": "19c333a31e03d0637b6bc69edf68662312dd7d1360024a42851ae6971b65b803",
-  "verify_main.py": "b8f66322e15b1bd52fe5bafd8a23c0d6b42a05a7a848f53637d7b3db98294dcd"
-}

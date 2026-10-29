@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/relay/verify.py", line 13, in <module>
-    for n in['current.before.json','current.proposed.json','README.before.md','README.proposed.md','stage_integration.py']:assert(P/n).read_bytes()==(P/'reviewed-v2'/n).read_bytes()
-                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

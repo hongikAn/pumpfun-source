@@ -1,7 +1,0 @@
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/build-01/target/sbf-solana-solana/release/deps/libsolana_secp256k1_recover-d9963d700857346c.rmeta: /Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-secp256k1-recover-2.2.1/src/lib.rs
-
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/build-01/target/sbf-solana-solana/release/deps/libsolana_secp256k1_recover-d9963d700857346c.rlib: /Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-secp256k1-recover-2.2.1/src/lib.rs
-
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/build-01/target/sbf-solana-solana/release/deps/solana_secp256k1_recover-d9963d700857346c.d: /Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-secp256k1-recover-2.2.1/src/lib.rs
-
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/cto-wallet-collector-build-01/cargo-home/registry/src/index.crates.io-6f17d22bba15001f/solana-secp256k1-recover-2.2.1/src/lib.rs:

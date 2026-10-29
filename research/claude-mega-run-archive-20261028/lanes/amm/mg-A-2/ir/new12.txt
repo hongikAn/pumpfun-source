@@ -1,7 +1,0 @@
-  %_477 = load ptr, ptr %127, align 8, !nonnull !2, !noundef !2
-  br label %bb48b
-bb48b:
-  %128 = getelementptr inbounds i8, ptr %_477, i64 88
-  %_115 = load ptr, ptr %128, align 8, !nonnull !2, !align !3, !noundef !2
-; call pump_amm_recovered::utils::token::supported_mint
-  %_114 = call noundef zeroext i1 @_ZN18pump_amm_recovered5utils5token14supported_mint17h2dd0cd16dc251affE(ptr noalias noundef nonnull readonly align 8 dereferenceable(48) %_115, i1 noundef zeroext %8) #34

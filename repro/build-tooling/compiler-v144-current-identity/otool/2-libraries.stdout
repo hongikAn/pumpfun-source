@@ -1,7 +1,0 @@
-/Users/shawwalters/.local/share/solana/install/releases/2.1.21/solana-release/bin/cargo-build-sbf:
-	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration (compatibility version 1.0.0, current version 1163.60.3)
-	/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 60157.60.19)
-	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 1856.105.0)
-	/usr/lib/libbz2.1.0.dylib (compatibility version 1.0.0, current version 1.0.8)
-	/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)
-	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.0.0)

@@ -1,0 +1,1 @@
+This is an authorized build of the pump.fun project by the pump.fun community

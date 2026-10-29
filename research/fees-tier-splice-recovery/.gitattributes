@@ -1,7 +1,0 @@
-sources/** -text
-*.so.gz binary
-sources/clone/programs/pump-fees/src/lib.rs -whitespace
-sources/copy/programs/pump-fees/src/lib.rs -whitespace
-sources/usize/programs/pump-fees/src/lib.rs -whitespace
-sources/all/programs/pump-fees/src/lib.rs -whitespace
-sources/origins/programs/pump-fees/src/lib.rs -whitespace

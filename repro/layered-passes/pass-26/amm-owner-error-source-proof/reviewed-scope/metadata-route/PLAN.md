@@ -1,7 +1,0 @@
-# AMM collect bounded static route — metadata only
-
-Current accepted6dc candidate CollectCoinCreatorFee handler781856..788224 (6368 bytes). Original admitted full inventory contains row142984..147008 (4024 bytes) with a relocated pointer at143360 to the exact30-byte no-fee literal at1165386. Literal consumption length is not yet proved; it is an attribution lead, not full handler attribution. Complete existing ledger rows and incoming direct-call metadata are retained unchanged. No new original disassembly/body interpretation has occurred.
-
-Proposed next bounded static inspection: complete original row142984..147008 and current corresponding generated handler, plus only directly consumed data extents and already-admitted call metadata. Establish dispatch/wrapper and event discriminator roles, argument/context member mapping, ownership comparison, error construction/compared-values, zero-amount path, transfer and event/cleanup order before any natural source proposal. Existing source uses require_keys_neq on coin_creator.owner versus FEE_OWNER; no claim that this is wrong is made. Original/current byte-size difference is not evidence for a source change.
-
-No runtime, build, authority bypass, signer/PDA/history modifications, scalar specialization or layout experiments. Broader call bodies remain unopened unless previously admitted or separately reviewed. Root can explicitly admit this bounded full-handler static scope under the all-functions reconstruction task; no human permission question is required.

@@ -1,8 +1,0 @@
-{
-  "evidence/original/pump_fees/deployed.so": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
-  "research/fees-frontier-prefix-integration/experiment.json": "15901a0d25a1e7fa379c25dd461f1bea2be140719a70e915e9c8a23e75b1b022",
-  "research/fees-frontier-prefix-integration/frontier_contract.py": "6d0150819a73edb23edee4274592b977e2d64fdc829639878f240c517e3788cc",
-  "research/fees-frontier-prefix-integration/manifest.json": "72c1cb38891fa85c4de851a789810585696335cbaddf68b1bfce5b224f33ff8e",
-  "research/fees-frontier-prefix-integration/verify.py": "3b628709e35589895e874dd5c87f75d9b45360ab548373a946181d6b55b84322",
-  "scripts/fees_validate_all.py": "c0f4a0e78074041cf4a41c5f3578bc3e71d746557a3dc45627eb648f32a4f065"
-}

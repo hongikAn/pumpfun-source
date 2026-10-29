@@ -1,8 +1,0 @@
-{
-  "repro/mayhem/burn-formatting-gap-review/selection-ledger.json": "b7e11ded5243dac59b4b2c6dfd8df3a463862fa40b59080bae7d35fde21b94d7",
-  "repro/mayhem/burn-formatting-gap-review/manifest.json": "b70936e1fd04808b71725c98a3e7b690fb93d7b17cdf4ec7f94dddb031ba2d82",
-  "repro/mayhem/sell-result-error-twentyfour/static/complete-inventory.json.gz": "2d2b8d3415386ecedbe923084e1d384d5fdde987ccc6516a19b2fd7e596db736",
-  "repro/mayhem/sell-result-error-twentyfour/build01/artifacts/mayhem_recovered.so": "7d416f848f03e46d9a514f4c505a8e903cdb908f52280bb961254eed90aebe1f",
-  "programs/mayhem/src/instructions/burn.rs": "cb287a0009a1195efd5bdac08c5042a26dfc68d71a9a46c54c275453a11fd367",
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb"
-}

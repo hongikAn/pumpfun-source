@@ -1,9 +1,0 @@
-{
-  "python": "3.12.11 (main, Jun  4 2025, 17:42:58) [Clang 20.1.4 ]",
-  "python_executable": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/test-env/bin/python",
-  "platform": "macOS-26.2-arm64-arm-64bit",
-  "solders_version": "0.27.1",
-  "extension_path": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/test-env/lib/python3.12/site-packages/solders/solders.abi3.so",
-  "extension_sha256": "a39f7bd790676cd4cf8cfde92d743b9647fb292245feb142ae1239c55414962d",
-  "runtime": "Unchanged25-suite corpus; ordinary verified signatures; exact existing history configuration; no added fixtures or initializer success."
-}

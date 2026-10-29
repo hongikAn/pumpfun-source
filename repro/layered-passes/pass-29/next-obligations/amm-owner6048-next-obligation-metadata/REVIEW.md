@@ -1,7 +1,0 @@
-# Optional AMM next obligation — metadata only
-
-Selected09bee0df owner6048 remains unchanged. The existing complete queue has785AMM original rows; this projection selects original[120992,123904)2912B paired with candidate837000, symbol-derived update_fee_config. It is normalized correspondence only, not raw equality, semantic equivalence or historic original naming.
-
-One source-owned nonstopped next obligation is the first four direct caller targets at offsets80/184/256/328: current ledger says all four normalized-body and recursive-graph checks false. The other12 direct targets are locally supported. Four relocation/data pairs retain unknown consumed extent/equality. This is a concrete missing argument/error-ownership/source-attribution boundary before any natural update_fee_config correction; normalized body shape cannot close those targets.
-
-No new function/record/data was decoded, no current or historical source body was inspected, and no patch/build/runtime/admission is authorized. Next plan should first identify exact existing full metadata rows and prior admission status for those four targets, preserving source/call order and diagnostic/compared-value limits. If any target is opaque/unadmitted, root must separately review bounded complete admission before semantics. Do not infer a scalar type, error choice or helper split from size/name. Current785queue and297unmatched count, recursive/data/ABI and authentic compiler provenance remain unchanged. This is optional research triage, not an implementation-ready fix.

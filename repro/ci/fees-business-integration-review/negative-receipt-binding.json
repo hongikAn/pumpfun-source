@@ -1,7 +1,0 @@
-{
-  "original_path": "work/fees-donation-business-build/main-promotion/clean-checkout-verification.json",
-  "copied_path": "accepted-negative-test-receipt.json",
-  "sha256": "ffa5fb0fbdacd50336796a0dd054d7cbacaa0b1a9d03610997ae33c80903e3c3",
-  "package_manifest_sha256": "189929d4a870b73a8693b2709f5484eb9118d2aa4982500362a103f7be1c1b31",
-  "scope": "Exact unchanged earlier executed copied-checkout/negative-check receipt; not a new transaction execution."
-}

@@ -1,7 +1,0 @@
-{
-  "failure": "verify.py comparison of in-memory classification delta with JSON failed",
-  "cause": "Four sorted pair-set fields contained Python tuples while JSON reload yields lists; actual published JSON values and analysis were identical.",
-  "correction": "Return explicit two-element lists in the derived semantic structure. No binary/source/count/output JSON change.",
-  "old_deriver_sha256": "c1fcdef9b0af00852a6fdb6470a0418df202c6080955099ac989faf90f1618ae",
-  "target_execution": false
-}

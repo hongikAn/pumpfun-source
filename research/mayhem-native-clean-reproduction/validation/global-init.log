@@ -1,6 +1,0 @@
-fresh None []
-prefunded None []
-existing TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(0)))) []
-unsigned TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(3010)))) []
-readonly TransactionErrorInstructionError((0, Fieldless(PrivilegeEscalation))) []
-wrong-system TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(3008)))) []

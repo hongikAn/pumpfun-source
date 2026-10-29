@@ -1,8 +1,0 @@
-{
-  "commit": "65473510aa7212d0f51ef85e15220b4341190c06",
-  "candidate_sha256": "71ec4d8a646eefc82ba177afbc3d08552deadd65cf2f80ec280862eb768d059c",
-  "compiled_source_map_report": "repro/pump/remaining-guards-main-fortyeight/main/build-comparison.json",
-  "source_inputs": 37,
-  "proposal_applied_to_checkout": false,
-  "built": false
-}

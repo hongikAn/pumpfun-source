@@ -1,9 +1,0 @@
-# Official SDK provenance correction
-
-[Attempt40162878365](https://github.com/lalalune/pumpfun-source/actions/runs/40162878365) stopped before invoking any compiler and produced no candidate. All15 retained artifact hashes were independently verified. Exactly one SDK file differed from the first plan: `scripts/install.sh`. The official CLI2.1.21 Linux archive contains `version=v1.43`; the recorded local SDK contains `version=v1.52`. Replacing that single string accounts for the complete file difference. All other SDK source hashes match.
-
-The updated input pin names the actual official installer bytes; the installer itself is not patched. The explicit build argument remains `--tools-version v1.44`, and the retained upstream CLI selects and installs that tool version in its Rust code. No source input, dependency, feature, target, profile, extra flag or cache policy changes. This corrects an invalid local-SDK assumption before a new isolated attempt. The first failed attempt remains preserved.
-
-The observed complete CLI archive hash `5da3359e296f1e6c13522b874317cb4cfe33e73301a9dc60b1e1435cc133b397` is now required before extraction. It is independently recorded downloaded content, not a publisher attestation. The official platform-tools v1.44 archive hash remains unchanged.
-
-`failure/` preserves the original metadata, helper, source snapshot, maps, exception and original artifact hash manifest. The two large official tool archives remain in the local retained artifact and can be obtained from the original recorded official URLs; they are intentionally not duplicated here. `correction.json` lists included/omitted files explicitly and binds the updated helper and pins. The earlier [reviewed plan](../linux-v144-build-plan/README.md) preserves its historical374fcf0 installation. No successful source build, original-byte equality or runtime coverage follows from this correction.

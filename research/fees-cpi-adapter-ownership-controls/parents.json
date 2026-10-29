@@ -1,7 +1,0 @@
-{
-  "evidence/original/pump_fees/deployed.so": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
-  "research/fees-instruction-visibility/experiment.json": "3685b75e4c419b668ef19b22687691327f01468b891d9577342ee53f90ddc1ea",
-  "research/fees-instruction-visibility/manifest.json": "e7a77e1fdd0c1cd645f7d90cb9970cacde84632be9012d851366a21b25840c80",
-  "research/fees-instruction-visibility/verify.py": "44feef66626542c1842fc7ffdcc0fe43824c8ce37aa7705a54f6ef1152d2dda9",
-  "scripts/fees_sharing_update_differential.py": "21ec993ac86f364a58bfb9073d991bb83aba100cc91c6eaa6d4a3adf48216ffe"
-}

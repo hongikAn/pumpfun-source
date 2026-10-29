@@ -1,6 +1,0 @@
-{
-  "sdk_resolved": "/Users/shawwalters/.cache/solana/v1.48/platform-tools",
-  "rustup_solana_resolved": "/Users/shawwalters/.cache/solana/v1.48/platform-tools/rust",
-  "rustc_sha256": "ab6cfa61ce01944ef0729b01663e2da23251ff48e5eb5bf9238587f65096547d",
-  "rustc_version": "rustc 1.84.1-dev\nbinary: rustc\ncommit-hash: unknown\ncommit-date: unknown\nhost: aarch64-apple-darwin\nrelease: 1.84.1-dev\nLLVM version: 19.1.7\n"
-}

@@ -1,6 +1,0 @@
-{
-  "current_source": "programs/donation-relay",
-  "all_27_inputs_equal_tested_snapshot": true,
-  "version": "v1.48",
-  "scope": "Fresh target and artifacts, current-source location build; no other contract edits altered."
-}

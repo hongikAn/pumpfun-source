@@ -1,7 +1,0 @@
-{
-  "candidate_sha256": "3c5feecfc6a009c4215169aef1d1e550abd613c48ff395e9d0d210ee5cfcf957",
-  "first_attempt": "attempt-01-preserved contains only unsaved preliminary first12 observations and pre-send oversizedcase13; not accepted runtime evidence.",
-  "focused_result": "FAIL: depth-limit-rollback semantic_logs; all16 saved,64signatures;15successes match.",
-  "no_full_corpus_run": true,
-  "original_acceptance": "All16 complete saved;15success/1expected6105;32signatures."
-}

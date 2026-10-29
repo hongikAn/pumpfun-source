@@ -1,1 +1,0 @@
-Root-observed current, metadata and saved-signature checks. Raw stdout/stderr are lossless gzip; decompressed SHA256 values are pinned by numeric exit receipts. No compiler or target execution occurs in these verifiers. Explicit metadata catalogue has 53 rows; this supplemental validation record is not a recursive catalogue command.

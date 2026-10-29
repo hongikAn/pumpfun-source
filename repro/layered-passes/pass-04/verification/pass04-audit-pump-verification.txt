@@ -1,1 +1,0 @@
-{"contexts_inspected": 38, "files": 70, "frozen_git_rebound": true, "functions_inspected": 209, "functions_opaque": 6, "inputs": 54, "limits": "integrity and lexical coverage, not original-equivalence or security proof", "ok": true, "revision": "aa98fb45f3f756d008ccb9940bcfd9a6e986ef77", "source_map_equal": 37}

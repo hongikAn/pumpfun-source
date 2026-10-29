@@ -1,8 +1,0 @@
-{
-  "manifest_sha256": "e1826ed7fa4018274c46d2df281ac294411269ae788369669cbacaa38dd188b8",
-  "copied_outside_repository": true,
-  "external_cwd": true,
-  "returncode": 0,
-  "stdout": "{\n  \"verified\": true,\n  \"sealed_payload_files\": 143,\n  \"candidate_sha256\": \"01fedce5878ec14618233c4683bcb4149e471775acb48ffb69614d9df570bb95\",\n  \"source_inputs\": 22,\n  \"harness_inputs\": 46,\n  \"runtime_inputs\": 18,\n  \"handler_bytes\": 2992,\n  \"parser_bytes\": 6824,\n  \"wrapper_bytes\": 1608,\n  \"direct_calls\": 9,\n  \"literals\": 2,\n  \"comparison_receipts\": 17441,\n  \"donation_steps\": 10,\n  \"encoded_transaction_fields\": 8644,\n  \"verified_signatures_in_encoded_fields\": 17204,\n  \"authentic_unchanged_historical_messages\": 2,\n  \"full_original_byte_equality\": false,\n  \"new_runtime_executions_by_verifier\": 0\n}\n",
-  "stderr": ""
-}

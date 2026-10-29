@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "candidate_sha256": "dbb5dcfd1a1487e22d61ae68d22a9b74087b78a868a08ab974c7bdbb127f1500",
-  "cases": 14,
-  "signed_transactions": 28,
-  "signature_fields": 28,
-  "mismatches": 0,
-  "scope": "Eight synthetic Token2022 hook-metadata cases, three self-transfer cases and three wrong-source-owner cases; all other output/state/log fields equal after the declared compute/Source log normalization."
-}

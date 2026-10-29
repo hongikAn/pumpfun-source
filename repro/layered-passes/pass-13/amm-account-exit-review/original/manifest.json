@@ -1,9 +1,0 @@
-{
-  "REVIEW.md": "78779b72e9949f6b08eefeceb36dc44426da42868ba27fa04f0acbc64b0cdc4c",
-  "candidate.asm": "037276886f90dc487e040e02799ad42f02cfad00f5550fbf7e7fc81f1d4d8ebf",
-  "evidence.json": "0732c78afd9b100a5f311854e04d357aeec62ee4195ee636879f01dbac55b93f",
-  "input-bindings.json": "42cde0eeabc2d115266891eb24b3a1282277aa0c4aaea81e62f5376c74a6fec9",
-  "original.asm": "85fb5d2544f5dd70ca5a197f7414f5dcf669e7e3632500d5929a1d41a6044e6b",
-  "source-incentives.rs": "9af88581a90307f87914bb1945d8b46ab9bb6c8d1c74454b4c02bcf488556263",
-  "verify.py": "1ae0a5dd78c3c018f4af21fff0dc3da461bb3017a5efa30b4947306f17e0d5df"
-}

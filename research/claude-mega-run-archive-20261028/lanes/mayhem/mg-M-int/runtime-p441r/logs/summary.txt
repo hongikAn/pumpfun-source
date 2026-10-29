@@ -1,5 +1,0 @@
-run_trades rc=0 secs=134 last=COMPLETE6636
-run_sweeps rc=0 secs=7 last={"suite": "rates", "cases": 150, "signed_records": 450}
-run_initializer rc=0 secs=3 last=COMPLETE69
-run_target_rates rc=0 secs=7 last=attested 856 cases 2568 signed records
-DONE

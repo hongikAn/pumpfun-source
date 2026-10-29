@@ -1,4 +1,0 @@
-export function userVolumeAccumulatorPda(user: PublicKey): PublicKey {
-  return pumpAmmPda([Buffer.from("user_volume_accumulator"), user.toBuffer()]);
-}
-

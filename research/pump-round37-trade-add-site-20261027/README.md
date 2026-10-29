@@ -1,9 +1,0 @@
-# Pump trade checked-add recovery: 777 → 778 / 1,035
-
-One more complete original function window, 0x81848 / 600 bytes, matches after moving the unchanged checked-add helper to its observed source line 390. All 777 parent matches are retained. A fresh repeat produces identical stripped and unstripped artifacts. This extends PR #344 and reaches 34 additional normalized windows from maintained Round37's 744.
-
-The ordinary Rust patch moves one existing helper and joins 27 surrounding source lines with spaces, preserving the expressions. Blank lines keep subsequent declarations at their previous positions. No arithmetic or validation condition changes. `verify.py` independently checks this exact source transformation, full primary source bindings, native artifacts, injective match counts, repeatability and a closed traversal of 23 matched direct-call pairs / 81 edges. The source position does not establish historical formatting; data and indirect bindings remain outside this certificate.
-
-Four additional native controls investigate the differing BondingCurve historical-layout decoder callee reported in PR #344: invert the minimum-length guard; inline the existing dispatcher into its caller; express its final cases as tail expressions; invert those final comparisons. Every control retains 777 matches and adds none. Complete inputs and native outputs are retained; none replaces the 778 candidate.
-
-`trade-add-only.patch` applies to the 777 research source. The exact 778 candidate passes all 352 focused exact-quote cases with zero diagnostic mismatches. Its captured-loader receipt is retained under runtime/. This is bounded focused coverage, not a new full 44-suite qualification. The 766 and 777 full corpus runs remain separate. Maintained source and headline metrics are unchanged; whole ELF equality is false.

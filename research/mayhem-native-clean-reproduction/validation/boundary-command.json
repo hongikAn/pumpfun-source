@@ -1,7 +1,0 @@
-[
-  "/home/ahi200/pumpfun-work/20261027-fidelity/runtime-venv/bin/python",
-  "-B",
-  "/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-source/research/mayhem-native-clean-reproduction/run_sweep_boundaries.py",
-  "/home/ahi200/pumpfun-work/20261027-mayhem/builds/quote-native-control/candidate.so",
-  "/home/ahi200/pumpfun-work/20261027-mayhem/native-current-sweep-boundaries.json.gz"
-]

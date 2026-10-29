@@ -1,8 +1,0 @@
-{
-  "copied_after_build_launch": true,
-  "scope": "Unchanged read-only inventory methods, not compiler inputs",
-  "sha256": {
-    "analyze.py": "bfc57f1372d93fb7b9cddbe6c84c77ae8b23c3d1b5964f7e990896d007bef2b4",
-    "elf_reader.py": "247700e9930d5e53daf93a50888ae1e5429f74ccb19155e7a205f72ee21d5883"
-  }
-}

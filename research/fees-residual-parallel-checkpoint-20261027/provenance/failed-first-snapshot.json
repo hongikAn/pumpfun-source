@@ -1,5 +1,0 @@
-{
-  "accepted": false,
-  "reason": "Compiler removed temporary rcgu.o between enumeration and read; no completed archive or manifest. Retry excludes build output directories whose completed artifacts are already copied into lane evidence.",
-  "time": 1793113617.200307
-}

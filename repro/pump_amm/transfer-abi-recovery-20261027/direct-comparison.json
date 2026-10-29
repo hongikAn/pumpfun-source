@@ -1,8 +1,0 @@
-{
-  "cases": 17462,
-  "transactions": 35074,
-  "signature_fields": 35418,
-  "recorded_top_level_log_pairs": 15567,
-  "identical_signed_message_pairs": 17537,
-  "mismatches": []
-}
