@@ -1,0 +1,92 @@
+▲ Next.js 16.4.1 (webpack)
+- Local:         http://127.0.0.1:3010
+- Network:       http://127.0.0.1:3010
+✓ Ready in 540ms
+✓ Running next.config.ts took 56ms
+
+○ Compiling /page ...
+⚠ ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+
+Import trace for requested module:
+../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+./src/app/globals.css.webpack[javascript/auto]!=!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/globals.css
+./src/app/globals.css
+ GET / 200 in 844ms (next.js: 297ms, application-code: 547ms)
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[15].oneOf[10].use[2]!C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[15].oneOf[10].use[3]!C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\src\app\recovered-fonts.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+⚠ ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+
+Import trace for requested module:
+../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+./src/app/globals.css.webpack[javascript/auto]!=!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/globals.css
+./src/app/globals.css
+⚠ ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+
+Import trace for requested module:
+../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+./src/app/globals.css.webpack[javascript/auto]!=!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/globals.css
+./src/app/globals.css
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+
+Import trace for requested module:
+../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+./src/app/globals.css.webpack[javascript/auto]!=!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/globals.css
+./src/app/globals.css
+ GET /create 200 in 1023ms (next.js: 232ms, generate-params: 730ms, application-code: 61ms)
+ GET /create 200 in 67ms (next.js: 2.0ms, generate-params: 11ms, application-code: 54ms)
+ GET / 200 in 210ms (next.js: 6ms, application-code: 205ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+ GET /create 200 in 37ms (next.js: 1.9ms, generate-params: 17ms, application-code: 19ms)
+ GET / 200 in 102ms (next.js: 2.0ms, application-code: 100ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+ GET /create 200 in 33ms (next.js: 1.9ms, generate-params: 11ms, application-code: 20ms)
+ GET / 200 in 112ms (next.js: 2ms, application-code: 110ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+ GET / 200 in 99ms (next.js: 1.3ms, application-code: 98ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+ GET /create 200 in 44ms (next.js: 3ms, generate-params: 16ms, application-code: 25ms)
+ GET / 200 in 92ms (next.js: 2ms, application-code: 89ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+ GET /create 200 in 38ms (next.js: 3ms, generate-params: 12ms, application-code: 23ms)
+ GET / 200 in 94ms (next.js: 1.0ms, application-code: 93ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+ GET /create 200 in 31ms (next.js: 2ms, generate-params: 10ms, application-code: 19ms)
+ GET / 200 in 101ms (next.js: 1.0ms, application-code: 100ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.

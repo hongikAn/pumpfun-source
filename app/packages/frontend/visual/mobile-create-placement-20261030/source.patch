@@ -1,0 +1,22 @@
+diff --git a/app/packages/frontend/src/components/shell/AppSidebar.tsx b/app/packages/frontend/src/components/shell/AppSidebar.tsx
+index 9741b70243..b454c944a8 100644
+--- a/app/packages/frontend/src/components/shell/AppSidebar.tsx
++++ b/app/packages/frontend/src/components/shell/AppSidebar.tsx
+@@ -37,7 +37,7 @@ import { Logomark } from "./Logomark";
+ /** The desktop sidebar of the captured app shell (factory 721426, AppSidebar). */
+ export function AppSidebar() {
+   const pathname = usePathname();
+-  const { closeMobile } = useSidebar();
++  const { closeMobile, isMobile } = useSidebar();
+   return (
+     <Sidebar>
+       <SidebarHeader>
+@@ -88,7 +88,7 @@ export function AppSidebar() {
+             label="Create"
+             items={CREATE_MENU}
+             onNavigate={() => closeMobile()}
+-            placement="right-start"
++            placement={isMobile ? "bottom-start" : "right-start"}
+             renderTrigger={(props) => (
+               <button
+                 {...props}

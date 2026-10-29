@@ -1,0 +1,60 @@
+
+Running 4 tests using 1 worker
+
+
+
+(node:55988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/4] tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 320px
+  1) tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 320px ──
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/create$/
+    Received string:  "http://127.0.0.1:3010/"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 5000ms
+        13 × locator resolved to <html lang="en" data-pf-auth="out" data-clickwrap-accepted="">…</html>
+           - unexpected value "http://127.0.0.1:3010/"
+
+
+      23 |     expect(box!.y + box!.height).toBeLessThanOrEqual(812);
+      24 |     await page.getByRole("menuitem", { name: "Create coin", exact: true }).click();
+    > 25 |     await expect(page).toHaveURL(/\/create$/);
+         |                        ^
+      26 |     await expect(page.getByRole("heading", { level: 1, name: "Create a coin" })).toBeVisible();
+      27 |     await expect(page.getByRole("button", { name: "Open navigation", exact: true })).toHaveAttribute("aria-expanded", "false");
+      28 |     await page.screenshot({ path: testInfo.outputPath("destination.png") });
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\mobile-create-placement.spec.ts:25:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-mobile-create-placement-20261030\after\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-mobile-create-placement-20261030\after\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-mobile-create-placement-20261030\after\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-mobile-create-placement-20261030\after\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-mobile-create-placement-20261030\after\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+(node:55836) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[2/4] tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 375px
+[3/4] tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 767px
+[4/4] tests\mobile-create-placement.spec.ts:34:5 › desktop Create menu retains right-side placement in both sidebar states
+  1 failed
+    tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 320px ───
+  3 passed (20.7s)

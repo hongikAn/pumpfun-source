@@ -1,0 +1,61 @@
+{
+  "base": "665499915f9caedcd38921d415a90f0606686398",
+  "source": "app/packages/frontend/src/components/shell/AppSidebar.tsx",
+  "source_before_sha256": "39e1ed50aa0f82f4e6566b5ac7bf4a6d240831967811df4f0f1ab23ffa39585f",
+  "source_after_sha256": "0b304c795a281ad46fe2d808e200509ccea5cedd5ef506f7fbfe27088d1ddc74",
+  "test": "app/packages/frontend/tests/mobile-create-placement.spec.ts",
+  "test_sha256": "bb6352e6b5d55a44a4f5801aa4d65ee2cdce5e9e832d98aaf62130b9d7b757c7",
+  "contract": "SHELL-EVIDENCE.md local mobile drawer and dropdown-menu.tsx local accessible-menu placement; not an original open-popup or visual parity claim.",
+  "source_only_edits": "Read existing isMobile context and choose bottom-start for mobile, retaining right-start for desktop.",
+  "baseline": {
+    "tests": 1,
+    "passed": 0,
+    "failed": 1,
+    "observed_menu_right": 454,
+    "viewport_width": 320,
+    "failure": "menu right exceeds viewport"
+  },
+  "candidate_first": {
+    "passed": 3,
+    "failed": 1,
+    "failure": "320px /create URL did not settle within initial 5-second assertion; menu bounds passed; first RSC response was 4501.085ms in retained trace."
+  },
+  "candidate_final": {
+    "tests": 4,
+    "passed": 4,
+    "failed": 0,
+    "elapsed_seconds": 9.4,
+    "test_change": "Only the /create URL assertion wait changed from 5 seconds to explicit 15 seconds; product source unchanged."
+  },
+  "log_normalization": {
+    "baseline.log": {
+      "raw_sha256": "bcd91f9b23d392701f5c488381284c926369170792567efbadba237d2e8502dc",
+      "published_sha256": "775b41f56c062dec08d12c2b7c82b490eb8c66155bfc350365536d7dff2f85fb",
+      "transform": "UTF-8 BOM removed if present; LF line endings and trailing whitespace removed. Raw file retained outside repository."
+    },
+    "focused-after.log": {
+      "raw_sha256": "0c7179b9b20a703a80357a8716666958ffa8e891acff31ea58f37e4bb6e10c83",
+      "published_sha256": "4a2492dca1dfd09f43e538783d9ed10c63820a0521abda45734277a2f97da4a1",
+      "transform": "UTF-8 BOM removed if present; LF line endings and trailing whitespace removed. Raw file retained outside repository."
+    },
+    "focused-final.log": {
+      "raw_sha256": "358906d9f71aa734bd09998d11e65aabf93c35df309ed779dc696e02393edf9d",
+      "published_sha256": "7d011a6e754e55b4093345a816527c5f9d9876c6ef967fa0d8a7b0327c5c085e",
+      "transform": "UTF-8 BOM removed if present; LF line endings and trailing whitespace removed. Raw file retained outside repository."
+    },
+    "frontend-before.log": {
+      "raw_sha256": "77dbf0f2f9f675be84cb28b0fd5ac32683948fa895f5dfad0102f3683e347478",
+      "published_sha256": "ad1fe16404898b935b29f5ce38b0d11b50d10196c237946b889462c0e3f0bf41",
+      "transform": "UTF-8 BOM removed if present; LF line endings and trailing whitespace removed. Raw file retained outside repository."
+    },
+    "frontend-after.log": {
+      "raw_sha256": "17d1ae1bbad0eebb1ce1949be10e063281055f28998f832f50aeb1bd61d952c5",
+      "published_sha256": "6ef5e0f865e4819cb5e161b9e3d324c491d288d4777475e3546e70925a854e1f",
+      "transform": "UTF-8 BOM removed if present; LF line endings and trailing whitespace removed. Raw file retained outside repository."
+    }
+  },
+  "public_requests": 13,
+  "production_calls": 0,
+  "backend_service": "Not started; Next reads the existing local home/profile seeds and Create is an offline draft.",
+  "root_build_typecheck": "Parent-owned pending when this evidence commit was prepared."
+}

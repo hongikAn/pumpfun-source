@@ -1,0 +1,16 @@
+{
+  "width": 320,
+  "height": 812,
+  "menu": {
+    "x": 278,
+    "y": 435,
+    "width": 176,
+    "height": 138
+  },
+  "trigger": {
+    "x": 12,
+    "y": 435,
+    "width": 262,
+    "height": 32
+  }
+}

@@ -1,0 +1,45 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:7092) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 320px
+  1) tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 320px ──
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 320
+    Received:    454
+
+      19 |     expect(box).not.toBeNull();
+      20 |     expect(box!.x).toBeGreaterThanOrEqual(0);
+    > 21 |     expect(box!.x + box!.width).toBeLessThanOrEqual(width);
+         |                                 ^
+      22 |     expect(box!.y).toBeGreaterThanOrEqual(0);
+      23 |     expect(box!.y + box!.height).toBeLessThanOrEqual(812);
+      24 |     await page.getByRole("menuitem", { name: "Create coin", exact: true }).click();
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\mobile-create-placement.spec.ts:21:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-mobile-create-placement-20261030\before\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-mobile-create-placement-20261030\before\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-mobile-create-placement-20261030\before\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-mobile-create-placement-20261030\before\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-mobile-create-placement-20261030\before\mobile-create-placement-mo-c8fb0-menu-stays-visible-at-320px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 320px ───

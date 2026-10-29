@@ -1,0 +1,12 @@
+
+Running 4 tests using 1 worker
+
+
+
+(node:27396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/4] tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 320px
+[2/4] tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 375px
+[3/4] tests\mobile-create-placement.spec.ts:5:7 › mobile drawer Create menu stays visible at 767px
+[4/4] tests\mobile-create-placement.spec.ts:34:5 › desktop Create menu retains right-side placement in both sidebar states
+  4 passed (9.4s)

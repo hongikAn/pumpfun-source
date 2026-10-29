@@ -1,0 +1,23 @@
+{
+  "ACTION-RECEIPT.md": "ac421ae7f1062d528ebde708ff6dfc26d1f4b76bab3cfbff0ddc2ca07b983b18",
+  "after-320.png": "3ed3d2df22f5941e55601d81b022f13fac328f2f57067c3cd467383b8497faec",
+  "after-375.png": "66a2d7feff60e33577c61c5a862b9b8ad67fd66006df39e2f4e15679f327061d",
+  "after-767.png": "67b2e3784d97c54b6312e43dd0d2e592e3fd0687c8c0f55e32992576e9d2e25c",
+  "after-create-320.png": "5ed665a36d415fcdc23a659870d9c3cdc7515b1972ff3d84d8e1c691ae454c56",
+  "after-desktop-collapsed.png": "bb160bdb4d592c2407eda20a26e500b7dde1ad4661a774c72e2c0c668a1cbaab",
+  "after-desktop-expanded.png": "09d9916d55ae128e827e55afac86d07e774415fdea5e80334bf2e7aa76dc42d0",
+  "after-geometry.json": "4e2ccb8ef9eaba6dff60e7fc33ffcd4c3837232fc9b587f285c6cf9b76ab0c02",
+  "baseline.log": "775b41f56c062dec08d12c2b7c82b490eb8c66155bfc350365536d7dff2f85fb",
+  "before-320.png": "8160935fb4fb3ddd63a75096662d9218e62771759f58eb765d89be274af5b4a3",
+  "before-geometry.json": "13d358ea588f41eb7b3d3a200428d4d30ccf7829b5afdac439613c394ff41fb6",
+  "browser-requests.json": "a365b052d73633fcae816fe6a0fc3fd4c123244bc030d1de6e52f20d6d4ba54d",
+  "focused-after.log": "4a2492dca1dfd09f43e538783d9ed10c63820a0521abda45734277a2f97da4a1",
+  "focused-final.log": "7d011a6e754e55b4093345a816527c5f9d9876c6ef967fa0d8a7b0327c5c085e",
+  "frontend-after.log": "6ef5e0f865e4819cb5e161b9e3d324c491d288d4777475e3546e70925a854e1f",
+  "frontend-before.log": "ad1fe16404898b935b29f5ce38b0d11b50d10196c237946b889462c0e3f0bf41",
+  "playwright.config.cjs": "6649b3d5d059933aaa7984dba18519c14748efba14e5f5a18dd133c5b9af9aab",
+  "provenance.json": "dd8184c4490fdebf2344a19edbfb9f84d8aff6352538c9f497f85b962480ae20",
+  "README.md": "15b3ece6f5d1090ac71d692ba155ce4a23674edf432da8cdefa942069c06f2af",
+  "source.patch": "b6440349f14c58ed7cd20cd9ae49f665571fb5e6f4185c4dd90c237d3db1b8ae",
+  "walkthrough-320.webm": "f5477ddf1f4cb9d454d7e3cf7ec8c0d7b674186786de32b5c1d71f137244ef15"
+}
