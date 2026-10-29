@@ -96,6 +96,10 @@ any of them is a contract decision, not a bug fix.
     note ("A user id with none is a 404").
 16. **Overview `viewer` omitted**: Anonymous callers receive no `viewer` object, matching
     the OpenAPI spec description ("Absent on anonymous responses").
+    Overview `isPumpUser` follows the documented `profile !== null` invariant (also
+    captured in factory 463539), independently of the nested row's optional
+    `is_pump_user` field. Every successful local overview includes a profile; unknown
+    identifiers retain the existing 404 boundary. Raw user rows are unchanged.
 17. **Overview degraded services**: The local reconstruction backend operates entirely in-memory
     with no failing microservices, so `degraded` is returned as `[]`.
 18. **`POST /profiles/verified` validation boundaries**: Rejects with `400` if `ids` is empty

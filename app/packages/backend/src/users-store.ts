@@ -231,7 +231,8 @@ export class UserStore {
     return {
       address: id,
       profile: user,
-      isPumpUser: user.is_pump_user ?? false,
+      // The overview contract defines this as profile !== null, not the row flag.
+      isPumpUser: true,
       counts: {
         followers: user.followers,
         following: user.following,
