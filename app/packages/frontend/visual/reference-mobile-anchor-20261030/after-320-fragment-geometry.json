@@ -1,0 +1,21 @@
+{
+  "width": 320,
+  "mode": "fragment",
+  "heading": {
+    "x": 16,
+    "y": 88.328125,
+    "width": 119.40625,
+    "height": 28
+  },
+  "header": {
+    "x": 0,
+    "y": 0,
+    "width": 320,
+    "height": 49
+  },
+  "computed": {
+    "headingScrollMargin": "64px",
+    "documentScrollPadding": "auto",
+    "shellHeader": "auto"
+  }
+}

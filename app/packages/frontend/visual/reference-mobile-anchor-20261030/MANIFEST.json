@@ -1,0 +1,23 @@
+{
+  "ACTION-RECEIPT.md": "eddba60b121473c1b4a6a11dc3e61aea38a38e6228c3d53cccf3188e1a36c4df",
+  "after-1440-contents-geometry.json": "a476d25b5c0931248d3368157d14663cd3d932f00a664efaaae87f078144aaab",
+  "after-1440-contents.png": "16fc60b96b323f57e74f7f1e686ec6108087efb67ccf57ef6dc632784192a26c",
+  "after-1440-fragment-geometry.json": "4b3055b82a4b5a90bcd83b11a2773e4aac901c323a036c7256edfa9558571626",
+  "after-1440-fragment.png": "28379382817463818ce26a898084ea98f3dd1e46de4d1ab1e28e29815f41da3a",
+  "after-320-fragment-geometry.json": "a34b21500f537058bef6ea854ede9e5d142cf7b4fcf674cd85694fea0a74cc72",
+  "after-320-fragment.png": "32c193dd9b8a9d05e0e9e7d67d5e1c2feb4280ae9ab9417139b774576d9173f1",
+  "after-375-contents-geometry.json": "fc17df35834df02425f5753ea7eefb1979b10f089e5dcbc5c11293f6c788dd94",
+  "after-375-contents.png": "679016b3204353cdb73836dbc0b4d8a03b32c5ec0bd4378c0d496e5fc214f4b4",
+  "baseline.log": "b9d0ffa2daad51669dcab206391d0039cd7d7cced3f681247c9149331445f80b",
+  "before-375-geometry.json": "89a86e52387f95180d25032bbe6add09f93944b721267eba3a4f0bc6bfc375e7",
+  "before-375.png": "bd5462dec41224e9a8493d29182abf3b96b2b3e366d118f73fb64fafec05456a",
+  "browser-requests.json": "c55aab6c12c67427128d46facb2b4b64ceb9d29bc0e1fedd6c03f596d727ed56",
+  "focused-after.log": "5cf8d2066d91aa09b236c6589bb72fcb3bef72aff4a03001b8f2f33830e5ee47",
+  "frontend-after.log": "8fdd6aae37c8a8e4e7a87ca8820a980e397e83680e735a32eee867601d01f3a6",
+  "frontend-before.log": "86207ddd6144d842e552664fbe8a687b59122b78f4cc7955e36392b335f2b1a1",
+  "playwright.config.cjs": "c29495e210cf015d910073efaf64395c934d15ef91f2e5c7359c80e5446cbe6d",
+  "provenance.json": "c011c6041384ee74359d9aaf872bf6149a01146b9fbc93b9439e3b73e4bce0ac",
+  "README.md": "c6da132db8ee56513c704a98fbdf1063924ca4acac0c958fdd566a363ccfd1a9",
+  "source.patch": "eb5744696ccdca075b08cdacc6192b34d0f339bb46a8877b71578d5d6afaa21f",
+  "walkthrough-375.webm": "b2d2b77902195070f3c62cb97d8d3741327a1e95f8b19c7bd47db228b557f9da"
+}

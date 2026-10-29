@@ -179,6 +179,11 @@
     font-size: 0.9rem;
   }
 
+  .reference-document h2,
+  .reference-document h3 {
+    scroll-margin-top: 4rem;
+  }
+
   .reference-document h2 {
     margin-top: 2.25rem;
   }

@@ -1,0 +1,45 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:22444) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\reference-mobile-anchor.spec.ts:10:7 › mobile contents keeps the selected reference heading below the sticky header
+  1) tests\reference-mobile-anchor.spec.ts:10:7 › mobile contents keeps the selected reference heading below the sticky header
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 49
+    Received:    23.515625
+
+      33 |     await writeFile(testInfo.outputPath("geometry.json"), JSON.stringify({ width, mode, heading: headingBox, header: headerBox, computed }, null, 2));
+      34 |     await writeFile(testInfo.outputPath("browser-requests.json"), JSON.stringify(requests, null, 2));
+    > 35 |     expect(headingBox!.y).toBeGreaterThanOrEqual(headerBox!.y + headerBox!.height);
+         |                           ^
+      36 |     await expect(heading).toContainText("Platform Fee");
+      37 |     expect(requests.filter((request) => !request.startsWith("GET http://127.0.0.1:3010/") && !request.startsWith("HEAD http://127.0.0.1:3010/"))).toEqual([]);
+      38 |   });
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\reference-mobile-anchor.spec.ts:35:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-reference-mobile-anchor-20261030\before\reference-mobile-anchor-mo-6983b-ing-below-the-sticky-header\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-reference-mobile-anchor-20261030\before\reference-mobile-anchor-mo-6983b-ing-below-the-sticky-header\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-reference-mobile-anchor-20261030\before\reference-mobile-anchor-mo-6983b-ing-below-the-sticky-header\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-reference-mobile-anchor-20261030\before\reference-mobile-anchor-mo-6983b-ing-below-the-sticky-header\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-reference-mobile-anchor-20261030\before\reference-mobile-anchor-mo-6983b-ing-below-the-sticky-header\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\reference-mobile-anchor.spec.ts:10:7 › mobile contents keeps the selected reference heading below the sticky header

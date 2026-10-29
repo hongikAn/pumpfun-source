@@ -1,0 +1,146 @@
+{
+  "base": "9f9d94c56f7bbedb6c3e45a9e95c287321313621",
+  "source_sha256": "bd5934986019ad5a39217a246089c09fc15a12a62ceb5d91e090a83edafaca37",
+  "test_sha256": "87c928e2282fae5552dad9ffd262255eccc7cb1f6a3b0a08e1be3ad7849628b1",
+  "baseline": {
+    "width": 375,
+    "mode": "contents",
+    "heading": {
+      "x": 16,
+      "y": 23.515625,
+      "width": 119.40625,
+      "height": 28
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 49
+    },
+    "computed": {
+      "headingScrollMargin": "0px",
+      "documentScrollPadding": "auto",
+      "shellHeader": "auto"
+    }
+  },
+  "after": {
+    "after-1440-fragment": {
+      "width": 1440,
+      "mode": "fragment",
+      "heading": {
+        "x": 164.5,
+        "y": 183.984375,
+        "width": 154.796875,
+        "height": 36
+      },
+      "header": {
+        "x": 56,
+        "y": 0,
+        "width": 1369,
+        "height": 77
+      },
+      "computed": {
+        "headingScrollMargin": "80px",
+        "documentScrollPadding": "80px",
+        "shellHeader": "4rem"
+      }
+    },
+    "after-1440-contents": {
+      "width": 1440,
+      "mode": "contents",
+      "heading": {
+        "x": 164.5,
+        "y": 183.984375,
+        "width": 154.796875,
+        "height": 36
+      },
+      "header": {
+        "x": 56,
+        "y": 0,
+        "width": 1369,
+        "height": 77
+      },
+      "computed": {
+        "headingScrollMargin": "80px",
+        "documentScrollPadding": "80px",
+        "shellHeader": "4rem"
+      }
+    },
+    "after-320-fragment": {
+      "width": 320,
+      "mode": "fragment",
+      "heading": {
+        "x": 16,
+        "y": 88.328125,
+        "width": 119.40625,
+        "height": 28
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 49
+      },
+      "computed": {
+        "headingScrollMargin": "64px",
+        "documentScrollPadding": "auto",
+        "shellHeader": "auto"
+      }
+    },
+    "after-375-contents": {
+      "width": 375,
+      "mode": "contents",
+      "heading": {
+        "x": 16,
+        "y": 87.515625,
+        "width": 119.40625,
+        "height": 28
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 49
+      },
+      "computed": {
+        "headingScrollMargin": "64px",
+        "documentScrollPadding": "auto",
+        "shellHeader": "auto"
+      }
+    }
+  },
+  "logs": {
+    "baseline.log": {
+      "raw_sha256": "1e65e6b5672dce014591107b3dbe0a23a65377722151b6bc5775e93131aba8cd",
+      "published_sha256": "b9d0ffa2daad51669dcab206391d0039cd7d7cced3f681247c9149331445f80b",
+      "normalization": "UTF-8, LF, trim trailing whitespace, strip ANSI presentation sequences"
+    },
+    "focused-after.log": {
+      "raw_sha256": "9f4927eb7a4ead30c156c7dfa11bc8a8e1bc37bce7140444016cf15a37ec4e25",
+      "published_sha256": "5cf8d2066d91aa09b236c6589bb72fcb3bef72aff4a03001b8f2f33830e5ee47",
+      "normalization": "UTF-8, LF, trim trailing whitespace, strip ANSI presentation sequences"
+    },
+    "frontend-before.log": {
+      "raw_sha256": "34bb23bb981d57c6febb04ec1983c041a7b4ae8b107cceb0a7f1f89daa33bc7a",
+      "published_sha256": "86207ddd6144d842e552664fbe8a687b59122b78f4cc7955e36392b335f2b1a1",
+      "normalization": "UTF-8, LF, trim trailing whitespace, strip ANSI presentation sequences"
+    },
+    "frontend-after.log": {
+      "raw_sha256": "45af58a0ecbcc07a8ba0b2a855722e1115a463b9007198fb15e43032fb3ad898",
+      "published_sha256": "8fdd6aae37c8a8e4e7a87ca8820a980e397e83680e735a32eee867601d01f3a6",
+      "normalization": "UTF-8, LF, trim trailing whitespace, strip ANSI presentation sequences"
+    }
+  },
+  "scope": "Local reference-document anchor positioning only. Captured text and layout parity are not asserted. No captures/seeds/SDK/dependencies modified.",
+  "results": {
+    "baseline": "1 failed: 375px heading y=23.515625 below required header bottom49",
+    "candidate": "4 passed (11.7s)"
+  },
+  "environment": {
+    "node": "24.15.0",
+    "next": "16.4.1",
+    "browser": "existing Playwright Chromium",
+    "endpoint": "http://127.0.0.1:3010"
+  },
+  "test_line_endings": "Published test LF; baseline/focused execution used identical content with platform line endings."
+}

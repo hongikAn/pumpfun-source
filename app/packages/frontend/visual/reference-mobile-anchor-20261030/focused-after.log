@@ -1,0 +1,12 @@
+
+Running 4 tests using 1 worker
+
+
+
+(node:60000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/4] tests\reference-mobile-anchor.spec.ts:10:7 › mobile contents keeps the selected reference heading below the sticky header
+[2/4] tests\reference-mobile-anchor.spec.ts:10:7 › mobile direct fragment keeps the selected reference heading below the sticky header
+[3/4] tests\reference-mobile-anchor.spec.ts:10:7 › desktop contents keeps the selected reference heading below the sticky header
+[4/4] tests\reference-mobile-anchor.spec.ts:10:7 › desktop direct fragment keeps the selected reference heading below the sticky header
+  4 passed (11.7s)

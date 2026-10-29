@@ -1,0 +1,21 @@
+{
+  "width": 1440,
+  "mode": "contents",
+  "heading": {
+    "x": 164.5,
+    "y": 183.984375,
+    "width": 154.796875,
+    "height": 36
+  },
+  "header": {
+    "x": 56,
+    "y": 0,
+    "width": 1369,
+    "height": 77
+  },
+  "computed": {
+    "headingScrollMargin": "80px",
+    "documentScrollPadding": "80px",
+    "shellHeader": "4rem"
+  }
+}

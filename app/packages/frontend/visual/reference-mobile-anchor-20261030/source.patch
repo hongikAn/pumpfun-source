@@ -1,0 +1,10 @@
+diff --git a/app/packages/frontend/src/app/docs/reference-pages.css b/app/packages/frontend/src/app/docs/reference-pages.css
+index 5e76dbd163..5a7310e9d7 100644
+--- a/app/packages/frontend/src/app/docs/reference-pages.css
++++ b/app/packages/frontend/src/app/docs/reference-pages.css
+@@ -181,0 +182,5 @@
++  .reference-document h2,
++  .reference-document h3 {
++    scroll-margin-top: 4rem;
++  }
++
