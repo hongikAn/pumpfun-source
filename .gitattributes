@@ -1555,3 +1555,7 @@ research/amm-v2-fee-selector-recovery/** -text -whitespace
 repro/pump_amm/v2-mint-clone-recovery-20261028/results/** -whitespace
 
 repro/pump_amm/v2-mint-clone-recovery-20261028/followup/** -whitespace
+
+# Reconstruction harness inputs, ledger and toolchain libraries must keep exact bytes.
+reconstruction/** -text
+*.rlib binary
