@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { openShellSearch } from "./shell-controls";
 
 test("searches the local user model and opens the exact profile", async ({
   page,
@@ -12,7 +13,7 @@ test("searches the local user model and opens the exact profile", async ({
       unexpected.push(request.url());
   });
   await page.goto("/");
-  await page.keyboard.press("Control+k");
+  await openShellSearch(page);
   const dialog = page.getByRole("dialog", {
     name: "Search for coins and users",
   });
@@ -39,7 +40,7 @@ test("honors two UTF-16 units and the captured 500ms debounce", async ({
       reads.push(request.url());
   });
   await page.goto("/");
-  await page.keyboard.press("Control+k");
+  await openShellSearch(page);
   await page.clock.install({ time: new Date("2026-01-01T00:00:00Z") });
   await page.clock.pauseAt(new Date("2026-01-01T00:00:01Z"));
   const input = page.getByRole("dialog").getByRole("searchbox");
@@ -102,7 +103,7 @@ test("clears obsolete rows immediately and ignores an old response that ignores 
     };
   });
   await page.goto("/");
-  await page.keyboard.press("Control+k");
+  await openShellSearch(page);
   const dialog = page.getByRole("dialog", {
     name: "Search for coins and users",
   });
@@ -134,7 +135,7 @@ test("closed dialogs cancel pending reads and preserve the existing Escape draft
       reads.push(request.url());
   });
   await page.goto("/");
-  await page.keyboard.press("Control+k");
+  await openShellSearch(page);
   await page.clock.install({ time: new Date("2026-01-01T00:00:00Z") });
   await page.clock.pauseAt(new Date("2026-01-01T00:00:01Z"));
   const dialog = page.getByRole("dialog", {
@@ -146,7 +147,7 @@ test("closed dialogs cancel pending reads and preserve the existing Escape draft
   await expect(dialog).not.toBeVisible();
   await page.clock.runFor(1000);
   expect(reads).toEqual([]);
-  await page.keyboard.press("Control+k");
+  await openShellSearch(page);
   await expect(dialog.getByRole("searchbox")).toHaveValue("alice");
   await page.clock.runFor(500);
   await expect.poll(() => reads.length).toBe(1);
@@ -160,7 +161,7 @@ test("shows unavailable reads without remote fallback and keeps Enter on Explore
     route.fulfill({ status: 503, json: { error: "LOCAL_USERS_UNAVAILABLE" } }),
   );
   await page.goto("/");
-  await page.keyboard.press("Control+k");
+  await openShellSearch(page);
   const dialog = page.getByRole("dialog", {
     name: "Search for coins and users",
   });
