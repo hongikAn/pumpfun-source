@@ -1,3 +1,4 @@
+import { writeFile } from "node:fs/promises";
 import { expect, test, type Page, type Route } from "@playwright/test";
 
 const WALLET = "HN7cABqLq46Es1jh92dQQisAq662SmxELLLsHHe4YWrH";
@@ -341,3 +342,52 @@ test("performs no external browser request, mutation, signing or wallet action",
   await expect(capturedSignIn).toBeFocused();
   assertReadOnlyRequests();
 });
+
+for (const entry of [
+  { label: "token mint address", width: 1280 },
+  { label: "token-account address", width: 375 },
+]) {
+  test(`reports actual clipboard denial and permits retry: ${entry.label}`, async ({ page, context }, testInfo) => {
+    await page.setViewportSize({ width: entry.width, height: 900 });
+    const errors: string[] = [];
+    const requests: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+    page.on("request", (request) => requests.push(`${request.method()} ${request.url()}`));
+    await mockSuccess(page);
+    const cdp = await context.newCDPSession(page);
+    const { targetInfo } = await cdp.send("Target.getTargetInfo");
+    const permission = { permission: { name: "clipboard-write" }, origin: "http://127.0.0.1:3010", browserContextId: targetInfo.browserContextId };
+    await cdp.send("Browser.setPermission", { ...permission, setting: "denied" });
+    await page.goto(`/portfolio?address=${WALLET}`);
+    await expect(page.getByTestId("portfolio-result")).toBeVisible();
+    const permissionState = await page.evaluate(async () => (await navigator.permissions.query({ name: "clipboard-write" as PermissionName })).state);
+    expect(permissionState).toBe("denied");
+    const permissionControl = await page.evaluate(async () => {
+      try { await navigator.clipboard.writeText("permission-control"); return "unexpected success"; }
+      catch (error) { return error instanceof DOMException ? error.name : String(error); }
+    });
+    expect(permissionControl).toBe("NotAllowedError");
+    const button = page.getByRole("button", { name: `Copy ${entry.label}`, exact: true }).first();
+    const beforeGeometry = await page.evaluate(() => ({ width: document.documentElement.scrollWidth, viewport: window.innerWidth }));
+    await button.click();
+    const afterGeometry = await page.evaluate(() => ({ width: document.documentElement.scrollWidth, viewport: window.innerWidth }));
+    console.log(JSON.stringify({ beforeGeometry, afterGeometry }));
+    await page.screenshot({ path: testInfo.outputPath("copy-denied.png") });
+    const observation = { beforeGeometry, afterGeometry, label: entry.label, width: entry.width, permissionState, permissionControl, buttonText: await button.textContent(), liveText: await page.locator('[role="status"]').allTextContents(), errors, requests };
+    await writeFile(testInfo.outputPath("denied-observations.json"), JSON.stringify(observation, null, 2));
+    await expect(page.getByRole("status").filter({ hasText: "Copy failed. Try again." })).toBeVisible();
+    await expect(button).toContainText("Retry copy");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    await context.grantPermissions(["clipboard-read", "clipboard-write"], { origin: "http://127.0.0.1:3010" });
+    await button.click();
+    await expect(button).toContainText("Copied");
+    await expect(page.getByRole("status").filter({ hasText: `${entry.label} copied` })).toHaveCount(1);
+    await expect(page.getByText("Copy failed. Try again.", { exact: true })).toHaveCount(0);
+    expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(entry.label === "token mint address" ? SPL_MINT : SPL_ACCOUNT);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    await page.screenshot({ path: testInfo.outputPath("copy-retried.png") });
+    await writeFile(testInfo.outputPath("retry-observations.json"), JSON.stringify({ label: entry.label, width: entry.width, clipboardText: await page.evaluate(() => navigator.clipboard.readText()), buttonText: await button.textContent(), liveText: await page.locator('[role="status"]').allTextContents(), errors, requests }, null, 2));
+    expect(errors).toEqual([]);
+    expect(requests.filter((request) => !request.startsWith("GET http://127.0.0.1:3010/") && !request.startsWith("HEAD http://127.0.0.1:3010/"))).toEqual([]);
+  });
+}

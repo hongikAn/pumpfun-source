@@ -1,0 +1,33 @@
+{
+  "base": "094a06f18df738d41e77070c1a009e135671ac1a",
+  "source": "app/packages/frontend/src/app/portfolio/portfolio-client.tsx",
+  "baseline_source_sha256": "b3ce685a6317add1126d9ba3a027863d5a9d62fe4dc4f9c1b1b63de1bea61723",
+  "candidate_source_sha256": "21344b30f11ba5f75b1b5f595246b1d6231c10c0adb48c3b754c1252ba93c2b1",
+  "test": "app/packages/frontend/tests/portfolio.spec.ts",
+  "test_sha256": "3d2bb44516deef3b440e40d6116b82b7ebd89c107d37bc7569fee8f65ff3dd0f",
+  "existing_fixture": "portfolio() and mockSuccess() in the unchanged prefix of portfolio.spec.ts; no new holdings invented",
+  "fixture_prefix_sha256": "5f44bf18fc0bc50c3f460f83c49ba427d8a99c68a949dc1145a2de83f44b47c2",
+  "baseline_test_sha256": "726ac284b546db13a251db2884973e35fed5698bf84eb6621e514ee5daf99b79",
+  "baseline_observation_origin": "Exact JSON attachment extracted from retained baseline trace test.attach payload",
+  "platform": "Windows, Node v24.15.0, Next16.4.1 webpack dev, Chromium CDP Browser.setPermission denied",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "width": 375,
+      "height": 900
+    }
+  ],
+  "baseline": "Real clipboard-write denied; direct writeText rejects NotAllowedError; clicked Copy has no error status",
+  "qualification": "2 passed (4.5s), denied feedback and real granted retry clipboard text for mint/account controls",
+  "initial_failures": "Config grep string rejected before execution. First feedback attempts introduced mobile overflow; original source360/375, first378/375, second413/446/375. Relative button bounds the absolute sr-only live region; final360/375 before/after denial. All logs retained.",
+  "network": "Localhost GET/HEAD only. Portfolio response is existing intercepted test fixture. No RPC/developer API service used.",
+  "scope_snapshot": "backend-2125-scope.json",
+  "open_count": 578,
+  "same_file_disjoint_prs": [
+    1536,
+    1349
+  ]
+}

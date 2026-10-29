@@ -1,0 +1,16 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:50988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token mint address
+tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token mint address
+{"beforeGeometry":{"width":1265,"viewport":1280},"afterGeometry":{"width":1265,"viewport":1280}}
+
+[2/2] tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token-account address
+tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token-account address
+{"beforeGeometry":{"width":360,"viewport":375},"afterGeometry":{"width":360,"viewport":375}}
+
+  2 passed (4.5s)

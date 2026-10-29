@@ -1,0 +1,8 @@
+Error: ..\..\..\..\..\app-portfolio-copy-feedback-20261030\playwright.config.cjs: config.grep must be a RegExp
+    at errorWithFile (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\playwright@1.64.1\node_modules\playwright\lib\common\index.js:368:10)
+    at validateConfig (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\playwright@1.64.1\node_modules\playwright\lib\common\index.js:1345:13)
+    at loadConfig (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\playwright@1.64.1\node_modules\playwright\lib\common\index.js:1291:3)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.loadConfigFromFile (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\playwright@1.64.1\node_modules\playwright\lib\common\index.js:1508:10)
+    at runTests (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\playwright@1.64.1\node_modules\playwright\lib\cli\testActions.js:44:18)
+    at _Command.<anonymous> (C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\playwright@1.64.1\node_modules\playwright\lib\program.js:55:7)

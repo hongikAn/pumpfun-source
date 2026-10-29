@@ -25,23 +25,38 @@ function shortened(value: string): string {
 }
 
 function CopyButton({ value, label }: { value: string; label: string }) {
-  const [copied, setCopied] = useState(false);
+  const [status, setStatus] = useState<"idle" | "copied" | "failed">("idle");
   async function copy() {
     try {
       await navigator.clipboard.writeText(value);
-      setCopied(true);
+      setStatus("copied");
     } catch {
-      setCopied(false);
+      setStatus("failed");
     }
   }
   return (
     <button
-      className="portfolio-copy"
+      className="portfolio-copy relative max-w-24"
       type="button"
       aria-label={`Copy ${label}`}
       onClick={copy}
     >
-      {copied ? "Copied" : "Copy"}
+      {status === "copied" ? "Copied" : status === "failed" ? "Retry copy" : "Copy"}
+      <span
+        role="status"
+        aria-live="polite"
+        className={
+          status === "failed"
+            ? "mt-1 block whitespace-normal text-xs"
+            : "sr-only"
+        }
+      >
+        {status === "failed"
+          ? "Copy failed. Try again."
+          : status === "copied"
+            ? `${label} copied`
+            : ""}
+      </span>
     </button>
   );
 }

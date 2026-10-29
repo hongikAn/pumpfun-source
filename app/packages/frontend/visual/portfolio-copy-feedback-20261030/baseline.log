@@ -1,0 +1,52 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:36952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\portfolio.spec.ts:349:7 › reports actual clipboard denial and permits retry: token mint address
+  1) tests\portfolio.spec.ts:349:7 › reports actual clipboard denial and permits retry: token mint address
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('status').filter({ hasText: 'Copy failed. Try again.' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('status').filter({ hasText: 'Copy failed. Try again.' }) with timeout 5000ms
+      - waiting for getByRole('status').filter({ hasText: 'Copy failed. Try again.' })
+
+
+      372 |     const observation = { label: entry.label, width: entry.width, permissionState, permissionControl, buttonText: await button.textContent(), liveText: await page.locator('[role="status"]').allTextContents(), errors, requests };
+      373 |     await testInfo.attach("denied-observations", { body: JSON.stringify(observation, null, 2), contentType: "application/json" });
+    > 374 |     await expect(page.getByRole("status").filter({ hasText: "Copy failed. Try again." })).toBeVisible();
+          |                                                                                           ^
+      375 |     await expect(button).toHaveText("Retry copy");
+      376 |     await context.grantPermissions(["clipboard-read", "clipboard-write"], { origin: "http://127.0.0.1:3010" });
+      377 |     await button.click();
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\portfolio.spec.ts:374:91
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-portfolio-copy-feedback-20261030\before\portfolio-reports-actual-c-fa3c7-ts-retry-token-mint-address\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-portfolio-copy-feedback-20261030\before\portfolio-reports-actual-c-fa3c7-ts-retry-token-mint-address\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-portfolio-copy-feedback-20261030\before\portfolio-reports-actual-c-fa3c7-ts-retry-token-mint-address\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-portfolio-copy-feedback-20261030\before\portfolio-reports-actual-c-fa3c7-ts-retry-token-mint-address\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-portfolio-copy-feedback-20261030\before\portfolio-reports-actual-c-fa3c7-ts-retry-token-mint-address\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\portfolio.spec.ts:349:7 › reports actual clipboard denial and permits retry: token mint address

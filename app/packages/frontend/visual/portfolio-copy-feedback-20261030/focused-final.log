@@ -1,0 +1,53 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:46856) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token mint address
+tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token mint address
+{"beforeGeometry":{"width":1265,"viewport":1280},"afterGeometry":{"width":1265,"viewport":1280}}
+
+[2/2] tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token-account address
+tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token-account address
+{"beforeGeometry":{"width":413,"viewport":375},"afterGeometry":{"width":446,"viewport":375}}
+
+  1) tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token-account address
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      378 |     await expect(page.getByRole("status").filter({ hasText: "Copy failed. Try again." })).toBeVisible();
+      379 |     await expect(button).toContainText("Retry copy");
+    > 380 |     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+          |                                                                                                  ^
+      381 |     await context.grantPermissions(["clipboard-read", "clipboard-write"], { origin: "http://127.0.0.1:3010" });
+      382 |     await button.click();
+      383 |     await expect(button).toContainText("Copied");
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\portfolio.spec.ts:380:98
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-portfolio-copy-feedback-20261030\after-final\portfolio-reports-actual-c-be989-retry-token-account-address\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-portfolio-copy-feedback-20261030\after-final\portfolio-reports-actual-c-be989-retry-token-account-address\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-portfolio-copy-feedback-20261030\after-final\portfolio-reports-actual-c-be989-retry-token-account-address\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-portfolio-copy-feedback-20261030\after-final\portfolio-reports-actual-c-be989-retry-token-account-address\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-portfolio-copy-feedback-20261030\after-final\portfolio-reports-actual-c-be989-retry-token-account-address\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\portfolio.spec.ts:350:7 › reports actual clipboard denial and permits retry: token-account address
+  1 passed (8.8s)
