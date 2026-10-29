@@ -1,0 +1,6 @@
+diff --git a/app/packages/frontend/src/components/shell/TokenInfoBar.tsx b/app/packages/frontend/src/components/shell/TokenInfoBar.tsx
+index a4429e92f8..d1ee14bcae 100644
+--- a/app/packages/frontend/src/components/shell/TokenInfoBar.tsx
++++ b/app/packages/frontend/src/components/shell/TokenInfoBar.tsx
+@@ -46,0 +47 @@ export function TokenInfoBar() {
++    if (event.altKey || event.ctrlKey || event.metaKey) return;

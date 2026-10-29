@@ -1,0 +1,31 @@
+{
+  "base": "630a074126a13d4133514d599129c6ac9a3179bc",
+  "source": "app/packages/frontend/src/components/shell/TokenInfoBar.tsx",
+  "source_before_sha256": "9dabcfcfbc79bbc8a1f67d1f8a6d0ffe9c7949f611b91d504c2a90b6eb93bccf",
+  "source_after_sha256": "6009b7d1c76af842ce91bfa44419cde04962f6434cd247cbe6f40560eb4d4645",
+  "test": "app/packages/frontend/tests/token-info-keyboard.spec.ts",
+  "test_sha256": "96ec5319874cee586d98e55660fa5205cb59eaa492ed3155bd8a22772114c2f7",
+  "baseline": {
+    "grep": "Control End",
+    "result": "1 failed at infoEnd > 0",
+    "native_scrollY": 6659,
+    "info_scrollY": 0,
+    "selected": "Recently viewed"
+  },
+  "candidate": {
+    "result": "2 passed (10.3s)",
+    "native_scrollY": 6331,
+    "info_scrollY": 6959,
+    "selected": "Positions",
+    "home_scrollY": 0
+  },
+  "environment": "Windows, Playwright Chromium, Next 16.4.1 webpack development server, local http://127.0.0.1:3010",
+  "scope": "Local info-bar keyboard behavior; no original keyboard or cross-platform parity claim.",
+  "raw_log_sha256": {
+    "baseline.log": "a5d7fa49cf15042d989c1927a0d3036a7c6d7a1534fd2e4d243fa9fda2075df3",
+    "focused.log": "c358618e0f65a30b3b677540f7905acff84aa441330d3f95f27b369b7800eef9",
+    "frontend-before.log": "8c2cff4ae6caa6934ee9afbdce2c72fde672a7595a02807b9b4237ca5935747b",
+    "frontend-after.log": "083d7a55463daac597aa9cd45c33cb6471cdaba6e17aa21e4a3e6aa42435c137"
+  },
+  "publication_transform": "Logs normalized to LF, terminal ANSI stripped and trailing line whitespace removed. PNG/video copied byte-for-byte; raw logs, baseline video and failure trace retained outside this packet."
+}

@@ -1,0 +1,12 @@
+[
+  "GET http://127.0.0.1:3010/docs/fees",
+  "GET http://127.0.0.1:3010/_next/static/css/app/layout.css?v=1793295188385",
+  "GET http://127.0.0.1:3010/_next/static/css/app/docs/fees/page.css?v=1793295188385",
+  "GET http://127.0.0.1:3010/pump-logomark.svg",
+  "GET http://127.0.0.1:3010/_next/static/chunks/webpack.js?v=1793295188385",
+  "GET http://127.0.0.1:3010/_next/static/chunks/main-app.js?v=1793295188385",
+  "GET http://127.0.0.1:3010/_next/static/chunks/app-pages-internals.js",
+  "GET http://127.0.0.1:3010/_next/static/chunks/app/layout.js",
+  "GET http://127.0.0.1:3010/_next/static/chunks/app/docs/fees/page.js",
+  "GET http://127.0.0.1:3010/fonts/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2"
+]

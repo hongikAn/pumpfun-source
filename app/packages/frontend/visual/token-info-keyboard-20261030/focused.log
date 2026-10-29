@@ -1,0 +1,10 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:58908) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\token-info-keyboard.spec.ts:4:5 › Control End and Home retain native document scrolling from the info bar
+[2/2] tests\token-info-keyboard.spec.ts:38:5 › plain info-bar Home End and arrows retain roving radio navigation
+  2 passed (10.3s)

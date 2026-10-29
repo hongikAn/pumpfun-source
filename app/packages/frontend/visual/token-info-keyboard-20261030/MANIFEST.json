@@ -1,0 +1,19 @@
+{
+  "ACTION-RECEIPT.md": "9ebb501a47b88459358d4923ad3d4582b83756ea989c49806e829b519d00a8c1",
+  "after-control-end.png": "a77d9206fd4c4afa4c6ecc57564eec9bfa537bccd4d350786dcbc120516a3e25",
+  "after-control-home.png": "89d35685d77bb675fc2a973ce42a285acdcbca1d79f800676940c8a8d2b0fe80",
+  "after-observations.json": "236c9cee9d888b84aa622758b0f674852916c8691878e15302ee43619e1ef2c0",
+  "after-requests.json": "a9f4d26d1a9d150d3179bc94069d7785614439677938f1974d672364490cd5f6",
+  "baseline.log": "891cb59205c44178f4df8b344e334ed31c6c458008a9c038e56a77373029556c",
+  "before-control-end.png": "d97db956f638c3fee6d2c873a303d5d92ced43e44438f0c1860b3458712f8257",
+  "before-observations.json": "d43210ea123df29e7be158000b0ed5cf257d1ce2c1ea439d7927db8a65c47c76",
+  "before-requests.json": "4bc2335e2cd88a4f28d6eade4b63e5700a8eea4929581b8e77cba7e9b3030521",
+  "focused.log": "30f6ee1993b9f3b4aac839ed81581ff978a5341dff731f64b1866002de727440",
+  "frontend-after.log": "3007e71d8e80526cf77cbdd6f0b7330a5b9a5acae27742f5bc8a0b68214e45bb",
+  "frontend-before.log": "4ec1cd0678aff8d53c2e007b5fd52460d25f72c119596794b478cf6ac504d264",
+  "playwright.config.cjs": "3a5714d3daaf71059026361a68e9c4f1881b0303caeae7ced2f17d9fba09777f",
+  "provenance.json": "90db11ba8d537b5c7c051903ea0caf7b3f8b2a852b4f9a7f0063493142a3032e",
+  "README.md": "c3df19e9c8cc5991a83e7b4b1c8c11ad2dba28b7759e86df8a8a25e3e791d40c",
+  "source.patch": "6899270ae31ce49b65c727ba5f5f19b1a8ddb2478b7151e1b72a7f95ea70d3a9",
+  "walkthrough.webm": "bd2b14bf270533e793702714a8484587dc6c59b4b95dc8e5da27b3458fedfb4c"
+}

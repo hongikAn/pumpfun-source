@@ -44,6 +44,7 @@ export function TokenInfoBar() {
   }
 
   function onKeyDown(event: KeyboardEvent<HTMLButtonElement>, index: number) {
+    if (event.altKey || event.ctrlKey || event.metaKey) return;
     if (NEXT_KEYS.has(event.key)) select(index + 1);
     else if (PREVIOUS_KEYS.has(event.key)) select(index - 1);
     else if (event.key === 'Home') select(0);
