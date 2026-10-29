@@ -179,3 +179,17 @@ application delta is these five paths plus their four backend paths. All four
 route/SSR cases and 593 backend tests pass on that composition; backend typecheck
 also passes. This is not an actual GitHub merge, a browser result, or a request to
 include the other authors' changes in this correction.
+
+## Same-order cursor recovery (2026-10-29)
+
+The first-page recovery link retains a valid selected local ordering when a
+cursor is rejected by the local backend or fails URL validation. A malformed
+cursor in Local newest therefore returns to the first newest page, including its
+head-bound count request. Unknown or repeated ordering parameters still fail
+closed and offer the ranked first page. This corrects the local integration; it
+does not establish the original site's error policy or production cursor rules.
+
+The focused native-feed browser suite passes all 12 cases, including two new
+newest recovery cases and an invalid-ordering control. The backend-rejected case
+failed on the unchanged source because recovery linked to Local ranked. These
+checks use the existing loopback fixture server and make no production requests.

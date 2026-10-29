@@ -85,7 +85,9 @@ function NativeCalloutCard({ callout }: { callout: NativeCallout }) {
 
 function NativeFeedState({
   result,
+  kind,
 }: {
+  kind: NativeFeedKind;
   result: Extract<NativeFeedLoadResult, { ok: false }>;
 }) {
   const invalidCursor = result.reason === "invalid-cursor";
@@ -108,7 +110,7 @@ function NativeFeedState({
           ? "The local backend did not accept this opaque page token. Return to the first local page to continue."
           : "The opt-in local backend could not provide a validated response. No live or synthetic fallback was generated."}
       </p>
-      <Link className="feed-state-link" href={nativeFeedHref("ranked")}>
+      <Link className="feed-state-link" href={nativeFeedHref(kind)}>
         Return to first local page
       </Link>
     </section>
@@ -163,7 +165,7 @@ export function NativeCalloutFeed({
       </nav>
 
       {!result.ok ? (
-        <NativeFeedState result={result} />
+        <NativeFeedState result={result} kind={kind} />
       ) : result.page.coins.length === 0 ? (
         <section className="feed-state-card" data-testid="native-feed-empty">
           <span className="feed-state-mark" aria-hidden="true">

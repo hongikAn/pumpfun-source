@@ -44,7 +44,10 @@ export default async function Home({
         nativeNavigation.cursor,
       );
     } catch {
-      nativeNavigation = { kind: "ranked", trail: [] };
+      nativeNavigation = {
+        kind: params.nativeView === "newest" ? "newest" : "ranked",
+        trail: [],
+      };
       nativeResult = {
         ok: false,
         reason: "invalid-cursor",

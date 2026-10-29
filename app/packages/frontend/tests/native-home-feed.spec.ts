@@ -223,3 +223,61 @@ test("keeps local callout cards responsive across required viewports", async ({
     expect(dimensions.clippedCards, `${width}px cards`).toBe(0);
   }
 });
+
+for (const [label, cursor] of [
+  ["backend-rejected", "YWJj.ZGVm"],
+  ["malformed", "not-a-cursor"],
+] as const) {
+  test(`recovers ${label} newest cursors without switching ordering`, async ({
+    page,
+  }) => {
+    await page.goto(
+      `/?tab=local-callouts&nativeView=newest&nativeCursor=${cursor}`,
+    );
+    await expect(page.getByTestId("native-feed-error")).toContainText(
+      "Local page cursor rejected",
+    );
+    const recovery = page.getByRole("link", {
+      name: "Return to first local page",
+    });
+    await expect(recovery).toHaveAttribute(
+      "href",
+      "/?tab=local-callouts&nativeView=newest",
+    );
+    await expect(
+      page.getByRole("link", { name: "Local newest" }),
+    ).toHaveAttribute("aria-current", "page");
+    await setMode("normal");
+    await recovery.click();
+    await expect(page).toHaveURL(
+      "http://127.0.0.1:3011/?tab=local-callouts&nativeView=newest",
+    );
+    await expect(page.getByTestId("native-callout-card")).toHaveCount(3);
+    await expect(page.getByTestId("native-feed-count")).toBeVisible();
+    expect(await backendRequests()).toEqual([
+      "GET /services/frontend/home-feed/new?pageSize=3",
+      expect.stringMatching(
+        /^GET \/services\/frontend\/home-feed\/new\/count\?since=/u,
+      ),
+    ]);
+  });
+}
+
+test("ambiguous or unknown local ordering still recovers to ranked", async ({
+  page,
+}) => {
+  for (const query of [
+    "nativeView=newest&nativeView=ranked",
+    "nativeView=unknown",
+  ]) {
+    await page.goto(`/?tab=local-callouts&${query}`);
+    await expect(page.getByTestId("native-feed-error")).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: "Return to first local page" }),
+    ).toHaveAttribute("href", "/?tab=local-callouts&nativeView=ranked");
+    await expect(
+      page.getByRole("link", { name: "Local ranked" }),
+    ).toHaveAttribute("aria-current", "page");
+  }
+  expect(await backendRequests()).toEqual([]);
+});
