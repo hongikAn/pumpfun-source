@@ -300,7 +300,7 @@ export default function CreateCoinForm() {
             <span>Multiline text is supported.</span>
             <span>
               {draft.description.length}/
-              {CREATE_LIMITS.description.toLocaleString()}
+              {CREATE_LIMITS.description.toLocaleString("en-US")}
             </span>
           </div>
           <FieldError field="description" error={errors.description} />

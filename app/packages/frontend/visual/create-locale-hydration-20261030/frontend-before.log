@@ -1,0 +1,78 @@
+▲ Next.js 16.4.1 (webpack)
+- Local:         http://127.0.0.1:3010
+- Network:       http://127.0.0.1:3010
+✓ Ready in 497ms
+✓ Running next.config.ts took 75ms
+
+○ Compiling /[...slug]/page ...
+⚠ ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+
+Import trace for requested module:
+../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+./src/app/globals.css.webpack[javascript/auto]!=!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/globals.css
+./src/app/globals.css
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[15].oneOf[10].use[2]!C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\pump-legacy-exact-sol-20261029\pr-worktree\app\node_modules\.pnpm\next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[15].oneOf[10].use[3]!C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\src\app\recovered-fonts.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+ GET /create 200 in 1320ms (next.js: 305ms, generate-params: 617ms, application-code: 398ms)
+[browser] ../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!../../../../../pump-legacy-exact-sol-20261029/pr-worktree/app/node_modules/.pnpm/next@16.4.1_@playwright+tes_07177a60cf28b6aa463c183b4626ebd8/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/recovered-fonts.css
+Warning
+
+(31:5911) autoprefixer: Gradient has outdated direction syntax. New syntax is like `closest-side at 0 0` instead of `0 0, closest-side`.
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template).
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="create/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/create" tree={[...]} params={{slug:[...]}} renderTree={{...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="[...slug]/...">
+                <SegmentTrieNode>
+                <Page>
+                  <p>
+                  <h1>
+                  <p>
+                  <CreateCoinForm>
+                    <div className="create-wor...">
+                      <form className="create-for..." ref={{current:null}} aria-label="Create coi..." ...>
+                        <div>
+                        <div>
+                        <div className="create-field">
+                          <label>
+                          <textarea>
+                          <div className="create-fie..." id="descriptio...">
+                            <span>
+                            <span>
++                             2.000
+-                             2,000
+                          ...
+                        ...
+                      ...
+              ...
+            ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at CreateCoinForm (src\app\create-coin-form.tsx:301:13)
+    at Page (src\app\[...slug]\page.tsx:60:9)
+  299 |           <div className="create-field-meta" id="description-hint">
+  300 |             <span>Multiline text is supported.</span>
+> 301 |             <span>
+      |             ^
+  302 |               {draft.description.length}/
+  303 |               {CREATE_LIMITS.description.toLocaleString()}
+  304 |             </span>

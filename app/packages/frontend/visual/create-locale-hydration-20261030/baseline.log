@@ -1,0 +1,92 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:9268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\create-locale-hydration.spec.ts:7:9 › de-DE › Create initial counter hydrates without replacing the form
+  1) tests\create-locale-hydration.spec.ts:7:9 › de-DE › Create initial counter hydrates without replacing the form
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 45
+
+    - Array []
+    + Array [
+    +   "Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+    +
+    + - A server/client branch `if (typeof window !== 'undefined')`.
+    + - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+    + - Date formatting in a user's locale which doesn't match the server.
+    + - External changing data without sending a snapshot of it along with the HTML.
+    + - Invalid HTML tag nesting.
+    +
+    + It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+    +
+    + https://react.dev/link/hydration-mismatch
+    +
+    +   ...
+    +     <LoadingBoundary name=\"create/\" loading={null}>
+    +       <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+    +         <RedirectBoundary>
+    +           <RedirectErrorBoundary router={{...}}>
+    +             <InnerLayoutRouter url=\"/create\" tree={[...]} params={{slug:[...]}} renderTree={{...}} segmentPath={[...]} ...>
+    +               <SegmentViewNode type=\"page\" pagePath=\"[...slug]/...\">
+    +                 <SegmentTrieNode>
+    +                 <Page>
+    +                   <p>
+    +                   <h1>
+    +                   <p>
+    +                   <CreateCoinForm>
+    +                     <div className=\"create-wor...\">
+    +                       <form className=\"create-for...\" ref={{current:null}} aria-label=\"Create coi...\" ...>
+    +                         <div>
+    +                         <div>
+    +                         <div className=\"create-field\">
+    +                           <label>
+    +                           <textarea>
+    +                           <div className=\"create-fie...\" id=\"descriptio...\">
+    +                             <span>
+    +                             <span>
+    + +                             2.000
+    + -                             2,000
+    +                           ...
+    +                         ...
+    +                       ...
+    +               ...
+    +             ...
+    + ",
+    + ]
+
+      20 |       const observation = { locale, browser: await page.evaluate(() => Intl.NumberFormat().resolvedOptions().locale), serverCounterHtml: responseCounter, clientCounter: await hint.textContent(), errors, requests };
+      21 |       await writeFile(testInfo.outputPath("observations.json"), JSON.stringify(observation, null, 2));
+    > 22 |       expect(errors).toEqual([]);
+         |                      ^
+      23 |       await expect(hint).toContainText("1,000");
+      24 |       await page.getByRole("textbox", { name: "Description" }).fill("Edited locally");
+      25 |       await expect(hint).toContainText("14/1,000");
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\create-locale-hydration.spec.ts:22:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-create-locale-hydration-20261030\before\create-locale-hydration-de-9d2de--without-replacing-the-form\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-create-locale-hydration-20261030\before\create-locale-hydration-de-9d2de--without-replacing-the-form\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-create-locale-hydration-20261030\before\create-locale-hydration-de-9d2de--without-replacing-the-form\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-create-locale-hydration-20261030\before\create-locale-hydration-de-9d2de--without-replacing-the-form\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-create-locale-hydration-20261030\before\create-locale-hydration-de-9d2de--without-replacing-the-form\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\create-locale-hydration.spec.ts:7:9 › de-DE › Create initial counter hydrates without replacing the form

@@ -1,0 +1,7 @@
+diff --git a/app/packages/frontend/src/app/create-coin-form.tsx b/app/packages/frontend/src/app/create-coin-form.tsx
+index 9904c50489..2e2cd33389 100644
+--- a/app/packages/frontend/src/app/create-coin-form.tsx
++++ b/app/packages/frontend/src/app/create-coin-form.tsx
+@@ -303 +303 @@ export default function CreateCoinForm() {
+-              {CREATE_LIMITS.description.toLocaleString()}
++              {CREATE_LIMITS.description.toLocaleString("en-US")}

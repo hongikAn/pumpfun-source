@@ -1,0 +1,24 @@
+{
+  "base": "094a06f18df738d41e77070c1a009e135671ac1a",
+  "source": "app/packages/frontend/src/app/create-coin-form.tsx",
+  "baseline_source_sha256": "e2b3ffe7d5bccab73b52c34ab31b05bb80166a4a609ec7fdf235cefb2d707482",
+  "candidate_source_sha256": "5c807a5d42cb50bf44d43f123058ce68d9e6a135c403568a311fb0fe57813598",
+  "test": "app/packages/frontend/tests/create-locale-hydration.spec.ts",
+  "test_sha256": "50f6d3a3b826e375e1ed9054d1edbc09cfc6c3058312d5ae3493fb4f03e530ff",
+  "platform": "Windows, Node v24.15.0 (default Intl en-US), local Next 16.4.1 webpack dev, Playwright Chromium",
+  "browser_locales": [
+    "de-DE",
+    "en-US"
+  ],
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "scope_snapshot": "backend-1955-scope.json",
+  "initial_open_pr_count": 479,
+  "exact_counter_overlap": [],
+  "baseline_result": "One case failed at pageerror assertion with real SSR 2,000 / client 2.000 hydration mismatch. The original unreached 1,000 assertions were corrected to actual 2,000 for the final test.",
+  "candidate_result": "2 passed (10.0s)",
+  "captured_assets_changed": false,
+  "network": "Only localhost GET/HEAD requests in the tested flow; developer API disabled."
+}

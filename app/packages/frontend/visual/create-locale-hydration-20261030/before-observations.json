@@ -1,0 +1,25 @@
+{
+  "locale": "de-DE",
+  "browser": "de-DE",
+  "serverCounterHtml": "<span>Multiline text is supported.</span><span>0<!-- -->/<!-- -->2,000</span>",
+  "clientCounter": "Multiline text is supported.0/2.000",
+  "errors": [
+    "Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <LoadingBoundary name=\"create/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>\n        <RedirectBoundary>\n          <RedirectErrorBoundary router={{...}}>\n            <InnerLayoutRouter url=\"/create\" tree={[...]} params={{slug:[...]}} renderTree={{...}} segmentPath={[...]} ...>\n              <SegmentViewNode type=\"page\" pagePath=\"[...slug]/...\">\n                <SegmentTrieNode>\n                <Page>\n                  <p>\n                  <h1>\n                  <p>\n                  <CreateCoinForm>\n                    <div className=\"create-wor...\">\n                      <form className=\"create-for...\" ref={{current:null}} aria-label=\"Create coi...\" ...>\n                        <div>\n                        <div>\n                        <div className=\"create-field\">\n                          <label>\n                          <textarea>\n                          <div className=\"create-fie...\" id=\"descriptio...\">\n                            <span>\n                            <span>\n+                             2.000\n-                             2,000\n                          ...\n                        ...\n                      ...\n              ...\n            ...\n"
+  ],
+  "requests": [
+    "GET http://127.0.0.1:3010/create",
+    "GET http://127.0.0.1:3010/_next/static/css/app/layout.css?v=1793303942153",
+    "GET http://127.0.0.1:3010/_next/static/css/app/%5B...slug%5D/page.css?v=1793303942153",
+    "GET http://127.0.0.1:3010/pump-logomark.svg",
+    "GET http://127.0.0.1:3010/_next/static/chunks/webpack.js?v=1793303942153",
+    "GET http://127.0.0.1:3010/_next/static/chunks/main-app.js?v=1793303942153",
+    "GET http://127.0.0.1:3010/_next/static/chunks/app-pages-internals.js",
+    "GET http://127.0.0.1:3010/_next/static/chunks/app/layout.js",
+    "GET http://127.0.0.1:3010/_next/static/chunks/app/not-found.js",
+    "GET http://127.0.0.1:3010/fonts/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2",
+    "GET http://127.0.0.1:3010/_next/static/chunks/app/%5B...slug%5D/page.js",
+    "GET http://127.0.0.1:3010/__nextjs_font/geist-latin.woff2",
+    "POST http://127.0.0.1:3010/__nextjs_original-stack-frames",
+    "POST http://127.0.0.1:3010/__nextjs_original-stack-frames"
+  ]
+}
