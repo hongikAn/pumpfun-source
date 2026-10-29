@@ -176,6 +176,9 @@ export interface RawHighlightToken {
 export interface RawEntry {
   entryId: string;
   participantId: string;
+  /** Person's board wallet at competition start; null means no scoring wallet.
+   * Omission preserves the legacy profile fallback. Ignored for group entries. */
+  walletAddress?: string | null;
   registeredAt: string;
   struck: boolean;
   pnlUsd: number;
@@ -243,16 +246,18 @@ export class CompetitionStore {
 
   /**
    * Rank entries in a competition:
-   * Non-struck entries are ordered by pnlUsd descending, tie-breaking on registeredAt ascending, then entryId.
-   * All entries before the first build, and struck entries thereafter, receive rank 0.
+   * Eligible entries are ordered by pnlUsd descending, tie-breaking on registeredAt ascending, then entryId.
+   * Before the first build, when struck, or with an explicit absent person scoring wallet, rank is 0.
    */
   private rankEntries(comp: RawCompetition): RankedEntry[] {
     // builtAtMs is the maximum refresh time; 0 means no board has been built yet.
     if (!comp.entries.some(entry => entry.lastRefreshedAtMs > 0)) {
       return comp.entries.map(entry => ({ ...entry, rank: 0 }));
     }
-    const struck: RankedEntry[] = comp.entries.filter(e => e.struck).map(e => ({ ...e, rank: 0 }));
-    const nonStruck = comp.entries.filter(e => !e.struck);
+    const eligible = (entry: RawEntry) =>
+      !entry.struck && !(comp.kind === 'person' && entry.walletAddress === null);
+    const unranked: RankedEntry[] = comp.entries.filter(e => !eligible(e)).map(e => ({ ...e, rank: 0 }));
+    const nonStruck = comp.entries.filter(eligible);
 
     nonStruck.sort((a, b) => {
       if (a.pnlUsd !== b.pnlUsd) {
@@ -267,7 +272,7 @@ export class CompetitionStore {
     });
 
     const ranked: RankedEntry[] = nonStruck.map((e, index) => ({ ...e, rank: index + 1 }));
-    return [...ranked, ...struck];
+    return [...ranked, ...unranked];
   }
 
   /**
@@ -302,7 +307,7 @@ export class CompetitionStore {
 
     // Per contract: walletAddress is null for squads, walletless member, and rank-0 before build
     const walletAddress = isPerson && comp.entries.some(row => row.lastRefreshedAtMs > 0)
-      ? profile.walletAddress : null;
+      ? (entry.walletAddress === undefined ? profile.walletAddress : entry.walletAddress) : null;
 
     // Per contract: positionsCount and topPositions are 0 / [] for squads and on final boards
     let positionsCount = 0;
@@ -542,7 +547,7 @@ export class CompetitionStore {
       const profile = this.hydrateProfile(target.participantId);
       members.push({
         userId: target.participantId,
-        walletAddress: profile.walletAddress,
+        walletAddress: target.walletAddress === undefined ? profile.walletAddress : target.walletAddress,
         pnlUsd: target.pnlUsd,
         realizedPnlUsd: target.realizedPnlUsd,
         unrealizedPnlUsd: target.unrealizedPnlUsd,
