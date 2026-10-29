@@ -1,0 +1,12 @@
+
+Running 4 tests using 1 worker
+
+
+
+(node:35048) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/4] tests\leaderboard.spec.ts:335:5 › category navigation survives Back and Forward
+[2/4] tests\leaderboard.spec.ts:399:5 › competition status and ranked entry detail are keyboard-operable
+[3/4] tests\leaderboard.spec.ts:576:5 › competition title filters do not hide participants after opening detail
+[4/4] tests\leaderboard.spec.ts:621:5 › participant filters do not hide competitions when returning to the list
+  4 passed (9.7s)

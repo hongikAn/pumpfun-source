@@ -555,3 +555,97 @@ test("the browser interface issues no external or mutating requests", async ({
   ).toBeVisible();
   expect(prohibited).toEqual([]);
 });
+
+async function allowLocalNavigationRequests(page: Page) {
+  const unexpected: string[] = [];
+  await page.route("**/*", async (route) => {
+    const request = route.request();
+    if (
+      new URL(request.url()).origin !== "http://127.0.0.1:3010" ||
+      !["GET", "HEAD"].includes(request.method())
+    ) {
+      unexpected.push(`${request.method()} ${request.url()}`);
+      await route.abort();
+      return;
+    }
+    await route.continue();
+  });
+  return unexpected;
+}
+
+test("competition title filters do not hide participants after opening detail", async ({
+  page,
+}, testInfo) => {
+  const unexpected = await allowLocalNavigationRequests(page);
+  const requests: string[] = [];
+  page.on("request", (request) => {
+    if (new URL(request.url()).pathname === "/api/leaderboard")
+      requests.push(`${request.method()} ${request.url()}`);
+  });
+  await mockLeaderboard(page);
+  await page.goto(
+    "/leaderboard?category=competitions&status=live&q=browser-test",
+  );
+  await expect(
+    page.getByText("Synthetic browser-test competition", { exact: true }),
+  ).toBeVisible();
+  await page.screenshot({ path: testInfo.outputPath("filtered-list.png") });
+  const detail = page.getByRole("link", { name: "View ranked entries" });
+  await detail.focus();
+  await page.keyboard.press("Enter");
+  await expect(
+    page.getByRole("list", { name: "Competition rankings" }),
+  ).toContainText("synthetic-entrant");
+  await expect(page.getByLabel("Filter loaded results")).toHaveValue("");
+  await expect(page).not.toHaveURL(/[?&]q=/);
+  await expect(page).toHaveURL(/status=live/);
+  await page.screenshot({ path: testInfo.outputPath("unfiltered-detail.png") });
+  await page.goBack();
+  await expect(page.getByLabel("Filter loaded results")).toHaveValue(
+    "browser-test",
+  );
+  await expect(
+    page.getByText("Synthetic browser-test competition", { exact: true }),
+  ).toBeVisible();
+  await page.goForward();
+  await expect(
+    page.getByRole("list", { name: "Competition rankings" }),
+  ).toContainText("synthetic-entrant");
+  expect(unexpected).toEqual([]);
+  await testInfo.attach("local-api-requests", {
+    body: JSON.stringify(requests, null, 2),
+    contentType: "application/json",
+  });
+});
+
+test("participant filters do not hide competitions when returning to the list", async ({
+  page,
+}, testInfo) => {
+  const unexpected = await allowLocalNavigationRequests(page);
+  const requests: string[] = [];
+  page.on("request", (request) => {
+    if (new URL(request.url()).pathname === "/api/leaderboard")
+      requests.push(`${request.method()} ${request.url()}`);
+  });
+  await mockLeaderboard(page);
+  await page.goto(
+    "/leaderboard?category=competitions&status=live&competition=synthetic-competition&q=synthetic-entrant",
+  );
+  await expect(
+    page.getByRole("list", { name: "Competition rankings" }),
+  ).toContainText("synthetic-entrant");
+  await page.screenshot({ path: testInfo.outputPath("filtered-detail.png") });
+  await page.getByRole("button", { name: /Back to competitions/ }).click();
+  await expect(
+    page.getByRole("link", { name: "View ranked entries" }),
+  ).toBeVisible();
+  await expect(page.getByLabel("Filter loaded results")).toHaveValue("");
+  await expect(page).not.toHaveURL(/[?&](q|competition|page)=/);
+  await expect(page).toHaveURL(/status=live/);
+  await page.screenshot({ path: testInfo.outputPath("unfiltered-list.png") });
+  expect(unexpected).toEqual([]);
+  await testInfo.attach("local-api-requests", {
+    body: JSON.stringify(requests, null, 2),
+    contentType: "application/json",
+  });
+});

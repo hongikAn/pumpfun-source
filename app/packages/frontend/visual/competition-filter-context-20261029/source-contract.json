@@ -1,0 +1,49 @@
+{
+  "baseline_commit": "ef400863f4e476b2eaaab0866c0b1187d8060abc",
+  "baseline_source_sha256": "02310d1e8050387ca314da56dc6d560a31c847d99ada6ac62d2def335f542c48",
+  "candidate_source_sha256": "14a76dac016bd0a5cb4723abf4146b55983a1809aab94be5d804c7bd0ac3f68d",
+  "candidate_test_sha256": "bd6731d4adf8cba6a80dff4b93ddb5cd4c577fdd51393b80807550bca31c1e9e",
+  "existing_test_prefix_sha256": "a1237a0c4ab5e45192ca27c8d923430cd7ff7c68849c78a3bef4de4de6044a12",
+  "existing_tests_and_fixtures_are_unchanged_prefix": true,
+  "local_contract_file": "app/packages/frontend/LEADERBOARD-EVIDENCE.md",
+  "local_contract_sha256": "afde2926c49d0f3a82b9fee566b2849c5279dae9a9be1b9f44aedbaed1ad07c3",
+  "local_contract": "Search is a URL-backed, case-insensitive filter over the currently loaded public identity/title fields.",
+  "list_filter_fields": [
+    "title",
+    "description",
+    "slug"
+  ],
+  "detail_filter_fields": [
+    "username",
+    "participantId",
+    "walletAddress"
+  ],
+  "new_policy": "When explicitly entering or leaving competition detail, discard the old collection filter q and page, preserve category/status and other unrelated URL keys. Browser history retains earlier URLs.",
+  "qualification": "Local UI bug fix; no claim of original website filter policy, live API compatibility or changed data/ranking.",
+  "baseline_result": "Expected Competition rankings missing after title-filtered list opened detail; actual screenshot and failed assertion retained.",
+  "after_result": "4 focused cases passed (9.7 s); 2 new context switches plus existing keyboard competition and category/history controls.",
+  "text_log_copies": {
+    "baseline.log": {
+      "raw_sha256": "769b6a16a1446f20eae086af5de4e59b39378e723a22199802481968cabc8dab",
+      "published_sha256": "c16a61eafe571b1a963fd55f84b9a8a7fbed62e4cef9b77d66378b7e3bda2d2a",
+      "transform": "LF and trailing display whitespace normalization; raw original retained locally"
+    },
+    "focused-after.log": {
+      "raw_sha256": "58cac6d04bc842db1298f90a686f0c7d55be1f4d9197e623ac0abea9577bf9d5",
+      "published_sha256": "87f30e8a744dc84f13b6ff816fb9431fdae3d6c4cdaba294f213842afd5fa04d",
+      "transform": "LF and trailing display whitespace normalization; raw original retained locally"
+    },
+    "frontend-before.log": {
+      "raw_sha256": "05b499227a1e63e38dea344977a2136281f0a362f8dda9b75d71125ec45ca93d",
+      "published_sha256": "a818bd88bff423c5e8fea84249e4969e9c9f280d653216c2e120f864af2d2188",
+      "transform": "LF and trailing display whitespace normalization; raw original retained locally"
+    },
+    "frontend-after.log": {
+      "raw_sha256": "05f0a0ab3c8fb9210e7f978b60860822beb5235b04eeefbcafa44be9d382e89b",
+      "published_sha256": "b2beff076e3bfb31776e0646723f6a9d685aae668e0b8ed5269ca32a19b84b5a",
+      "transform": "LF and trailing display whitespace normalization; raw original retained locally"
+    }
+  },
+  "video_files_are_original_playwright_bytes": true,
+  "backend_logs_applicability": "N/A: browser route interceptor supplies unchanged explicit synthetic responses for the local API path; no backend transport executes."
+}

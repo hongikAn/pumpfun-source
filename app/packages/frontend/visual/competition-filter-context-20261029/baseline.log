@@ -1,0 +1,44 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:48632) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\leaderboard.spec.ts:559:5 › competition title filters do not hide participants after opening detail
+  1) tests\leaderboard.spec.ts:559:5 › competition title filters do not hide participants after opening detail
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('list', { name: 'Competition rankings' })
+    Expected substring: "synthetic-entrant"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" getByRole('list', { name: 'Competition rankings' }) with timeout 5000ms
+      - waiting for getByRole('list', { name: 'Competition rankings' })
+
+
+      578 |   await expect(
+      579 |     page.getByRole("list", { name: "Competition rankings" }),
+    > 580 |   ).toContainText("synthetic-entrant");
+          |     ^
+      581 |   await expect(page.getByLabel("Filter loaded results")).toHaveValue("");
+      582 |   await expect(page).not.toHaveURL(/[?&]q=/);
+      583 |   await expect(page).toHaveURL(/status=live/);
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\leaderboard.spec.ts:580:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-competition-filter-context-20261029\before\leaderboard-competition-ti-f3e43-ipants-after-opening-detail\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-competition-filter-context-20261029\before\leaderboard-competition-ti-f3e43-ipants-after-opening-detail\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-competition-filter-context-20261029\before\leaderboard-competition-ti-f3e43-ipants-after-opening-detail\error-context.md
+
+
+  1 failed
+    tests\leaderboard.spec.ts:559:5 › competition title filters do not hide participants after opening detail

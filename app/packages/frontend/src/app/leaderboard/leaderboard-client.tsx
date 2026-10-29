@@ -700,6 +700,7 @@ export default function LeaderboardClient() {
           detailHref={(competition) => {
             const next = new URLSearchParams(searchParams.toString());
             next.set("competition", competition.slug);
+            next.delete("q");
             next.delete("page");
             return `/leaderboard?${next.toString()}`;
           }}
@@ -735,7 +736,7 @@ export default function LeaderboardClient() {
             className="text-button"
             type="button"
             onClick={() =>
-              updateQuery({ competition: null, page: null }, false)
+              updateQuery({ competition: null, page: null, q: null }, false)
             }
           >
             ← Back to competitions
