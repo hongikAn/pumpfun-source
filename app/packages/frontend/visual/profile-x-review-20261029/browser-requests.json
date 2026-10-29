@@ -1,0 +1,22 @@
+[
+  "GET /profile/user-001",
+  "GET /_next/static/css/app/layout.css?v=1793280535276",
+  "GET /_next/static/css/app/profile/%5Bid%5D/page.css?v=1793280535276",
+  "GET /pump-logomark.svg",
+  "GET /_next/static/chunks/webpack.js?v=1793280535276",
+  "GET /_next/static/chunks/main-app.js?v=1793280535276",
+  "GET /_next/static/chunks/app-pages-internals.js",
+  "GET /_next/static/chunks/app/layout.js",
+  "GET /_next/static/chunks/app/profile/%5Bid%5D/page.js",
+  "GET /fonts/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2",
+  "GET /profile/user-002",
+  "GET /_next/static/css/app/layout.css?v=1793280538762",
+  "GET /_next/static/css/app/profile/%5Bid%5D/page.css?v=1793280538762",
+  "GET /pump-logomark.svg",
+  "GET /_next/static/chunks/webpack.js?v=1793280538762",
+  "GET /_next/static/chunks/main-app.js?v=1793280538762",
+  "GET /_next/static/chunks/app-pages-internals.js",
+  "GET /_next/static/chunks/app/layout.js",
+  "GET /_next/static/chunks/app/profile/%5Bid%5D/page.js",
+  "GET /fonts/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2"
+]

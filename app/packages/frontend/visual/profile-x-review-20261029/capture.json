@@ -1,0 +1,42 @@
+{
+  "sourceHead": "ec972afcfd9623633096aa2775d49d2c9f021264",
+  "recordedAt": "2026-10-29T13:29:00.650Z",
+  "events": [
+    {
+      "at": "2026-10-29T13:28:51.595Z",
+      "name": "start",
+      "mode": "1181",
+      "sourceHead": "ec972afcfd9623633096aa2775d49d2c9f021264",
+      "scope": "fresh review-response capture, not the earlier qualification run"
+    },
+    {
+      "at": "2026-10-29T13:28:57.436Z",
+      "name": "recorded X link visible",
+      "href": "https://x.com/alice_on_x",
+      "label": "@alice_on_x on X"
+    },
+    {
+      "at": "2026-10-29T13:28:57.463Z",
+      "name": "external target intercepted",
+      "url": "https://x.com/alice_on_x",
+      "networkResponse": "local synthetic HTML"
+    },
+    {
+      "at": "2026-10-29T13:28:58.587Z",
+      "name": "keyboard activation opened intercepted target",
+      "url": "https://x.com/alice_on_x"
+    },
+    {
+      "at": "2026-10-29T13:29:00.526Z",
+      "name": "missing handle omitted"
+    },
+    {
+      "at": "2026-10-29T13:29:00.528Z",
+      "name": "pass",
+      "violations": [],
+      "consoleErrors": []
+    }
+  ],
+  "violations": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,11 @@
+✔ omits missing, blank and a lone @ identity (4.397ms)
+✔ trims and removes exactly one leading @ as the captured badge does (2.6098ms)
+✔ encodes the complete username as one path segment without guessing validation (0.47ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 442.088

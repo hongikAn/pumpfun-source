@@ -1,0 +1,59 @@
+{
+  "review_response_date": "2026-10-29",
+  "source_head": "ec972afcfd9623633096aa2775d49d2c9f021264",
+  "baseline_source": "f634ae0aaaf719ee51507ef7c971d2a1d4f5e026",
+  "before_screenshot_origin": "Retained original baseline failure screenshot; not recaptured or edited for this review.",
+  "baseline_log_origin": "profile-x-baseline.log",
+  "after_origin": "Fresh review-response capture at the timestamp in capture.json; separate from original focused qualification.",
+  "source_and_unchanged_input_sha256": {
+    "app/packages/frontend/src/components/profile/ProfileXLink.tsx": "8bf3f6fbc59657ee8f3070c716ca986addcd175dbc850ed1af4037ff5e23957d",
+    "app/packages/frontend/src/components/profile/ProfileHeader.tsx": "b3d78764534ed1b18c048168b26661fdb79e5c2cf226c80c6f2165966f1e1936",
+    "app/packages/backend/src/users-seed.json": "56259663a146236df2f0e6e1d931df7cc2dda4d39ed7a090c18505434155b20d",
+    "app/packages/backend/src/posts-seed.json": "f4d12a7812b07be6dcef4b966430a086cba9e867ff89de669a95a74bdd73d705",
+    "app/packages/backend/src/following-seed.json": "37a0e7710055e94dd6035e3e6c418eac16797095471601ed059440ee97530dae"
+  },
+  "production_requests": false,
+  "captured_bundle_execution": false,
+  "private_transcript_included": false,
+  "build_receipt_note": "Existing successful receipts, reduced to relative cwd/log labels; published logs use disclosed LF/trailing-whitespace normalization, raw originals retained locally.",
+  "text_display_transforms": {
+    "baseline.log": {
+      "original_sha256": "03e484017c79e95f54ba882e4715c7b07946bdb61ccf62e73cb72d3a337004ea",
+      "published_sha256": "c8cbe736089a8757df4ede064c8dbe1619f0b97e7d3ca598f6401d87306b8f7a",
+      "transform": "UTF-8, LF line endings and trailing display whitespace removed; raw local originals retained"
+    },
+    "build.log": {
+      "original_sha256": "a1373ec554b90649f4457b395ec21c25e763b3b452046a20467602b7232620bd",
+      "published_sha256": "bee0e0c60f578950c574b72fb054dc671f739b1429deee304478528f957ab4ff",
+      "transform": "UTF-8, LF line endings and trailing display whitespace removed; raw local originals retained"
+    },
+    "capture.cjs": {
+      "original_sha256": "8335dc1290b7d99bb7c26ce861b3903df107b4857d838cde26bb1803a478f474",
+      "published_sha256": "aac9234076ee1045866e8505a24360b21dcbf16174521161891e5a3429a56e11",
+      "transform": "UTF-8, LF line endings and trailing display whitespace removed; raw local originals retained"
+    },
+    "capture.log": {
+      "original_sha256": "26c5ca051145b65ea8836ec872b9f9a7cc0aa0d493cc8ced4f3cd90b84b3efaa",
+      "published_sha256": "1ed705d9e658f2fc0585cc9e60f0366426af95d55a73310ad11b718053d737e7",
+      "transform": "UTF-8, LF line endings and trailing display whitespace removed; raw local originals retained"
+    },
+    "focused-browser.log": {
+      "original_sha256": "731f40ef30d67e9a994efffc8182d010eafcefcddecb75dd55f37e5f08f056dc",
+      "published_sha256": "73189af45fed931c56792d46dc6dd1c5b8f086735052805779b99837a39706f8",
+      "transform": "UTF-8, LF line endings and trailing display whitespace removed; raw local originals retained"
+    },
+    "focused-rendering.log": {
+      "original_sha256": "a36ec0439b419fe6d4c54a43c75d38c5b03fd02559f2bab948f0693d438f4972",
+      "published_sha256": "4166c8f931f590e24365739af85640a6ecebdec9c40216a2e2a85e8da8ff69a8",
+      "transform": "UTF-8, LF line endings and trailing display whitespace removed; raw local originals retained"
+    },
+    "frontend-server.log": {
+      "original_sha256": "bfead6a4fc3453a7d1be1f49084e23719931638fc26cdfd74906669627baa9e6",
+      "published_sha256": "e93ae3082afb4824dc4e8d13e9193ffc4bef7413339e60fb8a9666fc6dd767c9",
+      "transform": "UTF-8, LF line endings and trailing display whitespace removed; raw local originals retained"
+    }
+  },
+  "capture_script_executed_sha256": "8335dc1290b7d99bb7c26ce861b3903df107b4857d838cde26bb1803a478f474",
+  "published_capture_script_sha256": "aac9234076ee1045866e8505a24360b21dcbf16174521161891e5a3429a56e11",
+  "source_diff_raw_sha256": "b0e0ecef6f8ee309759a461d7431106027a3593f98bcc3f317fdc7f16cc06954"
+}

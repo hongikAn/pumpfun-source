@@ -1,0 +1,16 @@
+
+Running 8 tests using 1 worker
+
+
+
+(node:34936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/8] tests\profile-x-link.spec.ts:3:5 › recorded X identity is an accessible external link with keyboard activation
+[2/8] tests\profile-x-link.spec.ts:37:5 › profiles without a recorded X identity do not invent a link
+[3/8] tests\profile.spec.ts:21:5 › resolves an exact user id into a disclosed read-only profile
+[4/8] tests\profile.spec.ts:56:5 › resolves exact wallet addresses and preserves browser history
+[5/8] tests\profile.spec.ts:82:5 › renders fallback, empty and banned identity states honestly
+[6/8] tests\profile.spec.ts:103:5 › unknown, username and malformed identifiers do not select another user
+[7/8] tests\profile.spec.ts:118:5 › profile interaction stays local, read-only and free of external media
+[8/8] tests\profile.spec.ts:139:5 › required viewports keep identity and posts readable without overflow
+  8 passed (27.9s)

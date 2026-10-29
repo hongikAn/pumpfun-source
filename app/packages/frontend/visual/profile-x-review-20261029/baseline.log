@@ -1,0 +1,48 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:38132) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\profile-x-link.spec.ts:3:5 › recorded X identity is an accessible external link with keyboard activation
+  1) tests\profile-x-link.spec.ts:3:5 › recorded X identity is an accessible external link with keyboard activation
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('link', { name: '@alice_on_x on X', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('link', { name: '@alice_on_x on X', exact: true }) with timeout 5000ms
+      - waiting for getByRole('link', { name: '@alice_on_x on X', exact: true })
+
+
+       9 |   await page.goto("/profile/user-001");
+      10 |   const link = page.getByRole("link", { name: "@alice_on_x on X", exact: true });
+    > 11 |   await expect(link).toBeVisible();
+         |                      ^
+      12 |   await expect(link).toHaveAttribute("href", "https://x.com/alice_on_x");
+      13 |   await expect(link).toHaveAttribute("target", "_blank");
+      14 |   await expect(link).toHaveAttribute("rel", "noreferrer");
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\profile-x-link.spec.ts:11:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-batch3-20261029\profile-x-before-artifacts\profile-x-link-recorded-X--7063f-nk-with-keyboard-activation\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-batch3-20261029\profile-x-before-artifacts\profile-x-link-recorded-X--7063f-nk-with-keyboard-activation\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-batch3-20261029\profile-x-before-artifacts\profile-x-link-recorded-X--7063f-nk-with-keyboard-activation\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-batch3-20261029\profile-x-before-artifacts\profile-x-link-recorded-X--7063f-nk-with-keyboard-activation\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\profile-x-link.spec.ts:3:5 › recorded X identity is an accessible external link with keyboard activation
