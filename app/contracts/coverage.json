@@ -124,6 +124,18 @@
         "packages/frontend/tests/profile-x-link.spec.ts"
       ],
       "limits": "Recorded xUsername branch only; local synthetic placement, no account verification, twitterUrl fallback, tooltip/icon or original profile visual parity. No native API or milestone claim."
+    },
+    "offlineFeedAuthorNavigation": {
+      "status": "known-synthetic-feed-author-profile-navigation",
+      "qualified": false,
+      "uiIntegrated": true,
+      "evidence": [
+        "packages/frontend/HOME-FEED-EVIDENCE.md#local-author-profile-navigation-2026-10-29",
+        "packages/frontend/src/components/feed/FeedItem.tsx",
+        "packages/frontend/tests/home-feed.spec.ts",
+        "packages/frontend/tests/profile-walletless-render.node.ts"
+      ],
+      "limits": "Only exact known local author identities; unresolved names remain plain text. No username lookup, authenticated viewer, native callout resolver, original hover-card behavior, visual parity or API compatibility qualification."
     }
   },
   "sdk": {
@@ -218,6 +230,19 @@
         "packages/backend/test/profile-leaders.test.ts"
       ],
       "limits": "Existing local daily combined board and UserStore projection only; unresolved or duplicate selected profiles remain 501. No production PnL, ranking/deduplication/backfill policy, key/scope authorization or full operation compatibility claim."
+    },
+    "accountResolution": {
+      "operations": [
+        "GET /search/resolve"
+      ],
+      "status": "opt-in-known-uuid-account-resolution",
+      "defaultEnabled": false,
+      "qualified": false,
+      "evidence": [
+        "packages/backend/SEARCH-RESOLVE.md",
+        "packages/backend/test/search-resolve.test.ts"
+      ],
+      "limits": "Explicit injected UserStore, exact known UUID account IDs only; preserves order and repeated/mixed identifiers. Missing accounts, addresses, coins and unsupported shapes remain whole-request 501. No live registry, absence/chain classification, upstream fallback, production key/scope authorization or full operation compatibility claim."
     }
   },
   "frontendReadClients": {

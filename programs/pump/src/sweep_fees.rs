@@ -141,31 +141,23 @@ pub fn execute(ctx:Context<SweepFees>,creator:bool)->Result<()>{
 
 
 
-
- if creator{let expected=Pubkey::find_program_address(&[b"creator-vault",a.bonding_curve.creator.as_ref()],&crate::ID).0;require_keys_eq!(a.recipient.key(),expected,anchor_lang::error::ErrorCode::ConstraintSeeds);}
- else{crate::legacy_sell::fee_recipient::validate_fee_recipient(&a.recipient,&a.global,&a.bonding_curve)?;}
- let amount=if creator{
-  let amount=a.bonding_curve.creator_fee;
-  a.bonding_curve.creator_fee=0;
-  amount
- }else{
-  let amount=a.bonding_curve.protocol_fees;
-  a.bonding_curve.protocol_fees=0;
-  amount
- };
- if amount==0{msg!("Nothing to sweep for fee bucket {}",if creator{1u8}else{0u8});return Ok(());}
+ let amount;
+ if creator{let expected=Pubkey::find_program_address(&[b"creator-vault",a.bonding_curve.creator.as_ref()],&crate::ID).0;require_keys_eq!(a.recipient.key(),expected,anchor_lang::error::ErrorCode::ConstraintSeeds);
+  amount=a.bonding_curve.creator_fee;a.bonding_curve.creator_fee=0;
+ }else{crate::legacy_sell::fee_recipient::validate_fee_recipient(&a.recipient,&a.global,&a.bonding_curve)?;
+  amount=a.bonding_curve.protocol_fees;a.bonding_curve.protocol_fees=0;
+ }
+ if amount==0{msg!("Nothing to sweep for fee bucket {}",creator as u8);return Ok(());}
  let native=a.bonding_curve.quote_mint==Pubkey::default();
- if native{
-  if creator{
+ if creator&&native{
    let minimum=Rent::get()?.minimum_balance(0);
    if a.recipient.lamports()<minimum{
     crate::legacy_buy::native_payments::transfer(a.system_program.as_ref(),&a.payer,a.recipient.as_ref(),minimum)?;
    }
-  }
- }
- else{
-  crate::buy_v2::admit_associated_token_account(a.associated_quote_bonding_curve.as_ref(),&a.bonding_curve.to_account_info(),a.quote_mint.key(),a.quote_token_program.key(),&a.quote_mint.to_account_info(),a.quote_token_program.as_ref(),false,a.payer.as_ref(),a.system_program.as_ref())?;
-  crate::buy_v2::admit_associated_token_account(a.associated_quote_recipient.as_ref(),a.recipient.as_ref(),a.quote_mint.key(),a.quote_token_program.key(),&a.quote_mint.to_account_info(),a.quote_token_program.as_ref(),true,a.payer.as_ref(),a.system_program.as_ref())?;
+ }else if !native{
+  let quote_mint=a.quote_mint.key();let quote_token_program=a.quote_token_program.key();let quote_mint_info=a.quote_mint.to_account_info();let quote_token_program_info=a.quote_token_program.to_account_info();
+  crate::buy_v2::admit_associated_token_account(a.associated_quote_bonding_curve.as_ref(),&a.bonding_curve.to_account_info(),quote_mint,quote_token_program,&quote_mint_info,&quote_token_program_info,false,a.payer.as_ref(),a.system_program.as_ref())?;
+  crate::buy_v2::admit_associated_token_account(a.associated_quote_recipient.as_ref(),a.recipient.as_ref(),quote_mint,quote_token_program,&quote_mint_info,&quote_token_program_info,true,a.payer.as_ref(),a.system_program.as_ref())?;
  }
  crate::trade::quote_payments::transfer_to_owned(
   native,a.base_mint.as_ref().as_ref(),a.bonding_curve.as_ref(),

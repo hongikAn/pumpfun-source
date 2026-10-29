@@ -75,7 +75,7 @@ pub fn depth(curve: &BondingCurve, g: &Global) -> Result<u8> {
 
 
 
-fn global_quote(quote: Pubkey, g: &Global) -> bool {
+pub(crate) fn global_quote(quote: Pubkey, g: &Global) -> bool {
     quote == Pubkey::default() || quote == anchor_spl::token::spl_token::native_mint::ID || g.whitelisted_quote_mints.contains(&quote)
 }
 

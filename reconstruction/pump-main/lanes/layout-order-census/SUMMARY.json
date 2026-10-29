@@ -1,0 +1,38 @@
+{
+ "lane": "layout-order-census",
+ "baseline": "origin/main d2cb88d 1019/188",
+ "targets": "raw layout (all 831 normalized-only windows)",
+ "best_result": "analysis only; no shippable raw gain. Model reproduces official raw (188) exactly",
+ "model": {
+  "16_matched_our_order_data_equal": 286,
+  "plus_local_original_order": 646,
+  "plus_local_and_upstream_order": 965,
+  "full_original_order": 1014,
+  "original_order_but_our_upstream_hash_order": 759,
+  "today_plus_local_original_order": 272,
+  "today_plus_full_original_order": 293
+ },
+ "attempts": [
+  "730dc227 census model",
+  "5785b0ba linux-host metadata (1019/183)",
+  "8f9651c8 crate name pump x3 metadata variants (chance agreement)",
+  "6fc0151b with_account_name generic for 0x2bc0 (1018/188, loses 0x2bc0,0x6fef8)"
+ ],
+ "rejected_mechanisms": [
+  "Linux-host cargo metadata shim",
+  "root crate rename to pump (+mod pump) with mac/linux/v2 metadata",
+  "anchor with_account_name generic at set_reserved_fee_recipients"
+ ],
+ "unresolved": [
+  "U-block hash order of upstream generic instances (~255 windows): needs original root StableCrateId/metadata inputs",
+  "local def order: transfer-helper cluster 0x8b818..0x95610, v2/v3 handlers inside #[program] mod",
+  "8 ours-only units (12,824 B) inlined in original",
+  "rodata literal order"
+ ],
+ "next_ideas": [
+  "Unmatched-handler lanes: put each v2/v3 handler body in its #[program] fn (original location 0x13b9b8..0x14a8a8 between create and buy)",
+  "Consolidate per-module transfer helpers into one (likely generic) helper module at the original position",
+  "Inline multi_hop add/sub/div/move_lamports/route_event and Lamports::add_lamports",
+  "Recover original Cargo identity (lock graph/features/rustflags) to brute-force U hash order offline; otherwise raw identity needs an ordered link script as for AMM/Mayhem/Fees"
+ ]
+}
