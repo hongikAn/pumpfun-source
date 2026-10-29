@@ -157,6 +157,8 @@ export class LeaderboardStore {
     const user = userId ? this.userStore.getById(userId) : undefined;
     const verified = user ? this.userStore.isVerified(userId ?? '') : false;
     return {
+      // The board contract requires null when this profile lookup misses.
+      userId: user ? userId : null,
       username: user?.username ?? null,
       profileImage: user?.profile_image ?? null,
       xUsername: user?.x_username ?? null,
@@ -188,7 +190,7 @@ export class LeaderboardStore {
       xUsername: profile.xUsername,
       isVerified: profile.isVerified,
       verifiedBadgeVisible: profile.verifiedBadgeVisible,
-      userId: entry.userId,
+      userId: profile.userId,
     };
   }
 
