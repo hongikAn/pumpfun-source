@@ -1,8 +1,0 @@
-{
-  "checked_pr": 559,
-  "head_sha": "44697701d734c93a2e2321e850d62d368627c328",
-  "path": "research/claude-pump-integration-20261027/r37-layout-39/source/programs/pump/src/multi_hop_curve_swap.rs",
-  "source_sha256": "1e2102ae673f87db39cd4ed8a80e85de52d8267366c107c0aee37ccb6955ad9f",
-  "contains_whitelist_pda": false,
-  "note": "Authenticated connected GitHub per-file patch inspected. L39 helper changes overlap broader body work; this packet is only the novel crossing guard."
-}

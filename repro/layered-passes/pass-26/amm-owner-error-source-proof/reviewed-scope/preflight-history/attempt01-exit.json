@@ -1,5 +1,0 @@
-{
-  "returncode": 1,
-  "failure": "script basename inspect.py shadowed standard library inspect during argparse color initialization; no body decode occurred",
-  "correction": "renamed collector collect_static.py only"
-}

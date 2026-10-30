@@ -1,6 +1,0 @@
-{
-  "initial_patch_check_failed": true,
-  "followup_build": "composition label captured unmodified but unclassified source; SDKresult0 retained, not attributed to intendedproposal or749 baseline",
-  "baseline_hash_guard": "Caught copiedsharedsource hadchangedlib/buy/mayhem_virtual_params. Owncopy preserved as initial-unclassified-source; actualsharedsource NEVER modified.",
-  "resolution": "Reconstructed all57inputs from immutable own prior baseline map and restored exact hash-bound SetParams baseline, then applied only four explicitlyboundchanges."
-}

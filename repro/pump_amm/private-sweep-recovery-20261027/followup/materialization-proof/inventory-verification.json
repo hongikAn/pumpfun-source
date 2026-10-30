@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "preserved_files": 6472,
-  "preserved_payload_bytes": 1428638247,
-  "manifest_sha256": "5f8c0246e088a24eeadb95e19cca54858e2879a5d9584093bae82202593d7e33",
-  "seconds": 2.3389800830009335,
-  "checks": "Every retained result file is byte-identical to its immutable source-manifest hash; only outer manifest awaits future resealing."
-}

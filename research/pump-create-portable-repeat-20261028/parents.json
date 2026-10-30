@@ -1,6 +1,0 @@
-{
-  "proposal_manifest": "research/pump-create-used-boundaries-20261028/MANIFEST.json",
-  "proposal_manifest_sha256": "bb76099bd1956b83889c66f7e794ba5c251f46d85a5dfc624c8775dd9b0d89af",
-  "prior_canonical_manifest": "repro/pump/canonical-frontier-20261028/MANIFEST.json",
-  "prior_canonical_manifest_sha256": "3a4a8541cf82e5c0da0963c81f34e6a1c4de9ec6544d54052194e2020bbe2394"
-}

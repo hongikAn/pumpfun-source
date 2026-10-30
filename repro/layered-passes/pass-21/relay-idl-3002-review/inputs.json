@@ -1,9 +1,0 @@
-{
-  "repro/donation-relay/source-build-11-idl-discriminator/candidate.so": "34c54b8e1e625a46fd446bb8e6fa7c7f17afcb1fd7d2ef3719a16f630c98ce91",
-  "repro/donation-relay/source-build-11-idl-discriminator/source/src/idl.rs": "bb41c57f0805473554f845bb3251b9b552d9672a1782995cb336f8ad3d2f4fff",
-  "repro/donation-relay/source-build-11-idl-discriminator/source/src/exit_error.rs": "952e58fb46f52612ca0976bb2f7163aaacb2a1291db8fe628c65d873e439753c",
-  "repro/donation-relay/source-build-11-idl-discriminator/original-windows.json": "bbe3bb0f5003d457266e0a279c052026306100df316cbd344919cc2da13bc2cc",
-  "repro/donation-relay/source-build-11-idl-discriminator/proposal/REVIEW.md": "0fc8bad630fb97f4dc354f0d940cfa6a849820b3fa602c099c2d85487097ac71",
-  "repro/donation-relay/source-build-11-idl-discriminator/review.json": "450ccc25b012b49e56150d1b8fa0a1744c7b08c965a9946832569f3194251c3d",
-  "repro/donation-relay/source-build-11-idl-discriminator/original.so": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563"
-}

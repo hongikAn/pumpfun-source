@@ -1,5 +1,0 @@
---- a/src/mint_policy.rs
-+++ b/src/mint_policy.rs
-@@ -122 +122 @@
--   let fee_basis_points=u16::from(fee.older_transfer_fee.transfer_fee_basis_points) | u16::from(fee.newer_transfer_fee.transfer_fee_basis_points);
-+   let fee_basis_points=u16::from(fee.newer_transfer_fee.transfer_fee_basis_points) | u16::from(fee.older_transfer_fee.transfer_fee_basis_points);

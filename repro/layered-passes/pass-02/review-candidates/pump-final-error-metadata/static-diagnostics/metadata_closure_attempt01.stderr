@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-final-error-metadata-build/metadata_closure.py", line 46, in <module>
-    a=argparse.ArgumentParser();a.add_argument('--check',action='store_true');args=a.parse_args();r=run();p=P/'metadata-closure.json'
-                                                                                                    ~~~^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-final-error-metadata-build/metadata_closure.py", line 12, in run
-    messages=[v['msg']for v in json.loads((P/'approved-proposal/inputs/official-idl.json').read_text())['errors']]+['quote_mint must be writable for a quote with a Token-2022 transfer fee: its withheld fees are harvested to the mint']
-              ~^^^^^^^
-KeyError: 'msg'

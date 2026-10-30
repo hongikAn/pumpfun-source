@@ -1,9 +1,0 @@
-{
-  "all-call-sites.json": "0a60fd7a36765bff3a04988d1deb7ad65505814bc2c6c76c725c994f0ea39a2b",
-  "all-data-references.json": "dd6f62aa9332317e1913055764bd7115f5b99e96920735b11c420e5956ae12b1",
-  "candidate-gap-ledger.json": "0251b8ac4963dfe8637b5db305a7f57c981f9259c1b34fc473e46f67f0dfa4c2",
-  "complete-pair-alignments.json": "c93972990921f3ae661ffac1e2d72020949b8a7733e334614216641046877ba9",
-  "derive.py": "2c97c6f5608a2c3704c945534010c823572fe1db6a5ebd16c0bd069ed90216c9",
-  "inventory-summary.json": "a662053a7e39a0bcaaca7ed6cac6d3b8f6b2280618ebecc687e0dd411ab99108",
-  "original-gap-ledger.json": "ea41d39e6727997ff5f1d28a5077777292862805dc777754a6a5e1f7ddeaf553"
-}

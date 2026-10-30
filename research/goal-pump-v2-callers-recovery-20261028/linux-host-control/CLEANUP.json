@@ -1,9 +1,0 @@
-{
-  "scope": "Post-seal cleanup requested for partial-work wrap-up; original source/provenance/output images retained",
-  "removed_public_or_build_cache_directories": [
-    "platform-tools",
-    "downloads",
-    "target-linux"
-  ],
-  "recovery": "Pinned public SDK URL/hash are in sdk-archive.json; compiler recipe and lock archives in input-provenance.json"
-}

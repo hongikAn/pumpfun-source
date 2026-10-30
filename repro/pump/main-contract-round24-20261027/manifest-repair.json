@@ -1,5 +1,0 @@
-{
-  "reason": "Root hash-list excluded nested files sharing the MANIFEST.json basename; changed exclusion to exact root path.",
-  "previous_manifest_sha256": "b20996e69995c5d95c18899b41fd5754086aa0f119049f9c5c6534b20279ad1d",
-  "contract_and_tests_changed": false
-}

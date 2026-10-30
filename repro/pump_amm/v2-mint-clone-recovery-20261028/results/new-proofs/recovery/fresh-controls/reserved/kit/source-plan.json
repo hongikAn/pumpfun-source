@@ -1,6 +1,0 @@
-{
-  "base": "work/amm-fourth-wave-build-worker-20261027/source",
-  "candidate_sha256": "3fcae02128464717b29a0b3842fbba993d5d0befb4362c4094c8af8e32a8589d",
-  "patch_sha256": "e27a6cfa40eebcd016011f64d11b68e251c0f2c3a9fb551c702b56246d11ef57",
-  "full_build_performed": false
-}

@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "actual_terminal_completion_observed": true,
-  "packet_manifest_sha256": "d153ca5c4bee7e592e363e5622db0c2f1e8462c170604fe5aed7c59cc59dd806",
-  "VM_compiler_runs": 0,
-  "stdout_sha256": "64287678ec061a88b4f1e888d1380b8686ab7ca6892ddb63736562d5e6473ac7",
-  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-}

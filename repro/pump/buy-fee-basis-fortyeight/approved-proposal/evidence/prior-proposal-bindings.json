@@ -1,9 +1,0 @@
-{
-  "programs/pump/src/trade.rs": "9aa08f196bd3b0d07dfe5517e7a784a6559a88448e14bd3081796f55803b5dde",
-  "programs/pump/src/trade_types.rs": "c7a00a49c44294f4984f7268c54b0547374484920022b54495acb50ef6700207",
-  "programs/pump/README.md": "c16f47bd9dac06433282741117d4f9c5478b520c4b0fe828a64bc5ca95847108",
-  "repro/pump/buy-v3-whitelist-mode-contract/README.md": "0cb39ff97468bd60b5c1ec01399d0f2210f6104ac4b501d53ecd7459135a5f89",
-  "repro/pump/buy-v3-whitelist-mode-contract/source/whitelist_continuation.rs": "ddf35854d22f07196d9529260527f4a64bb0fcbc690cfb23be7c78671de520d8",
-  "repro/pump/buy-v3-whitelist-mode-contract/source/fee_mode.rs": "332e108cff0c5fef81dfbc51b19962677d954b9f2e62d11b3d920128c48b4e4c",
-  "repro/pump/buy-v3-whitelist-mode-contract/prior/b6/evidence/original.so": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d"
-}

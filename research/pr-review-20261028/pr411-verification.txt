@@ -1,9 +1,0 @@
-PASS 5 actual directcalls; 7 typedreferents; 6 vtablemethods;Source67/6023
-incoming {'original': 4, 'baseline': 4, 'candidate': 4}
-helper PASS [(352, '__multi3'), (72, '__udivti3')]
-raw gains [('0xf4180', 368), ('0xf7918', 1056), ('0xf8758', 104), ('0xf8d08', 688), ('0xf8fb8', 168), ('0xf91b0', 328), ('0xf92f8', 352), ('0xf9458', 320), ('0xfccb0', 328), ('0xfcdf8', 352), ('0xfcf58', 320)]
-liquidity 680 case triples, non-compute log mismatches (0, 0)
-buy 1011 case triples, non-compute log mismatches (76, 76)
-sell 575 case triples, non-compute log mismatches (88, 88)
-focused:216 fresh VM triples,648 independently verified signatures,102 failed rollback receipts; no state/CPI/return/log differences except compute
-PASS:733 ->735/785 normalized,148 ->159raw, no losses; complete inverse776B and caller688B;2+5 actual callees,7 typed references;2266 cached+216 fresh triples.

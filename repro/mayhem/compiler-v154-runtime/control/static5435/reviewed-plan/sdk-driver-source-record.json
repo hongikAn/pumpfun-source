@@ -1,7 +1,0 @@
-{
-  "file": "cargo-build-sbf-2.1.21.rs",
-  "url": "https://github.com/anza-xyz/agave/blob/8a085eebcb901b6846d1f82f4636667742146545/sdk/cargo-build-sbf/src/main.rs",
-  "sha256": "9a0c7b47d2c19f804a3f7a9b3152978fd514aaa71c4eb5348f22f116223b2fff",
-  "scope": "Immutable source of the measured driver release",
-  "source_commit": "8a085eebcb901b6846d1f82f4636667742146545"
-}

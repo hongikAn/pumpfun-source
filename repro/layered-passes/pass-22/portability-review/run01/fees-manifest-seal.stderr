@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/fees/verify.py", line 9, in <module>
-    assert H(P/'manifest.json')==(P/'manifest.sha256').read_text().split()[0]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

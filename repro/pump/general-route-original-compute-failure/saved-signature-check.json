@@ -1,8 +1,0 @@
-{
-  "scope": "Read-only saved message signature verification; no transaction executed or signed.",
-  "transaction_sha256": "60c819eef772c4289c5263e5f3e28066624c040e51ce2e2ebf4c15c9a8438ce0",
-  "transaction_bytes": 1088,
-  "signature_count": 1,
-  "all_signatures_valid": true,
-  "signer_pubkey": "DXyM8yAHqpMzDtvwz5DXoEUQmPxjJPMKCASCPhLMKpEx"
-}

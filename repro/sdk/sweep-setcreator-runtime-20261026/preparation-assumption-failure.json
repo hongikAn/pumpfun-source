@@ -1,8 +1,0 @@
-{
-  "source": "Actual exec tool observation, not a separately captured raw stderr stream",
-  "exit_code": 1,
-  "failure": "FileNotFoundError for assumed root-review/manifest.json",
-  "cause": "Root review d194 is a directly hashed review.json, not a manifest package",
-  "SDK_or_target_execution": 0,
-  "execution_outputs_changed": false
-}

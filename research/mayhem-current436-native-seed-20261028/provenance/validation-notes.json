@@ -1,5 +1,0 @@
-{
-  "first_packaging": "Reference-pin assertion rejected stale local parent verify.py (Gitblob72aab52b8536237529239611ba50f0d0badf3a20). Upstream cddc48ee3ef73b25982b70d5aff10d86adba277a had added special-file rejection; exact new Gitblobdcdae5f4107313a62852072ea234077d9fede022 is copied and checked. Build evidence is unchanged. This failure summary was reconstructed from the tool transcript.",
-  "first_test_run": "One mutation fixture wrote ASCII0 over an existing ASCII0 and therefore changed no bytes. Its expected rejection failed; the fixture now flips one bit, guaranteeing an actual second-row mutation. Original failure log retained. No verifier check or accepted evidence weakened.",
-  "scope": "No failed native compiler build in this increment. Three successful full builds include an intentional old-seed reversal. Current437 is newer than the frozen436 source; no437 compilation or runtime replay claimed."
-}

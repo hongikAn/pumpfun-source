@@ -1,5 +1,0 @@
-stack-offset-warnings: 0
-O0082: orig  12992  cand  12992  norm_eq=True raw_eq=False  ratio=1.0000 diffslots~0  (1 cand)
-O0084: orig  18096  cand  18144  norm_eq=False raw_eq=False  ratio=0.2957 diffslots~2255  (1 cand)
-matched 438 raw 100 gains [] no_losses True losses {} profile_losses 0
-$L/tools/build.sh v4p $L/roots/v4p ir  6.85s user 0.79s system 53% cpu 14.144 total

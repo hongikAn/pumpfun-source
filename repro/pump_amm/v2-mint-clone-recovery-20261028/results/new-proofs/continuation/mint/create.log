@@ -1,2 +1,0 @@
-{"scope": "Signed create extension collisions with early argument and mode gates.", "candidate_sha256": "dbb5dcfd1a1487e22d61ae68d22a9b74087b78a868a08ab974c7bdbb127f1500", "original_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7", "producer_sha256": "b646c6b49f541ef378b3a879852feab0efa453dec23c56fd4fc7b8d4709f660e", "shared_fixture_helper_sha256": "5b81b1e134ec6ccde41a4b46f6df191859bf31f652b7751b17ee689f56179208", "case_count": 80, "mismatch_count": 0}
-[]

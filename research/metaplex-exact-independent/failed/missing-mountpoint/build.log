@@ -1,3 +1,0 @@
-docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/home/ahi200/pumpfun-work/20261028-metaplex-exact/first/target" to rootfs at "/build/programs/token-metadata/target": create mountpoint for /build/programs/token-metadata/target mount: make mountpoint "/build/programs/token-metadata/target": mkdirat /var/lib/docker/rootfs/overlayfs/2ff03718cf8ca7ac5d59116552de4cd37fdf48c0862bd3a055a5f9c30b044e06/build/programs/token-metadata/target: read-only file system
-
-Run 'docker run --help' for more information

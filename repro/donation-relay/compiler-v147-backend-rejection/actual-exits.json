@@ -1,9 +1,0 @@
-{
-  "root_execute_session": 4830,
-  "root_terminal_exit": 1,
-  "cargo_child_exit": 0,
-  "controller_exit": 1,
-  "independent_initial_after_collector_exit": 0,
-  "independent_full_after_collector_exit": 0,
-  "strip_readelf_postlink_runtime_executions": 0
-}

@@ -1,7 +1,0 @@
-{
-  "scope": "Use the qualified order for byte-identical Round28/Round29 primary source; no source changes in this round.",
-  "result_sha256": "96bb8e883d9b02249b857a7c5e4655df04e3802d0c3801959bee7d6d6b4717c8",
-  "order_sha256": "5c9239984f299ab40eac194efabb38d5b53ef14fd5d38ef7d6708d65e5252bab",
-  "expected_candidate_sha256": "6791b39c866bae8c1c3ceb6f1b9786e2ad2a8c7adfb7b7c75ce00c474569efd1",
-  "expected_unstripped_sha256": "2e2e5dbd8f72cc86c2801c911ab9844ee6582b8576ed1c251a419d171de19157"
-}

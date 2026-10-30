@@ -1,5 +1,0 @@
-{
-  "source_helpers_runtime_inputs_tools_unchanged": true,
-  "sole_expected_scratch_delta": "programs/mayhem/src/instructions/sell_pump_swap.rs",
-  "locked_dependencies_reverified": 215
-}

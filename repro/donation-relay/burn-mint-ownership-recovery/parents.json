@@ -1,7 +1,0 @@
-{
-  "repro/donation-relay/jupiter-option-source-recovery/manifest.json": "8514e4ff5532258cb1ecdd3528d26d76f05b5d2823f5aa82ca48b2fdaa8b4c3f",
-  "repro/donation-relay/jupiter-option-source-recovery/verify.py": "a0b92158236337af7b24d93ed8c00137b93b9ffdd29be03724cbb90dad8bebc3",
-  "repro/donation-relay/local-validation-proposal/harness_proposal.py": "fd6df62699bc5732fffca65d7e6b5c1c872746180563ca3e320f7dbe11f7cb1b",
-  "repro/donation-relay/source-location-recovery/verify.py": "1856a061e7707b59707c23aa94c7c114b1dea96be33391a033bdf1b99e554a5f",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/verify.py": "ef7a62cb052ba72b13a7abe82a74cc9b24fde045e52693d8eba4ee0de8345c27"
-}

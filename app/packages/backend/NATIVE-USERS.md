@@ -91,17 +91,27 @@ any of them is a contract decision, not a bug fix.
     omitted), users with a non-empty `wallet_label` are excluded from search results; when
     `'true'` or `'1'`, they are included. `'false'` and `'0'` are accepted as explicit false;
     any other supplied value (including an empty one) returns `400 {"error":"INVALID_QUERY"}`.
-15. **Lookup miss on `GET /users/{id}/overview`** returns `404 {"error":"NOT_FOUND"}` when
-    no user matches the requested `id`, consistent with `GET /users/{id}` and the OpenAPI spec
-    note ("A user id with none is a 404").
+15. **Lookup miss on `GET /users/{id}/overview`** distinguishes account IDs from wallets,
+    as specified by OpenAPI and captured factory `463539-82e5f0bd54e4`. A base58 identifier
+    decoding to exactly 32 bytes with no local row returns 200, `profile: null` and
+    `isPumpUser: false`; other misses retain `404 {"error":"NOT_FOUND"}`. Existing rows
+    take precedence over format classification. This immutable store is the complete
+    **local synthetic account snapshot**: absence says nothing about real upstream
+    registration, and no network lookup or transport-error classification is performed.
+    The separate `GET /users/{id}` response is unchanged.
 16. **Overview `viewer` omitted**: Anonymous callers receive no `viewer` object, matching
     the OpenAPI spec description ("Absent on anonymous responses").
     Overview `isPumpUser` follows the documented `profile !== null` invariant (also
     captured in factory 463539), independently of the nested row's optional
-    `is_pump_user` field. Every successful local overview includes a profile; unknown
-    identifiers retain the existing 404 boundary. Raw user rows are unchanged.
-17. **Overview degraded services**: The local reconstruction backend operates entirely in-memory
-    with no failing microservices, so `degraded` is returned as `[]`.
+    `is_pump_user` field. Raw user rows are unchanged.
+17. **Overview unavailable legs**: An absent local wallet has `verified: false` and
+    `achievementBadgeIds: []`, the explicit external-wallet defaults in factory 463539.
+    Its follow counts, ban verdict and created-coins count are unavailable: both counts,
+    `banned` and `createdCoinsCount` are null, with `degraded` exactly
+    `["counts", "banned", "created_coins"]` and `Cache-Control: no-store`, as required for
+    an anonymous degraded overview. Present profiles retain their existing values and
+    `degraded: []`. Every successful response retains the synthetic provenance header;
+    this implements a local response state, not production compatibility qualification.
 18. **`POST /profiles/verified` validation boundaries**: Rejects with `400` if `ids` is empty
     (`minItems: 1`), exceeds 200 items (`maxItems: 200`), or contains any non-string or id
     longer than 64 characters (`maxLength: 64`).

@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "stdout": "{\"passed\": true, \"admitted_rows_reused\": 2, \"fixed_argument_links\": 11, \"next_body_followed\": false, \"new_body_data_or_target_execution\": 0, \"active_ledger_updated\": false}\n",
-  "stderr": "",
-  "actual_terminal_completion_observed": true,
-  "relocated": true,
-  "packet_seal": "e42217f7a6d79027dd3eb0c97d1da215942efd986f154b70ce5704af82f94b9a"
-}

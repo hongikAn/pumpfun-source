@@ -1,9 +1,0 @@
-{
-  "HEAD_observed": "1bf4c08bb88a5c240f21548b089bae14958683bc",
-  "archive_versions_checked": 16,
-  "negative_absent_checked": 8,
-  "passed": true,
-  "positive_exact_checked": 224,
-  "scope": "working tree bytes only, no staging or semantic/execution claim",
-  "workflow_excluded_for_separately_pinned_CIv7": 1
-}

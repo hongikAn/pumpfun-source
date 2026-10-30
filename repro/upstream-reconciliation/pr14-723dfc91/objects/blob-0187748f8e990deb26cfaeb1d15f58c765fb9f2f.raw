@@ -1,5 +1,0 @@
-{
-  "original_sha256": "6bd1b239416f43f5ece09e5d1fd5d575210fb5969bfc1606937f6ab132ff18ab",
-  "sanitized_sha256": "92bf476265ebb9404bf4a0853a6d1723c4a2abdf84593370c36abbcb2367e3ff",
-  "scope": "Only query strings on public release-download URLs are redacted; raw log retained in work directory."
-}

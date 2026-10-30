@@ -1,8 +1,0 @@
-{
-  "README.md": "6b86bf656ffd072bdf0e631c8799342bdb72e0fcd9a24493c9010c7177e36d7a",
-  "build_source_manifest.py.after": "05eb3446b95c0b7b80517fe05a98a9841fa53053fe39ca56fe2659daf6b58df0",
-  "build_source_manifest.py.patch": "8292f435fa4538f7bfb2fc9bc82a3fc80f501958632b755e106bbf46adedf56d",
-  "build_supported_sbpf_candidate.py.after": "dd3f945f311c8ed17939de76fcd2e8e86a448f1eb239ae16479ed3c1cc351518",
-  "build_supported_sbpf_candidate.py.patch": "b86b2ce330b928e37695a671fca502453af4677877ee9452cf5b70836098be4e",
-  "transition.json": "3c203f9bd1cb634d48ec03cb3abe469b679999493e15ba2cf1c1f0123b924cb4"
-}

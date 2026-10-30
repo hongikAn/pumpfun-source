@@ -1,9 +1,0 @@
-{
-  "url": "https://github.com/anza-xyz/platform-tools/releases/download/v1.54/platform-tools-linux-x86_64.tar.bz2",
-  "sha256": "fcc41631c7f77561bf5412218bf297501dccf0305ea280f338f0ace2aab9f31e",
-  "bytes": 520154357,
-  "target_inventory": "layout-lane-linux-target2-inputs.json",
-  "compiler": "unmodified Mac v1.54 Rust compiler, with its unchanged host libraries",
-  "target": "unmodified Linux v1.54 sbpf-solana-solana target directory from the official archive",
-  "scope": "Mixed SDK provenance control, not a native Linux build; no global SDK mutation"
-}

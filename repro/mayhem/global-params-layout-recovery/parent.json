@@ -1,9 +1,0 @@
-{
-  "commit": "2f8ec04a5db57c3be8efe94733b24cea7581bdff",
-  "decoded_candidate_sha256": "46b6a660c35868ac3821bc3edac5817e6ceb640679e5e9538e6004dc1a5e31e8",
-  "decoded_symbols_sha256": "2e5acc7beed21099fd4154195a93259c9f1e9f17ec18c007faf67b93a9f51ec3",
-  "manifest_sha256": "454515ef873051cc54e4d105a2c44e0d859de98b3effc643cd19229b57cb45c3",
-  "note": "Historical commit is provenance only. Verification uses retained source/decoded artifact hash bindings and never requires Git object access.",
-  "path": "repro/mayhem/shared-errors-typed-cpi",
-  "source_input_document_sha256": "adb42edc77514f7129ee297734f778bb46c69059567663474a7522c4a3df85aa"
-}

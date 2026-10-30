@@ -1,6 +1,0 @@
-{
-  "upstream_review_package": "repro/pump_fees/v2-caller-source-proposal",
-  "upstream_manifest_sha256": "3ec845f42c97b7512ea8a7e797d28e3203dc9bb06278a13b094a5d3f9d2b4349",
-  "review_sha256": "cfbfff5d77870668948c60324636058ef0afbc54c01543a10934a76029dbae32",
-  "current_legacy_source_sha256": "94a11c22bc952b060119212b7982e638f8faf56af5e565e15234f88283766956"
-}

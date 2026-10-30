@@ -1,8 +1,0 @@
-{
-  "repro/donation-relay/donation-wrapper-artifact-recovery/metadata.json": "568fcb5d4504a00d1f545108e6191e1cad82d4d6260e4785567178c8e6e57c7d",
-  "repro/donation-relay/donation-wrapper-artifact-recovery/manifest.json": "ce9919a34ebbb984a7cde5114a98fccde70e2652ecc8d5c53eeb9f146c7cb5eb",
-  "repro/donation-relay/donation-wrapper-source-proposal/verify.py": "bc1f423814ff6960200ea22ad3057cca8762a6fc02d6bdb5ef51ce72002ee169",
-  "repro/donation-relay/donation-wrapper-source-proposal/manifest.json": "9f02988c5b30b463c94dd8af27133757240763c30c3750c1fdbc44352be20e76",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/analyze.py": "095fc2d63be0fe4233bdf4e5946cac8d03d9b1747fd39147eea9a98c12dda175",
-  "repro/donation-relay/generated-donation-source-recovery/captured-idl.json": "b075f7b39b019630067e5f6a67015396ccbd66d282c7da048753660506472d6c"
-}

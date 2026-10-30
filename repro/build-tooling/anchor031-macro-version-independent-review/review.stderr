@@ -1,6 +1,0 @@
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/anchor031-macro-version-independent-review/review.py:10: SyntaxWarning: invalid decimal literal
-  raw=(R/row['file']).read_bytes();assert H(raw)==row['sha256']and len(raw)==row['bytes']and row['status']==200and row['url']==row['final_url']
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/anchor031-macro-version-independent-review/review.py:53: SyntaxWarning: invalid decimal literal
-  lock={(x['name'],x['version']):x for x in tomllib.loads((R/'context/current-Cargo.lock').read_text())['package']};cache=J(R/'context/cache-allowlist.json')['files'];cached=J(R/'cached-archive-bindings.json');assert len(cached)==12and not(download&{(r['name'],r['version'])for r in cached})
-/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/anchor031-macro-version-independent-review/review.py:56: SyntaxWarning: invalid decimal literal
-  pre=(R/'analyze.pre-completion.py').read_text();now=(R/'analyze.py').read_text();derivation=J(R/'analyzer-completion-derivation.json');assert len(derivation['literal_replacements'])==5and H(pre.encode())==derivation['original_sha256']and H(now.encode())==derivation['completed_sha256']

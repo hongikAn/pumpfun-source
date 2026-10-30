@@ -1,9 +1,0 @@
-{
-  "scope": "Same 735 case results, rerun from /tmp using the bundled scratch harness; not additional unique cases.",
-  "cases_equal": true,
-  "case_count": 735,
-  "candidate_sha256": "5b0bffda1c423cb1989822542086d8dd806ab0f7cd419c3899dc57e58433c848",
-  "standalone_harness_sha256": "708fe4e3f6e963a853f208d06ea1d9fc8228b70d89f88f0242f05866baebce40",
-  "standalone_report_sha256": "150af8406df02971dc64678f3216118b47dc4713c1f4246a44312eb5eb8063c2",
-  "executed_helpers_report_sha256": "150af8406df02971dc64678f3216118b47dc4713c1f4246a44312eb5eb8063c2"
-}

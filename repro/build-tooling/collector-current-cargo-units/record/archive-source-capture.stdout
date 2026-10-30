@@ -1,7 +1,0 @@
-{
-  "status": "PASS_ALL_OBSERVED_REGISTRY_SOURCE_FILES_MATCH_APPROVED_LOCKED_ARCHIVE_MEMBERS",
-  "registry_source_raw_path_spellings": 1283,
-  "unique_registry_source_files": 1283,
-  "registry_packages": 176,
-  "source_file_bytes": 18566442
-}

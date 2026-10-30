@@ -1,7 +1,0 @@
-{
-  "archive_sha256": "66e20d135fddd70ff519baf7ff320d762957f9aedf93a50e23756db23ad79351",
-  "tools": {
-    "rust/bin/cargo": "cd27e4113fc155b5e79fca97c1cc5447ef89d1c8ce3d0e1e5679d2dd7a9ab0ef",
-    "rust/bin/rustc": "1f26338cc2cabd0a6057dcbd0528bba262b23ca1296d357a55304ee31d1d9e5a"
-  }
-}

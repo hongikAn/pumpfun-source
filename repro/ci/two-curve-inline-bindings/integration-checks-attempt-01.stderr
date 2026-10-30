@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/next-reconstruction-integration-review/check_integration.py", line 69, in <module>
-    assert status[key] == proposal, key
-           ^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: pump_fees

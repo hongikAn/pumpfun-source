@@ -1,7 +1,0 @@
-{
-  "returncode": 1,
-  "stage": "source-string check before static verifier invocation",
-  "cause": "Verifier expected parenthesis before as-u64; actual incoming source uses ? as u64",
-  "resolution": "Fix token matcher only, no source/evidence/body changes",
-  "new_VM_or_build": 0
-}

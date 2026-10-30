@@ -1,4 +1,0 @@
-{
-  "prior_manifest_sha256": "1de3174e7f8b54bbf27f01998ca770c62f92adf2532cdef37ec9dbd266d046d8",
-  "correction": "Report-only candidate distribution108 end corrected from unchecked60264 to ledger58584; source/evidence/assertions unchanged; prior packet retained."
-}

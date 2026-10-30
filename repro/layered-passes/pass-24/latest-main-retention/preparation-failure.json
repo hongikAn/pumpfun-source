@@ -1,8 +1,0 @@
-{
-  "prior_seal": "67c55cefdc978e579a7dd7b2acc356cf4d771528c602159c3ebc98d529492d0d",
-  "prior_saved_verifier_exit": 1,
-  "cause": "Own directory mapping used underscore status keys as nonexistent crate directories; AMM/Fees use hyphen crate names and shared workspace",
-  "repair": "Explicit frozen known crate/workspace layout only; same126Gitblobs/sizes/hashes and same107expectedsource hashes",
-  "compiler_or_vm_executed": false,
-  "excluded_source_body_read": false
-}

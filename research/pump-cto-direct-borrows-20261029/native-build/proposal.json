@@ -1,9 +1,0 @@
-{
-  "source_path": "src/creator/admin_cto.rs",
-  "frozen_file": "cto.rs",
-  "before_sha256": "6353b1f7b9e613bb8d819000c504d44410b04f7da7dfbdc7fb2e5132df100180",
-  "after_sha256": "f4a2bb7d33431e0fb4911e39d5e03c8bb9f45c6f7a184da21d1a6762f9127955",
-  "state": "uncompiled independent proposal; not accepted coverage",
-  "source_proposal": "https://github.com/lalalune/pumpfun-source/pull/712",
-  "source_proposal_head": "89ecb2b0785c7157e696f4dcbe7d1dc0a5207a8c"
-}

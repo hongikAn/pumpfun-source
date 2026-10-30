@@ -1,8 +1,0 @@
-{
-  "stage": "initial boundary crosswalk static check",
-  "error": "AssertionError: missing start evidence",
-  "address": 1405624,
-  "cause": "Crosswalk initially omitted original nonzero STT_FUNC symbols; custom_panic supplies this boundary.",
-  "correction": "Retain original function-symbol evidence in addition to entry, relocated pointers and direct calls.",
-  "build_or_target_execution": false
-}

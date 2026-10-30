@@ -1,8 +1,0 @@
-{
-  "status": "AUTHENTICATED_BEFORE_ONE_ORDINARY_NATIVE_WARM_BUILD",
-  "environment_reference_sha256": "9b20d3ed39d61c05fc72b590c95c32e13d79b47f656c3153a2c468b215b04f94",
-  "SDK_tool_files": 1855,
-  "archive_pins": 254,
-  "registry_source_files": 4176,
-  "source_binding_sha256": "5fd57a772c5d7873ef8679f1bfc4eff592c52cb5018179e5e4f21fcc8b13dd36"
-}

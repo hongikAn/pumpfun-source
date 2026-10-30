@@ -1,1 +1,0 @@
-Initial check_static.py failed after writing complete new inventory: inventory_method.compare requires historical inputs/prior/catalog.json. No target execution occurred. Original exception FileNotFoundError retained here; repair copies the exact historical method dependency.

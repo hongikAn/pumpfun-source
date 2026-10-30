@@ -1,2 +1,0 @@
-# Preserve opaque incoming source, scripts, fixture and document bytes.
-incoming/** -text -whitespace

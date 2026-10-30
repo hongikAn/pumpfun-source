@@ -1,8 +1,0 @@
-warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
-package:   /Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-anchor-router-v148/source/legacy/Cargo.toml
-workspace: /Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-anchor-router-v148/source/Cargo.toml
-     Locking 249 packages to latest compatible versions
-      Adding borsh v0.10.4 (available: v1.8.1)
-      Adding generic-array v0.14.7 (available: v0.14.9)
-      Adding indexmap v2.11.4 (available: v2.14.2, requires Rust 1.85)
-      Adding solana-program v2.2.1 (available: v2.3.0)

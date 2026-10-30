@@ -1,2 +1,0 @@
-WARNING: The following functions are undefined and not known syscalls ["abort", "sol_try_find_program_address", "sol_log_", "sol_panic_", "sol_memcpy_", "sol_log_data", "sol_invoke_signed_rust", "sol_get_clock_sysvar", "sol_get_rent_sysvar", "sol_memset_", "sol_log_pubkey", "sol_memmove_", "sol_memcmp_"].
-WARNING:          Calling them will trigger a run-time error.

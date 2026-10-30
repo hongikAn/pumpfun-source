@@ -1,7 +1,0 @@
-{
-  "path": "mayhem-sdk/v1.54/rust/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld",
-  "sha256_before_and_after": "4b6b38fea6c6d6510a406d945e8b5db5763820c3a79b2e6d785deb365788a87c",
-  "mode_before": "0o644",
-  "mode_after": "0o755",
-  "scope": "Explicit executable-mode installation repair; bytes unchanged from downloaded/extracted SDK. Not a claim of unmodified archive file modes."
-}

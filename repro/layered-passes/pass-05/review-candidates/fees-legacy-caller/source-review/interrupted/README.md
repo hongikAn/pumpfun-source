@@ -1,7 +1,0 @@
-# Interrupted Fees legacy caller composition
-
-The CLI worker stopped at the account usage limit before writing its report, manifest or final review. Root preserved its source and static evidence exactly and supplied only packaging metadata. The single-file source proposal is **uncompiled, unaccepted and requires full review**. No candidate executable or runtime result belongs to this proposal.
-
-The proposed legacy-only changes compose the recovered remaining-slice preprocessing, place shareholder validation after the AMM call, filter executable recipients and rescale retained weights, serialize changed current shareholders before Pump CPI, skip empty payouts and separate scalar/total/duplicate validation order. V2 and the existing contexts remain byte-for-byte in the proposal. These are review targets, not an assertion that every new branch, allocation, diagnostic or CPI is correct.
-
-`worker-files-at-interruption.json` hashes every file written before interruption. Root's packaging does not alter those files. The worker's `verify.py` can now check exact retained bytes, prior seals, selected static instructions and declared source-stage order. Such a pass does not replace the missing complete source review or establish Rust type correctness, whole-function equivalence, saved-case preservation or historical source identity. Retain the original partial worker result when producing a later corrected proposal.

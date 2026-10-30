@@ -1,9 +1,0 @@
-srf_gctop: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9128 bytes  | -97 +91 | 0x2288 cand 232 bytes  | -0 +0
-srf_index: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9128 bytes  | -97 +91 | 0x2288 cand 232 bytes  | -0 +0
-srf_splitfirst: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9128 bytes  | -97 +91 | 0x2288 cand 232 bytes  | -0 +0
-srf_firstcopied: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9128 bytes  | -97 +91 | 0x2288 cand 232 bytes  | -0 +0
-srf_intoiter: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9600 bytes  | -210 +263 | 0x2288 cand 232 bytes  | -0 +0
-srf_none: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 8632 bytes  | -357 +293 | 0x2288 cand 232 bytes  | -0 +0
-srf_postlocal: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9152 bytes  | -120 +117 | 0x2288 cand 232 bytes  | -0 +0
-srf_take: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9136 bytes  | -89 +84 | 0x2288 cand 232 bytes  | -0 +0
-srf_range: 756 150 G ['0x2288', '0xc5d0'] L [] | srf cand 9136 bytes  | -137 +132 | 0x2288 cand 232 bytes  | -0 +0

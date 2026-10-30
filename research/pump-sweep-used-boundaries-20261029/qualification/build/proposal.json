@@ -1,9 +1,0 @@
-{
-  "source_path": "src/sweep_fees.rs",
-  "frozen_file": "sweep.rs",
-  "before_sha256": "8735adba8b670c3b4ee63a6fd716d1d639be6efa56269a15365c15ff2f44ba0c",
-  "after_sha256": "15dbbd46bdbe7af62c6b7bb436f657c45e290c080c185fc075b7a3c08e3df7e8",
-  "state": "uncompiled independent proposal; not accepted coverage",
-  "source_proposal": "https://github.com/lalalune/pumpfun-source/pull/713",
-  "source_proposal_head": "819609edf904d975550c6e13cd0987e1b76e141b"
-}

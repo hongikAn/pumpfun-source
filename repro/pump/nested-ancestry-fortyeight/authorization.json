@@ -1,7 +1,0 @@
-{
-  "scope": "Exact3reviewedfiles promoted; onecleanmain build. Require both stripped andsymbolELF identity before receiptinheritance. No other edits/variants/newruntime.",
-  "approved_scratch_seal": "3a907ab0ae1ae926c94951c98aede4da512e8a39e5bca5c5a437fe5fd1464f9c",
-  "expected_candidate_sha256": "568546bcf038740d995325c1e742528f218f630840ac152f96dcf5c2147eabc2",
-  "expected_symbols_sha256": "ca42ab7b4ba47c3ce16929abaf5a62e8a0740877906e9b653c517492c0150025",
-  "README_role": "Final README recorded separately; actual compiler source closure measured by unchanged build helper, expected37files."
-}

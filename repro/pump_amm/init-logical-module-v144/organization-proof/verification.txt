@@ -1,1 +1,0 @@
-PASS: initializer derive ownership and authentic diagnostic path/line; original workspace/module contents remain unproved.

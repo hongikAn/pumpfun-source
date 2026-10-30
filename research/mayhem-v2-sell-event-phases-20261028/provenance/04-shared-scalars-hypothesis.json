@@ -1,7 +1,0 @@
-{
-  "hypothesis": "Reuse the already read state/real/virtual scalar values for native event fields, retaining all field values and key timings. Tests whether repeated conditional loads caused the four extra event CFG blocks in03.",
-  "source_paths": [
-    "src/instructions/buy_v2.rs",
-    "src/instructions/pump_interface_v2.rs"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "previous_seal": "c2292c506259b6b19e26b3fd69aba57a8b51f33a95ad68600316f71d2ec321b3",
-  "reason": "Default 200,000-CU original transaction exhausted compute after two events. Proposed ordinary ComputeBudget instruction sets exactly 600,000; no VM override.",
-  "prior_failed_transactions": 1,
-  "prior_accepted_cases": 0,
-  "v4_runtime_executions": 0,
-  "v4_signatures_created": 0,
-  "unchanged_case_matrix": 16
-}

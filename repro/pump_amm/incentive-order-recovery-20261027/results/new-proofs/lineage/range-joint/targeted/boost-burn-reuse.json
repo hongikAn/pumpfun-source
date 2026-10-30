@@ -1,8 +1,0 @@
-{
-  "scope": "Reuse of this exact candidate fresh core boost-burn executions; no extra VM run.",
-  "candidate_sha256": "c20007e860f47db1cc443344605afafe505d61bb4de6d61306fa164db3482544",
-  "files": {
-    "boost_burn.json": "f9177fdd2f0f54591079c23d60acd64ab1d643b62d7663c31d289a64b89440e2",
-    "boost_burn-transactions.json.gz": "39ec32ad65b93084cffde13d4210e51fcb110a6b5521c4260ef91cd11b2dc18e"
-  }
-}

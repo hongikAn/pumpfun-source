@@ -1,8 +1,0 @@
-{
-  "plan_sha256": "33eabee50c50b9af036c3fc6992426b5b341e207f7c99afe97801a837b6a9c2d",
-  "controller_sha256": "2afe5499e8d2a56315334b1992aadbc461f3142b13e80ab0af19e6cf853e4e59",
-  "one_compile_attempt": true,
-  "actual_managed_manifest": "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/programs/pump-amm/Cargo.toml",
-  "active_source_patch_by_controller": false,
-  "runtime_executions": 0
-}

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/p23-portability-ihgwpskh/packet/verify.py", line 54, in <module>
-    a=argparse.ArgumentParser();a.add_argument('--current-root',type=Path);a.add_argument('--runtime-signatures',action='store_true');args=a.parse_args();print(json.dumps(run(args.current_root,args.runtime_signatures),indent=2))
-                                                                                                                                                                           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/p23-portability-ihgwpskh/packet/verify.py", line 45, in run
-    assert H(P/'source'/n)==h
-           ^^^^^^^^^^^^^^^^^^
-AssertionError

@@ -1,8 +1,0 @@
-{
-  "run_id": 40155945720,
-  "url": "https://github.com/lalalune/pumpfun-source/actions/runs/40155945720",
-  "head": "ef366c7ae0adb6184024e9e597b2d12fcafebf45",
-  "conclusion": "failure",
-  "compilation_succeeded": true,
-  "failure_reason": "Source compilation succeeded; final full-byte equality requirement failed."
-}

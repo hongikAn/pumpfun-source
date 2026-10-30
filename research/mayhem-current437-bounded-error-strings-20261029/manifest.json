@@ -1,9 +1,0 @@
-{
-  "README.md": "0128b74ae3acc774ab1e4613fc337506661da547235cd088950d6d99c3b25a6d",
-  "coverage-delta.json": "e7cae6dd26e406a43d34d428a5ea8ee87c8e2ec3d4fc852d183d06b98eaa722e",
-  "inputs.json": "2df7beebe67d5e6c993bb9fe336551feb1af7aa1a0fd4f45ccb71da84754e95c",
-  "observations.json.gz": "cdf847936d553dd7f296a43fa0513c774ebb54788050a06e2090ec24643d94f7",
-  "proof.py": "680e08cbd025dc8f622c3c11c7e9b5b8f4e3a96e4f6fc9c786e29457d07556c0",
-  "test_verify.py": "d0a17bae0fa61f6e8bb10b062136aebc3c6cc4dc4f0110420db14065c6e803c6",
-  "verify.py": "093bff736fe9c6896970e5265f5f2b499563c4e12f4e69f8500cce96cb6aa52a"
-}

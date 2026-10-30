@@ -1,2 +1,0 @@
-# Preserve exact measured source bytes, including retained EOF.
-download/extracted/source/src/dispatch.rs -whitespace

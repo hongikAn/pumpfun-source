@@ -1,7 +1,0 @@
-{
-  "archive": "research/mayhem-current437-composition-20261028/source.tar.gz",
-  "path": "vendor/anchor-lang/src/error.rs",
-  "error_rs_sha256": "c3f5fa7c0b79429191f6c7942344f592c81344dbdf18d3d2bc4ff932f9b7fd78",
-  "anchor_lang_version": "1.0.0",
-  "scope": "Vendored qualified437 source excerpt. It authenticates the static format pieces; it is not a claim that every original build input was this file."
-}

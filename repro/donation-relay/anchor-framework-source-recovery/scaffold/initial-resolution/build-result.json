@@ -1,6 +1,0 @@
-{
-  "returncode": 101,
-  "source_unchanged": true,
-  "log_sha256": "8dc55d93f2ccd7188be058d6032298749753a824c3fc80c4357422a6df21cdb6",
-  "scope": "Fresh offline real Anchor generated IDL scaffold only, not reconstructed relay business instructions or whole-program identity."
-}

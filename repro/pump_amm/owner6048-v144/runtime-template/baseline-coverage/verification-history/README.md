@@ -1,1 +1,0 @@
-Initial3b9548 coverage derived correctly and verifier passed. Hardened explicit binding of every saved input to known631b accepted manifest and exact actual argv; no receipt, count, fixture or source evidence changed.

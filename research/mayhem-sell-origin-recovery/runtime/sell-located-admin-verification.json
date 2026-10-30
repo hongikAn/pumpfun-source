@@ -1,9 +1,0 @@
-{
-  "receipt_sha256": "19f4b30f076262c8d50be96767582207381ac2eee0da8f6fa07f53f16e29b478",
-  "candidate_sha256": "669fe92c30299d9b2fee1ac42815d3a6cfadb3c747ef361e5b917c19c3073c3b",
-  "case_count": 1032,
-  "verified_signed_transactions": 2064,
-  "successful_account_bytes_rederived": 624,
-  "mismatches": [],
-  "initializers_excluded": true
-}

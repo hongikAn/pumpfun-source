@@ -1,7 +1,0 @@
-{
-  "changed_path": "programs/pump-amm/src/instructions/swap/sell.rs",
-  "before_sha256": "7afb619fae6ba4f2e422e2e0c9b70db6998e9806b68a92575d6bddf9f439d1be",
-  "after_sha256": "4d520b5f18c121d91784e662fbc6f5816dad39ce06c237ceecc90fafd6b84549",
-  "transformation": "Only checked constructor method; standalone canonical source overlay for qualification",
-  "source_file_count": 68
-}

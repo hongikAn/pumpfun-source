@@ -1,9 +1,0 @@
-{
-  "REPORT.md": "238478732dc5e6ae13d57305a0139918d9229d9dc0c24e4020b359dfd311b7a3",
-  "branch.patch": "fdea9979225ca7591838348e3a22561797424b3db76ce51697efbbe8edc5dcdf",
-  "proposed/.github/workflows/dependency-build.yml": "cf8538bf27d7aacc54b85c2ffa659ee8ebbca48812c40b77ba70648207bd866e",
-  "proposed/scripts/pump_build_token_dependency.py": "d0e7e10d013e2163e9f19bb2bf51c0de3097668ddb17908b4386c76c7f0ebc95",
-  "retained-comparison.json": "c0312e3a5a2045050cb8095fcd08efd501bf8e061cde9420a3623e60670b94bc",
-  "review.json": "84b047ae4fb43fc5280aaf0aa4b27a01b811570008d968032dae7ecadea0fd18",
-  "verify.py": "23b04c002ba37a5da59bf3a139ab49dfaf9994ffda86a0f60a1346ee1861ae64"
-}

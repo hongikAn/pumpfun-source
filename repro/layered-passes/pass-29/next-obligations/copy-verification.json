@@ -1,9 +1,0 @@
-{
-  "build_VM_Git_network_calls": 0,
-  "copied_code_executions": 0,
-  "copied_raw_bytes_and_modes_equal": true,
-  "groups": 3,
-  "returncode": 0,
-  "source_before_after_equal": true,
-  "strict_inner_membership": true
-}

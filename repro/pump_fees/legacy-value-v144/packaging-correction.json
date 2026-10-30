@@ -1,5 +1,0 @@
-{
-  "first_verification_returncode": 1,
-  "correction": "Include the previously omitted check_readme_claims.py whose exact digest is part of the main prebuild input manifest. No source, executable, test assertion or build changed.",
-  "added_file_sha256": "362c0a2f427244619eed58d296ef82ab96d1999c3aa1c69f2f2638a68aacc9f8"
-}

@@ -1,4 +1,0 @@
-[
-  {"phase":"exploration","observation":"A candidate work_group summary initially raised KeyError because opaque rows omit that key.","resolution":"Summary uses optional metadata; opaque rows retain excluded disposition. No predecessor changed."},
-  {"phase":"exploration","observation":"Reading the diagnostic pointer as a host u64 produced an out-of-file address and an empty path slice.","resolution":"Applied the retained ELF reader upper-word convention only after checking the actual type-8 relocation. Final verifier checks pointer, exact 85-byte extent, path including trailing NUL, line and column."}
-]

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Wind\Documents\Codex\2026-10-26\https-x-com-shawmakesmagic-status-2114560456891445597\work\mayhem-dynamic-order\publication\verify.py", line 111, in <module>
-    if args.write_report:(args.packet/'report.json.gz').write_bytes(gzip.compress((json.dumps(analyze(args.packet),indent=2)+'\n').encode(),mtime=0));print('Wrote recomputed report')
-                                                                                              ~~~~~~~^^^^^^^^^^^^^
-  File "C:\Users\Wind\Documents\Codex\2026-10-26\https-x-com-shawmakesmagic-status-2114560456891445597\work\mayhem-dynamic-order\publication\verify.py", line 105, in analyze
-    linker=read(p/'provenance/linker-version.json');tools=read(p/'controller/host-tools.json');require(linker['returncode']==0 and linker['sha256']==next(v for k,v in tools.items() if k.replace('\\','/').endswith('/ld.lld.exe')) and linker['llvm_revision'] in linker['stdout'],'linker version observation')
-                                                                                                                                                     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-StopIteration

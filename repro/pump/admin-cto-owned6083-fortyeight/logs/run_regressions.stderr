@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-admin-cto-owned6083-build/run_regressions.py", line 45, in <module>
-    (OUT/'run.json').write_text(json.dumps(rows,indent=2)+'\n');check()
-                                                                ~~~~~^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-admin-cto-owned6083-build/run_regressions.py", line 10, in check
-    for path,digest in inputs[group].items():assert sha(R/path)==digest,path
-                                                    ^^^^^^^^^^^^^^^^^^^
-AssertionError: scripts/build_partial_candidate.py

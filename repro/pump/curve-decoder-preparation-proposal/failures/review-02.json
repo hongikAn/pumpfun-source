@@ -1,7 +1,0 @@
-{
-  "stage": "saved receipt metadata only",
-  "exit_code": 1,
-  "cause": "None data_hex in a missing account requires explicit string check; no saved rows changed",
-  "builds": 0,
-  "transactions": 0
-}

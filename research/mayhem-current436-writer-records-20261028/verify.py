@@ -1,8 +1,0 @@
-"""Verify the additional 48-byte records from exact unchanged images."""
-from pathlib import Path
-import argparse,json
-import proof
-P=Path(__file__).resolve().parent
-parser=argparse.ArgumentParser();parser.add_argument('--repo',type=Path);args=parser.parse_args()
-root=args.repo.resolve()if args.repo else next(p for p in P.parents if(p/'evidence/original/mayhem/deployed.so').is_file())
-print(json.dumps(proof.check(P,root),indent=2))

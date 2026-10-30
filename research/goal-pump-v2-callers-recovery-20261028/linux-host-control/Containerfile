@@ -1,4 +1,0 @@
-FROM docker.io/library/ubuntu@sha256:98510ac07bb4545e389be502a8918b385c018bfe4ceeb5ac7e0375c782268b04
-ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update
-RUN apt-get install -y --no-install-recommends ca-certificates libssl3 build-essential pkg-config python3 xz-utils bzip2

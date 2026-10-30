@@ -1,4 +1,0 @@
-{"case": 0, "original_error": null, "candidate_error": null, "different_fields": ["second.logs_without_compute_numbers"]}
-{"case": 1, "original_error": null, "candidate_error": null, "different_fields": ["second.logs_without_compute_numbers"]}
-{"case": 2, "original_error": null, "candidate_error": null, "different_fields": ["second.logs_without_compute_numbers"]}
-{"case_count": 3, "mismatches": [0, 1, 2], "inputs_unchanged": true}

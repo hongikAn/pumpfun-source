@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-message-origin-reconstruction/runtime.py", line 13, in <module>
-    try:m.execute(ROOT,candidate,group,out/'comparison.json')
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/donation-relay/local-validation-proposal/harness_proposal.py", line 177, in execute
-    if not report['all_requested_completed'] or report['passed']!=report['case_count']:raise SystemExit(1)
-                                                                                       ^^^^^^^^^^^^^^^^^^^
-SystemExit: 1

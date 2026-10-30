@@ -1,6 +1,0 @@
-{
-  "passed": true,
-  "gate_scope": "Parent-authorized runtime precondition: sole clean build, exact reviewed source26, no backend stack diagnostics, unchanged tools and dependency payloads. Detailed fresh static comparison remains separately reported, not presumed exact.",
-  "candidate_sha256": "8ff12f9c580baa51631a1802d5dc0a936e837f5de4fc1b88b71fd57bd2a7450b",
-  "source_inputs": 26
-}

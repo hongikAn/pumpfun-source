@@ -1,8 +1,0 @@
-LLVM (http://llvm.org/):
-  LLVM version 18.1.7
-  Optimized build with assertions.
-  Default target: 
-  Host CPU: arrowlake-s
-
-  Registered Targets:
-    sbf - SBF new (little endian)

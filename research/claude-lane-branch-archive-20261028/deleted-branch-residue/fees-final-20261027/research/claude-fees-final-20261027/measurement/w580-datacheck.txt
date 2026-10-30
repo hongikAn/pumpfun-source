@@ -1,4 +1,0 @@
-rodata len 21079 21079 equal True diffbytes 0
-data.rel.ro len 6744 6744
-source records orig 105 cand 105 equal True
-direct-call observations equal 3570 / 4022

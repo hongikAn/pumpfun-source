@@ -1,4 +1,0 @@
-{
-  "first_collection_returncode": 1,
-  "cause": "SyntaxError else8 in inline static coverage script; script did not evaluate or write evidence. Corrected spacing before executing collect_static.py, which exited0. No targetcode/compiler/VM."
-}

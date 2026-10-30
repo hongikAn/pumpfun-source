@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/pump-error-portable-exkqy5bw/missing/verify.py", line 133, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/pump-error-portable-exkqy5bw/missing/verify.py", line 41, in main
-    assert files==set(manifest),(files-set(manifest),set(manifest)-files)
-           ^^^^^^^^^^^^^^^^^^^^
-AssertionError: (set(), {'candidate.so'})

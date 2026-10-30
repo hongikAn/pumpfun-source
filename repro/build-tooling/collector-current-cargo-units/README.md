@@ -1,9 +1,0 @@
-# Portable current Cargo unit/source witness
-
-The unchanged record is retained under `record/` with seal `9760c7c71676eefc98c023f1eea876c75f1af06ef4b9932f63361aed8aad140f`: all778 original payloads, manifest and seal remain byte-identical. See `record/REPORT.md` for the current compiler/version/features/source findings and limitations.
-
-Run `python -B verify.py --expected-seal <publication manifest SHA256>` in Python3.11 or newer. This checks strict complete publication and original-record membership/hashes, then replays a precisely declared derived checker. The sole replacement compares `analyze()` with the saved JSON through its JSON-wire representation. Its Compiling name/version pairs are Python tuples, which JSON stores as arrays; the original Python-object comparison therefore failed although the saved wire data was exact. No source-analysis method, metadata, case, count, hash, path, rule or observation is changed. Original failed checker, raw failure streams and all earlier capture/preparation failures are preserved.
-
-`derivation.json` and `wire-representation-fix.diff` specify the exact one-line derivation. The derived checker uses the declared `record/verify.py` data root while its compilation filename identifies `verify-record-portable.py`. Only the unchanged passive `record/analyze.py` is imported. Generated Rust/expr files remain data and are never imported or executed. Capture scripts and archived failing methods are not run.
-
-The packet retains533 raw Cargo metadata files,239 fingerprints,215 textual dep-info files,176 observed registry source versions,1,283 authenticated registry source-file/member comparisons and six raw generated inputs. This is current source/metadata evidence. It does not prove complete actual compiler argv, opaque fingerprint identifier meaning, unit scheduling, loaded/link closure, original compiler/native provenance or historical dependency identity.

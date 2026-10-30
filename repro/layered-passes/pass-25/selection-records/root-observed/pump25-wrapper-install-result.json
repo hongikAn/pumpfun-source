@@ -1,9 +1,0 @@
-{
-  "copy_and_force_stage_completed": true,
-  "outer_install_session": 58118,
-  "outer_terminal_exit": 1,
-  "failure": "Final reporting print referenced function-local layout variable; payload copy/staging had completed. No recopy or payload mutation.",
-  "known_outer_seal": "38558828d8187996e6f9f06db2b4054af7e65e29345a85f4417f71558312beba",
-  "independent_actual_index_verifier_exit": 0,
-  "index_stdout": "pump25-wrapper-index-after-reporting-error.stdout"
-}

@@ -1,9 +1,0 @@
-# Preserve the exact terminal blank line emitted by rustc in these eight receipts.
-run/windows/relay_typeid_probe.s whitespace=-blank-at-eof
-run/linux/relay_typeid_probe.s whitespace=-blank-at-eof
-run/darwin/relay_typeid_probe.s whitespace=-blank-at-eof
-run/linux-repeat/relay_typeid_probe.s whitespace=-blank-at-eof
-replay/windows/relay_typeid_probe.s whitespace=-blank-at-eof
-replay/linux/relay_typeid_probe.s whitespace=-blank-at-eof
-replay/darwin/relay_typeid_probe.s whitespace=-blank-at-eof
-replay/linux-repeat/relay_typeid_probe.s whitespace=-blank-at-eof

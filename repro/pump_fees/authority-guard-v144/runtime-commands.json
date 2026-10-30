@@ -1,8 +1,0 @@
-{
-  "cwd": "<repo>",
-  "commands": [
-    "sh repro/pump_fees/buyback-source-v144/reproduce-validation.sh work/fees-admin-dataflow/build/artifacts/pump_fees_candidate.so work/fees-admin-dataflow/runtime work/test-env/bin/python > work/fees-admin-dataflow/runtime-validation.log 2>&1",
-    "work/test-env/bin/python work/fees-admin-dataflow/authority_logs.py --candidate work/fees-admin-dataflow/build/artifacts/pump_fees_candidate.so --output work/fees-admin-dataflow/authority-logs.json"
-  ],
-  "main_receipt_reuse": "Main and tested scratch whole ELF bytes are identical."
-}

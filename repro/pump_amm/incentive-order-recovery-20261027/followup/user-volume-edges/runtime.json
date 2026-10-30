@@ -1,7 +1,0 @@
-{
-  "python": "3.12.11",
-  "solders": "0.27.1",
-  "platform": "macOS-26.2-arm64-arm-64bit",
-  "execution": "solders.litesvm.LiteSVM with per-case restored synthetic accounts, transaction history disabled, transaction signature verification enabled",
-  "vm_executed_by_verifier": false
-}

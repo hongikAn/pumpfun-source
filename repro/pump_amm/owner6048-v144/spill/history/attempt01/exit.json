@@ -1,5 +1,0 @@
-{
-  "returncode": 1,
-  "reason": "Verifier did not account for no fallthrough successor at final function-boundary allocator call787984; failed before observations generated. No target execution.",
-  "original_observations_file_empty": true
-}

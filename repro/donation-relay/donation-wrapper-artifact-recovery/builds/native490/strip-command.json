@@ -1,9 +1,0 @@
-[
-  "podman",
-  "exec",
-  "codex-relay-worker-build-20261027",
-  "/sdk/llvm/bin/llvm-objcopy",
-  "--strip-all",
-  "/work/wrapper-native490/symbols.so",
-  "/work/wrapper-native490/candidate.so"
-]

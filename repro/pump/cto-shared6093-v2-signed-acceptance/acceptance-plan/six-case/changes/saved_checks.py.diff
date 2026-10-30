@@ -1,8 +1,0 @@
---- predecessor/saved_checks.py
-+++ successor/saved_checks.py
-@@ -46,4 +46,4 @@
-     origin=any(re.search(re.escape(needle)+r'\b',line)for line in row['original']['logs'])
-     hypotheses.append({'family':family,'kind':'HYPOTHESIS positive-frozen guard field association','expected_error':6093,'expected_origin':spec['positive_origin_hypothesis'],'observed_error6093':observed6093(row['original']),'observed_origin':origin,'observed':observed6093(row['original'])and origin})
-    elif variant=='frozen-zero':hypotheses.append({'family':family,'kind':'HYPOTHESIS zero-balance negative control','expected':'No6093 (other behavior retained)','observed':not observed6093(row['original'])})
-- return {'case_count':6,'side_count':12,'hypotheses':hypotheses,'all_original_hypotheses_observed':all(x['observed']for x in hypotheses),'comparison':comparison,'preservation_pass_claimed':False,'universal_static_field_mapping_proven':False,'full_original_byte_identity_proven':False,'scope':'Finite signed oracle causality only; mismatches retained as research, not preservation failure repair.'}
-+ return {'case_count':6,'side_count':12,'hypotheses':hypotheses,'all_original_hypotheses_observed':all(x['observed']for x in hypotheses),'all_six_effects_equal':all(not x['different_effect_fields']for x in comparison),'comparison':comparison,'preservation_pass_claimed':False,'universal_static_field_mapping_proven':False,'full_original_byte_identity_proven':False,'scope':'Finite signed oracle causality only; mismatches retained as research, not preservation failure repair.'}

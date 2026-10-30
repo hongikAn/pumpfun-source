@@ -1,6 +1,0 @@
-{
-  "base": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-trade-helpers-agent-20261027/legacy-whitelist-source",
-  "source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-trade-helpers-agent-20261027/legacy-fee-order-source",
-  "patch_sha256": "baa6dd7b972b9a5cc2518f57b1d8719cb0287d756cd2f04a0898129bb9b4e162",
-  "source_sha256": "e8f00a029783926d9a2196cc902bb853d11045b0025037d706291429e75cf6e1"
-}

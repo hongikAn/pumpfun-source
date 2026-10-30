@@ -1,9 +1,0 @@
-# P32 lossless publication plan — UNRUN
-
-Exactly12 Root-pinned groups.json rawSHAe0f602274734bfb93d60385ef44093ddb2f26f94539dacfed0d8a508bbd855e5, verbatim; rootreceipts38f6d9b7b4a50856c19f9de67640a27db861b6de49f8f048166b2e10e89075e0 retains44payloads including main14index/immutablewhitespace and firstCRqualification failure. No group discovery/wildcard/addition. Late P17 mergedproof remains separately published supplementalverification OUTSIDE12groups; no rootreceipts reopening.
-
-Admitted currentpass collection total1,520codebytes across6windows/182instructionrecords,6actualdecoderchildren0; data/build/VM0. These priorboundedreceipts are not packaging execution. AMM CFG/register independence and Meta local forwarding do not prove unreadtables/ASCII, pointervalidity, ownership/error/ABI, opaquecallee effects or authenticrecipe. No sourcepatch/semantic/countpromotion or further body/data collection granted. Priorfailed/held histories and allstopped/private scopes remain preserved.
-
-package.py/common.py/verify_stream.py/test_synthetic.py byte-identical to reviewed P29ebaee/P30/P31; no newenginefeatures. Prior engine rawmanifest/provenance retained; oldfullplans unchanged. Realpackager UNRUN until Root reads finalseal and authorizes fresh output. Same12synthetics mayrun and actualnumericreceipts retained.
-
-Unchanged engine gates exact knowninnerrawseal/membership/hash/size/modes, rejects links/cache/specials and preserves directories. Deterministic PAX+gzip parts<=64MiB, whole orderedstream+everymember+innerseal verified streaming with noextract/import. Sources rechecked after packaging; freshowned-output failure handling unchanged. Root alone owns Git/active/publicationwrites; plan published outsidepayloadgroups avoidingcycle. No image/body/data/decoder/native/VM/build/network/archivedcode execution in preparation or authorized by transport.

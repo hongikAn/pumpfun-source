@@ -1,2 +1,0 @@
-{'.rodata': {'bound': 502, 'unbound': 0, 'merged': 5, 'covered_bytes': 16233, 'orig_bytes': 18396, 'gaps': 4, 'out_of_order': 129}, '.data.rel.ro': {'bound': 297, 'unbound': 0, 'merged': 0, 'covered_bytes': 7784, 'orig_bytes': 7784, 'gaps': 0, 'out_of_order': 79}}
-problems {} script 06324945a81c1e63dcf1f8e2e2e6e9d4b666f481301377ee2912bff8cb82965f

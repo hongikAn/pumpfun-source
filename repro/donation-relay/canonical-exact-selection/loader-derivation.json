@@ -1,5 +1,0 @@
-{
-  "parent": "repro/donation-relay/offline-loader-allocation/verify.py",
-  "parent_sha256": "741e6be8b0910f440b2ebc4ee65e01254a61d71ffaef416fcc26d815516486e2",
-  "scope": "Exact parent execute function except output parameter and saving VM payload after account read. Original argument is used only in final equality comparison."
-}

@@ -1,1 +1,0 @@
-{"decoded_instructions_checked": 9687, "handler_calls": 80, "helper_targets": 25, "normalized_candidate_matches": 30, "payload_files": 90, "semantic_scope": "static anchors and seals; manual dataflow/prose not machine proved; no runtime", "status": "PASS"}

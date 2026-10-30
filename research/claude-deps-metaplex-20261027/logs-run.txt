@@ -1,6 +1,0 @@
-{"name": "burn", "returncode": 0, "script": "repro/pump/metaplex-context-source-recovery/burn_probe.py", "script_sha256": "ff7cdd173e683cc55eecbe952b73eb96c2a46e2d52b6907952ff41ea69d1f91f"}
-{"name": "context", "returncode": 0, "script": "repro/pump/metaplex-context-source-recovery/validation.py", "script_sha256": "757725b32e815165fd9bfaac28d242816878e46edc0b8221a586f45c53ab149d"}
-{"name": "uses", "returncode": 0, "script": "repro/pump/metaplex-uses-source-recovery/validation.py", "script_sha256": "1ea8af1e1a5297467bd9ad933d2b64e56d3190456655bce7030ff4606fa77bc9"}
-{"name": "edition", "returncode": 0, "script": "repro/pump/metaplex-candidate-build-6/validation.py", "script_sha256": "07ff51fb29c54c99b788b16de856149162529a1d86d221f765b5b72cd2874825"}
-{"name": "validation", "returncode": 0, "script": "repro/pump/metaplex-validation-source-recovery/validation.py", "script_sha256": "d09df814c6d7ab4d60e24aeaf44e66ea45ac9d313a1b798f8278726db272a70f"}
-{"name": "utilize", "returncode": 0, "script": "research/claude-deps-metaplex-20261027/utilize_validation.py", "script_sha256": "d702f9d51500d9b89ac053c1c91b0b2ff0e58b5a6d165d004a1f1e71827531a3"}

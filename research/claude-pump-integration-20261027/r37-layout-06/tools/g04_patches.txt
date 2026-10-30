@@ -1,1 +1,0 @@
-# g04-based lane deliveries applied mechanically after round3.py (one delivery name per line)

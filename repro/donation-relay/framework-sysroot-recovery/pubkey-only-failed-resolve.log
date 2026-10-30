@@ -1,7 +1,0 @@
-error: failed to select a version for the requirement `solana-pubkey = "=2.2.1"`
-candidate versions found which didn't match: 2.4.0
-location searched: crates.io index
-required by package `solana-zk-sdk v2.2.0`
-    ... which satisfies dependency `solana-zk-sdk = "^2.2.0"` (locked to 2.2.0) of package `spl-token-2022 v8.0.1`
-    ... which satisfies dependency `spl-token-2022 = "=8.0.1"` (locked to 8.0.1) of package `donation-relay-source-proposal v0.1.0 (/Users/shawwalters/.codex/worktrees/pr-queue-review/pumpfun-source/work/relay-residual-20261026/source-anchor032-pubkey24)`
-As a reminder, you're using offline mode (--offline) which can sometimes cause surprising resolution failures, if this error is too confusing you may wish to retry without the offline flag.

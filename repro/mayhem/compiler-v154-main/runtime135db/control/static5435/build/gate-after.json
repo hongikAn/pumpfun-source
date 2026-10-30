@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "source_inputs": 14,
-  "full_external_file_hashes_checked": 9709,
-  "locked_packages": 215,
-  "sdk_syscall_validation": "PENDING_EMPTY_SDK_ALLOWLIST",
-  "builds_executed_by_gate": 0,
-  "runtime_authorized": false
-}

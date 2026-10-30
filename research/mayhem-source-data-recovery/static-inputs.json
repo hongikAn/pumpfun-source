@@ -1,9 +1,0 @@
-{
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "repro/mayhem/global-params-layout-recovery/prior-inventory.json.gz": "46249213c288a768a25d496d10ed46f665edc39b18ae3a375b4b01941d08c394",
-  "repro/mayhem/global-params-layout-recovery/tools/layer01.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1",
-  "research/mayhem-source-data-recovery/artifacts/recovered/candidate.so.gz": "209c495cf0bf234d922be1af92ac61ca8f24c6a236cdce7bf3d362ac2756ca88",
-  "research/mayhem-source-data-recovery/artifacts/recovered/symbols.so.gz": "fdbe71528d82c3e4db8aefa529f04a87ad5d752cf723351265010b0e82a4043d",
-  "research/mayhem-amm-source-origins/functions.json": "1af7e0c663a7120af5b5943dbd2f176930bcc1edf045988cb82fbd3c4aa68505",
-  "research/mayhem-full-window-audit/audit.json": "cbc107e422e2e08a414ffe87c5460858394c3b43d9d9b3a6112f23bbbc8efb85"
-}

@@ -1,9 +1,0 @@
-[
-  {
-    "phase": "copy selected public evidence",
-    "failure": "FileNotFoundError: wide-runtime-attribution/manifest.json",
-    "cause": "Older package uses manifest-sha256.json",
-    "resolution": "Copied actual existing manifest-sha256.json; previous inputs and seals unchanged",
-    "build_or_runtime": false
-  }
-]

@@ -1,6 +1,0 @@
-{
-  "cause": "Collector assumed vendor-only .cargo-checksum.json existed in Cargo registry source cache; actual copied registry cache contains none and plan allowlist has no such file.",
-  "actual_exit": 1,
-  "target_source_build_mutations": 0,
-  "correction": "Retain approved Cargo.toml metadata; bind actual crate archive SHA256 to selected Cargo.lock checksum and approved cache path, compare only Cargo.toml member in memory. No archive filesystem extraction or code execution; raw archive bytes omitted from metadata-only packet and capture-observation limit explicit."
-}

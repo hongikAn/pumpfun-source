@@ -1,1 +1,0 @@
-Publication adaptation: analyze.py and verify.py discover the repository by its programs manifest instead of assuming the scratch-directory depth. The report command uses the published location. All saved primary sources, observations, receipts and analysis results remain unchanged. No additional research, build or execution occurred.

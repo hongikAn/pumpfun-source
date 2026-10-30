@@ -1,9 +1,0 @@
-{
-  "repro/status.json": "a5d0e95d2bca3e0216395f919a85de82e471f92cf426acb9bd98311bb036d356",
-  "programs/pump-amm/README.md": "c00f06667944ff7359426cd350da5229d45f0c4f293d8dd44e1174f1943be628",
-  "programs/donation-relay/source-selected.json": "b3459b612a667d763d44b074102f7b7a12ff56f4e200eaa9a362cae76b28a5c8",
-  "scripts/build_source_manifest.py": "bbcf5081f99cc911af108216dee430ac15721c16159406490beb7671e4b14a8b",
-  "scripts/build_partial_candidate.py": "bb683621ffc4297c58f030cb03da54484b7370b786fd8eda965a37f4b3198ee9",
-  "scripts/compare.py": "9e33a6c239927728b96bb1305bffad0e144a701e9ac7723928bb2f8d49f63e67",
-  "scripts/analyze.py": "dd7fb38d795d4dd72a25aab0d65c2223d9f6f75d8b3ecb0de1d87d6e102910ac"
-}

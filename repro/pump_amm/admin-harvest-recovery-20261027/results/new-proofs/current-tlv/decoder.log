@@ -1,2 +1,0 @@
-{"scope": "Synthetic Token-2022 mint-envelope and TLV decoder cases, with signed transactions and complete results.", "candidate_sha256": "58478a978292ea6bc4e6a9776a536f91a9384da7f1f82a2e1f9743659a34b58b", "original_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7", "producer_sha256": "1b96e83feaa28810f760c13dbf6a7087faf32771922b628551c27093e800149e", "comparator_sha256": "443ead19481a1b4f8fbd8758ab0f8db4c6ca0837b644ca90006d0b08ab5a738e", "case_count": 58, "mismatch_count": 0}
-[]

@@ -1,6 +1,0 @@
-{
-  "path": "repro/pump_fees/authority-guard-v144",
-  "artifact_manifest_sha256": "2486e02a8322349d521e48389b724056934def969048c104e144ec6ea7eab797",
-  "candidate_sha256": "952a96cdb974517ec85ebeff3e2b5ec690029aaf3f822dfc22501e95bc3dba66",
-  "retained_unchanged": true
-}

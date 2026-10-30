@@ -1,5 +1,0 @@
-# Optional quote transfer-fee helpers
-
-Recovers the post-fee helper at original 0x950e0 (640 bytes), using separate optional-schedule fee and pre-fee helpers with the existing selected epoch/maximum/basis-point tuple and native fee calculation methods. No schedule returns zero fee or the unchanged amount. A configured schedule checks each native calculation and checked subtraction. Source locations are util/transfer_fee.rs:48, 56 and 66. The fee/pre-fee neighbors remain unmatched. The direct-call graph has 23 matching pairs and 82 edges, with one open fee-calculator edge. Existing quote fee selection, inverse-gross-then-fee order and final checked narrowing remain.
-
-The exact-input V3 quote budget calls the recovered post-fee helper instead of performing the same checked subtraction inline. Source and binary evidence is retained separately from the maintained Round37 checkpoint. The research frontier reaches 793 / 1,035 with all 792 previous matches retained. No original executable bytes enter compilation or linked output editing. Normalized bodies do not establish whole original ELF equality or readonly-data/indirect-call identity.

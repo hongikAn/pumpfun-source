@@ -1,3 +1,0 @@
-# Current H19 remaining-window classification
-
-Current dbb5 is compared with H18 01a038 and the captured original. Every785 window is recomputed with current aliases and typed Source records:660 normalized,159 raw,125 remaining,831376 matched text bytes. The current ledger separates80 typed-Source-only candidates,7 other instruction gaps and38 without a same-size/relocation candidate. No gains or losses. Original source spelling, whole-handler identity, exhaustive semantics and full callee/data closure are not proved. Build/runtime/allocation evidence is bound in the full independent and worker packets. This verifier runs no compiler or VM.

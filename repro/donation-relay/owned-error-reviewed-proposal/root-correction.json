@@ -1,9 +1,0 @@
-{
-  "previous_manifest_sha256": "e64000b668e365683e33ebb0975c832e12105682ad812967d99bf5756f14ab75",
-  "changed_source": "src/exit_error.rs",
-  "before_sha256": "53c485f26c79780bac046480e13d0e2640d4506ab30323d6c1e558814bf579e2",
-  "after_sha256": "ed5142f000097389e19f89982a36a5b26dcd0b9284d9a4aad86caca62b2b3240",
-  "change": "Import std::fmt::Debug used by existing Display implementation",
-  "builds_before_correction": 0,
-  "other_source_bytes_equal": true
-}

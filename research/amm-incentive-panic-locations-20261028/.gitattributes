@@ -1,2 +1,0 @@
-# Preserve exact executed snapshot bytes, including inherited whitespace.
-input-snapshots/** -whitespace

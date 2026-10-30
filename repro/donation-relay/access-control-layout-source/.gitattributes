@@ -1,2 +1,0 @@
-# Preserve the exact compiled source, including its final blank lines.
-overrides/lib.rs whitespace=-blank-at-eof

@@ -1,7 +1,0 @@
-{
-  "observed_first_verifier_exit": 1,
-  "failed_assertion": "assert report['source_sha256']==sr['source_sha256']==i['compiled_source']",
-  "cause": "Scratch build records repository-relative work/mayhem-result-error-build/source/ prefix; main build records programs/mayhem paths. File hashes were already equal.",
-  "correction": "Require every scratch source key to start with its exact recorded prefix, remove that prefix injectively, then require every key and hash equal to the main compiled source map. No basename matching or omitted file is permitted.",
-  "build_or_runtime_repeated": false
-}

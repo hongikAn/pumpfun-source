@@ -1,7 +1,0 @@
-{
-  "research/relay-location-data-audit/manifest.json": "99db28bb46f0e4c7074ee35a8ddf62081628f15cbb20ee9f0c2a6bf7b820218a",
-  "repro/donation-relay/mint-fee-pair-recovery/manifest.json": "a63b637d314928c6960773d66011d6c043ed9e3b87dc20927e5faa85578cc02f",
-  "repro/donation-relay/framework-sysroot-recovery/manifest.json": "5ce29a10582e4a4946fc4a0081421074a4c3042da045ffb2ef87c3f45c8884f6",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/manifest.json": "8d36966a34af51fb8ef1d818f8102a77737a5c32e4a74e8091e1bb9bbac724da",
-  "repro/donation-relay/linux-canonical-reproduction/manifest.json": "b2307941d5374bf420aabcb82d76e629d9d008fc2e5b7b36a4fda8fc74f175b4"
-}

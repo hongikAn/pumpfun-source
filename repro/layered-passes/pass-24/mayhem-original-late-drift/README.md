@@ -1,1 +1,0 @@
-Later original-root verification correctly rejected one changed lib.rs hash. The frozen runtime actual before/after source14 and managed source14 remain exact accepted inputs. No unknown body was inspected or adopted; no VM/compiler rerun. Keep this rejection separate from immutable135db runtime evidence. Root independently verified135db against managed accepted root, EXIT0.

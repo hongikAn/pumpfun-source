@@ -1,1 +1,0 @@
-PASS:10 macro/syn pairs;22 official-checksummed archives;65/66Rustfilesexact; only3program-version string changes;8macro->syn dependency bumps. Historical graph/Cargo metadata/compiled output equivalence remain unproved.

@@ -1,7 +1,0 @@
-{
-  "capsule_sha256": "77abefd0a1624d3bb2df53fb27f6879d7b85aa0568d72063b360c81526b5c00c",
-  "selection_seal": "11367fcbd6eedcafb51697d6183dc88ba2a1d8a2bb54b3f8a372cb18f9dca7ea",
-  "public_seal": "422a6589111b00a2d04e0be10ee52575ef6d1254975cea0b395de0fbdc2851d4",
-  "accepted_selection_commit": "c5e3acdcc638dcc8591db2510a21665140cbd0a7",
-  "proposal_manifest_sha256": "13a80187425066a758f319219a4d6857d22e19812dd07cf05b46fddb02c8e4ab"
-}

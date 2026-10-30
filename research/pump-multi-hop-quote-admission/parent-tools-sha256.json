@@ -1,9 +1,0 @@
-{
-  "verify.py": "3b6b27b13f6f6b13ca55a857712e8cffa6df5851421e14675af9565aa97f8acf",
-  "tools/pump_linux_v144_sbpf_libraries.json": "7e2461b5ec54416d6b64508af1e2677f63afd83d35e9a3eeae6ca877ae879f1e",
-  "tools/pump_compare_function_bytes.py": "43fa359dce1e398f820df445d534e0912ac5f181f1ea15e13a5267b53105b075",
-  "tools/pump_quote_control_function_match.py": "28ad656012f8fbcd41ed1726e9345ee76f6249992bf28c91c4b9202479d3e94e",
-  "tools/sealed-parent-verify.py": "ade67312a8fff6f1d6347de402c09c6e76a51349b4cc2d5b2bb9fa488098b5d0",
-  "sources/parent-inventory.json.gz": "1c65a75b6c47d12af6aee1ef94a89752c834987ae4e1ce633759295f363581af",
-  "tools/pump_diagnostic_audit.py": "0343c70e4f9c7860ad392f0a8bd10d90ac94fe17bb2ba5bfd49a45683edbe343"
-}

@@ -1,5 +1,0 @@
-{
-  "prior_analyzer_failure": "KeyError candidate_sha256: not every legacy status row stores that field; current completion SHA must be checked against observed exact artifact bytes.",
-  "repair": "Bind current four artifacts/read-only hashes separately; compare completion SHA against them and against status when explicitly present.",
-  "central_or_program_changes": 0
-}

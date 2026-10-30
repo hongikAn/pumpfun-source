@@ -1,7 +1,0 @@
-ata-write-unlikely-early-ir/compiler.log []
-ata-write-unlikely-pre-lower-expect/compiler.log []
-ata_constructor_likely/compiler.log [('Before', 84, []), ('After', 83, [])]
-ata_constructor_unlikely/compiler.log [('Before', 84, []), ('After', 83, [])]
-ata_write_likely/compiler.log [('Before', 84, [(63, 432, '%bb.27'), (72, 499, '%bb.68'), (83, 549, '%bb.37, %bb.82, %bb.45, %bb.54')]), ('After', 82, [(62, 432, '%bb.61, %bb.69, %bb.55, %bb.51, %bb.82, %bb.33')])]
-ata_write_unlikely/compiler.log [('Before', 84, [(63, 432, '%bb.27'), (72, 499, '%bb.68'), (83, 549, '%bb.37, %bb.82, %bb.45, %bb.54')]), ('After', 82, [(62, 432, '%bb.61, %bb.69, %bb.55, %bb.51, %bb.82, %bb.33')])]
-ownerwrite-trace/compiler.log [('Before', 84, [(63, 432, '%bb.27'), (72, 499, '%bb.68'), (83, 549, '%bb.37, %bb.82, %bb.45, %bb.54')]), ('After', 82, [(62, 432, '%bb.61, %bb.69, %bb.55, %bb.51, %bb.82, %bb.33')])]

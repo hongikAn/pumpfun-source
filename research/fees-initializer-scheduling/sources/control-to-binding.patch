@@ -1,6 +1,0 @@
---- control/lib.rs
-+++ binding/lib.rs
-@@ -44 +44,2 @@
--        ctx.accounts.fee_config.bump = ctx.bumps.fee_config;
-+        let bump = ctx.bumps.fee_config;
-+        ctx.accounts.fee_config.bump = bump;

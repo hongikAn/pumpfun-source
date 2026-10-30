@@ -1,9 +1,0 @@
-[
-  "/private/tmp/pumpfun-recovery-venv/bin/python",
-  "-B",
-  "/Users/barry/projects/pumpfun-source/scripts/mayhem_sell_differential.py",
-  "--candidate",
-  "/Users/barry/projects/pumpfun-source/work/mayhem-legacy-sell-next/inline-seeds/build/candidate.so",
-  "--output",
-  "/Users/barry/projects/pumpfun-source/work/mayhem-legacy-sell-next/runtime/candidate/sell.json"
-]

@@ -1,1 +1,0 @@
-cp version.md deploy/

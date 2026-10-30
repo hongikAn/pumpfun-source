@@ -1,7 +1,0 @@
-{
-  "parameter_cases": 8,
-  "executed_outcomes": 32,
-  "signature_occurrences_verified": 32,
-  "distinct_serialized_transactions": 2,
-  "three_event_success_cases": 2
-}

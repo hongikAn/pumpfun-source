@@ -1,9 +1,0 @@
-{
-  "first_public_seal": "70fc63597c49dee1ddbdce415c3019fdb0fbc666e3a8b32a7b507885f64148d5",
-  "first_saved_verifier_session": 87850,
-  "first_saved_verifier_exit": 1,
-  "failure": "Pure saved report compare: program_headers are tuples in inspect() return versus JSON arrays in captured report; all earlier hash/source/body/helper/postlink checks had passed",
-  "repair": "Only JSON-serialize/reload freshly computed structural report before exact saved JSON equality; no field omitted/filtered, no mismatch list cleared",
-  "compiler_or_runtime_repeated": false,
-  "original_build_all8_children_exit0": true
-}

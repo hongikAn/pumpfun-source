@@ -1,9 +1,0 @@
-{
-  "retained_peer_control_source": "runtime/program-creator/review/integrity_controls.py",
-  "retained_peer_sha256": "6e384b37a4d2db53cf984ba8a923a9ea93ad31ab07883c953df0f95b151ae38e",
-  "new_control_source": "integrity_controls.py",
-  "new_control_sha256": "fcc053d275fb4d659f2c510931a82514df16aa17739d6ed58f3bf62eec736ae2",
-  "scope": "Original seven in-memory semantic negatives use portable verify_notice; four isolated source/build proof-copy controls added; normal-only entrypoint; external report paths only",
-  "actual_source_ELF_archives_receipts_unchanged": true,
-  "new_VM_or_compiler_execution": false
-}

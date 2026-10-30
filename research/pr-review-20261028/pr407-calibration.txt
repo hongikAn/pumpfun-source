@@ -1,8 +1,0 @@
-calibration against published 432-window artifact
-  candidate sha256   440b92811753dd9af1468f6bf2d0e9139309984de3519a8f9a937babfdb6c903
-  function symbols   447
-  raw-equal          100
-  normalized-only    332
-  unmatched          9
-  matched text bytes 598792 / 706744  (84.7% of text)
-  calibration OK: counts equal the published inventory

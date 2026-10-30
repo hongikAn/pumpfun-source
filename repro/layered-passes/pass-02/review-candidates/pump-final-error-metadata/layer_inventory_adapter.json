@@ -1,5 +1,0 @@
-{
-  "original_tool_path": "repro/layered-passes/pass-01/results/pump/source-tools/analyze.py",
-  "sha256": "5d8cff9de215ff523d8a2e3d35d55f06ecea35e67498d39e87e08d875439fe46",
-  "scope": "Only image-loading API and historical source/status fields removed. Full binary window/section/relocation/call-fixed-point matching algorithm unchanged; no semantic exploration of excluded routines."
-}

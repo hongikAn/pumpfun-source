@@ -1,9 +1,0 @@
-{
-  "scripts/mayhem_buy_differential.py": "20c27a4cbcccedb69cee37a538509ffd3288fc293c0d5ca02b60a0ea8fb3c081",
-  "scripts/mayhem_buy_fixture.py": "71edc357ed0367097cc8d4197ecbf5f21d4808e7471b9d1f19b0519c2dc6b098",
-  "scripts/pump_trade_fixture.py": "9ee647c928070734fe700929b87d4016f76ec244c873e6f484318b5212aea1e1",
-  "repro/mayhem/twenty/buy-cases.json": "ae3ea4b6049294418102af7a9c5b739979d757eae4013e792ced0441bbfed145",
-  "research/imported-lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json": "54d69dd4f11a61cc6cea3076e3e89fd4aa31ea6ff835f8ea316646a7b1642920",
-  "scripts/verify_mayhem_buy.py": "cf5d4e4fcda50f08a873e81bce2a394fbd086c85e5bd7d0c80fc53a5d44d20c1",
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb"
-}

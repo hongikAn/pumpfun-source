@@ -1,5 +1,0 @@
-{
-  "failure": "IndexError while deriving next inferred entry for the final text function",
-  "cause": "The left-shift body is the final .text entry; its upper bound is the section end rather than a nonexistent next entry.",
-  "correction": "Use the same full .text end fallback already used for the retained function window model. No executable, boundary hypothesis or source changed."
-}

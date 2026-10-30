@@ -1,6 +1,0 @@
-{
-  "original_executed_analysis": "work/contract-pr-review-20261028/batch12/qualification/711/actual_calls.py",
-  "original_sha256": "1d498df879257eb11bf27eab9ac65695e3999ba976e0273dc5662cbbb57131d3",
-  "portable_successor_sha256": "049bc0f6a02d4baa0f6553314a90e9fe89140bfc0e744424a7241ae2edd625a8",
-  "scope": "Only repository/packet/image/parser locators changed; recomputation must equal original retained ledger."
-}

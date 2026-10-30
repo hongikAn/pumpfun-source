@@ -1,3 +1,0 @@
-# Incoming main53e retained without execution
-
-All12 incoming blobs and their exactGit modes/objectIDs are retained. Root reconciliation keeps the independently verified107core/23Relay source projection from40070. The stopped initializer, incentive and earlier V3 executions stay excluded. No incoming source/controller/fixture executes. The original reconciliation analysis is retained as an author statement; its proposed selection and completion criteria are not current acceptance evidence. Partial source candidates are accepted only with source/build/runtime/provenance gates; byte identity remains the overall objective. Wholecore identity remains0/4.

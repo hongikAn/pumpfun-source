@@ -1,5 +1,0 @@
-* -text whitespace=cr-at-eol
-*.gz binary
-*.xz binary
-overrides/** -whitespace
-source.patch -whitespace

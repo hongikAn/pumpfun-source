@@ -1,7 +1,0 @@
-{
-  "programs/pump/src/lib.rs": "0634b73caafc19ce163f9ec464de7338bd7075f538d6198c67e9f68a00598281",
-  "programs/pump/src/create_v2.rs": "603e907d858ff3aa00e5e4f52805f22ec036255783e468454b04bceefa5609b3",
-  "programs/pump/src/trade.rs": "0616cdb05fa3531ea841b33c59996020d0109e8c85e8255d89907f5a5b723647",
-  "programs/pump/src/multi_hop_curve.rs": "8fe8da5a3bc2f57d30054d2fe1ee5656ca518b3fbfa84e5be046e05f300c0fe2",
-  "programs/pump/README.md": "dd0aaaf9ba43b6ed264aa0feff65aab7f15edbd900c14e5e79f981d6d53c6ace"
-}

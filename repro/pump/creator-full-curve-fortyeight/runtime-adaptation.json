@@ -1,9 +1,0 @@
-{
-  "scope": "Provenance only; no case, control, signature, assertion, runtime or instruction changes. Existing nested16 and route16 repeated, not new coverage.",
-  "route_changed_function": "bindings",
-  "route_before_sha256": "4bf82313d717bb5ef84a77c6e4fa49e66596fdf97c028fce659c2ac303becace",
-  "route_after_sha256": "8b008696ef6063075f044e9403cc4aaa4bd4ab9c62e49c59015899bc6cefd894",
-  "nested_map_before_sha256": "2281e5b9676e00374aba6c87e3b15126102df5b2ed9501c1031d1ab8de867738",
-  "nested_map_after_sha256": "40368fbf1b6c89698dcf21c12b07bc2ead4dec0bf2ba43b62a76931e132b7282",
-  "logic_unchanged_ast": true
-}

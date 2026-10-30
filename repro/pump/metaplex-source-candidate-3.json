@@ -1,8 +1,0 @@
-{
-  "scope": "Official mainnet proposal source candidate inferred from binary strings; fresh build equality still pending.",
-  "repository": "https://github.com/metaplex-foundation/mpl-token-metadata",
-  "source_commit": "7c1c905f324462af7bb3850c75aa6724f8689a74",
-  "tag": "proposal(v1.14.1@mainnet-beta)",
-  "image": "solanafoundation/solana-verifiable-build@sha256:43206149a565ec35da95b1a909f4714f5d5f0d8241c31df24189e517acd18467",
-  "evidence": "Captured ELF contains IX: Close Accounts log added in7c1c905. Main-branch candidate lacks that log and the associated Token2022 mint-unpacking fix. The release proposal branch also reverts scaling creation fees. Older1.16.25 compiler trial narrowed generated ELF from685688 to706088 bytes versus original707448 ELF extent."
-}

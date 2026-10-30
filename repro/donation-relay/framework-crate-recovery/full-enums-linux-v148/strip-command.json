@@ -1,9 +1,0 @@
-[
-  "podman",
-  "exec",
-  "4af931ce14acd177c3b8d919a9440c3dfbe3c89f8ab701de775eb20e3de39b31",
-  "/sdk/llvm/bin/llvm-objcopy",
-  "--strip-all",
-  "/build/target/sbf-solana-solana/release/donation_relay_source_proposal.so",
-  "/build/linux-v148-stripped.so"
-]

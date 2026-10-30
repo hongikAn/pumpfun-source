@@ -1,7 +1,0 @@
-{
-  "negative_candidate": "3c263d0dbc5422c0c191842527df4da562a905511411b0b8c256316fee8600be",
-  "refined_source_built": false,
-  "change": "Preserve the previously effective private visibility of BuyResult::total_user_quote when its parent module becomes public.",
-  "combined_patch_sha256": "f7bbac60914fb1bfe34a58253e99d1d0be9ac8fa0cfda8be93f012326a5e3c5d",
-  "incremental_patch_sha256": "b24fb2626ca717eb89f66a55ab6a624c0af808231d14d7362a3379d1f6ad89be"
-}

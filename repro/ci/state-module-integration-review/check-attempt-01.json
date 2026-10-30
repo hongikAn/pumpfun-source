@@ -1,6 +1,0 @@
-{
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "Traceback (most recent call last):\n  File \"/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/state-module-integration-review/checks-attempt-01.py\", line 99, in <module>\n    if __name__=='__main__':print(json.dumps(check(),indent=2,sort_keys=True))\n                                             ~~~~~^^\n  File \"/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/state-module-integration-review/checks-attempt-01.py\", line 86, in check\n    assert row['candidate_artifact']==s[name]['candidate_artifact'] and row['candidate_sha256']==s[name]['candidate_sha256']\n                                                                                                 ~~~~~~~^^^^^^^^^^^^^^^^^^^^\nKeyError: 'candidate_sha256'\n",
-  "disposition": "Reviewer-only schema assumption: some unchanged program status entries omit a top-level candidate_sha256; compare those completion rows against their unchanged baseline instead. No package or central source failure."
-}

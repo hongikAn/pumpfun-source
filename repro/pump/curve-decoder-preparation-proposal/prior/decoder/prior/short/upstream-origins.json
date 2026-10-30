@@ -1,7 +1,0 @@
-{
-  "composition": "repro/pump/buy-v3-authentic-partial-composition",
-  "parser": "repro/pump/buy-v3-typed-parser-contract",
-  "preparation": "work/pump-buy-preparation-closure/publication",
-  "event_exit": "work/pump-buy-event-exit-closure/publication",
-  "current": "repro/pump/final-error-metadata-fortyeight"
-}

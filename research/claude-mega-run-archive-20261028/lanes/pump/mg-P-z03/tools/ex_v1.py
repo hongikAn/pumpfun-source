@@ -1,6 +1,0 @@
-VARIANTS = {
- 'r1': [(" emit!(event);emit_cpi!(event);\n Ok(())", " emit!(event);emit_cpi!(event);\n return Ok(());")],
- 'r2': [("let a=&ctx.accounts;crate::trade_types", "let a=&ctx.accounts;let c=&a.bonding_curve;crate::trade_types"), ("if a.bonding_curve.real_quote_reserves==0&&a.bonding_curve.virtual_quote_reserves==0&&a.bonding_curve.real_token_reserves==0&&a.bonding_curve.virtual_token_reserves==0", "if c.real_quote_reserves==0&&c.virtual_quote_reserves==0&&c.real_token_reserves==0&&c.virtual_token_reserves==0")],
- 'r3': [("if a.bonding_curve.real_quote_reserves==0&&a.bonding_curve.virtual_quote_reserves==0&&a.bonding_curve.real_token_reserves==0&&a.bonding_curve.virtual_token_reserves==0{msg!(\"Bonding curve already migrated\");return Ok(());}", "if let (0,0,0,0)=(a.bonding_curve.real_quote_reserves,a.bonding_curve.virtual_quote_reserves,a.bonding_curve.real_token_reserves,a.bonding_curve.virtual_token_reserves){msg!(\"Bonding curve already migrated\");return Ok(());}")],
- 'r4': [(" emit!(event);emit_cpi!(event);\n Ok(())", " emit!(event);emit_cpi!(event);\n return Ok(());"), ("{msg!(\"Bonding curve already migrated\");return Ok(());}", "{msg!(\"Bonding curve already migrated\");return Ok(())}")],
-}

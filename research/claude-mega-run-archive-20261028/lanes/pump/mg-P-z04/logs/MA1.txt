@@ -1,9 +1,0 @@
-MA1: ok True 0 978 165 G [] L [] RL [] ['']
-0x4c158 ratio=0.5579 -449 +456 pump_recovered::migrate_v2::create_token_account_v2_A1 @0x4f628 | cand 0x4f628   8424B ratio=0.5579  pump_recovered::migrate_v
-0x4c158 ratio=0.5579 -449 +456 pump_recovered::migrate_v2::create_token_account_v2_A2 @0x51710 | cand 0x51710   8424B ratio=0.5579  pump_recovered::migrate_v
-0x4c158 ratio=0.3842 -626 +637 pump_recovered::migrate_v2::create_token_account_v2_A3 @0x537f8 | cand 0x537f8   8456B ratio=0.3842  pump_recovered::migrate_v
-0x4c158 ratio=0.5628 -444 +451 pump_recovered::migrate_v2::create_token_account_v2_A4 @0x55900 | cand 0x55900   8424B ratio=0.5628  pump_recovered::migrate_v
-0x4c158 ratio=0.1988 -815 +837 pump_recovered::migrate_v2::create_token_account_v2_A5 @0x579e8 | cand 0x579e8   8536B ratio=0.1988  pump_recovered::migrate_v
-0x4c158 ratio=0.5454 -464 +463 pump_recovered::migrate_v2::create_token_account_v2_A6 @0x59b40 | cand 0x59b40   8360B ratio=0.5454  pump_recovered::migrate_v
-0x4c158 ratio=0.5364 -471 +478 pump_recovered::migrate_v2::create_token_account_v2_A7 @0x5bbe8 | cand 0x5bbe8   8424B ratio=0.5364  pump_recovered::migrate_v
-0x4c158 ratio=0.5579 -449 +456 pump_recovered::migrate_v2::create_token_account_v2_A8 @0x5dcd0 | cand 0x5dcd0   8424B ratio=0.5579  pump_recovered::migrate_v

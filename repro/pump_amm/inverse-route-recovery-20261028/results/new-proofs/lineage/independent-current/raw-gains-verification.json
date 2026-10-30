@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "raw_gained_windows": 11,
-  "raw_gained_bytes": 4384,
-  "actual_matched_direct_calls": 27,
-  "data_relocations": 0,
-  "raw_lost_windows": 0,
-  "scope": "Every new raw body equals captured original bytes. These bodies already matched under normalization in ea14; this is placement progress, not eleven new semantic recoveries."
-}

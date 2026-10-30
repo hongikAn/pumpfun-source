@@ -1,8 +1,0 @@
-{
-  "path": "research/fees-social-claim-semantics-source-proposal",
-  "manifest_sha256": "78081420004b1b33b331dd6b8f84d7610e4e86d279115cbaf0f2c7ba5daa177f",
-  "old_path": "repro/pump_fees/remaining-preprocess-recovery",
-  "old_manifest_sha256": "ba8b4a96ba56e9a0ae30f10109a5ec444220bfeb423dfc52c338440b50d56234",
-  "baseline_symbols": "f4d5e2f40061a716218c2860b8869bec884a67b9fc8d0bb69936dbbebbef7721",
-  "baseline_candidate": "ed0d7bf81b71d2cd514d8e69beecf51a9767e0ba66a8c1b317dbf83d57cd01db"
-}

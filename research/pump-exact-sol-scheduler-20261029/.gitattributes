@@ -1,5 +1,0 @@
-# Receipts and original producers are exact byte evidence, including CRLF.
-* -text whitespace=cr-at-eol
-# Preserve literal compiler stdout and the unmodified upstream license.
-build/diagnostic/version.stdout.log -whitespace
-compiler/LICENSE.TXT -whitespace

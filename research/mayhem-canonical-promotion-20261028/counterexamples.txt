@@ -1,1 +1,0 @@
-PASS: positive current source plus five bounded counterexamples

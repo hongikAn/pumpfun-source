@@ -1,8 +1,0 @@
-{
-  "old_sha256": "564e2b5cbec30fb3ffab22e5809d87da745dbb65808cea3b0607d6071f2140d2",
-  "new_sha256": "130cee2cd4deff4d2fcc0690cab5f577b83db02e55cda2eeaabf37a46ad2dcb1",
-  "original_accounts_derive": 10,
-  "new_accounts_derive": 63,
-  "manual_return_helper_retained": true,
-  "scope": "Relocate MultiHop's real items while preserving every function body.\n\nApply after an isolated multi_hop.rs body patch, or apply that patch to the\nrenamed module afterward. No source coordinates or blank filler are inserted.\n"
-}

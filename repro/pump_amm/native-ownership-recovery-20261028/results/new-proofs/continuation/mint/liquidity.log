@@ -1,2 +1,0 @@
-{"scope": "Signed synthetic liquidity mint-envelope and fee/order collisions.", "candidate_sha256": "ea14ee8e5ea9a9b6695110fa141af77f378a21dcd36e159ae92279c9c6d6b593", "original_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7", "producer_sha256": "c1f4f5f240f22883b5c80afdb169ff56959619dd35f4773b7951916bf8d3d42b", "case_count": 192, "mismatch_count": 0}
-[]

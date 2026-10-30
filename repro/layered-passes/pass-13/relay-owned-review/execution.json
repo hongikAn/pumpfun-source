@@ -1,6 +1,0 @@
-{
-  "runner": "verify.py",
-  "rewrite_work_path": null,
-  "original_manifest_sha256": "4bdac72addd414194cf5f28393fc010a93fd02f7c5c2a09fde3139f777f7ac23",
-  "mode": "rerun-original-static-review"
-}

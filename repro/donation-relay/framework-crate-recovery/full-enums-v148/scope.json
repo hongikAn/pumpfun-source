@@ -1,7 +1,0 @@
-{
-  "source_equal": "work/relay-full-error-enums/source",
-  "target_tool_version": "v1.48",
-  "reason": "Target raw_vec.rs allocation error handler carries track_caller argument; target stable/quicksort.rs exists. Installed v1.44/45/46 lack both; v1.48/50/51 include both.",
-  "historical_recipe_unique": false,
-  "reference_elf_is_build_input": false
-}

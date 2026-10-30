@@ -1,8 +1,0 @@
---- control/sharing_update.rs
-+++ stable/sharing_update.rs
-@@ -294 +294 @@
--    keys.sort_unstable();
-+    keys.sort();
-@@ -524 +524 @@
--    keys.sort_unstable();
-+    keys.sort();

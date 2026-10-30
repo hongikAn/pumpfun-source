@@ -1,9 +1,0 @@
-{
-  "v154_retarget": {
-    "candidate_functions": 118,
-    "any_instruction_and_relocation_matches": 106,
-    "unique_inferred_entry_matches": 66,
-    "entry_bounded_call_consistent_matches": 106,
-    "entry_bounded_raw_exact_matches": 18
-  }
-}

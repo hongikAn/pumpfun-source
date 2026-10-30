@@ -1,7 +1,0 @@
---- a/programs/pump/src/create_v2.rs
-+++ b/programs/pump/src/create_v2.rs
-@@ -69,3 +69,3 @@
-   // Literal key rejection at 0x1f6a8, before whitelist/control selection.
--  require!(mint.key()!=UNSUPPORTED_QUOTE_MINT,PumpError::UnsupportedQuoteMint);
-+  require_keys_neq!(mint.key(),UNSUPPORTED_QUOTE_MINT,PumpError::UnsupportedQuoteMint);
-   let (reserves,can_configure)=if a.global.whitelisted_quote_mints.contains(mint.key){(a.global.initial_virtual_quote_reserves,false)}else{

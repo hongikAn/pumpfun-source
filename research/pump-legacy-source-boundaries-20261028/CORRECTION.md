@@ -1,5 +1,0 @@
-# Diagnostic terminology correction
-
-This docs/verifier-only successor supersedes manifest `b6b760509a95dec0b06cf318d255b97201164447fd0bb71b004370f9f044ae6f`, retained as the identity of the original sealed milestone. That milestone inaccurately called 161 equal diagnostic CFG bodies "raw". The executed attribution tool reads `Elf.normalized`, masking CALL/LDDW location operands, and also canonicalizes branch polarity, empty forwarders and single-successor joins. The supported claim is 161 equal **diagnostic normalized block bodies** out of 162; physical raw block equality is not claimed.
-
-Changed files are `README.md`, `CHECKPOINT.json`, the corresponding result-field label in `verify.py`, this note and `MANIFEST.json`. Actual source, source patch, builder/controller/tool bytes, complete ELF outputs, census, runtime observations, captured loader receipts, signature evidence and executed CFG attribution are unchanged. No new matched window or stronger ELF identity is awarded. Root retains the prior manifest identity in the already recorded local milestone.

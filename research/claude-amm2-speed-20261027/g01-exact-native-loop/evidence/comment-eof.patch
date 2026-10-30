@@ -1,8 +1,0 @@
-diff -ru a/programs/pump-amm/src/lib.rs b/programs/pump-amm/src/lib.rs
---- a/programs/pump-amm/src/lib.rs	2026-10-27 12:14:32
-+++ b/programs/pump-amm/src/lib.rs	2026-10-27 12:28:40
-@@ -495,3 +495,4 @@
-     };
-     crate::utils::transfer_fee::calculate_fee(&fee, pre_fee_amount)
- }
-+// speed-lane variants.py smoke test (comment only)

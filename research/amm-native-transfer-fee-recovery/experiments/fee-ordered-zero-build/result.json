@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "actual_root_invocations": 1,
-  "source_unchanged": true,
-  "dependencies_unchanged": true,
-  "symbols_sha256": "b84f54420fdaf319323e09ef4ad03552d20fc9317dda158894ea0be44a57c6c8",
-  "candidate_sha256": "1147897bf0f31a2ac3f12f5df19122840d15bf5ac460969f820b8ea1d230a4a9"
-}

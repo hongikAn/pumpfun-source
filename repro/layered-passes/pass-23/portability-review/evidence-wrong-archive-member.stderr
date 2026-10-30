@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/var/folders/1g/77s889gx10n7mtl6z1nfrxzm0000gn/T/p23-portability-aiwr4b9k/packet/verify.py", line 11, in <module>
-    with tarfile.open(arc)as z:assert z.extractfile(b['member']).read()==raw
-                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

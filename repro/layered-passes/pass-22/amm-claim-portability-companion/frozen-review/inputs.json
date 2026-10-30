@@ -1,9 +1,0 @@
-{
-  "programs/pump-amm/src/incentives.rs": "3334514a770ccd8541ffeb9f6c4bdce7ec39711fcbd1ed19c0235cadf694c542",
-  "repro/pump_amm/init-logical-module-v144/candidate.so": "6dc621c8c6a165650a159b67f9f2d042c3ffc71481236208d2565485c3e169b2",
-  "repro/pump_amm/init-logical-module-v144/unstripped.so": "860d497f6ee92211ecd269fa26257eb6aa49d136aa99ac728f334e18e3e1e77d",
-  "repro/pump_amm/init-logical-module-v144/context-static.json": "4cc82c908953a274ec74d04e548e3858357876e9deb973d21bef8a60fc2bc3d8",
-  "repro/pump_amm/init-logical-module-v144/inventory/after/residual-ledger.json.gz": "893b6d1fa1d65c547b4a9be9e9a601de7233143f4cefaa8f2efe338a2c061e6d",
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "work/amm-claim-transfer-next/manifest.json": "d4fbc82db5c200211ff600f716f10e1aa0cb72eb2bf8a4995037d4612e4aed4d"
-}

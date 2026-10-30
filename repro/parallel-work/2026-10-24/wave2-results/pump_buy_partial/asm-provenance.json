@@ -1,5 +1,0 @@
-{
-  "note": "Verbatim selected lines; raw instruction bytes checked against ELF; printed symbolic branch annotations are not used.",
-  "origin": "research/imported-lab/analysis/pump_fun/pump.asm",
-  "sha256": "d4a29dc6921d25d9d2e8e7a0f8b4d68027005f2ab74a8151d5ac8a8ab575ba0d"
-}

@@ -1,8 +1,0 @@
-{
-  "cases": 506,
-  "transactions": 1012,
-  "signature_fields": 1018,
-  "recorded_top_level_log_pairs": 506,
-  "identical_signed_message_pairs": 506,
-  "mismatches": []
-}

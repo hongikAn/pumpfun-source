@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/fees-legacy-caller-main/portable-current-test/repo/repro/pump_fees/legacy-caller-v144/verify.py", line 100, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/fees-legacy-caller-main/portable-current-test/repo/repro/pump_fees/legacy-caller-v144/verify.py", line 57, in main
-    for n,s in copied.items():assert raw(n)==scratch[s],n
-                                     ^^^^^^^^^^^^^^^^^^
-AssertionError: focused20.json.gz

@@ -1,1 +1,0 @@
-Terminal predecessor snapshot, not an original successful package seal. exit.json records exit 1. The predecessor manifest was missing and residual-ledger.json was zero bytes. Supervisor logs/events remain mutable orchestration and are not asserted immutable. stderr.log is a retained terminal snapshot only. No target build was attempted by this finalizer.

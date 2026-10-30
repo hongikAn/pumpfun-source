@@ -1,7 +1,0 @@
-{
-  "candidate_sha256": "a775c319eefbb30c3134b46f452dc9c0286bb45c0eb65e96d0f73bb0f524ac68",
-  "case_count": 1011,
-  "cashback_named_cases": 76,
-  "only_ignored_lines": "^Program \\S+ consumed \\d+ of \\d+ compute units$",
-  "ordered_log_mismatches": []
-}

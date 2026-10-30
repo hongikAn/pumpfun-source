@@ -1,8 +1,0 @@
-{
-  "applied": false,
-  "path": "programs/pump/src/admin_cto.rs",
-  "before": "if !holder && target==a.sharing_config.key(){return Err(err(6019));}",
-  "after": "if !holder && (target==holder_key || target==a.sharing_config.key()){return Err(error!(PumpError::InvalidCreator));}",
-  "source_before_sha256": "1bdc3c4a53d1742627e9411230a508f5d37af8a4317163022820188dd3debf5a",
-  "source_after_sha256": "b3e6c31ea67acac80171bf8dd90977c5da8e5f8155e5ce70d6fb9eae4df3cb24"
-}

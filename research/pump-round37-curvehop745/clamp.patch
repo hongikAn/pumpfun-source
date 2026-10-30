@@ -1,5 +1,0 @@
---- a/programs/pump/src/buy.rs
-+++ b/programs/pump/src/buy.rs
-@@ -2911 +2911 @@
-- if !exact && partial{require_gt!(input.min(c.real_token_reserves),0,PumpError::BuyZeroAmount);}
-+ if !exact && partial{let amount=input.min(c.real_token_reserves);require_gt!(amount,0,PumpError::BuyZeroAmount);}

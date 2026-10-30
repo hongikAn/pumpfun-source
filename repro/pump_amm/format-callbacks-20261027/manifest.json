@@ -1,6 +1,0 @@
-{
-  "audit.py": "03e43c64a54a689e44043a0ff6bba95b4eb4805fb9b3d124d989918f7d88596e",
-  "results.json": "19ce2e56dff48a666a9af361727151b545381cdfbf2bfee7bd313f6834db810a",
-  "../call-closure-audit-20261027/results.json": "2427f3df218410952605b1e1439ba4b786bc19db9923fbb3bbef198c274babcf",
-  "../format-vtable-audit-20261027/results.json": "f85e73b1e36c3ea9e86810e8f9baf450053a5a375ffaa9251da0ada8e2f8c661"
-}

@@ -1,8 +1,0 @@
-{
-  "source_windows_enumerated": 441,
-  "direct_calls_checked": 4768,
-  "unknown_pairings": [],
-  "inconsistent_pairings": [],
-  "pairing_basis": "Identical input section names/internal CGU identity and equal section sizes; Cargo archive/member filename digest is locator-only",
-  "current_actual_elf_identity_pass": false
-}

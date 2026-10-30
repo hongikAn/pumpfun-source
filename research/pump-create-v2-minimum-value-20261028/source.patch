@@ -1,9 +1,0 @@
---- a/programs/pump/src/create_v2.rs
-+++ b/programs/pump/src/create_v2.rs
-@@ -60,5 +60,5 @@
-  let mut depth=0u8;
-  let (quote_mint,virtual_quote_reserves,can_configure_fee)=if ctx.remaining_accounts.is_empty(){(Pubkey::default(),a.global.initial_virtual_sol_reserves,false)}else{
--  require_gte!(remaining.len(),3usize,PumpError::NotEnoughRemainingAccounts);
-+  require_gte!(remaining.len(),3,PumpError::NotEnoughRemainingAccounts);
-   let mint=&ctx.remaining_accounts[0];let ata=&ctx.remaining_accounts[1];let program=&ctx.remaining_accounts[2];
-   require!(program.key()==anchor_spl::token::ID || program.key()==anchor_spl::token_2022::ID,PumpError::InvalidQuoteTokenProgram);

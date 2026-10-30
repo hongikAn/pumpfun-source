@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/sharing-module-integration-review/verify.py", line 5, in <module>
-    from checks import ROOT,R,P,check
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/sharing-module-integration-review/checks.py", line 5, in <module>
-    from solders.transaction import VersionedTransaction
-ModuleNotFoundError: No module named 'solders'

@@ -1,1 +1,0 @@
-{"lete_r": "return upd(ctx!(x,signer), {let Ok(v)=OK::try_from(None) else { return Err(E::A(alloc::boxed::Box::new(1))) }; v});"}

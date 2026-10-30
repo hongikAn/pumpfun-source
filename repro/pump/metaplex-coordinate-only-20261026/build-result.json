@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "elapsed_seconds": 15.583775997161865,
-  "source_unchanged": true,
-  "scope": "Isolated, network-disabled source build. Shared registry and SDK mounted read-only. Original executable not mounted.",
-  "candidate_sha256": "5d89440f85e1a45964c8966f4dee7e1087757f05897f25a58d227808853e9cbe",
-  "candidate_bytes": 707448
-}

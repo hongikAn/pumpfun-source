@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "before_sha256": "4df246f50e279df75cfdc85c064b72e16b4eaf0ec65c4e82adebaf0d78d757c5",
-  "after_sha256": "0cecc4be6aa0ed634cf3ecf83d70e6b557db12e84f8b0ae6cc20b9f50f8dd3e9",
-  "only_after_builder_and_identity_success": true,
-  "not_compile_input": true
-}

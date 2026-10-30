@@ -1,6 +1,0 @@
-start (78, 209)
-round 0 [((73, 208), 'bb2.i5.i>bb2'), ((77, 210), '_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit.i>bb11'), ((77, 210), '_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i>bb11'), ((77, 210), 'bb3.i>bb11'), ((77, 210), 'bb3.i>_ZN18pump_amm_recovered5state18volume_accumulator21UserVolumeAccumulator14add_sol_volume17hb4fcc882709cc375E.exit'), ((77, 210), 'bb2.i5.i>bb11')]
-round 1 [((72, 209), '_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit.i>bb11'), ((72, 209), '_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i>bb11'), ((72, 209), 'bb3.i>bb11'), ((72, 209), 'bb2.i.i.i>bb11'), ((72, 209), 'bb2>bb11'), ((72, 209), '_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i.i>bb11')]
-round 2 [((72, 209), 'bb5>start'), ((72, 209), 'bb2.i.i>bb5'), ((72, 209), 'bb2.i3.i>bb2.i.i'), ((72, 209), 'bb2.i3.i>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i'), ((72, 209), 'bb2.i3.i>bb3.i'), ((72, 209), 'bb2.i3.i>bb2.i.i.i')]
-best (72, 209) ['bb2.i5.i>bb2', '_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit.i>bb11']
-python3 -B irs2.py u11.ll  0x6d408 3  182.51s user 61.57s system 69% cpu 5:51.61 total

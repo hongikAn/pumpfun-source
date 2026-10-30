@@ -1,8 +1,0 @@
-[
-  "Cargo.lock",
-  "Cargo.toml",
-  "crates/native-transfer-fee/Cargo.toml",
-  "crates/native-transfer-fee/src/lib.rs",
-  "programs/pump-amm/Cargo.toml",
-  "programs/pump-amm/src/utils/transfer_fee.rs"
-]

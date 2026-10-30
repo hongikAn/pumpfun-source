@@ -1,3 +1,0 @@
-# Pump remaining guards: tested scratch evidence
-
-Candidate71ec and symbols6edb:9269 unchanged differential cases plus1024 Surfpool comparisons/68bindings, all actual children/controller/outer exits0. Run `python3 -B verify.py --expected-seal MANIFEST_SHA256`, optionally `--runtime-signatures` for unchanged saved signature/effect verifiers. No target/compiler/VM is invoked by verification. Full raw receipts/archives, build records, source37, function/call/data ledgers, proofs, f290 discrepancy, C4/6dd and earlier failure histories are retained. Source/body ownership and finite coverage limits are in README.proposed.md and build/static-review/REPORT.md. Exact archive/member hashes authenticate reconstruction. This is scratch acceptance, not a main promotion.

@@ -1,2 +1,0 @@
-{"scope": "Signed TLV errors paired with zero-input and slippage failures across legacy and MultiHop routes.", "producer_sha256": "68748c3abb99c823be5fc42ea40f14a17dc1512a1950b9816389355cd57a2104", "candidate_sha256": "be10ca1a530ef9c62be5c94a5183f339e5d7661dce588a9458767e20a5e488f6", "original_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7", "case_count": 90, "mismatch_count": 0}
-[]

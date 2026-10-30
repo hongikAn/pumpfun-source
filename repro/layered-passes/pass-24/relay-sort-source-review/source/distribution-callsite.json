@@ -1,6 +1,0 @@
-{
-  "path": "src/handlers.rs",
-  "full_file_sha256": "ff3cc4348a9b6f43d2552d7f6ee048b11402b6199d34fb55b9ab78bf03e71cd2",
-  "line": 77,
-  "text": " let amounts=fair_amounts(total,shares); // admitted sum established by each caller"
-}

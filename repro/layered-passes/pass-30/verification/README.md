@@ -1,3 +1,0 @@
-# Pass30 actual publication verification
-
-Rootactualpackagerexit0 at knownplan051638; sourceengine4files byte-identical to reviewedP29. Relocatedstreamreaderexit0 for22groups/1022members/831191compressedbytes, noextract/import/archivedcodeexecution. Preparedreportdraftd0def6 remains unchanged with its original pending statements; finalcurrentreport is the parent README. Rootstrongproof638dd/callerbinding/negative andscalar71d2/definition checks0 and completefailedreceipts are retained inside the researcharchive/rootreceipts group. ParentPR15 exacthead24SUCCESS/merge870/tree-equality/mainancestry proof is also retained there. No selected source/artifact/status/queue/active execution route changes.

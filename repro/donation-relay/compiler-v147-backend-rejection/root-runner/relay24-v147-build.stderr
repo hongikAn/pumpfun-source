@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/relay-v147-retarget-plan/build_once.py", line 42, in <module>
-    try:main()
-        ~~~~^^
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/relay-v147-retarget-plan/build_once.py", line 29, in main
-    diagnostics=(run.stdout+run.stderr).decode(errors='replace');bad=[x for x in diagnostics.splitlines() if re.search(r'(stack offset .*exceed|stack frame .*exceed|stack.*exceeded|LLVM ERROR|Cannot select:)',x,re.I)];save(D/'backend-diagnostics.json',{'failures':bad});assert not bad
-                                                                                                                                                                                                                                                                                     ^^^^^^^
-AssertionError

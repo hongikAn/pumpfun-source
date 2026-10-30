@@ -1,5 +1,0 @@
-{
-  "returncode": 1,
-  "failure": "new template preflight incorrectly checked unused non-scripts entries in historical test-source map; missing old work/pump-amm-multi-hop/independent-compare.py was never needed by accepted runner",
-  "correction": "use exact existing runner scripts/ subset, retain other map entries as historical metadata only; no fake old work paths, source/receipt/harness change or VM"
-}

@@ -1,8 +1,0 @@
-{
-  "containing_archive": "retained/combined-handoff.tar.gz",
-  "member": "pure-graph-trial.tar.gz",
-  "sha256": "447bc4b03ae138bb99f7de7a0aaaacc7cefbad213aebe0c73c29e93d78a92a8e",
-  "manifest_sha256": "10c9aeab205b3dac35a2fae991582bc96e3bcc8aa0cac569689ba4ab9e913f5b",
-  "payload_files": 63,
-  "contains_original_compatible_family_seal": true
-}

@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "cases": 20,
-  "encoded_fields": 40,
-  "verified_signatures": 80,
-  "new_unique_cases": 0,
-  "scope": "Additional main-binary execution of the unchanged focused20 corpus; not added to17461 unique comparison count."
-}

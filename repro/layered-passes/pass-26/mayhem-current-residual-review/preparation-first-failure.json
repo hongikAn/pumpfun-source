@@ -1,8 +1,0 @@
-{
-  "returncode": 1,
-  "error": "KeyError: files; original public manifest is direct path-to-SHA map, not a files envelope",
-  "before_any_retained_copy": true,
-  "builds": 0,
-  "target_executions": 0,
-  "correction": "Read exact pinned direct-map schema, no prior evidence change"
-}

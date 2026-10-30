@@ -1,7 +1,0 @@
-{
-  "scope": "Published crate source attribution, not rebuilt byte identity.",
-  "crate_url": "https://crates.io/api/v1/crates/spl-associated-token-account/1.1.0/download",
-  "crate_archive_sha256": "3e3138bcc319fe8842cb43bc09924508684548e76d3f25597c95b1a9ff07f0a0",
-  "vcs_commit": "e10776ee2910eef96d7b5fd2716b2805a2fd42e6",
-  "difference_from_trial2": "Moves ATA tests/dev-dependencies into a separate workspace crate; production source unchanged. Resolver1 feature unification/build metadata may differ. Candidate is directly pinned by published crate .cargo_vcs_info.json."
-}

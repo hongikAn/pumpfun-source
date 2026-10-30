@@ -1,5 +1,0 @@
-# fixed inputs (sha256)
-1b324f4c0f476f0581556ee6fd1e0fe0b4e74252fd8d5fe690a459611568be5c  spl-f5ce86.tar.gz
-8a2d6a7d8b498202d2ae37062dad94be0c33ca37444e35ab7732927d3fe9a8ff  solana-bpf-tools-linux.tar.bz2
-ee7f92d7268563848aa3ae90bbf5df86604b8d0fb0e4942b0ecfbf6201596550  criterion-v2.3.3-linux-x86_64.tar.bz2
-3c8f402f40488908503e9cc088388c1f95848d79da5141b5cb1a14006d74428b  Cargo.lock (authentic f5ce86; unchanged after every build)

@@ -1,5 +1,0 @@
-{
-  "status": "REJECTED_BEFORE_COMPILATION",
-  "reason": "64 selectors referred to three changed crate CGU identities absent from first-build archives. The strict member-suffix binding attempt raised AssertionError. Exact unresolved selectors and archive tables are retained. This is a reconstructed failure summary; the original exception was in the local tool transcript.",
-  "no_build_executed": true
-}

@@ -1,7 +1,0 @@
-usage: assemble.py [-h] --reviewed-plan-sha256 REVIEWED_PLAN_SHA256
-                   [--repo REPO] [--main-runner-exit MAIN_RUNNER_EXIT]
-                   [--main-runner-stdout MAIN_RUNNER_STDOUT]
-                   [--main-runner-stderr MAIN_RUNNER_STDERR]
-                   [--selection-proposal-root SELECTION_PROPOSAL_ROOT]
-                   [--assemble]
-assemble.py: error: argument --reviewed-plan-sha256: expected one argument

@@ -1,8 +1,0 @@
-{
-  "created_utc": "2026-10-27T16:24:18.219510+00:00",
-  "base": "research/fees-residual-parallel-checkpoint-20261027",
-  "accepted_frontier": 582,
-  "whole_elf_identical": false,
-  "pack_sha256": "850c3ff6f8e9aaa6aeb5ac114c2107e5ff5e024ea20ba0abc9227c1dd6086f22",
-  "note": "Incremental observed research; native trials retain independent status."
-}

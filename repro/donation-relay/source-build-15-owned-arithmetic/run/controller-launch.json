@@ -1,8 +1,0 @@
-{
-  "plan_sha256": "822cffef1d2dccdc1c7b3b94c5196052f1bffce9409ee6de20f3a5e168ddeeff",
-  "controller_sha256": "8539772d70059d450393e15a38d7f06f3cc5bf4a4c60884bf6b4cb43cff6efa7",
-  "static_proof_sha256": "1d1c5d5662ae73d892b00b6afc17bba914b3d146b0d1de3ad19be7efb58a886f",
-  "attempt_limit": 1,
-  "group": "ordinary",
-  "dynamic_weight_and_guard_coverage": 0
-}

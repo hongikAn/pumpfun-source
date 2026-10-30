@@ -1,5 +1,0 @@
-{
-  "first_static_derivation": "An initial assertion assumed the discriminator compare was immediately after every lddw. The second original selector has intervening register moves; the retained derivation now locates the actual comparison within the same bounded original block and checks the exact branch destination and wrapper call. No target execution or source variant was involved.",
-  "ownership": "Only this new work directory and its handoff ownership map. Original sealed inputs and current main unchanged.",
-  "parallelism": "All four native slots were occupied. The context/exit CLI publications are separately owned completed inputs, not duplicate assignments."
-}

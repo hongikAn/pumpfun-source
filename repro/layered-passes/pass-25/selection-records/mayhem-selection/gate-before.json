@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "canonical_main_packet_installed": true,
-  "main_seal": "f5d514664d47a04cc22282fdd19ca9e01d835c8a335aa9acc3f637fc61650acc",
-  "actual_source14_unchanged": true,
-  "old_recipe_defaults_unchanged": true,
-  "new_vm_or_compiler_executions": 0
-}

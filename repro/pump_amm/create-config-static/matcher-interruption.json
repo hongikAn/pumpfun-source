@@ -1,5 +1,0 @@
-{
-  "process_id": 71095,
-  "script_snapshot": "match-initial-slow.py",
-  "reason": "Replaced open text-window search with stricter complete inferred-entry range indexing. Aborted old read-only matcher before it could overwrite the revised report. No source or ELF mutation."
-}

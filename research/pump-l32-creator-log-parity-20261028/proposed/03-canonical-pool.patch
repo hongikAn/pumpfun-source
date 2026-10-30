@@ -1,5 +1,0 @@
---- a/programs/pump/src/creator/admin_cto.rs
-+++ b/programs/pump/src/creator/admin_cto.rs
-@@ -691,1 +691,1 @@
-- }
-+ }else{msg!("No canonical pump pool for this mint; curve only");}

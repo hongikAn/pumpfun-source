@@ -1,2 +1,0 @@
-source.patch -whitespace
-source/programs/pump/src/token_incentives/claim_token_incentives.rs -whitespace

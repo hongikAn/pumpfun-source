@@ -1,5 +1,0 @@
-# Current H17 remaining-window classification
-
-This ledger independently recomputes all785 original windows against final4fb73d3c and H16baseline9e4891b1:660normalized,159raw,125remaining,831376matched text bytes. No normalized or raw gains/losses. The remaining125 comprise80typed Source-only candidates and45code/shape gaps (7other-instruction candidates and38withoutmatching size/relocations). These are conservative routing categories, not source or semantic closure claims.
-
-CreatePool now uses staged field assignments, explicit canonical/noncanonical mint policies and canonical-only creator/fee/edit writes. Its10152-byte body remains different from original10240. Field initialization and default/high-compute runtime boundaries belong to the independent current packet; the ledger does not erase resource mismatches or claim arbitrary pre-existing account behavior. Native scanner1192/1168 and decoder664/656 remain open; normalized wrappers do not close their callees. No build or VM is run by this verifier.

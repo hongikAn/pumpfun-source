@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/pump_amm/scalar-guard-order-v144/verify.py", line 35, in <module>
-    sys.path.insert(0,str(W/'build-helper-snapshot/scripts'));from compare import compare
-                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/pump_amm/scalar-guard-order-v144/build-helper-snapshot/scripts/compare.py", line 4, in <module>
-    from analyze import elf_layout
-ModuleNotFoundError: No module named 'analyze'

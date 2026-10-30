@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-scalar-setter-build/check_dependencies.py", line 6, in <module>
-    name=pkg['name']+'-'+pkg['version'];archives=list((CH/'registry/cache').glob('*/'+name+'.crate'));sources=list((CH/'registry/src').glob('*/'+name));assert len(archives)==len(sources)==1,name
-                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: aead-0.5.2

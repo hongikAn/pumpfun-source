@@ -1,9 +1,0 @@
-{
-  "before_sha256": "306c7f4f67b7fa7a57d6668ea2a5e4c87efabb51f4920418b6f8694b6353a908",
-  "after_sha256": "d06d37c70a5212ddff3684ddf6baad87e0d60ec9784526045d9659b5be57206f",
-  "insertion_after": " if not status.get('candidate_artifact'):continue\n",
-  "inserted_exact_text": " if name=='mayhem' and status['candidate_artifact']=='repro/mayhem/compiler-v154-main/main/candidate.so':\n  checkpoint=ROOT/'repro/mayhem/compiler-v154-main'\n  known='f5d514664d47a04cc22282fdd19ca9e01d835c8a335aa9acc3f637fc61650acc'\n  assert sha(checkpoint/'manifest.json')==known\n  subprocess.run([sys.executable,'-B',str(checkpoint/'current_bridge.py'),'--current-root',str(ROOT),'--expected-seal',known],check=True)\n  print(name,': genuine directv1.54 main;9595 saved comparisons; original whole-file identity false; historical compiler unresolved')\n  continue\n",
-  "all_existing_code_preserved": true,
-  "dispatch_scope": "exact mayhem canonical candidate path + known f5 packet, before legacy CLI/receipt assumptions",
-  "compiler_frontend_defaults_changed": false
-}

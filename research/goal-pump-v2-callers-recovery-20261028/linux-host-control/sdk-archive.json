@@ -1,6 +1,0 @@
-{
-  "url": "https://github.com/anza-xyz/platform-tools/releases/download/v1.44/platform-tools-linux-x86_64.tar.bz2",
-  "sha256": "6719b889d60677a8a2fcf4c82f68441a1afe0ab093edd2efe9f84a67a808b3e9",
-  "bytes": 490710349,
-  "provenance": "Same immutable public archive pinned by repository core_linux_v144_build.py; no toolchain patches."
-}

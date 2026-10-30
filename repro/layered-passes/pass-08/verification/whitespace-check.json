@@ -1,9 +1,0 @@
-{
-  "passed_for_changed_code_and_docs": true,
-  "retained_byte_exact_artifacts": [
-    "repro/donation-relay/source-build-08-whitelist-writer/previous/source/src/dispatch.rs",
-    "repro/donation-relay/source-build-08-whitelist-writer/source/src/dispatch.rs",
-    "repro/pump_fees/v2-caller-v144/main-promotion.patch"
-  ],
-  "reason": "Original/source snapshot final blank lines and unified-diff context prefixes are retained byte-for-byte; their content hashes are build/proposal inputs, not formatting edits."
-}

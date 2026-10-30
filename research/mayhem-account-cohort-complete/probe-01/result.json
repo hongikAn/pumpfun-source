@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "source_unchanged": true,
-  "compiler_unchanged": true,
-  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "stderr_sha256": "60ba86774c6a52c397c5f03d8078f2c38c3d264384e54f8400aa0f2ab52ea651",
-  "llvm_ir_sha256": "bdb697729dadf64d6928730d42bbae88bf9b269bcd1c8d64e71b8b1fea592208"
-}

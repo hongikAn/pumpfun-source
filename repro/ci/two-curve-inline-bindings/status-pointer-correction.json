@@ -1,7 +1,0 @@
-{
-  "case_count": 56,
-  "signed_transactions": 112,
-  "new_unique_cases": 0,
-  "report": "repro/pump_fees/initializer-inline-v144/runtime-verification-result.json",
-  "prior_checkpoint_report": "repro/pump_fees/solana-family-221-v144/signed-transfers.json.gz"
-}

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/pump_amm/linux-v144-current-20261027/build.py", line 35, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/repro/pump_amm/linux-v144-current-20261027/build.py", line 27, in main
-    record={'archive_provenance':archive,'scope':__doc__,'source_sha256':before,'command':command,'container_image':{k:image[k]for k in ('Id','Architecture','Os','RepoDigests')},'environment':env,'rustc_version_command':prefix+[str(sdk/'rust/bin/rustc'),'--version','--verbose'],'rustc_version':version.stdout,'rustc_version_returncode':version.returncode,'rustc_version_stderr':version.stderr,'tool_sha256':{str(sdk/p):sha(sdk/p)for p in EXPECTED},'target_rlib_sha256':{str(p.relative_to(sdk)):sha(p)for p in sorted((sdk/'rust/lib/rustlib/sbf-solana-solana/lib').glob('*.rlib'))},'strip_tool_sha256':sha(strip)}
-                                 ^^^^^^^
-NameError: name 'archive' is not defined

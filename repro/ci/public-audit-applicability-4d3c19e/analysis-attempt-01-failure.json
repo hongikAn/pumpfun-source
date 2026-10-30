@@ -1,5 +1,0 @@
-{
-  "failure": "Missing SHA256SUMS.json for Mayhem",
-  "cause": "Its public seal uses plain SHA256SUMS, unlike the other JSON seals.",
-  "correction": "Retain and parse the original text seal directly; no audit or program bytes changed."
-}

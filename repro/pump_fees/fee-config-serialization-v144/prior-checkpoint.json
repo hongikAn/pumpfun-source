@@ -1,6 +1,0 @@
-{
-  "path": "repro/pump_fees/update-admin-dataflow-v144",
-  "artifact_manifest_sha256": "1b53931916c8adff92e72bd8c11c509597e309c0f145bf38eab4733e49958f52",
-  "candidate_sha256": "b56d1852f9eed1ee1ad423d8724d5254f1e167ff7e76ca7d52ae7829c5e1b309",
-  "retained_unchanged": true
-}

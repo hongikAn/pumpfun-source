@@ -1,7 +1,0 @@
-{
-  "template_manifest_sha256": "1f114386224ce307fa8340dd998bae294dd857f762b68f49bd138e06fddb4261",
-  "contract_sha256": "30614eb026a4e01df382d1e5933196220b89a98fa21789f47d8a133f5e26741b",
-  "planned_exact_script_sha256": "5d839d4d7e1c2bf1940722ed5f2e09fc74bba510c5256744732d3770dc0d0edb",
-  "public_seal": null,
-  "reader_executed": false
-}

@@ -1,7 +1,0 @@
-{
-  "observed_exit": 1,
-  "cause": "Analyzer incorrectly assumed every run-build JSON has RerunIfChanged.output; six actual records instead contain Precalculated version-like strings.",
-  "raw_streams_retained": false,
-  "qualification": "Author summary of observed tool failure; no raw receipt fabricated.",
-  "correction": "Retain both observed variants. Require file bindings when output paths exist; preserve Precalculated payload opaquely otherwise. No native/compiler/target/source or metadata-capture action."
-}

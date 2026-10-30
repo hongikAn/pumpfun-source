@@ -1,9 +1,0 @@
---- a/programs/pump-amm/src/instructions/coin_creator/migrate_pool_coin_creator.rs
-+++ b/programs/pump-amm/src/instructions/coin_creator/migrate_pool_coin_creator.rs
-@@ -5,5 +5,5 @@
-  require!(!pool.is_holder_reward,PumpAmmError::HolderRewardCreatorImmutable);
-  require!(pool.creator_fees==0,PumpAmmError::CreatorFeesNotSwept);
-  let old_coin_creator=pool.coin_creator;pool.coin_creator=ctx.accounts.sharing_config.key();
-- let event=MigratePoolCoinCreatorEvent{timestamp:Clock::get()?.unix_timestamp,base_mint:pool.base_mint,pool:pool.key(),sharing_config:ctx.accounts.sharing_config.key(),old_coin_creator,new_coin_creator:pool.coin_creator};emit!(event);emit_cpi!(event);Ok(())
-+ let event=MigratePoolCoinCreatorEvent{timestamp:Clock::get()?.unix_timestamp,base_mint:pool.base_mint,pool:pool.key(),sharing_config:ctx.accounts.sharing_config.key(),old_coin_creator,new_coin_creator:ctx.accounts.sharing_config.key()};emit!(event);emit_cpi!(event);Ok(())
- }

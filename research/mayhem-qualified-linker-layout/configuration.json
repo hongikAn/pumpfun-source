@@ -1,7 +1,0 @@
-{
-  "qualified_selectors": 456,
-  "unique_original_hypotheses": 441,
-  "extra_tail_sections": 15,
-  "no_added_padding": true,
-  "scope": "Qualified input selectors and exact linker-script substitution only. Original addresses and role hypotheses are not proved by ordering."
-}

@@ -1,4 +1,0 @@
-clang version 18.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 08aedd64bf3abe4f163407b7bcf680403b84b32d)
-Target: aarch64-apple-darwin25.2.0
-Thread model: posix
-InstalledDir: /Users/shawwalters/.cache/solana/v1.44/platform-tools/llvm/bin

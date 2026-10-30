@@ -1,9 +1,0 @@
-{
-  "research/mayhem-initializer-current-recovery-20261027/manifest.json": "92b4451a8953af64b9734024c26139e63b8dc83e0286c349cf88b7c32940a5cc",
-  "research/mayhem-initializer-current-recovery-20261027/source.tar.gz": "0e0254f2ddc269e2ae31de109aa2bc746c4a476b85415982f621e77adf4863af",
-  "research/mayhem-initializer-current-recovery-20261027/progress.py": "b5dc4ce34d0cf64c6d7eaee083b510f8c3058d9cca189861e5ac170d78b9ff60",
-  "research/mayhem-initializer-current-recovery-20261027/reader.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1",
-  "research/mayhem-legacy-buy-cpi-ownership/manifest.json": "87e6e1b56a39485298ac48e100348388e7713d87627906d5fed7c7a948f4bfd5",
-  "research/mayhem-legacy-buy-cpi-ownership/verify.py": "a0fc57444eae6ba6119ce1b77a7c5c01b928a0567c9ff2f600c55efa3bdde96f",
-  "research/mayhem-legacy-buy-cpi-ownership/cases.json": "ae3ea4b6049294418102af7a9c5b739979d757eae4013e792ced0441bbfed145"
-}

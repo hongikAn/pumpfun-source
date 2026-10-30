@@ -1,8 +1,0 @@
-PASS 5 actual directcalls; 7 typedreferents; 6 vtablemethods;Source49/6023
-incoming {'original': 1, 'baseline': 2, 'candidate': 2}
-liquidity 680 case triples, non-compute log mismatches (0, 0)
-buy 1011 case triples, non-compute log mismatches (76, 76)
-sell 575 case triples, non-compute log mismatches (88, 88)
-focused:216 fresh VM triples,648 independently verified signatures,102 failed rollback receipts; no state/CPI/return/log differences except compute
-focused:7 fresh VM triples,21 independently verified signatures,3 failed rollback receipts; no state/CPI/return/log differences except compute
-PASS:732 ->733/785 normalized;148raw retained;696B complete caller,5 actual direct callees,7 typed references;2266 cached+216 fresh+7 error-path triples.

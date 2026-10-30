@@ -1,8 +1,0 @@
-{
-  "rejected_checks": [
-    "Parent map parser rejected the new 664400-byte text extent. Diagnostic verifier now checks that exact extent, preserving parent 664384-byte check separately.",
-    "Initial IR parser assumed LF; raw Windows pass dumps use CRLF. Parser canonicalizes line endings only and rejects duplicate/missing selected dumps.",
-    "Initial source check assumed LF additions in full builds. Retained full controller added CRLF from patch.rs; exact raw source assertion now checks CRLF, and verifies equal emitted objects against the LF direct control."
-  ],
-  "scope": "No compiler outputs or source experiment artifacts were changed to satisfy these checks."
-}

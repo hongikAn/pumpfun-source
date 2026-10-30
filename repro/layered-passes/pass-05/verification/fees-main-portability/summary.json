@@ -1,8 +1,0 @@
-{
-  "package_manifest_sha256": "10f72323d74953da57372e7e278c2834e19fe089bcfab57c3fba37b1a635e143",
-  "owned_map_sha256": "ef47adedd5c4f0962d11347c2be4582d301ac99cd30952e2dddf4df5f4651f16",
-  "accepted_candidate_sha256": "e5c811e2a66b540f25b44d9a55dd7b890e7ff01a0074dfc0d0dfc25237c391fe",
-  "accepted_symbols_sha256": "336f49a8075c87efe2eead28290793823a6b5bf004fe000b82b27981ae6ce501",
-  "all_package_files_unchanged": true,
-  "scope": "All five checks completed. Copied minimal git repository validates actual tracking; main workspace was not staged by this agent. No ELF bytes changed in main verification tests."
-}

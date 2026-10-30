@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/parallel-main-integration/main_corpus_runner_v2.py", line 133, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/parallel-main-integration/main_corpus_runner_v2.py", line 47, in main
-    assert sha(ROOT/path)==digest;inputs[str(ROOT/path)]=digest
-           ^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

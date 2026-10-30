@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-creator-full-curve-build/handoff/verify.py", line 133, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-creator-full-curve-build/handoff/verify.py", line 44, in main
-    pr=subprocess.run([sys.executable,'-B',str(P/'approved-proposal/verify.py')],cwd='/',capture_output=True,text=True);assert pr.returncode==0,pr.stdout+pr.stderr
-                                                                                                                               ^^^^^^^^^^^^^^^^
-AssertionError: /Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/test-env/bin/python: can't open file '/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-creator-full-curve-build/handoff/approved-proposal/verify.py': [Errno 2] No such file or directory
-

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/anchor031-macro-version-independent-review/guarded_replay.py", line 11, in <module>
-  File "<frozen runpy>", line 294, in run_path
-  File "<frozen runpy>", line 98, in _run_module_code
-  File "<frozen runpy>", line 88, in _run_code
-  File "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/anchor031-macro-version-audit/verify.py", line 4, in <module>
-    from analyze import analyze
-ModuleNotFoundError: No module named 'analyze'

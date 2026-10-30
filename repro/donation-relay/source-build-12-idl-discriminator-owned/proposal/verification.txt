@@ -1,1 +1,0 @@
-PASS: retained49-body closure+owned log/lower roots; exact3002-only two-file proposal; truthful source macros; no compiler/runtime evidence.

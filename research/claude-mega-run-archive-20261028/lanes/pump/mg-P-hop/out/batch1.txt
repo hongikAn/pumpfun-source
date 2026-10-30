@@ -1,5 +1,0 @@
-base True True 989 L= [] G= [] RL= [] 
-base:   cand 0x1d030  37648B ratio=0.0958  pump_recovered::multi_hop_curve::execute
-sp2 True True 989 L= [] G= [] RL= [] 
-sp2:   cand 0x1f428  27112B ratio=0.1080  pump_recovered::multi_hop_curve::execute::swap_hop
-./tools/batch.sh 0x5b3b0 'swap_hop|multi_hop_curve::execute$' base sp2  39.57s user 4.02s system 143% cpu 30.400 total

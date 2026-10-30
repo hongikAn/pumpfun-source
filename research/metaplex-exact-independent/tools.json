@@ -1,7 +1,0 @@
-{
-  "rust/bin/rustc": "7194df9c12e893cfa88fff5dd821d02d45910b4d375e13677b4723f45769a384",
-  "rust/bin/cargo": "68a66151123cfd2b5ca70ef046c9336d50d5f49312da2a552e605437b1eba612",
-  "llvm/bin/llvm-objcopy": "ba26bfbad087824401d032f96c501b24d881f715026f8e91d730b2fa69ef576c",
-  "llvm/bin/clang": "8cfe6ec39e873334601c33286aef63c8f6ebbcdcc036f953f0f9d72ac977ea8f",
-  "llvm/bin/llvm-ar": "b79816c13c7c23e6bf2668cdb0d6c863df554d4f84ab37b254c24ad5afee5824"
-}

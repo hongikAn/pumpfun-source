@@ -1,5 +1,0 @@
-{
-  "isolated_source_helpers_inputs_tools_unchanged": true,
-  "main_changes_after_build_gate": [],
-  "note": "Concurrent root promotion may alter main after the completed post-build gate; isolated replay source remains sealed."
-}

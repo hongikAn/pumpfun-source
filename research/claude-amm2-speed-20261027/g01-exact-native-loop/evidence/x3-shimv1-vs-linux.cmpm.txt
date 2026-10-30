@@ -1,5 +1,0 @@
-norm 647 -> 647   raw 148 -> 147
-  norm gained: []
-  norm LOST  : []
-  raw gained : []
-  raw LOST   : ['0xfd098']

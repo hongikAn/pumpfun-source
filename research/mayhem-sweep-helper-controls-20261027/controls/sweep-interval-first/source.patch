@@ -1,6 +1,0 @@
---- a/src/instructions/fee_recipients.rs
-+++ b/src/instructions/fee_recipients.rs
-@@ -53,0 +54 @@
-+        let interval = global_params.field_10 as i64;
-@@ -55 +55,0 @@
--        let interval = global_params.field_10 as i64;

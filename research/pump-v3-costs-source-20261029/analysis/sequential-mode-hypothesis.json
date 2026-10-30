@@ -1,8 +1,0 @@
-{
-  "hypothesis": "Original retains post-presence discriminator through initial buyback calls and first add3. Outer mode-gated tuple loses it. Sequential mode-aware helper calls may preserve Option join shape; same existing helper implements mayhem zero branch. No signature/Global reference/coldness change. Related old X5 guard variant failed on older inlining cohort; exact helper-mode source differs.",
-  "changed_lines": [
-    366
-  ],
-  "source_sha256": "7b98125e56127031aa3822f597db94e7e4610edcfccfe74728b1383c6a02d6d7",
-  "patch": "--- a/programs/pump/src/trade_v3.rs\n+++ b/programs/pump/src/trade_v3.rs\n@@ -363,7 +363,7 @@\n \n #[inline(never)]\n fn v3_buy_costs(buyback_bps:u64,is_mayhem:u8,quote_fee:&Option<native_transfer_fee::Fee>,quote:u64,protocol_fee:u64,creator_fee:u64,post:Option<&PostComplete>)->Result<(u64,u64,u64)>{\n-    let (buyback,post_buyback)=if is_mayhem==0{(crate::protocol_fee_split(buyback_bps,protocol_fee,is_mayhem!=0).0,match post{Some(p)=>crate::protocol_fee_split(buyback_bps,p.fees.protocol_fee,is_mayhem!=0).0,None=>0})}else{(0,0)};\n+    let buyback=crate::protocol_fee_split(buyback_bps,protocol_fee,is_mayhem!=0).0; let post_buyback=match post{Some(p)=>crate::protocol_fee_split(buyback_bps,p.fees.protocol_fee,is_mayhem!=0).0,None=>0};\n \n \n \n"
-}

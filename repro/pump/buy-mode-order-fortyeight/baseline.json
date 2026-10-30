@@ -1,5 +1,0 @@
-{
-  "git_revision_observed": "60aa2f0c43e4c8e676447bfa7f538b3810248b29",
-  "candidate_sha256": "2b7e104ca71cf680208a72bc2d3eca86f3767c2bf83a6b75abe814356f9e8b66",
-  "scope": "Exact before-source map is authoritative; other program changes remain outside this build."
-}

@@ -1,4 +1,0 @@
-# Keep sealed bytes and unified-patch context spaces unchanged.
-* -text
-context.patch -whitespace
-source.patch -whitespace

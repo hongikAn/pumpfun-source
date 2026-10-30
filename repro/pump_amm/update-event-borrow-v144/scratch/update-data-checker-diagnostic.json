@@ -1,6 +1,0 @@
-{
-  "scope": "Read-only checker correction; no source/build/runtime change.",
-  "initial_assumption": "Both event serializer arguments were assumed to be assembled immediately as r2=r10; r2+=-584.",
-  "observed": "First call instead passes r2=r8, where r8 was established as r10-584 at original0x1dbb8/0x1dbc0. Second call uses the immediate stack-pointer sequence.",
-  "resolution": "Retained failed checker and output; fresh checker follows the actual first and second argument definitions. No changes to accepted static body equality or runtime evidence."
-}

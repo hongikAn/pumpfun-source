@@ -1,2 +1,0 @@
-710176: 85100000ffffffff                 external {'record_pc': 817408, 'type': 10, 'symbol': 'sol_log_'}
-710184: 9500000000000000                 exit

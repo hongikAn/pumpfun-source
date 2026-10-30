@@ -1,5 +1,0 @@
-I1.rs: 744 150 G [] L [] | 0x16128 orig 3168 bytes, cand 3104 bytes  | -33 +25
-I2.rs: 744 150 G [] L [] | 0x16128 orig 3168 bytes, cand 3152 bytes  | -26 +24
-I3.rs: 744 150 G [] L [] | 0x16128 orig 3168 bytes, cand 3160 bytes  | -24 +23
-I4.rs: 744 150 G [] L [] | 0x16128 orig 3168 bytes, cand 3112 bytes  | -31 +24
-I5.rs: 744 150 G [] L [] | 0x16128 orig 3168 bytes, cand 3152 bytes  | -26 +24

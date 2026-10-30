@@ -1,7 +1,0 @@
-rustc 1.84.1-dev
-binary: rustc
-commit-hash: unknown
-commit-date: unknown
-host: aarch64-apple-darwin
-release: 1.84.1-dev
-LLVM version: 19.1.7

@@ -1,9 +1,0 @@
-program_id,instruction,position_zero_based,account_literal
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,0,"{""name"": ""authority"", ""writable"": true, ""signer"": true}"
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,1,"{""name"": ""bonding_curve"", ""pda"": {""seeds"": [{""kind"": ""const"", ""value"": [98, 111, 110, 100, 105, 110, 103, 45, 99, 117, 114, 118, 101]}, {""kind"": ""account"", ""path"": ""mint""}], ""program"": {""kind"": ""const"", ""value"": [1, 86, 224, 246, 147, 102, 90, 207, 68, 219, 21, 104, 191, 23, 91, 170, 81, 137, 203, 151, 245, 210, 255, 59, 101, 93, 43, 182, 253, 109, 24, 176]}}}"
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,2,"{""name"": ""global_config"", ""writable"": true, ""pda"": {""seeds"": [{""kind"": ""const"", ""value"": [103, 108, 111, 98, 97, 108, 45, 99, 111, 110, 102, 105, 103]}]}}"
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,3,"{""name"": ""mint""}"
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,4,"{""name"": ""token_agent_payments"", ""writable"": true, ""pda"": {""seeds"": [{""kind"": ""const"", ""value"": [116, 111, 107, 101, 110, 45, 97, 103, 101, 110, 116, 45, 112, 97, 121, 109, 101, 110, 116, 115]}, {""kind"": ""account"", ""path"": ""mint""}]}}"
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,5,"{""name"": ""system_program"", ""address"": ""11111111111111111111111111111111""}"
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,6,"{""name"": ""event_authority"", ""pda"": {""seeds"": [{""kind"": ""const"", ""value"": [95, 95, 101, 118, 101, 110, 116, 95, 97, 117, 116, 104, 111, 114, 105, 116, 121]}]}}"
-pUmPFn9WvfaN2WTVGnCEtJTd2ATTpvpsKRz6jVzu6u4,agent_initialize,7,"{""name"": ""program""}"

@@ -1,1 +1,0 @@
-Superseded successful interim binding captured after the first FINAL signal, before the subsequently approved adapter preflight hardening. Retained for chronology only; current verification uses top-level frozen.json and actual current root. No build or target was executed by this bridge.

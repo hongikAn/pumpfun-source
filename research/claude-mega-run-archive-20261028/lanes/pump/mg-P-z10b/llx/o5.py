@@ -1,5 +1,0 @@
-rep('dereferenceable(32) %0, ptr noundef nonnull align 1 dereferenceable(32) %_594, i64 32','dereferenceable(32) %0, ptr noundef nonnull align 1 dereferenceable(32) %mint, i64 32')
-renum()
-movelines('%v72 = getelementptr inbounds i8, ptr %_417, i64 192', '%_172 = load i8, ptr %v72, align 8', '; call pump_recovered::buy_v2::token_transfers::transfer_curve_tokens_ref')
-movelines('%_169 = getelementptr inbounds i8, ptr %_417, i64 272', '%_170 = getelementptr inbounds i8, ptr %_417, i64 488', '; call pump_recovered::trade_types::prepare_bonding_curve')
-movelines('%_168 = getelementptr inbounds i8, ptr %_417, i64 1000', '%_168 = getelementptr inbounds i8, ptr %_417, i64 1000', '%_169 = getelementptr inbounds i8, ptr %_417, i64 272')

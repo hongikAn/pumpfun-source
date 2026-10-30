@@ -1,8 +1,0 @@
-{
-  "original_control_manifest": "1b64277d77a8c42900a2c5bec8c6e3d4e6998b42febec2ef4a1898260b74bd38",
-  "collector_control_manifest": "a16e512a56262ec8a45c09b25b4f341b6e139d0bca4b3ba0396e01fe61054bbb",
-  "original_control_copy_scope": "Exact39-file exported subset: complete35 preadmitted text bodies plus four metadata files and original manifest. Eight nonbody1bpayloads notexported byparent remainabsent. No ELF/callee/body acquisition.",
-  "collector_141840_177296_equal_original_control": true,
-  "candidate_layout_used_as_mapping_proof": false,
-  "emitted_parent_manifest": "df2338c443a3ffdb174c1f3098f05c29e4c011bd954ab78b72302e7c5776920c"
-}

@@ -1,9 +1,0 @@
-{
-  "archive_sha256": "9b62adb9c3261a052ca1f999398c388f1daf558a1b492f60a6d9e64857db4ff1",
-  "changed_files": [
-    "Cargo.toml",
-    "src/lib.rs"
-  ],
-  "all_other_archive_members_preserved": true,
-  "extra_input": "programs/pump-amm/vendor/solana-pubkey"
-}

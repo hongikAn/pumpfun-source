@@ -1,8 +1,0 @@
-{
-  "original_packet_manifest_sha256": "c92000ec83f6c5f6615b7852ed9d8d25012844988210bac5512e7388f707b274",
-  "changes": [
-    "Optional candidate/symbols arguments and public-checkpoint defaults in verifier",
-    "Portable export documentation"
-  ],
-  "candidate_sha256": "e995d6a8211dcd3d05c07cdcb1a7147ec4f4e2b2a81b56c268fd1a3d76a01ce1"
-}

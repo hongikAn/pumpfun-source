@@ -1,8 +1,0 @@
-{
-  "REVIEW.md": "c2997f910122542aff9683da21072b73ee08627249e760e20e744ef9ba740ce5",
-  "assessment.json": "bd82b7055a4a4303012f2d9d51723557e7de014af96d976daf85a11fe91229dc",
-  "verify-exit.json": "db63b6bcb0cd6a95ab43f04b2318ec3e6b7bc6cf6b3617eb913287daa20ef832",
-  "verify.py": "c6b9db7cee5b64d78d8f73590dfd1f5cd8672f1e70ad2bc75b42d2053c492bfb",
-  "verify.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "verify.stdout": "b9b90749acbbb32ab99521048061e13bae0df1bba42ed93d0b6136998cedfd36"
-}

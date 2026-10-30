@@ -1,9 +1,0 @@
-{
-  "archive": "inputs/scratch/prebuild/dependency-archives/anchor-lang-0.31.1.crate",
-  "archive_sha256": "e6bab117055905e930f762c196e08f861f8dfe7241b92cee46677a3b15561a0a",
-  "member": "anchor-lang-0.31.1/src/error.rs",
-  "copy": "dependency-source/anchor-lang-0.31.1/src/error.rs",
-  "sha256": "ba2e26e1ebfbbf992673fb9811083748dcd47ae5eac7f873ef2811546439b52e",
-  "bytes": 23227,
-  "origin": "Exact member of checksum-verified public archive retained in the accepted main package."
-}

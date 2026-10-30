@@ -1,6 +1,0 @@
-from pathlib import Path
-import shutil,json,hashlib
-R=Path(__file__).resolve().parents[2];W=Path(__file__).resolve().parent;B=R/'work/amm-post-publication-deposit-composite-20261027';T=R/'work/amm-pubkey-provenance-final-20261027/target';shutil.copytree(B/'source',W/'source-borrowed',copy_function=shutil.copy2);shutil.copytree(T,W/'target',copy_function=shutil.copy2)
-p=W/'source-borrowed/programs/pump-amm/src/instructions/swap/trade_v2.rs';t=p.read_text();assert t.count('    context: TradeEventContext,')==2;t=t.replace('    context: TradeEventContext,','    context: &TradeEventContext,');p.write_text(t)
-p=W/'source-borrowed/programs/pump-amm/src/trade.rs';t=p.read_text();needle='        crate::instructions::swap::trade_v2::TradeEventContext {';assert t.count(needle)==3;t=t.replace(needle,'        &crate::instructions::swap::trade_v2::TradeEventContext {');p.write_text(t)
-f=W/'target/sbpf-solana-solana/release/.fingerprint/pump-amm-recovered-79b27c85817e204f';H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();(W/'borrowed-fingerprint-invalidation.json').write_text(json.dumps({'path':str(f),'files':{str(p.relative_to(f)):H(p)for p in f.rglob('*')if p.is_file()}},indent=2)+'\n');shutil.rmtree(f)

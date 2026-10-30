@@ -1,9 +1,0 @@
-{
-  "status": "unselected_pending_corrected_reload_control_flow",
-  "stage_sha256": "6d23613faa959baeaab1c8299f8f1777068cf9981a7faec102099fc9f08490cc",
-  "source_preserved": true,
-  "build_or_freeze_started": false,
-  "reason": "Root reported new original CFG evidence: reload/sync is conditional on user key equality with global.whitelist_pda and precedes fee/accounting; the first unconditional post-accounting composition must not be selected.",
-  "next_action": "Await independently reviewed branch and placement correction before composing a new source version.",
-  "R44_affected": false
-}

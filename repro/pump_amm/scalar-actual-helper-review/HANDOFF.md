@@ -1,5 +1,0 @@
-Static continuation complete; **no patch warranted**. The three 616/608-byte setter differences are the caller side of constant-1000 specialization in the actual 1,336-byte `with_values` helper. The actual helper has four normalized instruction differences; its eight immediate callees match, but source origins/data remain unequal or unresolved.
-
-Original helper: 24 callers. Current specialized helper: exactly three scalar callers. The other matching current helper has six non-scalar callers and is not called by the setters. Locked Anchor sources confirm the current scalar condition and `(1000u64, fee)` tuple already agree with the observed machine behavior. No unique scalar source correction is established; do not substitute the other helper or cast/pad/force code shape.
-
-Read `REPORT.md` and `analysis.json`; full accepted comparison and source22 are included. Run `python3 -B verify.py` from a copy. Publish only the external owned map's listed files. No build, main edit, runtime replay or new fixture; accepted counts and whole-file gap unchanged.

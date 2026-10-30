@@ -1,8 +1,0 @@
-{
-  "scope": "Static script refactored from write-on-import to reusable run(); reran deterministic decoded analysis against unchanged candidate and symbols to support portable verifier. Gzip container regenerated after runtime launch; pre-execution static-gate record retained unchanged. No compiler source, candidate, runtime harness or fixture changed.",
-  "pre_execution_static_sha256": "5acbcce387f82542cfc30749dc3d8181a67dca8b82bd1da7b64b97183f6d66b1",
-  "final_static_container_sha256": "a14952595c8f1ea1e9699782f5aad42a87784394bf37c1eebc56a79771412816",
-  "candidate_sha256": "e5c811e2a66b540f25b44d9a55dd7b890e7ff01a0074dfc0d0dfc25237c391fe",
-  "symbols_sha256": "336f49a8075c87efe2eead28290793823a6b5bf004fe000b82b27981ae6ce501",
-  "new_method_sha256": "dce7335d96bfd20f76168567018d03183433cdc5e366740d35e70efb09e115a7"
-}

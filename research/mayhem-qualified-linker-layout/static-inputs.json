@@ -1,9 +1,0 @@
-{
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "inputs/prior-inventory.json.gz": "46249213c288a768a25d496d10ed46f665edc39b18ae3a375b4b01941d08c394",
-  "reader.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1",
-  "artifacts/recovered/candidate.so.gz": "bf22bc454f4339e68e229f09da1089c9d8c971daf04eafe878236cb1578d5230",
-  "artifacts/recovered/symbols.so.gz": "512c97b0b2022fa33db67a71f425edda0be1839b66ca7e004b8c1deb0afde0a0",
-  "inputs/prior-roles.json.gz": "dbefa4dbf9e12e20779bdef443ed082c9c011aa958728b20b8216ec32cf47d3b",
-  "inputs/prior-full-audit.json.gz": "7374c14e2f9cb323cbb71d5ee5d435bf032f40ebc16d48a457c188580774be53"
-}

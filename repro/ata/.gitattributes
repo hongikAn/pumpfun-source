@@ -1,5 +1,0 @@
-# Preserve authentic owning-source receipt whitespace.
-monomorph-order-proof/primary/cargo-fingerprint.rs -whitespace
-
-# Unified patch context spaces are part of the exact synthetic build input.
-synthetic-ordering-exact-build/source.patch -whitespace

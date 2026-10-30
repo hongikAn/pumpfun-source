@@ -1,6 +1,0 @@
-{
-  "programs/mayhem/Cargo.toml": "programs/mayhem/Cargo.toml",
-  "programs/pump/Cargo.toml": "programs/pump/Cargo.toml",
-  "programs/pump-amm/Cargo.toml": "programs/pump-amm/Cargo.toml",
-  "programs/pump-fees/Cargo.toml": "Cargo.toml"
-}

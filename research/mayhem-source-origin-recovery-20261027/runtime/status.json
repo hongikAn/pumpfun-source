@@ -1,8 +1,0 @@
-{
-  "state": "complete",
-  "candidate_sha256": "fc3ad66b46d50c4083886c8ffa3d88f302bce8532ca058a2f0412568fcbc6059",
-  "trade_pairs": 6636,
-  "extend_pairs": 301,
-  "initializer_pairs": 69,
-  "qualified": true
-}

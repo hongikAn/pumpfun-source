@@ -1,9 +1,0 @@
-{
-  "case_count": 228,
-  "structured_mismatches": [],
-  "paired_log_cases": 228,
-  "diagnostic_mismatches": [],
-  "ordered_log_mismatches_excluding_compute": [],
-  "all_original_transactions_signed": true,
-  "all_candidate_transactions_signed": true
-}

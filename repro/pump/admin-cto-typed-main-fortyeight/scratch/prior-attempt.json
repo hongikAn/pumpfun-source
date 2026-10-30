@@ -1,7 +1,0 @@
-{
-  "failed_attempt_seal_sha256": "20ea97475926ec39fd7f688423aadd209cc92a6a842a37f2a1c94c3234db282f",
-  "repair_manifest_sha256": "edc8ab57f5aba3c6aec9a3139a9b762bafa7846f9da7c7e36ebc1d64b6993da3",
-  "attempt": 2,
-  "semantic_source_repairs": 0,
-  "borrow_scope_repairs": 1
-}

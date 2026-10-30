@@ -1,3 +1,0 @@
-# Preserve exact compiled source coordinates and unified-patch context bytes.
-source.patch -whitespace
-overrides/src/instructions/fee_recipients.rs whitespace=-blank-at-eof

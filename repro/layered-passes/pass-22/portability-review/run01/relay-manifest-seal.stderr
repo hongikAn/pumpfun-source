@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/relay/verify.py", line 8, in <module>
-    a=argparse.ArgumentParser();a.add_argument('--checkpoint',type=Path,required=True);a.add_argument('--current-root',type=Path);args=a.parse_args();tree(P,H(P/'manifest.json'))
-                                                                                                                                                      ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/relay/bindings.py", line 10, in tree
-    assert H(P/'manifest.json')==seal and(P/'manifest.sha256').read_text().split()[0]==seal
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

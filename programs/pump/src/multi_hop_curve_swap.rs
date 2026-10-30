@@ -61,12 +61,12 @@ impl AccountDeserialize for RouteFeeConfig {
             .map_err(|_| error!(anchor_lang::error::ErrorCode::AccountDidNotDeserialize))
     }
 }
-fn add(a: u64, b: u64) -> Result<u64> { a.checked_add(b).ok_or(error!(PumpError::Overflow)) }
-fn sub(a: u64, b: u64) -> Result<u64> { a.checked_sub(b).ok_or(error!(PumpError::Overflow)) }
 
-fn div(a: u128, b: u128) -> Result<u128> {
-    a.checked_div(b).ok_or(error!(PumpError::DivisionByZero))
-}
+
+
+
+
+
 
 
 // layout-pad(46): aligns the next Source site with the original line
@@ -131,17 +131,17 @@ pub struct PreviousHop<'info> {
     authority: AccountInfo<'info>,
     bump: u8,
 }
-pub fn transfer_input<'info>(a: &MultiHopCurve<'info>, previous: Option<&PreviousHop<'info>>, token_program: &AccountInfo<'info>, to: &AccountInfo<'info>, decimals: u8, mint: &AccountInfo<'info>, amount: u64) -> Result<()> {
-    match previous {
-        None => {
-            transfer_tokens(token_program, &*a.source, to, &a.source_authority, mint, amount, decimals, &[])
-        }
-        Some(p) => {
-            if p.output_vault.key() == to.key() { return Ok(()); }
-            transfer_tokens(token_program, &p.output_vault, to, &p.authority, mint, amount, decimals, &[&[b"bonding-curve", p.base_mint.as_ref(), &[p.bump]]])
-        }
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -150,10 +150,10 @@ pub fn transfer_input<'info>(a: &MultiHopCurve<'info>, previous: Option<&Previou
     h: &CurveHop<'info>,
     a: &MultiHopCurve<'info>,
     base_token_program: &AccountInfo<'info>,
-    quote_token_program: &AccountInfo<'info>, native: bool,
+    quote_token_program: &AccountInfo<'info>, native: bool, curve_key: &Pubkey,
     require_ata: fn(&Pubkey,&Pubkey,&Pubkey,&Pubkey)->Result<()>,
 ) -> Result<()> {
-    require_ata(&h.associated_base_bonding_curve.key(), &h.bonding_curve.key(),
+    require_ata(&h.associated_base_bonding_curve.key(), curve_key,
         &h.base_mint.key(), &base_token_program.key())?;
     if !native {
         crate::buy_v2::admit_associated_token_account(
@@ -162,7 +162,7 @@ pub fn transfer_input<'info>(a: &MultiHopCurve<'info>, previous: Option<&Previou
             &h.quote_mint.to_account_info(), quote_token_program,
             false, a.user.as_ref(), a.system_program.as_ref(),
         )?;
-    } else { require_ata(&h.associated_quote_bonding_curve.key(), &h.bonding_curve.key(), &h.quote_mint.key(), &quote_token_program.key())?; }
+    } else { require_ata(&h.associated_quote_bonding_curve.key(), curve_key, &h.quote_mint.key(), &quote_token_program.key())?; }
     Ok(())
 }
 
@@ -197,7 +197,7 @@ pub fn transfer_input<'info>(a: &MultiHopCurve<'info>, previous: Option<&Previou
 
 
 
-pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
+pub fn execute<'info>(mut ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
     amount_in: u64, hop_fees: Vec<u8>) -> Result<CurveRunResult> {
 
 
@@ -216,7 +216,7 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
     require!(hop_fees.len() == count && hop_fees.iter().all(|f| *f < 4), PumpError::MultiHopHopFeesMismatch);
-    let a = &ctx.accounts; current_mint = a.source.mint; let mut amount = amount_in; let mut total_buyback = 0u64; let mut previous = None;
+    let a = &mut *ctx.accounts; current_mint = a.source.mint; let mut amount = amount_in; let mut total_buyback = 0u64; let mut previous = None;
     for index in 0..count {
 
 
@@ -260,11 +260,11 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
     }
 
     require_keys_eq!(current_mint, a.destination.mint, PumpError::MultiHopDiscontinuousPath);
-    Ok(CurveRunResult { amount_out: amount, buyback_fee: total_buyback }) }
-#[inline(never)] fn swap_hop<'info>(a: &MultiHopCurve<'info>, event_bump: u8, h: &mut CurveHop<'info>, curve_bump: u8, current_mint: &Pubkey, amount: u64, previous: Option<&PreviousHop<'info>>, last: bool, flag: u8) -> Result<HopOutput<'info>> {
+    Ok(CurveRunResult { amount_out: amount, buyback_fee: total_buyback }) } macro_rules! route_event { ($a:expr, $event:expr, $bump:expr) => {{ let a = $a; let event = $event; anchor_lang::solana_program::log::sol_log_data(&[&anchor_lang::Event::data(event)]); let authority_info = a.event_authority.to_account_info(); let authority_bump = $bump; let disc = anchor_lang::event::EVENT_IX_TAG_LE; let inner_data = anchor_lang::Event::data(event); let ix_data: Vec<u8> = disc.into_iter().map(|b| *b).chain(inner_data.into_iter()).collect(); let ix = Instruction::new_with_bytes(crate::ID, &ix_data, vec![AccountMeta::new_readonly(*authority_info.key, true)]); invoke_signed(&ix, &[authority_info], &[&[b"__event_authority", &[authority_bump]]]).map_err(anchor_lang::error::Error::from)?; }}; }
+
 // layout-pad(219): aligns the next Source site with the original line
-        prepare_curve(a,h)?;
-        crate::trade::validate_trade(h.bonding_curve.complete as u8,h.bonding_curve.is_cashback_coin as u64,(flag & 2 == 0) as u64)?;
+
+
 
 
 
@@ -371,7 +371,28 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
         }
 
 
+pub fn native_buyback<'info>(a: &MultiHopCurve<'info>, event_bump: u8, curve: &Account<'info, BondingCurve>, amount: u64) -> Result<()> {
+    if amount == 0 { return Ok(()); }
+    let to = a.buyback_fee_recipient.to_account_info();
+    let curve_info = curve.to_account_info();
+    crate::trade::quote_payments::pay_out_native(curve, to.clone(), amount)?;
+    invoke_signed(&Instruction { program_id: crate::ID, accounts: vec![AccountMeta::new_readonly(a.event_authority.key(), true), AccountMeta::new(curve_info.key(), false), AccountMeta::new(to.key(), false)], data: anchor_lang::event::EVENT_IX_TAG_LE.to_vec() },
+        &[a.event_authority.to_account_info(), curve_info, to.clone()], &[&[b"__event_authority", &[event_bump]]])?;
+    invoke(&anchor_spl::token::spl_token::instruction::sync_native(&anchor_spl::token::spl_token::id(), to.key)?, &[to])?;
+    Ok(())
+}
 
+pub fn transfer_input<'info>(a: &MultiHopCurve<'info>, previous: Option<&PreviousHop<'info>>, token_program: &AccountInfo<'info>, to: &AccountInfo<'info>, decimals: u8, mint: &AccountInfo<'info>, amount: u64) -> Result<()> {
+    match previous {
+        None => {
+            transfer_tokens(token_program, &*a.source, to, &a.source_authority, mint, amount, decimals, &[])
+        }
+        Some(p) => {
+            if p.output_vault.key() == to.key() { return Ok(()); }
+            transfer_tokens(token_program, &p.output_vault, to, &p.authority, mint, amount, decimals, &[&[b"bonding-curve", p.base_mint.as_ref(), &[p.bump]]])
+        }
+    }
+}
 
 
 
@@ -454,40 +475,19 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#[inline(never)] fn swap_hop<'info>(a: &mut MultiHopCurve<'info>, event_bump: u8, h: &mut CurveHop<'info>, curve_bump: u8, current_mint: &Pubkey, amount: u64, previous: Option<&PreviousHop<'info>>, last: bool, flag: u8) -> Result<HopOutput<'info>> {
+        prepare_curve(a,h)?;
+        crate::trade::validate_trade(h.bonding_curve.complete as u8,h.bonding_curve.is_cashback_coin as u64,(flag & 2 == 0) as u64)?;
 
 
 
         require!(!h.bonding_curve.is_mayhem_mode,PumpError::MultiHopMayhemCurveNotSupported);
-        let native = h.bonding_curve.quote_mint == Pubkey::default(); let quote_fee = if native { None } else { crate::transfer_fee_recovered::get_transfer_fee(&h.quote_mint.to_account_info())? }; let base_token_program = token_program_for(&a.token_program, &a.token_2022_program, h.base_mint.as_ref().as_ref())?; let quote_token_program = token_program_for(&a.token_program, &a.token_2022_program, h.quote_mint.as_ref().as_ref())?; admit_vaults(h,a,&base_token_program,&quote_token_program,native,require_ata)?;
+        let native = h.bonding_curve.quote_mint == Pubkey::default(); let quote_fee = if native { None } else { crate::transfer_fee_recovered::get_transfer_fee(&h.quote_mint.to_account_info())? }; let base_token_program = token_program_for(&a.token_program, &a.token_2022_program, h.base_mint.as_ref().as_ref())?; let quote_token_program = token_program_for(&a.token_program, &a.token_2022_program, h.quote_mint.as_ref().as_ref())?; let curve_key = h.bonding_curve.key(); admit_vaults(h,a,&base_token_program,&quote_token_program,native,&curve_key,require_ata)?;
         if flag & 1 != 0 {
-            crate::trade::validate_buyback_fee_recipient_account(&a.global,&a.buyback_fee_recipient.to_account_info(),false,
-                &h.quote_mint.key(),h.quote_mint.to_account_info().owner)?;
+            crate::trade::validate_buyback_fee_recipient_account(&a.global,a.buyback_fee_recipient.as_ref(),false,
+                &h.quote_mint.key(),&quote_token_program.key())?;
         }
-        let buy = *current_mint == h.quote_mint.key();
+
 // layout-pad(55): aligns the next Source site with the original line
 
 
@@ -543,10 +543,10 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
 
-        require!(buy || *current_mint == h.base_mint.key(),PumpError::MultiHopDiscontinuousPath);
-
-
+        let buy = if *current_mint == h.quote_mint.key() { true } else if *current_mint == h.base_mint.key() { false } else { return err!(PumpError::MultiHopDiscontinuousPath) };
+        let mint_key = h.base_mint.to_account_info().key; let seeds: &[&[&[u8]];1] = &[&[b"bonding-curve",mint_key.as_ref(),&[curve_bump]]];
         let c = &h.bonding_curve;
+        let fee_config_len = a.fee_config.to_account_info().data_len(); let cap = crate::buy_fee_market_cap(c,&h.base_mint)?;
         let trade_amount = if buy {
             crate::transfer_fee_recovered::post_fee_amount(&quote_fee,amount)?
         }else{amount};
@@ -569,15 +569,15 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
         let buy_transfer_fee = amount.checked_sub(trade_amount).ok_or_else(|| error!(PumpError::Overflow))?;
-        let cap = div(h.base_mint.supply as u128 * c.virtual_quote_reserves as u128,
-            c.virtual_token_reserves as u128)?;
-        let mut post_fill = None;
-        let (p_rate,c_rate,base_amount,quote_amount,pf,cf,raw_output) = if buy {
-            let selected = crate::legacy_sell::fee_math::get_fees(&a.global,c,&a.fee_config,a.fee_config.to_account_info().data_len(),cap,trade_amount)?;
+
+
+        let post_fill;
+        let (fees,base_amount,quote_amount,output,adapter_difference) = if buy {
+            let selected = crate::legacy_sell::fee_math::get_fees(&a.global,c,&a.fee_config,fee_config_len,cap,trade_amount)?;
             let p_rate = if flag & 1 != 0 { selected.protocol_fee_bps } else { 0 };
             let c_rate = if flag & 2 != 0 { selected.creator_fee_bps } else { 0 };
             let (_,crate::trade::TradeFees{protocol_fee:pf,creator_fee:cf,..}) = crate::trade::net_quote_for_budget(&c.creator,p_rate,c_rate,trade_amount)?;
-            let q = sub(sub(trade_amount,pf)?,cf)?;
+            let q = crate::trade::sub3(trade_amount,pf,cf)?;
 
 
 // layout-pad(6): aligns the next Source site with the original line
@@ -588,19 +588,21 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
             let base = u64::try_from(crate::constant_product::tokens_for_quote(c,q)?).map_err(|_| error!(PumpError::Truncation))?;
             require_gt!(base,0,PumpError::BuyZeroAmount);
-            let capped = base.min(c.real_token_reserves);
-            if base > c.real_token_reserves {
+
+            let (base_amount,quote_amount,pf,cf,post_out) = if base > c.real_token_reserves {
 
 
 
 
 
 
-                require!(!c.is_mayhem_mode && a.user.key()!=a.global.whitelist_pda,PumpError::NotEnoughTokensToBuy);
-                if let Some((fees, quote, post)) = complete_fill(&a.global,&a.fee_config,a.fee_config.to_account_info().data_len(),cap,c,
+                let user = a.user.key(); require!(!c.is_mayhem_mode && user!=a.global.whitelist_pda,PumpError::NotEnoughTokensToBuy);
+                if let Some((fees, quote, post)) = complete_fill(&a.global,&a.fee_config,fee_config_len,cap,c,
                     &h.associated_base_bonding_curve,flag,p_rate,c_rate,trade_amount)? {
-                    post_fill=Some(PostCompleteFill { base:post.base_out,quote:post.quote_in,
-                        protocol:post.fees.protocol_fee,creator:post.fees.creator_fee,pool_base:post.pool_base_before,pool_quote:post.pool_quote_before });
+                    post_fill=Some(post);
+                    (c.real_token_reserves,quote,fees.protocol_fee,fees.creator_fee,post.base_out)
+                }else{post_fill=None;(c.real_token_reserves,q,pf,cf,0)}
+            }else{post_fill=None;(base,q,pf,cf,0)};
 
 
 
@@ -619,16 +621,14 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
 
+            let raw_output = base_amount.checked_add(post_out).ok_or_else(|| error!(PumpError::Overflow))?;
 
 
-                    (p_rate,c_rate,capped,quote,fees.protocol_fee,fees.creator_fee,capped.checked_add(post.base_out).ok_or_else(|| error!(PumpError::Overflow))?)
-                }else{(p_rate,c_rate,capped,q,pf,cf,capped)}
-            }else{(p_rate,c_rate,base,q,pf,cf,base)}
 // layout-pad(45): aligns the next Source site with the original line
-
-
-
-
+            if native { crate::user_quote_payments::transfer_native(a.system_program.as_ref(),&a.user,h.bonding_curve.as_ref(),amount)?; } else { transfer_input(a,previous,&quote_token_program,&h.associated_quote_bonding_curve,h.quote_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.quote_mint),amount)?; }
+            h.bonding_curve.apply_buy(base_amount,quote_amount)?;
+            if last && raw_output != 0 { transfer_base_out(&base_token_program,&h.associated_base_bonding_curve,&a.destination,&h.bonding_curve,h.base_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.base_mint),raw_output,seeds)?; }
+            (crate::trade::TradeFees{protocol_fee:pf,creator_fee:cf,protocol_fee_bps:p_rate,creator_fee_bps:c_rate},base_amount,quote_amount,raw_output,buy_transfer_fee)
 
 
 
@@ -671,7 +671,7 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
         } else {
             let gross_sell = u64::try_from(c.sell_quote(amount)?).map_err(|_| error!(PumpError::Truncation))?;
-            let selected = crate::legacy_sell::fee_math::get_fees(&a.global,c,&a.fee_config,a.fee_config.to_account_info().data_len(),cap,gross_sell)?;
+            let selected = crate::legacy_sell::fee_math::get_fees(&a.global,c,&a.fee_config,fee_config_len,cap,gross_sell)?;
             let p_rate = if flag & 1 != 0 { selected.protocol_fee_bps } else { 0 };
             let c_rate = if flag & 2 != 0 { selected.creator_fee_bps } else { 0 };
             let pf = if flag & 1 != 0 { selected.protocol_fee } else { 0 };
@@ -684,47 +684,47 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
             require_gt!(net,0,PumpError::SellZeroAmount);
-            (p_rate,c_rate,amount,gross_sell,pf,cf,net)
-        };
-        let output = if !buy {
-            crate::transfer_fee_recovered::post_fee_amount(&quote_fee,raw_output)?
-        }else{raw_output};
-        let sell_transfer_fee = raw_output.checked_sub(output).ok_or_else(|| error!(PumpError::Overflow))?;
-        if buy && native {
-            crate::user_quote_payments::transfer_native(a.system_program.as_ref(),&a.user,h.bonding_curve.as_ref(),amount)?;
-        } else if buy {
-            transfer_input(a,previous,&quote_token_program,&h.associated_quote_bonding_curve,h.quote_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.quote_mint),amount)?;
-        } else {
+            let output = crate::transfer_fee_recovered::post_fee_amount(&quote_fee,net)?;
+
+
+
+
+            let sell_transfer_fee = net.checked_sub(output).ok_or_else(|| error!(PumpError::Overflow))?;
             transfer_input(a,previous,&base_token_program,&h.associated_base_bonding_curve.to_account_info(),h.base_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.base_mint),amount)?;
-        }
+            h.bonding_curve.apply_sell(amount,gross_sell)?;
+            if last && !native && net != 0 { transfer_quote_out(&quote_token_program,&h.associated_quote_bonding_curve,&a.destination,&h.bonding_curve,h.quote_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.quote_mint),net,seeds)?; }
+            post_fill=None; (crate::trade::TradeFees{protocol_fee:pf,creator_fee:cf,protocol_fee_bps:p_rate,creator_fee_bps:c_rate},amount,gross_sell,output,sell_transfer_fee)
+        };
+
+
         // A02: Input succeeded; each checked operation immediately precedes its store.
-        let c = &mut h.bonding_curve;
-        if buy {
-            c.apply_buy(base_amount,quote_amount)?;
 
 
 
-        } else {
-            c.apply_sell(base_amount,quote_amount)?;
 
 
 
-        }
-        let mint_key = h.base_mint.key();
-        let bump = [curve_bump];
-        let seeds: &[&[u8]] = &[b"bonding-curve",mint_key.as_ref(),&bump];
-        if last && (buy || !native) && (if buy{output}else{raw_output}) != 0 {
 
 
 
-            if buy{transfer_base_out(&base_token_program,&h.associated_base_bonding_curve,&a.destination,&h.bonding_curve,h.base_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.base_mint),output,&[seeds])?;}else{transfer_quote_out(&quote_token_program,&h.associated_quote_bonding_curve,&a.destination,&h.bonding_curve,h.quote_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.quote_mint),raw_output,&[seeds])?;}
-        }
-        let adapter_difference = if buy { buy_transfer_fee } else { sell_transfer_fee };
-        let buyback_raw = h.bonding_curve.accrue_fees(&a.global,pf,cf)?;
+
+
+
+
+
+
+
+
+
+
+
+
+
+        let buyback_raw = h.bonding_curve.accrue_fees(&a.global,fees.protocol_fee,fees.creator_fee)?;
         let post_buyback_raw = if let Some(post)=post_fill.as_ref() {
-            h.bonding_curve.post_complete_base_out=post.base;
-            h.bonding_curve.post_complete_quote_in=post.quote;
-            h.bonding_curve.accrue_fees(&a.global,post.protocol,post.creator)?
+            h.bonding_curve.post_complete_base_out=post.base_out;
+            h.bonding_curve.post_complete_quote_in=post.quote_in;
+            h.bonding_curve.accrue_fees(&a.global,post.fees.protocol_fee,post.fees.creator_fee)?
         }else{0};
 
 
@@ -738,10 +738,10 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
 
-        let completed=buy && h.bonding_curve.real_token_reserves==0;
-        if completed {
-            h.bonding_curve.complete=true;
-        } let buyback=received_buyback.checked_sub(post_buyback).ok_or_else(||error!(PumpError::Overflow))?;
+
+
+
+        let buyback=received_buyback.checked_sub(post_buyback).ok_or_else(||error!(PumpError::Overflow))?;
 
 
 
@@ -755,14 +755,14 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
             } else if paid_buyback != 0 {
                 transfer_buyback_out(&quote_token_program,&h.associated_quote_bonding_curve,&a.buyback_fee_recipient,
                     &h.bonding_curve,h.quote_mint.decimals,AsRef::<AccountInfo>::as_ref(&*h.quote_mint),
-                    paid_buyback,&[seeds])?;
+                    paid_buyback,seeds)?;
             }
         }
         if native && !buy && last {
-            move_lamports(&h.bonding_curve.to_account_info(),&a.user.to_account_info(),output)?;
+            crate::trade::quote_payments::pay_out_native(&h.bonding_curve,a.user.to_account_info(),output)?;
         }
         let c = &h.bonding_curve;
-        let timestamp = Clock::get()?.unix_timestamp; let event = trade_event(c,&a.global,&crate::UserVolumeAccumulator::default(),&a.user.key(),&mint_key,buy,base_amount,quote_amount,&(pf,cf,p_rate,c_rate),buyback,adapter_difference,"multi_hop_swap",timestamp);
+        let timestamp = Clock::get()?.unix_timestamp; let event = trade_event(c,&a.global,&crate::UserVolumeAccumulator::default(),&a.user.key(),&h.base_mint.key(),buy,base_amount,quote_amount,&fees,buyback,adapter_difference,"multi_hop_swap",timestamp);
 
 
 
@@ -779,21 +779,21 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
 
-        route_event(a,&event,event_bump)?;
-        if completed {
-            let completion=crate::trade_types::CompleteEvent { user:a.user.key(),mint:mint_key,
-                bonding_curve:h.bonding_curve.key(),timestamp,quote_mint:c.quote_mint };
-            route_event(a,&completion,event_bump)?;
-        }
-        if let Some(post)=post_fill.as_ref() {
-            let post_event=crate::trade::PostCompleteBuyEvent { user:a.user.key(),mint:mint_key,
-                bonding_curve:h.bonding_curve.key(),quote_mint:c.quote_mint,timestamp,
-                base_out:post.base,quote_in:post.quote,fee_basis_points:p_rate,fee:post.protocol,
-                creator_fee_basis_points:c_rate,creator_fee:post.creator,buyback_fee:post_buyback,
-                pool_base_reserves_before:post.pool_base,pool_quote_reserves_before:post.pool_quote,
-                pool_base_reserves_after:sub(post.pool_base,post.base)?,pool_quote_reserves_after:add(post.pool_quote,post.quote)? };
-            route_event(a,&post_event,event_bump)?;
-        } Ok(HopOutput { mint: if buy { h.base_mint.key() } else { h.quote_mint.key() }, amount: output, buyback_fee: add(buyback,post_buyback)?, vault: if buy { h.associated_base_bonding_curve.to_account_info() } else { h.associated_quote_bonding_curve.to_account_info() } }) }
+        route_event!(&*a,&event,event_bump);
+        let completed=h.bonding_curve.real_token_reserves==0; if completed { h.bonding_curve.complete=true;
+            let completion=crate::trade_types::CompleteEvent { mint:h.base_mint.key(),user:a.user.key(),
+                bonding_curve:h.bonding_curve.key(),timestamp,quote_mint:h.bonding_curve.quote_mint };
+            route_event!(&*a,&completion,event_bump);
+
+        if let Some(post)=post_fill {
+            let post_event=crate::trade::post_complete_buy_event(&post,a.user.key(),h.base_mint.key(),
+                h.bonding_curve.key(),h.bonding_curve.quote_mint,timestamp,post_buyback)?;
+
+
+
+
+            route_event!(&*a,&post_event,event_bump);
+        } } Ok(HopOutput { mint: if buy { h.base_mint.key() } else { h.quote_mint.key() }, amount: output, buyback_fee: received_buyback, vault: if buy { h.associated_base_bonding_curve.to_account_info() } else { h.associated_quote_bonding_curve.to_account_info() } }) }
 
 
 
@@ -812,120 +812,120 @@ pub fn execute<'info>(ctx: Context<'_,'_,'info,'info,MultiHopCurve<'info>>,
 
 
 
-#[inline(never)]
-pub fn transfer_quote_out<'info>(token_program:&AccountInfo<'info>,from:&UncheckedAccount<'info>,to:&InterfaceAccount<'info,TokenAccount>,authority:&Account<'info,BondingCurve>,decimals:u8,mint:&AccountInfo<'info>,amount:u64,signer_seeds:&[&[&[u8]];1])->Result<()>{
-    anchor_spl::token_2022::transfer_checked(CpiContext::new_with_signer(token_program.clone(),anchor_spl::token_2022::TransferChecked{from:from.to_account_info(),to:to.to_account_info(),authority:authority.to_account_info(),mint:mint.clone()},signer_seeds),amount,decimals)
-}
+pub use crate::payments::mhc_transfer_quote_out as transfer_quote_out;
+// layout-pad
+// layout-pad
+// layout-pad
 
 
 
 
 
 
-pub fn trade_event(curve:&BondingCurve,global:&Global,volume:&crate::UserVolumeAccumulator,user:&Pubkey,mint:&Pubkey,is_buy:bool,token_amount:u64,quote_amount:u64,fees:&(u64,u64,u64,u64),buyback_fee:u64,unparsed_trailing_field:u64,ix_name:&str,timestamp:i64)->TradeEvent{
-    let virtual_quote_reserves=curve.virtual_quote_reserves;let real_quote_reserves=curve.real_quote_reserves;
-    let quote_mint=curve.quote_mint;let is_sol=quote_mint==Pubkey::default();
-    TradeEvent{
-        quote_mint:curve.quote_mint,
-        mint:*mint,
-        sol_amount:if is_sol{quote_amount}else{0},
-        is_buy,
-        token_amount,
-        user:*user,
-        timestamp,
-        virtual_sol_reserves:if is_sol{virtual_quote_reserves}else{0},
-        virtual_token_reserves:curve.virtual_token_reserves,
-        real_token_reserves:curve.real_token_reserves,
-        fee_recipient:Pubkey::default(),
-        fee_basis_points:fees.2,
-        fee:fees.0,
-        creator:curve.creator,
-        creator_fee_basis_points:fees.3,
-        creator_fee:fees.1,
-        track_volume:false,
-        total_unclaimed_tokens:volume.total_unclaimed_tokens,
-        total_claimed_tokens:volume.total_claimed_tokens,
-        current_sol_volume:volume.current_sol_volume,
-        last_update_timestamp:volume.last_update_timestamp,
-        ix_name:ix_name.to_string(),
-        mayhem_mode:curve.is_mayhem_mode,
-        cashback_fee_basis_points:0,
-        cashback:0,
-        real_sol_reserves:if is_sol{real_quote_reserves}else{0},
-        buyback_fee_basis_points:if curve.is_mayhem_mode{0}else{global.buyback_basis_points},
-        buyback_fee,
-        shareholders:vec![],
-        quote_amount,
-        virtual_quote_reserves,
-        real_quote_reserves,
-        holder_rewards_bps:if curve.is_holder_reward{fees.3}else{0},
-        holder_rewards:if curve.is_holder_reward{fees.1}else{0},
-        creator_fee_unclaimed:curve.creator_fee,
-        unparsed_trailing_field,
-    }
-}
-#[inline(never)]
-pub fn transfer_base_out<'info>(token_program:&AccountInfo<'info>,from:&InterfaceAccount<'info,TokenAccount>,to:&InterfaceAccount<'info,TokenAccount>,authority:&Account<'info,BondingCurve>,decimals:u8,mint:&AccountInfo<'info>,amount:u64,signer_seeds:&[&[&[u8]];1])->Result<()>{
-    if amount==0{return Ok(());}
-    anchor_spl::token_2022::transfer_checked(CpiContext::new_with_signer(token_program.clone(),anchor_spl::token_2022::TransferChecked{from:from.to_account_info(),to:to.to_account_info(),authority:authority.to_account_info(),mint:mint.clone()},signer_seeds),amount,decimals)
-}
-#[inline(never)]
-pub fn transfer_buyback_out<'info>(token_program:&AccountInfo<'info>,from:&UncheckedAccount<'info>,to:&UncheckedAccount<'info>,authority:&Account<'info,BondingCurve>,decimals:u8,mint:&AccountInfo<'info>,amount:u64,signer_seeds:&[&[&[u8]];1])->Result<()>{
-    if amount==0{return Ok(());}
-    anchor_spl::token_2022::transfer_checked(CpiContext::new_with_signer(token_program.clone(),anchor_spl::token_2022::TransferChecked{from:from.to_account_info(),to:to.to_account_info(),authority:authority.to_account_info(),mint:mint.clone()},signer_seeds),amount,decimals)
-}
+pub use crate::payments::trade_event;
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+pub use crate::payments::mhc_transfer_base_out as transfer_base_out;
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
+pub use crate::payments::mhc_transfer_buyback_out as transfer_buyback_out;
+// layout-pad
+// layout-pad
+// layout-pad
+// layout-pad
 
 // N01: Native interface hypotheses use pinned SDK APIs, not newly recovered processors.
 fn prepare_curve<'info>(a: &MultiHopCurve<'info>, h: &CurveHop<'info>) -> Result<()> {
     crate::trade_types::prepare_bonding_curve(&h.bonding_curve, &a.system_program, &a.user)
 }
-fn move_lamports(from: &AccountInfo, to: &AccountInfo, amount: u64) -> Result<()> {
-    if amount == 0 { return Ok(()); }
-    let source = from.lamports();
-    // Original raw ...0017 is ArithmeticOverflow; outer formatted error data is unproved.
-    let debit = source.checked_sub(amount).ok_or(ProgramError::ArithmeticOverflow)?;
-    **from.try_borrow_mut_lamports()? = debit;
-    // Source borrow is dropped before this read, including when handles alias.
-    let credit = to.lamports().checked_add(amount).ok_or(ProgramError::ArithmeticOverflow)?;
-    **to.try_borrow_mut_lamports()? = credit;
-    Ok(())
-}
-pub fn native_buyback<'info>(a: &MultiHopCurve<'info>, event_bump: u8, curve: &Account<'info, BondingCurve>, amount: u64) -> Result<()> {
-    if amount == 0 { return Ok(()); }
-    let to = a.buyback_fee_recipient.to_account_info();
-    let curve_info = curve.to_account_info();
-    crate::trade::quote_payments::transfer_native(curve, to.clone(), amount)?;
-    invoke_signed(&Instruction { program_id: crate::ID, accounts: vec![AccountMeta::new_readonly(a.event_authority.key(), true), AccountMeta::new(curve_info.key(), false), AccountMeta::new(to.key(), false)], data: anchor_lang::event::EVENT_IX_TAG_LE.to_vec() },
-        &[a.event_authority.to_account_info(), curve_info, to.clone()], &[&[b"__event_authority", &[event_bump]]])?;
-    invoke(&anchor_spl::token::spl_token::instruction::sync_native(&anchor_spl::token::spl_token::id(), to.key)?, &[to])?;
-    Ok(())
-}
 
 
 
 
 
 
-fn route_event<E: anchor_lang::Event>(a: &MultiHopCurve, event: &E, event_bump: u8) -> Result<()> {
-    let data = anchor_lang::Event::data(event);
-    anchor_lang::solana_program::log::sol_log_data(&[&data]);
-    let authority = a.event_authority.to_account_info();
-    let mut payload = vec![228,69,165,46,81,203,154,29];
-    payload.extend_from_slice(&anchor_lang::Event::data(event));
-    let bump = [event_bump];
-    invoke_signed(&Instruction { program_id: crate::ID,
-        accounts: vec![AccountMeta::new_readonly(authority.key(),true)], data: payload },
-        &[authority],&[&[b"__event_authority",&bump]])?;
-    Ok(())
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pub struct HopOutput<'info> { mint: Pubkey, amount: u64, buyback_fee: u64, vault: AccountInfo<'info> }
-struct PostCompleteFill {
-    base: u64,
-    quote: u64,
-    protocol: u64,
-    creator: u64,
-    pool_base: u64,
-    pool_quote: u64,
-}
+
+
+
+
+
+
+
+
 
 // S01: General iteration; fee flags and last-hop transfer are independent.

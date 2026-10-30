@@ -1,5 +1,0 @@
-[
- {"stage":"dependency content gate","failure":"Cached aead-0.5.2 source had no .cargo-checksum.json","resolution":"Verified every retained .crate archive SHA256 against Cargo.lock and all archive file contents against extracted source","target_or_harness_changed":false},
- {"stage":"fresh inventory","failure":"Enriched prior body dictionary unequal to freshly decoded basic dictionary","resolution":"Checked original raw/normalized hashes, kept enriched prior rows separately, used fresh base call/data/branch rows","target_or_harness_changed":false},
- {"stage":"summary","failure":"Burn mismatch array was not empty","resolution":"Retained all three existing second-call source-location differences; unchanged verifier accepts known diagnostic-only scope","target_or_harness_changed":false}
-]

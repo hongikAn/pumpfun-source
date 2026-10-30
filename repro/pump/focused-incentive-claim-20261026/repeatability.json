@@ -1,8 +1,0 @@
-{
-  "source_hashes_equal": true,
-  "stripped_equal": true,
-  "unstripped_equal": true,
-  "candidate_sha256": "816b093541883e76e5c58e63087c341ad8a0711db8ecb2943cb5f9cdfd97325d",
-  "unstripped_sha256": "c388afeb62f726abc44eaa1e7617ee2d5a1b497f19a757b52d814bfea265be4f",
-  "scope": "Same source and v1.44 compiler; second build has a fresh target directory. Historical build provenance remains unproved."
-}

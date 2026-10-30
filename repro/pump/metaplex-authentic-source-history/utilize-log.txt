@@ -1,9 +1,0 @@
-6d1d6ff4669cbadb86f42c2606f01269a8b26495 2025-04-14 11:18:52 -0400 refactor: wip arch svm skeleton
-4e5bcca44000f151fe64682826bbe2eb61cd7b87 2023-12-21 00:50:46 +0000 Add Token-2022 support (#17)
-2110c34f83a997576507ccf4e810a0a29e69a8c2 2023-09-06 17:41:26 +0200 program: Update serialization to `borsh::to_writer` (#32)
-40421f05e99de309690a04e737e607f956560fca 2023-07-24 14:26:27 +0100 Remove spl-token dependency
-887708157d86addf0cfd87c15de19ef1eb984a87 2023-07-17 10:57:54 -0800 move token-metadata into programs dir
-117b32a07df472f9ab24d88508b23ff406bfabbd 2023-06-09 14:41:44 -0800 replace serialize with metadata save fn
-3a4b3f6b51c956c7bab7aeae124faff43513dfaa 2023-05-31 10:12:44 -0800 Token Metadata v1.12 -- Initial Fees (#1106)
-c59d7985c4c19204b8d4bcda2c4e6cfd4082a5bf 2023-05-22 16:29:05 -0400 Replacing ::id() with ::ID because life is pain. (#1103)
-1b97e2dfd1bf3bac2d67bcbfc91de14412c9a6d6 2022-11-29 09:43:23 -0600 Feat: Token Metadata Instruction/Processor Refactor (#895)

@@ -1,7 +1,0 @@
-{
-  "controller_sha256": "ac4425364ca702b306a80a030e737876d34c5cb9ff64bbdd330b2094bf986684",
-  "baseline_equal": true,
-  "composed_equal": true,
-  "repeat_equal": true,
-  "scope": "Second empty target directory; dependencies freshly compiled; published host macro reused. Both complete artifacts repeat the first build."
-}

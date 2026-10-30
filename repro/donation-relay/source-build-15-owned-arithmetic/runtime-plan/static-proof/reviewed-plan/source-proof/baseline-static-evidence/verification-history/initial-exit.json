@@ -1,4 +1,0 @@
-{
-  "returncode": 1,
-  "cause": "Unsorted filesystem iteration produced handlers,arithmetic; exact source map already equalled frozen proposal. Corrected changed-path comparison to sorted order only. No source/build/receipt/semantic assertion change."
-}

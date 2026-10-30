@@ -1,6 +1,0 @@
-tree e784dfe3848e85533011d6001f8f34ac3c15abb6
-parent e562975d32ff33fd41070cefc848ee662af9bced
-author Shaw <shawmakesmagic@gmail.com> 1792962436 -0700
-committer Shaw <shawmakesmagic@gmail.com> 1792962436 -0700
-
-Expose tail guard trial through the registered dependency workflow

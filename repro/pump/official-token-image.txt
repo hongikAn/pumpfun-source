@@ -1,3 +1,0 @@
-Name:      docker.io/solanafoundation/solana-verifiable-build:3.1.9
-MediaType: application/vnd.docker.distribution.manifest.v2+json
-Digest:    sha256:d7079331a2696eca570fbeeb5caa556cb09084f89ca96f0a0edb86e1cf83e165

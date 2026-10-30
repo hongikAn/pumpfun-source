@@ -1,1 +1,0 @@
-Portable publication hardening: recipe flags are checked on the single actual root rustc command; registry roots and CPU/feature exclusions are checked only on actual rustc command lines. All saved sources, builds, logs, binaries and analysis results remain unchanged. The original scratch publication retains its original seal.

@@ -1,6 +1,0 @@
-{
-  "pass_": true,
-  "files": 31,
-  "xz_archive_sha256": "22a4cd896e6ef4530cbfc82af93814099634acb061c480918764a504c20239be",
-  "scope": "All decompressed paths/bytes authenticated against completed loose runtime capture; no deletions or normalization."
-}

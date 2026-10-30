@@ -1,8 +1,0 @@
-{
-  "anchor-lang-1.0.0/src/accounts/program.rs": "936ca827e5079b71b7f6697f1eff744e2d508061ec68ff81181f9413aba3334f",
-  "anchor-lang-1.0.0/src/accounts/account.rs": "f454971610f10a97c789085ec79bedda389bc81564eeaba7718f06e4e5aa1f47",
-  "anchor-lang-1.0.0/src/accounts/interface_account.rs": "7bf7c1e19c294806816c3e7b2c68c2532bab6457d84d3320bd30117eec6fbacd",
-  "anchor-attribute-event-1.0.0/src/lib.rs": "f635924351f944a01a50f07370ea65229703c8c5456688e7030d0b40cf2c290a",
-  "anchor-syn-1.0.0/src/codegen/accounts/try_accounts.rs": "318a56b9ad7325007746e24d0866e9ccb3e883fe7fb8c2e60e8ad767a4512fb3",
-  "anchor-syn-1.0.0/src/codegen/accounts/__client_accounts.rs": "d4df5191b710923dc9e520c43c175533fc23324bbdf0a69bdf0af80c59f10c5b"
-}

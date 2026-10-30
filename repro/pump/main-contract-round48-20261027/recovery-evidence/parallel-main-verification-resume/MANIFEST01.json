@@ -1,9 +1,0 @@
-{
-  "files": {
-    "R42-BUILD-VERIFY01.json": "17c09c05b52ffb9ecafa22b6abfe938a7cc448852c6b36907ddd487e7be35067",
-    "R42-PUBLIC-VERIFY01.log": "1437876184452d2a1b2a77a722e470281b0066571234a5fc65a73ee5a7e9592f",
-    "R43-ACCEPTANCE01.json": "b3d007ffaf49f8d2d4e1c02a9f1655464163db2ae7f4fa70f3be2029ec689f8e",
-    "R44-IMPORT-REVIEW01.json": "b5869b0dbd9e0f4a9370a1446435c7557aa1809ff2b03dd69dd4c8436765b5d4"
-  },
-  "scope": "Only independently verified local evidence; no publication or build claim for R44."
-}

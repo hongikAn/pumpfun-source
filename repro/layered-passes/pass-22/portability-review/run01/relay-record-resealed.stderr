@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/relay/verify.py", line 14, in <module>
-    Q=args.checkpoint.resolve();c=J(P/'current.proposed.json');r=J(P/'publication-identity.json');record(r,P/'reviewed-v2',c,Q)
-                                                                                                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/relay/bindings.py", line 34, in record
-    assert r['reviewed_plan_sha256']==V2 and r['controller_sha256']==H(V/'stage_integration.py')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

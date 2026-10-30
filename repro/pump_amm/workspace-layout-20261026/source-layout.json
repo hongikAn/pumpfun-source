@@ -1,6 +1,0 @@
-{
-  "changed_source_manifest": "standalone package becomes the sole member of a workspace; release profile and pubkey patch move to workspace root",
-  "workspace_resolver": 2,
-  "lockfile_bytes_preserved": true,
-  "scope": "Hypothesis experiment; no historical provenance claim; baseline source and selections untouched."
-}

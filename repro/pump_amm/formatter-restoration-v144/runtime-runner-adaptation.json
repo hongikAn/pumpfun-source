@@ -1,7 +1,0 @@
-{
-  "only_replacement": "assert len(build['source_sha256'])==22 -> assert complete source map equals proposed map (includes all vendor assets)",
-  "cases_controls_observer_unchanged": true,
-  "before_sha256": "bfeba8d423d845a84b1d218c95022a5c099b216aa76bd65dc80649dd4b2861ef",
-  "after_sha256": "7115293ffb0f942d9ece46016551a7bddc689956c60d2adc463028be1cf494f3",
-  "description_correction": "Actual source note names the complete vendor-inclusive compiler manifest, not 22 inputs."
-}

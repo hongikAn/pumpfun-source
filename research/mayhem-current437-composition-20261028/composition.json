@@ -1,9 +1,0 @@
-{
-  "parent": "research/mayhem-current436-composition-20261027",
-  "parent_manifest_sha256": "599bb6d7e5e204d36e3efb40c67a16706e7f6b9b55fa4bae0f37dc03a3867509",
-  "frozen_source_manifest_sha256": "7af8a87c01d0cb9057a2e7bdde0b54d4875ac020c739dbf93c95bb0da155756b",
-  "changed_files": [
-    "src/instructions/fee_recipients.rs"
-  ],
-  "scope": "One ordinary-Rust file changes on qualified436; runtime pending."
-}

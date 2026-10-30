@@ -1,9 +1,0 @@
-{
- "exit_code": 0,
- "seconds": 3.1,
- "substituted_root": null,
- "ld": "saved",
- "obj": "saved",
- "symbols_sha256": "ca9e6a933d1406743689f7bad609ce6b5e95ea91c064e0233cbd4db100afb335",
- "candidate_sha256": "7fdeefd6a7f36e1d312b7429f826fe4c5118440a059ee3fb49399b8799d3fc3d"
-}

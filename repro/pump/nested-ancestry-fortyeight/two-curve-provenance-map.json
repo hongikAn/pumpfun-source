@@ -1,8 +1,0 @@
-{
-  "scope": "Only expected compiler source count36\u219237 for added nested module; all case/signing/history/VM/assertion code unchanged.",
-  "predecessor": "repro/pump/tokenkeg-two-curve-fortyeight/harness/pump_tokenkeg_two_curve_differential.py",
-  "predecessor_sha256": "bbcb444b66f76a14017c6322df61c92323b82ba1a66be493306fda3ff92302db",
-  "adaptation_sha256": "5d93a5f79a00b38584e7f236bae49b31e4e29a01a8e6860e3fa754c35778c8d9",
-  "base_fixture_sha256": "0f269b3e5766fc77fd493d41f68d31ad1b3fd865ac977709d6ba552a192e448f",
-  "patch_sha256": "0c87504ec8b6b64344ffa0489b538df88db2867422a025ef929b6f8b601c0698"
-}

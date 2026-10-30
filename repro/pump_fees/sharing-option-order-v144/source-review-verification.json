@@ -1,1 +1,0 @@
-{"passed": true, "baseline": "c37bd3a19c3c57618f9239e0909c937c4f711492bc75b774fdaef7363453dcb7", "proposal": "late optional pool, conditional state exit, then program and event enum conversions", "builds": 0, "runtime_executions": 0, "whole_cpi_equivalence": false}

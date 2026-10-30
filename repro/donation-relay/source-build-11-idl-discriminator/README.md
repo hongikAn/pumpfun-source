@@ -1,9 +1,0 @@
-# Relay owned3001 checked-header conversion
-
-One pinned v1.44 compile and existing v1.52 strip phase passed. Only src/idl.rs and src/exit_error.rs differ from the frozen5af54232 source. The checked-header length<8 branch now constructs owned3001 before borrow release and outer account-name decoration. No IO error is added on that arm.3002 remains the prior incomplete adapter, and3003/3004 construction/drop ordering remains intact.
-
-Candidate471192bytes SHA25634c54b8e1e625a46fd446bb8e6fa7c7f17afcb1fd7d2ef3719a16f630c98ce91; symbols651808bytes SHA256ab5c3460e6d79a897e13343ca0683841035c7d60efe5085b8e808ab0b48507c7. Complete fresh ledgers contain492original and328candidate windows,33raw/122normalized matched original windows and370unmatched. Raw matches are a subset of normalized matches. Whole-file equality is false;257767common-position bytes differ and359256original excess bytes remain.
-
-All unchanged ordinary12 cases pass:24submissions,12unique transactions,50signature fields,25unique signatures and24effect sets independently verified. These finite cases do not establish all short-header/allocation/formatter failures. No new fixture or probe was used.3002 origin/drop semantics, other error adapters, indirect/data closure and original build provenance remain unresolved.
-
-The cache-free source proof retains its prior seal and excluded cache hashes as provenance. No cache file is included. The build/result23file source seal preceded runtime; final packaging adds evidence and receipts. Run python3 -B verify.py for static rederivation, and the recorded solders Python with ordinary/verify.py --repo /path/to/repository --runtime for saved signature/effect verification. The latter performs no target execution and depends only on the frozen original ordinary proposal and installed runtime. No main/current.json or prior package was changed.

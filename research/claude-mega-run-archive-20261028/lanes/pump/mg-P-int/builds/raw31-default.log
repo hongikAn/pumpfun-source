@@ -1,9 +1,0 @@
-{
- "ok": true,
- "runtime_valid": true,
- "stack_warnings": [],
- "seconds": 14.2,
- "ordered": null,
- "unstripped_sha256": "ccb52f1ff8cb8480af94a4b2dfdf12c5ae4b571836531c7b9c118ae275d094fa",
- "candidate_sha256": "85e7a54ee09f1074275fa92da82cc2ed879371c395ef73c703745a1bd77c7ef1"
-}

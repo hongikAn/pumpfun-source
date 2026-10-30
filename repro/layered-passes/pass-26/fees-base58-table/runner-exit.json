@@ -1,9 +1,0 @@
-{
-  "command": [
-    "/opt/homebrew/opt/python@3.14/bin/python3.14",
-    "work/fees2387-base58-table-admitted/collect_once.py"
-  ],
-  "actual_returncode": 0,
-  "collector_invocations": 1,
-  "compiler_runtime_fixture": false
-}

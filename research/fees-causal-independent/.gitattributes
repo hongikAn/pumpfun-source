@@ -1,5 +1,0 @@
-* -text whitespace=cr-at-eol
-*.gz binary
-*.xz binary
-# Preserve the hash-bound, actually executed recipe byte for byte.
-reproduce.py whitespace=cr-at-eol,-blank-at-eof

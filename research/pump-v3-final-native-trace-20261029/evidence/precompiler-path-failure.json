@@ -1,8 +1,0 @@
-{
-  "compiler_invocations": 0,
-  "clean_invocations": 0,
-  "failed_setup": "precompiler-failed-stock-setup",
-  "failure": "Copied locator __file__ rebased relative rustc path before first native command.",
-  "correction": "Use literal pinned PLAN tool paths; owned coordination lock directory. SDK/tool bytes, source, flags and two-compiler-attempt cap unchanged.",
-  "corrected_driver_sha256": "e939b618047792718fc1b5c73ffa4b6c8bbdc5a61915e231e7bb6bf0045528ed"
-}

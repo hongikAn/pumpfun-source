@@ -1,9 +1,0 @@
-{
-  "previous_map_sha256": "90f15620d4eaf7b533178ba1bdf872780fe70d497f9984c7fe306f262ffd7095",
-  "current_map_sha256": "750e15b94d92d9e3fbf18e242464e22bb6d8d5cb60028a479984c2a032aabf51",
-  "changed_bound_source_inputs": [
-    "programs/pump-fees/README.md",
-    "programs/pump-fees/src/sharing.rs"
-  ],
-  "scope": "Only source map changes; all harness, cases, assertions, original/runtime images remain fixed."
-}

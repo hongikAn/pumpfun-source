@@ -1,2 +1,0 @@
-source.patch -whitespace
-overrides/src/instructions/sell.rs -whitespace

@@ -1,8 +1,0 @@
-{
-  "actual_saved_checker_exit": 1,
-  "cause": "Reviewer expected launch executable used incorrect parent path; frozen actual launch path was correct.",
-  "root_candidate_harness_or_VM_failure": false,
-  "VM_target_harness_executions_by_reviewer": 0,
-  "preparation_error": "An earlier author patch assertion also failed before writing the checker; its tool output is not represented as a retained raw process receipt.",
-  "correction": "Only expected executable path string replaced; original checker/raw failure retained."
-}

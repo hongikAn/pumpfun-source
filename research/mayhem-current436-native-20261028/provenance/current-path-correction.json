@@ -1,7 +1,0 @@
-{
-  "old": "anchor_lang\tvendor/anchor-lang/src/bpf_writer.rs\tvendor/anchor-lang/src/bpf_writer.rs\n",
-  "new": "anchor_lang\tvendor/anchor-lang/src/bpf_writer.rs\tsrc/bpf_writer.rs\n",
-  "old_sha256": "b0aba215ceaf09a9cfbc5a283077bf51ddace9b490b221002e29f53f925fb845",
-  "new_sha256": "d9d29ad4b07eb0decb4ca5a0b8119a92e4a5f041bdede2c85c780615200e4df6",
-  "scope": "Use the current Cargo.toml anchor-lang source-path destination for the same path-map entry. The previous self-map appended by the wrapper shadowed the earlier current-source remap flag. All67sourcebytes, metadata seeds and linker selectors are unchanged."
-}

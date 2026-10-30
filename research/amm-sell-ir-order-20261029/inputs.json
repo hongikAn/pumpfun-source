@@ -1,8 +1,0 @@
-{
-  "parent_commit": "89483477bb04174240b6f33e7a3204af3f0a8658",
-  "parent_manifest_sha256": "494a81a8132e79891e6764f36119ca4458ac842dde901566ab6cd623326e4ea7",
-  "capture": "runs/05-all-pass-trace/stderr.log.gz",
-  "capture_compressed_sha256": "ccf9a01b56a98c991491aaab777be0d8b42267b5311376b2790b016b1cc01cc5",
-  "capture_raw_sha256": "22aa2d8d7801d33cccf667018e0d2f4a2e7aaf49dc1827d2130bf995111d4895",
-  "publication_base": "b09067fc1cdabd0568e72e7461704ed1edb77282"
-}

@@ -1,1 +1,0 @@
-Initial portable verifier retained a stale incentives.rs path when comparing the one-field lib.rs proposal. It returned1 before executing regeneration. Corrected only owning source path to lib.rs. Build/source/assertion meaning unchanged.

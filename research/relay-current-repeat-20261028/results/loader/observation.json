@@ -1,9 +1,0 @@
-{
-  "existing_controller_sha256": "741e6be8b0910f440b2ebc4ee65e01254a61d71ffaef416fcc26d815516486e2",
-  "observer_sha256": "1f1814ccaad9d1cceaaa7422253a84eff2cd00d66df5726d5ad38ca6b6599a1a",
-  "source_compiler_output_unmodified": true,
-  "loader_generated_payload": true,
-  "programdata_payload_copies_observed": 1,
-  "transactions": 912,
-  "signature_fields": 914
-}

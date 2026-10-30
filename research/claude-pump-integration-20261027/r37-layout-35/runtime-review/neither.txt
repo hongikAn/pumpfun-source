@@ -1,7 +1,0 @@
-neither pairs with only source-coordinate differences vs original: 7
-4 replace 
-   orig: ('Program log: panicked at programs/pump/src/token_incentives/volume_accumulator.rs:429:43:\nindex out of bounds:',) 
-   L35 : ('Program log: panicked at programs/pump/src/token_incentives/volume_accumulator.rs:464:31:\nindex out of bounds:',)
-3 replace 
-   orig: ('Program log: panicked at programs/pump/src/token_incentives/volume_accumulator.rs:108:14:\nUnexpected overflow',) 
-   L35 : ('Program log: panicked at programs/pump/src/token_incentives/volume_accumulator.rs:106:69:\nUnexpected overflow',)

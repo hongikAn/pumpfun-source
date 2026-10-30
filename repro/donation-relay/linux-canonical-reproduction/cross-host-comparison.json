@@ -1,8 +1,0 @@
-{
-  "darwin_linux_sysroot_sha256": "da61931f49713668c567791c4b36a49c3a75a1004ed331020054bcb13521f2c6",
-  "linux_sha256": "ed068c5d6d975c3b1d294596a55cf319ce2cef8c89a71647d77298917405b277",
-  "darwin_bytes": 818072,
-  "linux_bytes": 818072,
-  "equal": false,
-  "common_position_differences": 9469
-}

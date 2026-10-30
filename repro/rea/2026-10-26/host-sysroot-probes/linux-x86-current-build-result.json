@@ -1,9 +1,0 @@
-{
-  "returncode": 0,
-  "source_unchanged": true,
-  "log_sha256": "2b2a90eb9f17efe07be4742a0e712af01f7b6439a30966356f1590b3b9e8ef17",
-  "scope": "Experimental native v1.48 compiler with Linux x86_64 SBF sysroot; fresh offline current Relay build. This is not a full Linux-host compiler run; whole identity unproven.",
-  "candidate_sha256": "adac80447efdac671ce9521f81a0100fdbce7ca1495f60792c8ceb5ee2df3f5d",
-  "candidate_bytes": 818224,
-  "unstripped_sha256": "5b3741b6371c7217ec80d7060974ddeb586dc48b5432d5b2fee777cf72dc64a0"
-}

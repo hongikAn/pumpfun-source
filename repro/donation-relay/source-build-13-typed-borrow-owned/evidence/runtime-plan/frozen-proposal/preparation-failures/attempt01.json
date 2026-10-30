@@ -1,9 +1,0 @@
-{
-  "phase": "copied verifier runtime check; no VM or transaction",
-  "test_script_sha256": "22b0764f6f6a6aaaf9db959a6d3035b90d64c4eab8869d0fa57ba3ae354f0566",
-  "failure": "ModuleNotFoundError: No module named solders",
-  "cause": "Path.resolve dereferenced the virtualenv Python symlink to its base interpreter, losing virtualenv package discovery.",
-  "correction": "Use Path.absolute for interpreter invocation, preserving the existing virtualenv symlink path. Package and fixture bytes unaffected.",
-  "partial_progress": "external_copy_base passed; external_copy_runtime failed before inventory import",
-  "transaction_execution": 0
-}

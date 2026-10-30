@@ -1,7 +1,0 @@
-{
-  "type": "AssertionError",
-  "message": "{'intermediate_authorities_in_order': False, 'trade_mints_in_order': False, 'trade_directions': False, 'success': False, 'one_pump_route_call': True, 'expected_flags': True, 'expected_pump_account_count': True, 'actual_amm_global_signer_path': True, 'three_trade_events': False, 'outer_signature_valid': True, 'packet_legal': True}",
-  "traceback": "Traceback (most recent call last):\n  File \"/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/pump-general-route-validation-proposal-v3/harness/pump_general_route_differential.py\", line 168, in main\n    assert row['all_assertions_pass'],row['assertions'];assert not mismatch,mismatch\n           ~~~^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'intermediate_authorities_in_order': False, 'trade_mints_in_order': False, 'trade_directions': False, 'success': False, 'one_pump_route_call': True, 'expected_flags': True, 'expected_pump_account_count': True, 'actual_amm_global_signer_path': True, 'three_trade_events': False, 'outer_signature_valid': True, 'packet_legal': True}\n",
-  "completed_rows": 1,
-  "runtime_claim": "Partial receipts retained; no pass claim"
-}

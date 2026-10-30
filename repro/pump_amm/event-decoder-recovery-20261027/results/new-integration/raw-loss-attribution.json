@@ -1,7 +1,0 @@
-{
-  "lost": [],
-  "gained": [
-    442952
-  ],
-  "scope": "Pool::can_boost becomes raw-equal; all other raw windows retained."
-}

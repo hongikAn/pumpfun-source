@@ -1,2 +1,0 @@
-start (161, 216)
-round 0 [((156, 215), 'bb2.i5.i>bb2'), ((160, 215), 'bb22>bb2'), ((160, 215), 'bb22>bb9'), ((160, 215), 'bb22>bb2.i.i15'), ((160, 215), 'panic>bb9'), ((160, 215), 'panic>_ZN18pump_amm_recovered5state18volume_accumulator8to_usize17h52dfcb6463999b1fE.exit4.i19')]

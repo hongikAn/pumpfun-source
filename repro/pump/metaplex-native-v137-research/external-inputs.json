@@ -1,7 +1,0 @@
-{
-  "evidence/dependencies/token_metadata/deployed.so": "31f0a627dba051a938de650464e55cc5397a4be0fd496929c1f9cf02fe5e9011",
-  "repro/pump/metaplex-candidate-build-11/token_metadata.so": "3bbaf27ff0c10ff68d8a195a82f39eadee266f324067bd0a66081710be30b4ec",
-  "repro/pump/metaplex-candidate-build-11/source-manifest.json": "a63e2a387aec93418e7f6cf20e59e8e1c5257c7e8961ba4f73c6fbc1bb63c045",
-  "repro/pump/metaplex-candidate-build-12-review/candidate12.so": "4f039033a3cde9d47aa8ee0f68c13c2c4d55a9d6ee0ab50df9d4ef93a4a02edf",
-  "repro/pump_fees/framework-matching/elf_reader.py": "e011e9ff5b7b543815b5056c802095f0d939c72fe86f83b7e34fffbd4a41d010"
-}

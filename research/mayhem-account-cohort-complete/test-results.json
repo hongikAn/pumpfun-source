@@ -1,7 +1,0 @@
-{
-  "returncode": 0,
-  "stdout": "",
-  "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 18.939s\n\nOK\n",
-  "tests_sha256": "b6d10e514b55b0754353ab1ce75ac419e78cf2f7b0a7cda7f8a51ac75dec466b",
-  "refinement_sha256": "66cbad8f4fcfa2b77e8f2feba29608fbc0b9f0bd7a173ddae634e5abb9184376"
-}

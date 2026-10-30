@@ -1,8 +1,0 @@
-{
-  "repro/pump/buy-fee-basis-main-fortyeight/main/source/programs/pump/src/trade.rs": "753e2ed75e27b64565f96b29b2f8d77b2c626055ade7bb44ab1e36fe3b2f71f3",
-  "repro/pump/buy-mode-order-fortyeight/source/programs/pump/src/trade.rs": "d8491a3fb3a7b61948938600024ff4a787cd6ed855895f71af2451c469d99fa4",
-  "evidence/original/pump/deployed.so": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d",
-  "repro/pump/buy-mode-order-fortyeight/candidate.so": "bc6775052d8d335907d2a797113a4bb8e0008f07fa9d69c7597984fda9887314",
-  "repro/pump/buy-mode-order-fortyeight/baseline-byte-differences.json": "c006ec32d9d2507f16f2dc76173dceb664e080b2a62d00d58f528211c42fbe84",
-  "repro/pump/buy-fee-basis-main-fortyeight/main/candidate.so": "2b7e104ca71cf680208a72bc2d3eca86f3767c2bf83a6b75abe814356f9e8b66"
-}

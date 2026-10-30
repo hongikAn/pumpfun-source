@@ -1,7 +1,0 @@
-{
-  "failure_sha256": "09bf37e35fa19770d9a3f6bbfec7a9aea96735743ce4a1923a7b2f549c2c557a",
-  "manifest_order_correction": "All five copied verification cases passed. Final restoration check detected different JSON key ordering only, with identical manifest mappings; canonical sort_keys output fixes this metadata issue.",
-  "prior_manifest_sha256": "7c0e4d14e3ed14ffc823b56c511e814696525801e3ada5c58fca3b424882b42e",
-  "prior_status_sha256": "3a63df57d4c1416a0eac77e46aa069d1737e077b5cf5fd3e8ee2a29a6573d41b",
-  "scope": "Initial package retained prior current-artifact prefix in status. Current prefix corrected; historical legacy-value witness preserved at its original path. No source, build, runtime receipt or verifier assertion changed."
-}

@@ -1,9 +1,0 @@
-# Relay current-selection plan v2 — UNEXECUTED
-
-Original sealed plan is untouched. Relay ownership is immutable source checkpoints selected by current.json, not an active main crate. Stage takes required --reviewed-plan-sha256 supplied by root, checks every plan file and exact file set, frozen d12ad payload and23-source/two-file delta through its unchanged verifier, tool/source/build exits, and saved ordinary signature/effect verifier. Proposed paths, candidate/symbol/seal/counts are asserted before staging. Before/proposed metadata hashes and reviewed plan seal are recorded in publication identity. No active pointer/README is applied by either controller.
-
-Historical dependency witness bytes and Cargo.lock are bound by the complete d12ad seal. This controller does not claim recomputing extracted historical dependency semantics; no dependency tool/runtime or compiler is executed. No authority or source-origin probes run. --runtime in the existing ordinary verifier checks saved signatures/effects only. Saved counts remain12cases/24submissions/50signaturefields/25unique signatures/24effectsets, with no exhaustive mismatch/OOM claim.
-
-Root reviews and supplies this plan's manifest hash, then may run stage_integration.py --repo ABSROOT --reviewed-plan-sha256 SEAL [--stage NEW_WORK_PATH]. Stage is a fresh work-only copy, no active mutation. Root separately reviews publication and exact proposed metadata before selecting it.
-
-package_selection.py is an UNEXECUTED post-stage companion packager. It requires the reviewed plan seal and stage identity, copies only selection evidence to a new output, and seals it. verify_selection.py requires --checkpoint PATH to the independently copied d12ad checkpoint; it verifies all checkpoint bytes,23sources,candidate/symbol identity and draft bindings. Optional --current-root checks applied current/README exact bytes; it does not assert a fictitious main build. Root acceptance/application is not yet claimed.

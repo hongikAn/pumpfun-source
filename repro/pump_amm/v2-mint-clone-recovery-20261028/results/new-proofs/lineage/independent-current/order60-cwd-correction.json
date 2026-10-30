@@ -1,7 +1,0 @@
-{
-  "initial_attempt_executed_no_transactions": true,
-  "initial_failure": "Relative fixture root missing in cwd; import failed before tests.",
-  "corrected_cwd": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-v2-mint-clone-combined-20261028/runtime-inputs",
-  "fresh_candidate_receipts": "order60.json",
-  "other_suites_rerun": false
-}

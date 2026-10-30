@@ -1,8 +1,0 @@
-{
-  "template_sha256": "5f5b157ccbf6770400e08a87cbdd68da5c6406e88ebbbfebbe3738e1938fe421",
-  "controller_sha256": "059e15a2528da443d1e3af943404e2e6010cd2a5ad0ce20e55b73ba048b6f39e",
-  "reviewed_future_binding_sha256": "ee98688c8be93033cbf21cd0d6862b7b7756add7b3db9a15ce6b41bfcd48d61e",
-  "one_runtime_attempt": true,
-  "build_calls": 0,
-  "new_cases": 0
-}

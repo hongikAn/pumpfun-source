@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/pump/verify.py", line 54, in <module>
-    a=argparse.ArgumentParser();a.add_argument('--current-main',type=Path);args=a.parse_args();print(json.dumps(run(args.current_main),indent=2))
-                                                                                                                ~~~^^^^^^^^^^^^^^^^^^^
-  File "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/pass22-portability-review/run01/isolated-_oerc9kd/pump/verify.py", line 49, in run
-    for n,h in source.items():assert H(root/n)==h,n
-                                     ^^^^^^^^^^^^
-AssertionError: programs/pump/src/admin_cto.rs

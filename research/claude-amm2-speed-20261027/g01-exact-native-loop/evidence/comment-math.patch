@@ -1,8 +1,0 @@
-diff -ru a/programs/pump-amm/src/utils/math.rs b/programs/pump-amm/src/utils/math.rs
---- a/programs/pump-amm/src/utils/math.rs	2026-10-27 12:14:32
-+++ b/programs/pump-amm/src/utils/math.rs	2026-10-27 12:35:52
-@@ -6,3 +6,4 @@
- 
- 
- uint::construct_uint! { pub struct U128(2); }
-+// speed-lane vbatch smoke test

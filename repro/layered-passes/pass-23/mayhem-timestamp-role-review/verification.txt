@@ -1,1 +1,0 @@
-PASS: six admitted withdrawal windows and owner-call chain; current timestamp roles bound; historical declaration type remains unresolved.

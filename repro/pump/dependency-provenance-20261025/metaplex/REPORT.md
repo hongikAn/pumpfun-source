@@ -1,5 +1,0 @@
-# Metaplex source-provenance follow-up
-
-The July 2025 [Neodyme audit](https://neodyme.io/reports/Metaplex.pdf), page 5, identifies `metaplex-foundation/security-mpl-token-metadata` and last reviewed revision `4284d5d1608da887a79d64e3765efb2809ab87da`. Its PDF hash matches the auditor's [published report index](https://www.neodyme.io/en/reports/). The connected GitHub lookup returns 404 for that repository and 422 for the revision in the public `mpl-token-metadata` repository. The public `immutability` branch still resolves to the already tested `17e99434af5ead3e989c08f32af33609821d0bc0`.
-
-The captured dependency contains `Master edition is not mutable` at file offset 635130; candidate4 does not contain that literal. This is a concrete source-content discrepancy, not proof of its runtime reachability or of the audit revision's deployed identity. The cited revision is a useful source lead but is not currently retrievable through this connection. No new build, binary edits or original-program vulnerability claims follow from this evidence. Exact source/compiler attribution remains unresolved.

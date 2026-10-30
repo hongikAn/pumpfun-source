@@ -1,5 +1,0 @@
-{
-  "exit": 1,
-  "reason": "tar read mode493 omits directory type bits from original stat mode16877; compare permission bits while separately verifying member type",
-  "archive_bytes_changed": false
-}

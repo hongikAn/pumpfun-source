@@ -1,9 +1,0 @@
-# AMM37 multi-hop checkpoint
-
-This package adds `multi_hop_swap` to the AMM36 source. The clean main-path build is whole-file identical to the scratch executable tested by all 25 suites: 17,462 unique cases, including 735 new multi-hop comparisons. The maintained multi-hop harness was separately replayed from `/tmp`; all 735 case results match the scratch receipts exactly. This repeat does not add unique cases.
-
-The candidate is 1,177,560 bytes with SHA-256 `5b0bffda1c423cb1989822542086d8dd806ab0f7cd419c3899dc57e58433c848`. Full original-byte and ELF-extent equality remain false. The validated v1.44 compiler/lock compatibility graph is preserved and is not evidence of the historical build graph.
-
-`source-snapshot.tar.gz` binds actual main source paths. `test-snapshot.tar.gz` binds the current maintained harness and helper closure; `scratch-build/` preserves the exact original scratch source/test archives and executed commands. `main-scratch-identity.json` explains receipt reuse. `runtime-input-sha256.json` binds captured AMM, Pump, Fees, token programs, IDLs and fixtures. `unsuccessful-drafts/` preserves all four prior drafts and their negative evidence. Static excerpts and exploratory receipts are separate from the unique comparison counts.
-
-Fixtures use synthetic local state and ordinary verified test-owned outer signatures. Both original and candidate AMM executions perform their own actual PDA signing for captured Pump/token CPIs. No live mutation, signer bypass, or executable editing is used. This is bounded parity, not exhaustive or deployable equivalence. The remaining missing AMM body is `create_config`; its fixed administrator is limited to legitimate historical signed replays and static evidence. See `RECOVERY_NOTES.md` and `audit/pump_amm/MULTI_HOP_RECOVERY.md` for details.

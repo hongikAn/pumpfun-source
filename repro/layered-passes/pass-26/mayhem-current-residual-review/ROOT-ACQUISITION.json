@@ -1,6 +1,0 @@
-{
-  "scope": "Existing sealed complete ledgers and saved metadata only",
-  "known_public_seal": "f5d514664d47a04cc22282fdd19ca9e01d835c8a335aa9acc3f637fc61650acc",
-  "all_copied_payload_hashes_checked": true,
-  "new_decoder_build_VM_network_or_active_source_change": false
-}

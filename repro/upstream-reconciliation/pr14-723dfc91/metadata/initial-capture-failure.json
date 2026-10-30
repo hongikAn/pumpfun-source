@@ -1,7 +1,0 @@
-{
-  "status": "failed_before_any_blob_capture",
-  "cause": "git diff --raw --full-index still emitted abbreviated object IDs; explicit --abbrev=40 required",
-  "raw_initial_diff_retained": true,
-  "exception": "AssertionError: expected 40-character object ids",
-  "raw_process_receipt": false
-}

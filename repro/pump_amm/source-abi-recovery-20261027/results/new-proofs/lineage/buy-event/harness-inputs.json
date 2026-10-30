@@ -1,7 +1,0 @@
-{
-  "scripts/pump_amm_trade_v2_differential.py": "a66c8bac5eb610392aef041f716428038b297e42e24af0a54a4a4715d9c5c6bb",
-  "scripts/pump_amm_multi_hop_differential.py": "f7fa73af1002cc570d2cd80c501671f32364300ccf03a17a7081320e81273b50",
-  "scripts/pump_amm_legacy_buy_differential.py": "f50117d8d9cfb15ab540c467a6bc50c135ad7878b84fba71adb370436ed1097d",
-  "scripts/pump_amm_legacy_sell_differential.py": "f9c889069563cc133f29568d185ea068a3b106c67c3f6a75389af824dca8db66",
-  "scripts/pump_amm_reusable_harness.py": "19b7b2439db913e8dd187deba0aa561aa537bfe06a35007470e0f215c94f1cf2"
-}

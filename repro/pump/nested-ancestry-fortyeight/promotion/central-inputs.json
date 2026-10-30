@@ -1,7 +1,0 @@
-{
-  "repro/status.json": "9301e755d655e620017652fc620d5f757be1da3ad7aef82082f2290b29890a49",
-  "repro/completion.json": "f64d37c7d95b0d4ae972558cf106ea0680b9cdc56a89682a0645f4a8937f459b",
-  ".github/workflows/verify.yml": "622a7d19c2d2a4dd055fec392adc4f67512f6df26ba7c009c17860f2d38c891b",
-  "scripts/verify_current_bindings.py": "8457acbde995be726ed0db6b8e72c9b0c7da9e927e98fde7f620575a2b21e646",
-  "programs/pump/README.md": "aebeeeaed1afee0bc5d5c6d1aa9adff587382acd2d01174639fcd266706655bf"
-}

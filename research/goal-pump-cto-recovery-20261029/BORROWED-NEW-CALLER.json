@@ -1,8 +1,0 @@
-{
-  "original_start": "0x12da00",
-  "original_bytes": 2208,
-  "candidate_start": "0x13e418",
-  "candidate_bytes": 2208,
-  "complete_normalized_caller_equal": true,
-  "scope": "Actual parent private-global caller body, using official normalizer; source function target and argument setup inspected separately. No runtime claim."
-}

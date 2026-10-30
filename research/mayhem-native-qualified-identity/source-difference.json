@@ -1,6 +1,0 @@
-{
-  "src/state.rs": {
-    "non_whitespace_equal": true,
-    "diff": "--- PR248/src/state.rs\n+++ upstream/src/state.rs\n@@ -528,11 +528,8 @@\n pub fn initialize(ctx:Context<crate::InitializeMayhemState>)->Result<()> {\n     let mint=ctx.accounts.mint.to_account_info();\n     let duration_hours=ctx.accounts.global_params.field_6 as i64;\n-                     let now=Clock::get().unwrap().unix_timestamp; let state=&mut ctx.accounts.mayhem_state; state.field_8=now as u64;\n-           state.end_timestamp=now+duration_hours*3600;\n-\n-\n-\n+    let now=                 Clock::get().unwrap().unix_timestamp; let state=&mut ctx.accounts.mayhem_state; state.field_8=now as u64;\n+    state.end_timestamp=       now+duration_hours*3600;\n     state.mint=mint.key();\n     state.field_56=0;\n     state.field_72=0;\n@@ -541,6 +538,9 @@\n     state.status=MayhemStatus::Variant0;\n     state.burned_amount=0;\n     Ok(())\n+\n+\n+\n }\n \n \n"
-  }
-}

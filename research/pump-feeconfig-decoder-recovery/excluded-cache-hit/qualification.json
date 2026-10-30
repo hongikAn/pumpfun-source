@@ -1,4 +1,0 @@
-{
-  "valid_source_build": false,
-  "reason": "Cargo reported Fresh pump-recovered and finished in0.22s. Source was changed before the later baseline build under the same logical path; its mtime did not invalidate the shared fingerprint. Output is NOT evidence for changed source."
-}

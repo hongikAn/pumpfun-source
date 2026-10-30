@@ -1,1 +1,0 @@
-Initial emitted checker had an incorrect destination-register nibble for a store; actualr8 encoding0x08 corrected. First package verifier compared Python integer dict keys to serialized JSON string keys; corrected by lossless JSON round-trip before exact equality. Source/build/runtime unchanged; original scripts/failures retained.

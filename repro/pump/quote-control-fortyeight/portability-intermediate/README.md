@@ -1,1 +1,0 @@
-This intermediate metadata-portability run passed all 507 cases, but it predates explicit per-source-file binding. Its exact script and receipts are preserved. The maintained final runner and current 507-case receipts supersede it; these repeated cases are not counted again.

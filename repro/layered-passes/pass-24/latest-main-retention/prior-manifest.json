@@ -1,8 +1,0 @@
-{
-  "README.md": "6af01f9a4a83186b8c9bfc4ff534cfc552740e846060af88f7ff7227bc0aa15c",
-  "aa0/manifest.json": "74588906c71e6a2f599ae11108eac92c7dcfb3a2a82a393c330bc41afa7b8a81",
-  "aa0/preservation.json": "0247e7f052c3c8c09230fe9687bc2061ca6252130d5c85b30d7a94caa2b9bf4d",
-  "aa0/verify.py": "fc7351cb6fcb5d6b25ca03f6245252887a9e407a53fd2369178502e496b539c8",
-  "retention.json": "cf51516419e978fe1596876ecfd188150c065efaf8cc9955590bc7a15d2784d3",
-  "verify.py": "b04236aee4d01d71fee9c0c90077f4529d1f43a0248fabb61b924e08aa9dee9f"
-}

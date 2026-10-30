@@ -1,6 +1,0 @@
-{
-  "scope": "Native 778 default versus pure text ordering: multiset of named normalized windows and their pointwise direct callee names/signatures; excludes data, indirect bindings and pointer alias identity. Duplicate symbol names are distinguished by signature and callee sequence.",
-  "matched_native_windows": 964,
-  "internal_call_edges": 10678,
-  "mismatches": []
-}

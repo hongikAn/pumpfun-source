@@ -1,6 +1,0 @@
-{
-  "scope": "Exact live prebuild input bytes copied while build is running; the empty redirected orchestration log is preserved here before completion can change it. Final orchestration output remains a separate execution log. No prebuild seal was rewritten.",
-  "copied_payloads": 12,
-  "empty_initial_orchestration_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "prebuild_manifest_sha256": "281e41ea10467f0ddcfeeb3f04bcd93cc7e0b4e3be9269e80e0bac7b45bedda3"
-}

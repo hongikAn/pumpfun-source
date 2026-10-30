@@ -1,5 +1,0 @@
-# Curve buy and sell quote calculators
-
-Recovers non-inlined BondingCurve price methods and calls them from the existing V3 buy/sell calculation sites. Buy uses a checked u128 reserve subtraction and division followed by adding one; sell uses the u128 reserve sum as divisor. Existing narrowing, errors and surrounding handler calculations remain. Error locations are lib.rs:2428/2430 (buy) and 2454 (sell). The original bodies at 0xa0070 (1,224 bytes) and 0xa0538 (768 bytes) now match after relocation normalization.
-
-The Linux research frontier reaches 792 / 1,035, retaining all 790 prior matches. A fresh repeat reproduces both ELF artifacts. Bounded sell, exact-quote and configured-fee suites run against this exact candidate with captured loader accounts. Reports and source archives are retained. The maintained Round37 checkpoint remains unchanged. Whole original ELF equality is false; normalized body identity does not establish readonly data or indirect-call identity. No original executable bytes enter compilation or linked output editing.

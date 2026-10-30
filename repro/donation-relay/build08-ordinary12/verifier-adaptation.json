@@ -1,7 +1,0 @@
-{
-  "source_sha256": "6fa9d15761390060affe2bad202da19b1f88041f045a79a912b11e9cb7448b74",
-  "adapted_sha256": "77c0e4c1ff1b4415415c1f8c20406bc41e0b3bc0799bb537e978e38f30456db4",
-  "signature_and_effect_loop_unchanged": true,
-  "loop_sha256": "2c641718aa5228bec0868fb85d209a2f4e7c35dd89211a1631257bee32dec09b",
-  "changes": "Only file-layout and new build manifest/candidate bindings; original saved transaction/signature/privilege/state/effect comparison loop unchanged. Final packaging adds optional --build location and checks the preserved pre-runtime source seal named in the actual launch."
-}

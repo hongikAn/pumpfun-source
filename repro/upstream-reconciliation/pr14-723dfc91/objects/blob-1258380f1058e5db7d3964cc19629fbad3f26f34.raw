@@ -1,9 +1,0 @@
-[
-  "podman",
-  "exec",
-  "679ed8cb745287dfcbdfd008f209bace1cf081e3611dc343e07bc9b9a4fe6c1b",
-  "/root/.cache/solana/v1.37/platform-tools/llvm/bin/llvm-objcopy",
-  "--strip-all",
-  "/build/programs/token-metadata/target/sbf-solana-solana/release/token_metadata.so",
-  "/build/programs/token-metadata/target/deploy/restrip-control.so"
-]

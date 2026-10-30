@@ -1,7 +1,0 @@
-M5: ok True 0 979 165 G ['0x4eb28'] L [] RL [] ['']
-0x4c158 ratio=0.3986 -613 +615 pump_recovered::migrate_v2::create_token_account_v2_G1 @0x4f368 | cand 0x4f368   8384B ratio=0.3986  pump_recovered::migrate_v
-0x4c158 ratio=0.3937 -618 +620 pump_recovered::migrate_v2::create_token_account_v2_G2 @0x51428 | cand 0x51428   8384B ratio=0.3937  pump_recovered::migrate_v
-0x4c158 NO-CAND ?
-0x4c158 ratio=0.3882 -625 +620 pump_recovered::migrate_v2::create_token_account_v2_G4 @0x534e8 | cand 0x534e8   8328B ratio=0.3882  pump_recovered::migrate_v
-0x4c158 ratio=0.3986 -613 +615 pump_recovered::migrate_v2::create_token_account_v2_G5 @0x55570 | cand 0x55570   8384B ratio=0.3986  pump_recovered::migrate_v
-0x4c158 NO-CAND ?

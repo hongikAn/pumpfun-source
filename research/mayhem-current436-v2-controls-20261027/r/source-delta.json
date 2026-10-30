@@ -1,9 +1,0 @@
-{
-  "base_files": 67,
-  "files": 67,
-  "changed": [
-    "src/instructions/buy_v2.rs",
-    "src/instructions/pump_interface_v2.rs"
-  ],
-  "source_archive_sha256": "041b68607f1bfe35dedf7a47ff009c2e634c9f9edcc91d94ed9648ad3e80ccfa"
-}

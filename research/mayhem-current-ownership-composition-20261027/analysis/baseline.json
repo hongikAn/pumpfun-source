@@ -1,8 +1,0 @@
-{
-  "bytes": 13680,
-  "candidate_sha256": "56b4f3202ef42995be28753e05016e75b9015dccc6e13aad13f4d32be1c45f9f",
-  "symbols_sha256": "8a08d9795c676fa1141bc76a704dd4023afc67508b7592b2df4a279f09e430e5",
-  "calls": 50,
-  "Source_profile_equal": true,
-  "callee_shapes_equal": true
-}

@@ -1,5 +1,0 @@
-r9 secs=4 stackwarn=0
-O0081: orig 13848 cand 13848 norm_eq=True slots=0 mreg=0 mstk=0 (1 cand)
-O0082: orig 12992 cand 12992 norm_eq=True slots=0 mreg=0 mstk=0 (1 cand)
-O0083: orig 18648 cand 18632 norm_eq=False slots=168 mreg=158 mstk=15 (1 cand)
-matched 439 raw 141 gains [] no_losses True unmatched ['O0083', 'O0084'] {}

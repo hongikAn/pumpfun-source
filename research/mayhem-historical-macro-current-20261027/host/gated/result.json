@@ -1,8 +1,0 @@
-{
-  "returncode": 0,
-  "seconds": 72.26792041701265,
-  "source_unchanged": true,
-  "outputs": {
-    "target/release/libanchor_attribute_program.dylib": "0572b2df15e9ee286ce9d406f224143aa8e8edbcde8959119b9e95b7f6928286"
-  }
-}

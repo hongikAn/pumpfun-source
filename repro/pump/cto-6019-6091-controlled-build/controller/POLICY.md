@@ -1,9 +1,0 @@
-# Root controlled CTO guard build
-
-One fresh offline candidate implements the independently supported 6019 holder-PDA rejection and 6091 explicit-WSOL rejection, using their named Anchor errors. No active selected source or status pointer changes. Proposal88691036 is retained unchanged and its source, helper, tool, SDK and dependency pins are enforced.
-
-The root controller explicitly revises one ordering statement of that unexecuted proposal: it copies the captured original before the native child into evidence/original/pump/deployed.so, strictly for the unchanged helper's postcompile comparison. This file is outside all 37 compiled source inputs, helpers and authenticated dependencies. The unchanged helper reads it after successful compilation. The controller records this staging order and does not claim that it first reads the reference after compilation. No captured bytes are substituted into source or output.
-
-The controller creates an exclusive attempt claim before setup/native work. It copies only approved cache files into fresh regular files; no global configuration or credentials. Its subprocess environment is fixed. It preserves raw aggregate helper/build-sbf exits and logs; inner compiler/strip child statuses remain unobserved. Backend errors, stack diagnostics, setup/build/attestation failure return nonzero. Any cache additions require independent archive/lock review and return nonzero pending that review. A consumed attempt is never retried automatically. Candidate disposition remains UNSELECTED regardless of result. No transaction or runtime probe follows.
-
-Default invocation is read-only. Native execution requires --execute. Test functions mock native work and test prior-claim, ancestor-config and symlink rejection. Independent source review is required before root's one launch; this is a root review requirement, not a request for further user permission.

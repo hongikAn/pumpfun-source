@@ -1,6 +1,0 @@
-{
-  "scripts/pump_cashback_differential.py": "05d99973eab0e31e1fdb6a0062424f38bfb27d44aa2561b14e073193ab8534db",
-  "scripts/pump_trade_fixture.py": "9ee647c928070734fe700929b87d4016f76ec244c873e6f484318b5212aea1e1",
-  "scripts/pump_captured_loader.py": "6cbb57b5dc576b49110a9a39fa0d44ccda8fe3c1521bb407da58649f48bf3871",
-  "research/imported-lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json": "54d69dd4f11a61cc6cea3076e3e89fd4aa31ea6ff835f8ea316646a7b1642920"
-}

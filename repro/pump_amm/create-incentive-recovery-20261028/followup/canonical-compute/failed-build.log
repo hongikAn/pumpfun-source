@@ -1,9 +1,0 @@
-error[E0463]: can't find crate for `anchor_lang`
- --> /Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-create-pool-branch-next-20261028/policy-cpi/caller.rs:1:5
-  |
-1 | use anchor_lang::solana_program::{account_info::AccountInfo,entrypoint,entrypoint::ProgramResult,instruction::{AccountMeta,Instruction},p...
-  |     ^^^^^^^^^^^ can't find crate
-
-error: aborting due to 1 previous error
-
-For more information about this error, try `rustc --explain E0463`.

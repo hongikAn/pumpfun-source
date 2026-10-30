@@ -1,6 +1,0 @@
-{
-  "candidate_artifact": "repro/pump_amm/destination-rent-v144/candidate.so",
-  "candidate_sha256": "2a8a69f1e2f91f470b9742fe1c7caa129fa9ea126d54588473e8e3d490b7e706",
-  "differential_comparisons": 17462,
-  "comparison_report": "repro/pump_amm/destination-rent-v144/build-comparison.json"
-}

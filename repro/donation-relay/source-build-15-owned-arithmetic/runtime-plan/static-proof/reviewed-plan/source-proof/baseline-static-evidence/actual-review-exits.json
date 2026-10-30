@@ -1,6 +1,0 @@
-{
-  "root_terminal": 0,
-  "root_standalone_backend_gate": 0,
-  "independent_live_readonly_after_gate": 0,
-  "new_compiler_or_VM_runs_by_reviewer": 0
-}

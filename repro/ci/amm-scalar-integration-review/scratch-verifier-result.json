@@ -1,9 +1,0 @@
-{
-  "command": [
-    "python3",
-    "-B",
-    "work/amm-scalar-setter-build/handoff/verify.py"
-  ],
-  "returncode": 0,
-  "manifest_sha256": "47597f9733ee81e5e01bdaf5b7e44aebbba3960886cdcad281f985b050cfe991"
-}

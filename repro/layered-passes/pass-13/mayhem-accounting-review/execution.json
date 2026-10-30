@@ -1,6 +1,0 @@
-{
-  "runner": "inspect.py",
-  "rewrite_work_path": null,
-  "original_manifest_sha256": "f99bb225ea563dda0d09d1ef7ccfade89ff40e95338e0cb4113478a3400daea1",
-  "mode": "rerun-original-static-review"
-}

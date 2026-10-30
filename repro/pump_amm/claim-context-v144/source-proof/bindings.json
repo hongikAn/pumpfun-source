@@ -1,7 +1,0 @@
-{
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "repro/pump_amm/formatter-restoration-v144/candidate.so": "d3dacf1bd54e0b7b825557d01adfe158bc229753fb4b945618c5eabf2bdb1bab",
-  "repro/pump_amm/formatter-restoration-v144/unstripped.so": "03bc24bab735489b4edefcad6016d3ecf92e96972523025fe6c969ff738ba8b9",
-  "repro/pump_amm/formatter-restoration-v144/source/programs/pump-amm/src/incentives.rs": "9af88581a90307f87914bb1945d8b46ab9bb6c8d1c74454b4c02bcf488556263",
-  "repro/pump_amm/formatter-restoration-v144/inventory/after/residual-ledger.json.gz": "5734adc62112e88abcbddfe613f198f24a81f206c15933d4ca5e4bae95f4b0e5"
-}

@@ -1,5 +1,0 @@
-*.gz binary
-*.json text eol=lf
-*.py text eol=lf
-*.md text eol=lf
-compiler-source/version.md -text

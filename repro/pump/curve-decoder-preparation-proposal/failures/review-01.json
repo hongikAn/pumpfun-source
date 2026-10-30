@@ -1,7 +1,0 @@
-{
-  "stage": "static lexical inventory only",
-  "exit_code": 1,
-  "cause": "initial field filter also admitted inline constraint error-name mentions; inspect exact declaration types before narrowing",
-  "builds": 0,
-  "transactions": 0
-}

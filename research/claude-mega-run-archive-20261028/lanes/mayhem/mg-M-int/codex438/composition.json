@@ -1,9 +1,0 @@
-{
-  "changed_files": [
-    "src/instructions/sell_pump_swap.rs"
-  ],
-  "parent_manifest_sha256": "79659b2857576cd28918ed7f70fa967d98244f4002b2812e3ca15be9853f4acc",
-  "upstream_PR": 417,
-  "upstream_head": "05f9b64d31e926d78d87cca74b4b43c55a34946e",
-  "upstream_source_sha256": "a4f06ec545f854e7274a18b6e124c6bc6891cf5675fe9828ed78ee40ec74b4fe"
-}

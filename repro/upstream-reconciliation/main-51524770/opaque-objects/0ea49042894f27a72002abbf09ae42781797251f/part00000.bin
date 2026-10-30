@@ -1,7 +1,0 @@
-# Preserve exact measured EOF and review derivation patch.
-download/extracted/source/src/dispatch.rs -whitespace
-independent-review/review-tool/base-review-derivation.patch -whitespace
-recipe-comparison/path-derivation.patch -whitespace
-unicode-data/path-derivation.patch -whitespace
-recipe-comparison/original-record/transition-table.tsv -whitespace
-recipe-comparison/published-record/transition-table.tsv -whitespace

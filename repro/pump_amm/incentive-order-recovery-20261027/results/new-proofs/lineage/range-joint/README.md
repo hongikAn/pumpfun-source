@@ -1,9 +1,0 @@
-# Incentive error order and coherent source recovery
-
-Candidatec20007e860f47db1cc443344605afafe505d61bb4de6d61306fa164db3482544 combines the original conditional supply-range check with borrowed liquidity contexts/field order and coherent LegacyBuy module placement. The complete aggregate and three exact intermediate source snapshots are included.
-
-All785windows are re-counted:656normalized,148raw,826112matched text bytes; no gains or losses. Whole ELF identity remains false. The incentive change removes128documented signed error/log differences from1730synthetic boundary cases. Originalnegative7a0f1b4d... remains immutable. Currentcase verifier requireszero differences,3460transactions/3462signature fields and275original successes.
-
-Two strict builds have identical stripped and unstripped bytes,51canonical/52workspace inputs,227total authenticated inputs and762unchanged dependency artifacts. The worker freshly replayed17462core cases,2811retained cases,181admin/create/init controls,24cashback controls and1730boundarycases. That is22208suite cases including overlap,44566observedtransactions and44956signature fields. The506boost-burn observations reused under targeted are the same fresh core executions, not additional cases. Fresh broad root acceptance, including3378liquidity cases and32programidentity cases, is retained outside this lean packet for separate root verification and is not counted again here.
-
-Run `python -B verify.py` or import `verify(directory)`. This verifies saved evidence, not a new VM/compiler run. Source composition, entire measured windows, gained-earlier Disable/harvest bodies, signatures, originalnegative and prior standalone component proofs are rechecked. Broad payload omission is explicit. No artificial source padding, forced-inline boundary, assembly edit or network transaction is introduced.

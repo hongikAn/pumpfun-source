@@ -1,7 +1,0 @@
-02:49 m1 N=973 R=165 gains=['0x1367c0'] losses=[] rawg=[] rawl=[] valid=True t=24.0
-0x89258 2288B -- ratio=0.9537 cand=2320B@0x64768 diffslots=15 pump_recovered::legacy_sell::fee_cpi::trade_fees
-0x8bbd0 1800B -- ratio=0.5869 cand=1808B@0x27ce8 diffslots=133 pump_recovered::multi_hop_curve::trade_event
-0xcd3d8 8504B -- ratio=0.5140 cand=8472B@0xcfd60 diffslots=638 _<pump_recovered::mayhem_virtual_params::SetMayhemVirtualParams as anchor_lang::
-0x1367c0 5624B N- ratio=1.0000 cand=5624B@0x14e758 diffslots=0 pump_recovered::pump_recovered::set_params
-0x138b20 11928B -- ratio=0.2935 cand=11296B@0x1523b0 diffslots=1474 pump_recovered::pump_recovered::create
-0x13b9b8 15480B -- ratio=0.1496 cand=17984B@0x333c0 diffslots=3169 pump_recovered::buy_v2::buy_handler

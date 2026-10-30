@@ -1,7 +1,0 @@
-{
-  "source_package": "repro/pump_amm/scalar-guard-order-v144",
-  "source_manifest_sha256": "91303b85c079c8154f13af252a12538e145764756cb8a6d83337771f531eb648",
-  "archive_sha256": "42ade7033a939249c27ddd89e0fc0c01766a1f7ae98ff4b95c8936738838eddb",
-  "archive_bytes": 24274983,
-  "content_policy": "All336 original package files preserved byte-for-byte; archive transport metadata normalized only."
-}

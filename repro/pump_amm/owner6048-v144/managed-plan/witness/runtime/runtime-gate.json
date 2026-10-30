@@ -1,8 +1,0 @@
-{
-  "pass": true,
-  "candidate_sha256": "09bee0dfd751dc6ae0240bbac262933c6bda6e0c94aa643f82c57f2956c3a117",
-  "source_input_files": 30,
-  "reviewed_actual_binding_sha256": "ee98688c8be93033cbf21cd0d6862b7b7756add7b3db9a15ce6b41bfcd48d61e",
-  "emitted_packet_seal": "d153ca5c4bee7e592e363e5622db0c2f1e8462c170604fe5aed7c59cc59dd806",
-  "compiler_runs_by_runtime_controller": 0
-}

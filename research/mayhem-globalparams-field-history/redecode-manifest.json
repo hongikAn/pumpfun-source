@@ -1,9 +1,0 @@
-{
-  "files": {
-    "REDECODE.md": "1547b34ae32602de38af860e0d54cbaa52bfae87c00d8d103e519c3ed983b0b1",
-    "diff.json": "39701cd2b0b6c07e9c406f15784b611b5b088a32ae1492d00cad28d50dba6461",
-    "test_verify_raw.py": "d7899d13e2799466af655e3e7f171ea79ae8f53e5faaf724d96447544817adb9",
-    "verify_raw.py": "5849bd41a1450d2cfd5c97c38ad3b2667f40e8126d9c978882607b3dd716d10c"
-  },
-  "input_manifest_sha256": "02ecc240e1fca650532eba403a753c6011de1481d8fd1e87ad39f3626d1fa7fb"
-}

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/sharing-module-integration-review/verify.py", line 22, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/sharing-module-integration-review/verify.py", line 14, in main
-    assert fixture_check()==json.loads((ROOT/'fixture-check-results.json').read_text())
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

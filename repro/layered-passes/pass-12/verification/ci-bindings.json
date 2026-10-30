@@ -1,7 +1,0 @@
-{
-  "status": "PASS",
-  "scope": "Read-only CI nested/route source/build binding checks; no new target execution",
-  "candidate_sha256": "bc6775052d8d335907d2a797113a4bb8e0008f07fa9d69c7597984fda9887314",
-  "nested_source_inputs": 37,
-  "route_source_inputs": 37
-}

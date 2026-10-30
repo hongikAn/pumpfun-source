@@ -1,9 +1,0 @@
-{
-  "seed": "/Users/shawwalters/.codex/worktrees/pump-swap-remaining-20261028/pumpfun-source/work/pump-remaining-frontier-20261028-latest-target",
-  "owned_target": "/Users/shawwalters/.codex/worktrees/pump-swap-remaining-20261028/pumpfun-source/work/pump-exact-sol-guard-native-20261028-target",
-  "copy_methods": {
-    "apfs-clonefile": 1662
-  },
-  "hardlinks": false,
-  "seed_mutated": false
-}

@@ -1,1 +1,0 @@
-01-anchor-module-order 0 SUCCEEDED {'candidate-v154-strip.so': {'bytes': 775416, 'sha256': 'dd5ece8bd3ec15e7ea7d554431832402dc16192f6b67b1593b9fcc3302238bb2'}, 'symbols.so': {'bytes': 907776, 'sha256': 'a16342f9cbfa0fccefbd7738df79f1afa4d0c6ac82173c9a35a27a62dd07c95f'}}

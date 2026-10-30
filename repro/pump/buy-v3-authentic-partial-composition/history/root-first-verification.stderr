@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/cli-swarm-2026-10-25/buy_authentic_source_composition/publication/verify.py", line 89, in <module>
-    if __name__=='__main__':print(json.dumps(verify(),indent=2))
-                                             ~~~~~~^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/cli-swarm-2026-10-25/buy_authentic_source_composition/publication/verify.py", line 33, in verify
-    assert key in pm and pm[key]['sha256']==b['sha256'] and pm[key]['size']==b['size'],b['path']
-                         ~~~~~~~^^^^^^^^^^
-TypeError: string indices must be integers, not 'str'

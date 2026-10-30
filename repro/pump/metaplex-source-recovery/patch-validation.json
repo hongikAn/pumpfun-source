@@ -1,9 +1,0 @@
-{
-  "upstream_commit": "17e99434af5ead3e989c08f32af33609821d0bc0",
-  "files": 3,
-  "patch_applied_cleanly": true,
-  "baseline_hashes_verified": true,
-  "patched_hashes_verified": true,
-  "source_patch_sha256": "635ead0c44539d0fa10b6bb87010364e4360adfd4dfa0e22a9389ba0fde4ada7",
-  "scope": "Source application only; no compiler or runtime result claimed."
-}

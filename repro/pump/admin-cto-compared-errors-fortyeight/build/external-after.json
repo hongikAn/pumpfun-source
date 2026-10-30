@@ -1,7 +1,0 @@
-{
-  "resolved_cli": "/Users/shawwalters/.local/share/solana/install/releases/2.1.21/solana-release/bin/cargo-build-sbf",
-  "cli_sha256": "e5b55be5bd22122feedfff845237e7d72ec4134dd2f2186acce15907e15d27a0",
-  "locked_packages": 252,
-  "retained_dependency_files": 14281,
-  "sdk_files": 53
-}

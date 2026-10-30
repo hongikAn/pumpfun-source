@@ -1,5 +1,0 @@
-{
-  "returncode": 2,
-  "compiler_invoked": false,
-  "reason": "build_once.py not yet copied by still-running preparation; no compiler build attempt"
-}

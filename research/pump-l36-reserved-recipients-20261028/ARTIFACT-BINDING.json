@@ -1,9 +1,0 @@
-{
-  "build_record_sha256": "d3cf1b7db104cc0b1b1b5dc76f1ae718880eadf7d165996726eb46e25e1481d9",
-  "source_archive_sha256": "25d8dbaec19c88adee4f1a55e797c3153133f8556ee0beeaa1a3fa82bb1cb706",
-  "candidate_sha256": "99de3d08d20c83de764965799f5e669f99362b4c46458ca2b7a933c2fd51edfc",
-  "unstripped_sha256": "41e57522f0efa0e8e740350f590430ea4498a37367c9edf0d5bc1803ae24d1b9",
-  "control_build_record_sha256": "703b7eccad5f8bda01f08fee03b53e2c2ce3a863a24842b485fed703ec132c60",
-  "control_source_archive_sha256": "a6b2564d76f818a53d042c0d1c917e77881ed219429a5c82c52b02c70d3c99cf",
-  "note": "Post-build binding. Original candidate/control compiler input receipts are retained unchanged."
-}

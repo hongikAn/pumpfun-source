@@ -1,8 +1,0 @@
-{
-  "returncode": 101,
-  "seconds": 6.250854786001582,
-  "source_unchanged": true,
-  "tools_unchanged": true,
-  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "stderr_sha256": "741b2422372bd957aed005abaac343083fccd972e3ab979bfff8025bf1ab82d9"
-}

@@ -1,6 +1,0 @@
-{
-  "runner": "review.py",
-  "rewrite_work_path": "work/amm-scalar-next-review",
-  "original_manifest_sha256": "449168ffcd2c39bb9ae6175dcb7ea57faa51d925be95e1e8d61b0ce2b6b05db0",
-  "mode": "rerun-original-static-review"
-}

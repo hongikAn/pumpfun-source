@@ -1,6 +1,0 @@
-{
-  "runner": "verify.py",
-  "rewrite_work_path": "work/amm-application-next-review",
-  "original_manifest_sha256": "7f8c111871ba5b023ec83dbea59ce57872c3657b19590183a488a31e915ecfe6",
-  "mode": "rerun-original-static-review"
-}

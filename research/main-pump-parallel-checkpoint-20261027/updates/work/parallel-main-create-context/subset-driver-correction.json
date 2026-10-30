@@ -1,8 +1,0 @@
-{
-  "scope": "Correct local subset driver after all four suites passed but old aggregate asserted full44 count. Original driver and receipts unchanged.",
-  "prior_log_sha256": "ef0e6c94e7c4a6388f26b1673a501395d423cbd19de9afb3c257fd5716ea30c7",
-  "base_driver_sha256": "c5f2d8e9b1874af230dc236c9a3dd69626e4bcb3ca8c34b73a0447d9b1bd41c8",
-  "new_driver_sha256": "8a74862f7fa236cd30e2d34c82ff4d3a33bc896098f516dcf327ea48c8732ca6",
-  "expected_suites": 4,
-  "expected_cases": 517
-}

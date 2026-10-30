@@ -1,9 +1,0 @@
-{
-  "exit_code": 101,
-  "seconds": 3.0980551749962615,
-  "primary_unchanged": true,
-  "source_unchanged": true,
-  "sdk_unchanged": true,
-  "root_invocations": 0,
-  "build_log_sha256": "1f01c22a9ff42bda9518cef58893590d4958e6539f5debfb7667aa2d44a24a72"
-}

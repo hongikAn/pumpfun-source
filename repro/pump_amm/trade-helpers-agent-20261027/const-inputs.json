@@ -1,9 +1,0 @@
-{
-  "source": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-trade-helpers-agent-20261027/cashback-const-source",
-  "base": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-trade-helpers-agent-20261027/cashback-source",
-  "files": {
-    "programs/pump-amm/src/lib.rs": "7560e7970914ba17e06da67146c728dac3ef16be1f8eb89a28ded9cd44bbcc66",
-    "programs/pump-amm/src/legacy_buy.rs": "d96810fb47fdf859e1f9f7e774396c580a0f89445f8bf61edf1270335e39b7ef"
-  },
-  "patch_sha256": "e785fc9494da03f399f15c747e1b8f968a54fe80f8a3c3c5fa7882e144f3ff16"
-}

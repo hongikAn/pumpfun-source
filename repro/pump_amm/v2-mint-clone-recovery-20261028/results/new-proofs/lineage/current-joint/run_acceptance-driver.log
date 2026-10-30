@@ -1,4 +1,0 @@
-{"suite": "sweep254", "returncode": 0, "seconds": 1.8187637079972774}
-{"suite": "private1502", "returncode": 0, "seconds": 9.213660499997786}
-{"suite": "current1730", "returncode": 0, "seconds": 11.866439624998748}
-All targeted and core acceptance passed dbb5dcfd1a1487e22d61ae68d22a9b74087b78a868a08ab974c7bdbb127f1500

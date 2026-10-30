@@ -1,3 +1,0 @@
-# Retain the exact source bytes consumed by the diagnostic compiler runs.
-controls/*/fee_recipients.rs -text -whitespace
-controls/*/source.patch -text -whitespace

@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/mayhem-result-error-independent-review/review.py", line 78, in <module>
-    assert x.startswith(prefix)and y.startswith(prefix)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

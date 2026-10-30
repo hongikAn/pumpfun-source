@@ -1,9 +1,0 @@
-{
-  "parent_manifest": "repro/pump_amm/canonical-frontier-20261028/MANIFEST.json",
-  "parent_manifest_sha256": "d05b92a344e1e095e6f68276eb50ddc64a36a0792ac20cb0e7c31c6f6f384489",
-  "parent_builder_sha256": "5a6668f03debab54ad194860d11dd97325744f9a43960574030ed53e9e8fe8e8",
-  "workspace_recipe_sha256": "66108c658683bc82437323d0fbefb4ba4921dd66ec79c00ec64c3cfd19498656",
-  "default_link_script_sha256": "5e8370b9380f55411d827721e2e43c8cfd1eac71d1383e20b938397bc0bd82c3",
-  "ordered_link_script_sha256": "b8a3588949d5721fb3c8ba42c68d3ae23d502dda0bed1d6cb37ce8e8f9ae1633",
-  "source_and_object_byte_transformations": false
-}

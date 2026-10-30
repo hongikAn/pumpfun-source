@@ -1,6 +1,0 @@
-{
-  "scope": "Replace only repro/status.json mayhem object; preserve all other program rows. Main companion publication must exist before assigning final accepted status.",
-  "current_main_status_file_sha256": "246f558005406fcf0ca145e875115af675dc5534701ef30c34c5aebf9ec1175d",
-  "historical_source_recovered": false,
-  "full_byte_equality": false
-}

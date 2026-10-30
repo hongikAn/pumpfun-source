@@ -1,7 +1,0 @@
-{
-  "evidence/dependencies/donation_relay/deployed.so": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
-  "repro/donation-relay/donation-close-order-controls/report.json": "80cc8e8ebf1daa352d7c12934f55043c74cb1b88d834a4aae8842dd6bec27a64",
-  "repro/donation-relay/donation-close-order-controls/verify.py": "07f788948f9875c18ff753318d07866d2314b6adc4048d7fadd605c6e51424ea",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/analyze.py": "095fc2d63be0fe4233bdf4e5946cac8d03d9b1747fd39147eea9a98c12dda175",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/original-windows.json": "c002df05d4489259f1cfd2b2391220cae38f6ffb0055f35f659e68a4935fd7bd"
-}

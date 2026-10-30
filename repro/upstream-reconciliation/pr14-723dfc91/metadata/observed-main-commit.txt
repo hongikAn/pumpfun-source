@@ -1,7 +1,0 @@
-commit 0003e7fa9997c0a7acbedd0f32dfdc394f264acf
-Author:     Shaw <shawmakesmagic@gmail.com>
-AuthorDate: Sun Oct 25 19:07:35 2026 -0700
-Commit:     Shaw <shawmakesmagic@gmail.com>
-CommitDate: Sun Oct 25 19:07:35 2026 -0700
-
-    Retain exact SDK dependency graph and offline named-account resolution evidence

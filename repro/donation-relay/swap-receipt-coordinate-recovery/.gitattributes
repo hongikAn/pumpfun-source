@@ -1,2 +1,0 @@
-# Preserve exact compiler-input snapshots, including historical whitespace.
-sources/** -whitespace

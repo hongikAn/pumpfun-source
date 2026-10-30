@@ -1,2 +1,0 @@
-710192: 85100000ffffffff                 external {'record_pc': 816048, 'type': 10, 'symbol': 'custom_panic'}
-710200: 85100000ffffffff                 external {'record_pc': 816848, 'type': 10, 'symbol': 'abort'}

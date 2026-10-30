@@ -1,9 +1,0 @@
-{
-  "stage01.py": "990c1e78353fd4fc9d44eb3e8c1bb4dedf990e86b400188913230397efbdfd9b",
-  "STAGED01.json": "e23b55c7447917144c314afd9bf14db87f6ab77a255edfd69ee9d47aad029b08",
-  "EVIDENCE01.json": "d741af489c0fd5929abfbc270aa07402bcd8062c15366234afce1f9987423f96",
-  "quote-preflight01.patch": "286e149756a6ca0a21297ea62bc5ec38578e1d1192b7d4febaeff3a21bce31f7",
-  "original-7f010.asm": "d90cddec6703f4c0be4521449b26ac5a247edfffeba2d4c4add2fdfa0d1f7ea4",
-  "original-7e490-start.asm": "233cbba99f8acfc7bbbda1a9600942e99b97df7dddfb6433d73a3539a09f04a0",
-  "original-sell-prefix.asm": "113bdfc54b726665aa383913b512ed228a00c1b4061d0bfb92a41157c39bb7bb"
-}

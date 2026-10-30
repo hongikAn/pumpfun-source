@@ -1,9 +1,0 @@
-{
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "repro/mayhem/global-params-layout-recovery/tools/layer01.py": "7be3a56418587fdc05178529428ab18df40a252fbd46431ceb98e9107fe414b1",
-  "research/mayhem-buy-v2-shared-validation/static.py": "1275a2b963dc888f5ede604cff339dc67645a5a0b41da4c4fa5098b7ea0cefbc",
-  "research/mayhem-native-program-recovery/analysis.py": "feca08d0efe75e376d576fea17968b690c2f0854e1ce79bf67e3462ebb30939d",
-  "research/mayhem-native-program-recovery/audit.json": "0cb08eac77bfb38f7c9f746f3cd7b976936dda4a8e6c507b7d1263f74a3c9b48",
-  "research/mayhem-native-program-recovery/manifest.json": "8e3cd825537142097b075dbc4d54f91fde722bc66bdd3c34c3a66bbf01f9c73d",
-  "scripts/verify_mayhem_buy_v2.py": "9816df18ba644d274d446a6663e88aa454abbc70b1780ccb815ea6345c993f9f"
-}

@@ -1,7 +1,0 @@
-{
-  "source_package": "repro/pump/final-error-metadata-fortyeight",
-  "candidate_sha256": "2aa18c73e517d9f74063633ea5d5b15f187d63e4dd4c09678b852afdd588cbc3",
-  "package_manifest_sha256": "b8906c998c01a0dee9e8eb2f6bfbcc3c903e97d8753b22dbb316cc8dc0cc787e",
-  "source_inputs": 37,
-  "source_analysis_scope": "No candidate disassembly or build; only current hash/source binding and original bytes."
-}

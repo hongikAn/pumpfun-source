@@ -1,1 +1,0 @@
-A first inline read-only coverage-report preparation failed to parse before executing any statement: SyntaxError at `and82`. No report/source/fixture bytes were written, and no target program was executed. The corrected derivation follows in derive_coverage.py. This is not a build or runtime retry.

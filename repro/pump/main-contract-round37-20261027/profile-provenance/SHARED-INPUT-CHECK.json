@@ -1,8 +1,0 @@
-{
-  "shared_files_equal_to_initial_snapshot": {
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/scripts/pump_build_verified.py": true,
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/scripts/pump_dependency_cache.py": true
-  },
-  "all_equal": true,
-  "no_shared_writes_by_this_lane": true
-}

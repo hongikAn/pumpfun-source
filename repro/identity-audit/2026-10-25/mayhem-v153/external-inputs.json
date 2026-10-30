@@ -1,7 +1,0 @@
-{
-  "evidence/original/mayhem/deployed.so": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
-  "repro/mayhem/sell-result-error-main-twentyfour/main/candidate.so": "7d416f848f03e46d9a514f4c505a8e903cdb908f52280bb961254eed90aebe1f",
-  "repro/mayhem/sell-result-error-main-twentyfour/main/unstripped.so": "948a1a13f9ff947c8a544db7a2241c95e09618c9bb3613d4d2ab900d986329d8",
-  "repro/mayhem/sell-result-error-main-twentyfour/main/build-attempt.json": "b8b32fa0b9e8e677b22aae60cbbedb5f3dc365aafdda2d85ce10ab13543de82e",
-  "repro/mayhem/sell-result-error-main-twentyfour/main/build-comparison.json": "804d5ab7f906b42baca5a6d2426c8ea07b1d4939a467d1d16875d57d04464dc0"
-}

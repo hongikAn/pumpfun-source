@@ -1,7 +1,0 @@
-{
-  "scope": "Candidate compiler inference, not verified byte identity.",
-  "source_commit": "667d7c95dbe4d547fb5312b3fc99104a08204f99",
-  "image": "solanafoundation/solana-verifiable-build@sha256:43206149a565ec35da95b1a909f4714f5d5f0d8241c31df24189e517acd18467",
-  "image_tag": "1.16.25",
-  "evidence": "Captured ELF embeds platform-tools std hashbrown0.12.3 path; first CLI2.0.9 build embeds std hashbrown0.14.2. Trial older platform-tools1.37 Rust1.68-era image while retaining exact program source and lockfile."
-}

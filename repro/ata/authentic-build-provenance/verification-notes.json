@@ -1,8 +1,0 @@
-[
-  {
-    "stage": "firstofflineverification",
-    "issue": "Tree endpoint requested with commit ref echoed commit SHA; initial verifier incorrectly treated that as root-tree SHA",
-    "resolution": "Reconstruct all Git tree objects offline from complete mode/name/object-ID entries; root must equal immutable commit tree142baa00\u2026",
-    "new_network_or_build_requests": 0
-  }
-]

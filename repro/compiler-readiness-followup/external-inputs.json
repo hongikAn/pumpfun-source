@@ -1,5 +1,0 @@
-{
-  "scripts/check_sbf_backend_diagnostics.py": "3d9a10504293fc9c8d0017136857460d6a025e97683a8795081b4038ff9ae182",
-  "scripts/test_sbf_backend_diagnostics.py": "b3713ef3e38a127d063699aa41ac28c1539f69b19efeef9a6d9d2e470bc603eb",
-  "docs/BUILD_IDENTITY_AUDIT_FOLLOWUPS.md": "526841560f78646f929bd8a390adee32d59539e5fd4526a32efa2b09bd08a70e"
-}

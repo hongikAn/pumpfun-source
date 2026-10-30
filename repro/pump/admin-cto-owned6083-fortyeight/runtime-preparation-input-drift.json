@@ -1,8 +1,0 @@
-[
-  {
-    "group": "harness_sha256",
-    "path": "scripts/verify_recovered_builds.py",
-    "prior": "81a448499c2c479389a6d59e9e43a29fe58859c995b80b4ef0b796d3d18f3387",
-    "current": "c49184df39583f820624d1e94f526bfbd8f7bea383d62472e83518933b4cd935"
-  }
-]

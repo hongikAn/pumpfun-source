@@ -1,9 +1,0 @@
-{
-  "controller_executions": 0,
-  "compiler_executions": 0,
-  "VM": 0,
-  "active_writes": 0,
-  "strict_filesystem_tests": 7,
-  "tests_returncode": 0,
-  "source_maps": "baseline37/proposed37 frozen; actualsource application is futureexplicitcontrolleronly"
-}

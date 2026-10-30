@@ -1,5 +1,0 @@
-{
-  "returncode": 1,
-  "failure": "mkdir source/evidence/original/pump_amm already existed in exact copied publicsource; no compiler attempted",
-  "resolution": "continue remaining metadata copies; retain existing exact original ELF"
-}

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-deserialize-build/result/verify.py", line 26, in <module>
-    p=argparse.ArgumentParser();p.add_argument('--repo',type=Path);a=p.parse_args();print(json.dumps(verify(a.repo),indent=2))
-                                                                                                     ~~~~~~^^^^^^^^
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/relay-idl-deserialize-build/result/verify.py", line 23, in verify
-    b=Path(repo)/'repro/donation-relay/source-build-08-whitelist-writer';assert H(b/'candidate.so')==H(P/'previous/candidate.so') and H(b/'original.so')==H(P/'original.so')
-                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

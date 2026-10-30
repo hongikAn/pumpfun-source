@@ -1,9 +1,0 @@
-{
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "work/amm-sync-context-build/publication/candidate.so": "69e5b9fc8d6bcecf5f8ae60748767fefc685a3b13823189a945b2f9d1c77e758",
-  "work/amm-sync-context-build/publication/unstripped.so": "ee10da5e480b5f6b6977949db9d392deb60fad3db2e25c28720f528f38599db2",
-  "work/amm-sync-context-build/publication/inventory/after/residual-ledger.json.gz": "3589c6cfb1696285d10ee1d3e619226b0ec6796ec7d4b34b4958f4fd3a4af48b",
-  "work/amm-sync-context-build/publication/source/programs/pump-amm/src/incentives.rs": "09e9c8d922002aa8a8a9feace9bc71fe2e33eb27904f756956b23298ef32bd9c",
-  "work/amm-sync-context-build/publication/runtime-01/incentives_sync.json.gz": "6a4686736152952a9bbfe4ca1e4170c88cf33a5e1002dd48b6505aa1a9d211ba",
-  "scripts/pump_amm_incentives_differential.py": "b5f1f520aec909178d625d1c4a7d33ba3801f91a8c5d7eab11e8ae244a07472c"
-}

@@ -1,3 +1,0 @@
-# Actual pass31 verification
-
-Root actual packager0 and relocated stream0:13groups/258members/372378compressedbytes, noextract or archivedcodeexecution. Current source107/Relay23/187scripts/6workflows passes; complete metadata53cataloguerows/3338queuerecords passes. Complete source/compiler/status projection remains identical to mergedP30/1621; saved signature results at its accepted source checkpoint are not relabeled new target executions. Header/collection proofs and all grants/finalguards are retained inside the researcharchive. Preparedreportdraft3727 remains byte-unchanged with its original pending text, and the current report is the parent README. Hosted exact publication head remains a separate acceptance gate.

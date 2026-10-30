@@ -1,7 +1,0 @@
-{
-  "candidate_sha256": "ca5d4f54b14e2f67c4eca56fcac29b54801906cecf23c463801916fd9d6b6621",
-  "symbols_sha256": "f9de20e991c9e14e77f2d9cded7da9c2dff892353f06f7c6f00ea18bfa8e911e",
-  "audited_v154_candidate_equal": true,
-  "whole_original_equal": false,
-  "path_sensitive_differences_preserved": true
-}

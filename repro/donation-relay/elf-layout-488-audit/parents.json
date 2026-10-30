@@ -1,9 +1,0 @@
-{
-  "evidence/dependencies/donation_relay/capture.json": "1c604cf91334ae1162f2dac66cdf27f00695b666b5bad0f934969f6cf0509650",
-  "evidence/dependencies/donation_relay/deployed.so": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
-  "evidence/dependencies/donation_relay/programdata-account.bin": "42d80bfd3663975888721e067bb3c7764b090d9146f16fa0ccf97c3bc2ff1014",
-  "repro/donation-relay/settlement-artifact-recovery/manifest.json": "9fb85cc45f0443f7aa68ae73e7c6d3d8c2a14e4c205cbe117014d23ba0899000",
-  "repro/donation-relay/settlement-artifact-recovery/metadata.json": "d2d0ee03a14bcc5b8fc5dcac0ddc4ea4b62bc9c77133ea354f60d7c7fa4eac28",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/analyze.py": "095fc2d63be0fe4233bdf4e5946cac8d03d9b1747fd39147eea9a98c12dda175",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/original-windows.json": "c002df05d4489259f1cfd2b2391220cae38f6ffb0055f35f659e68a4935fd7bd"
-}

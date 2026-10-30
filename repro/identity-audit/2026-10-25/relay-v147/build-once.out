@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/relay-v147-compiler-audit/build_once.py", line 19, in <module>
-    after=files(CRATE);attempt.update(returncode=r.returncode,elapsed_seconds=time.time()-start,source_after_sha256=after,source_unchanged=after==frozen,build_log_sha256=H(OUT/'build.log'));(OUT/'build-attempt.json').write_text(json.dumps(attempt,indent=2)+'\n');assert attempt['source_unchanged'];r.check_returncode()
-                                                                                                                                                                                                                                                                                                          ~~~~~~~~~~~~~~~~~~^^
-  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 509, in check_returncode
-    raise CalledProcessError(self.returncode, self.args, self.stdout,
-                             self.stderr)
-subprocess.CalledProcessError: Command '['/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/relay-v147-compiler-audit/platform-tools/rust/bin/cargo', 'build', '--manifest-path', '/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/relay-v147-compiler-audit/crate/Cargo.toml', '--release', '--target', 'sbf-solana-solana', '--locked', '--offline', '--verbose']' returned non-zero exit status 101.

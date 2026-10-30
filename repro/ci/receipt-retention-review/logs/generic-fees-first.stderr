@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/receipt-retention-independent-review/fixture/scripts/verify_recovered_builds.py", line 4, in <module>
-    from compare import compare
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/receipt-retention-independent-review/fixture/scripts/compare.py", line 4, in <module>
-    from analyze import elf_layout
-ModuleNotFoundError: No module named 'analyze'

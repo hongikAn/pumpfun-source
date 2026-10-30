@@ -1,7 +1,0 @@
-{
-  "evidence/original/pump_amm/deployed.so": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
-  "work/amm-claim-context-build/publication/candidate.so": "6f2589487eac44be02788312a55bcba09cebea635d9bdf0880d65b9999381815",
-  "work/amm-claim-context-build/publication/unstripped.so": "10a7804429ce02fdec15f9a37f34fc67dab987e514295630b467ace314f0d935",
-  "work/amm-claim-context-build/publication/inventory/after/residual-ledger.json.gz": "0dde0df90f878b16d49e2b88c3bce453267f213ed9cba1d117b05662c475dad8",
-  "work/amm-claim-context-build/publication/source/programs/pump-amm/src/incentives.rs": "fac0e74521d709ea0630c3d3b5455781af2b628ef99ae39a2b8de06bacbc5bb5"
-}

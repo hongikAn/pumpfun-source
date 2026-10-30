@@ -1,8 +1,0 @@
-{
-  "changes": "Copies support the additional exact IDL build input (31 inputs) and preserve existing data/behavior checks. Original fixture directories remain referenced explicitly.",
-  "source_files": {
-    "incentive_probe.py": "repro/pump_amm/incentive-diagnostics-20261026/probe.py",
-    "cto_probe.py": "repro/pump_amm/cto-diagnostics-20261026/probe.py",
-    "liquidity_probe.py": "repro/pump_amm/liquidity-numeric-diagnostics-20261026/probe.py"
-  }
-}

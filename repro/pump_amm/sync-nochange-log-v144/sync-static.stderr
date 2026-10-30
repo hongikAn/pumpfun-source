@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-sync-log-build/sync_static.py", line 14, in <module>
-    f=find(S,p);g=find(BS,p);n=f['size'];same=n==g['size']and C.normalized[f['start']:f['start']+n]==B.normalized[g['start']:g['start']+n]and C.pattern(f['start'],n)==B.pattern(g['start'],n);assert same,k;claim[k]={'new':f,'baseline':g,'whole_normalized_equal':True}
-                                                                                                                                                                                                      ^^^^
-AssertionError: handler

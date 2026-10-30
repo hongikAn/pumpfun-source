@@ -1,6 +1,0 @@
-{
-  "closure.json": "b6bb638d46faf1df4208c024f427dc3a5b6559cd4980fdc7bc016106c4fc7d5e",
-  "literals.json": "79e20f07c169fd894fc7b4a09d63e49accb0bd60e4561d702e1cae8a3d919cbb",
-  "../call-closure-audit-20261027/audit.py": "2e8433b4def2ab59455839e7c981cd0bd2d9e22f072ae147973ba99aeb9bbe1e",
-  "../call-closure-audit-20261027/literal_constraints.py": "6fc586829ef126b9c134febe5e3097324871eba21990ddb2d8f0b465ac004c45"
-}

@@ -1,5 +1,0 @@
-{
-  "same_inputs_same_key": true,
-  "rustflags_change_invalidates": true,
-  "lockfile_change_invalidates": true
-}

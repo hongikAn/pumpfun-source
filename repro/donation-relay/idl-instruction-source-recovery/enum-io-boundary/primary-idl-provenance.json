@@ -1,8 +1,0 @@
-{
-  "archive_sha256": "e6bab117055905e930f762c196e08f861f8dfe7241b92cee46677a3b15561a0a",
-  "source_sha256": "5cbdab9a6515e6b8c9353de03686e59b705ad3a90550cdced1808a8ed04dc5ae",
-  "package": "anchor-lang",
-  "version": "0.31.1",
-  "path": "src/idl.rs",
-  "scope": "Primary wire API for IDL enum variants, payloads and Borsh derives; not unique historical source attribution."
-}

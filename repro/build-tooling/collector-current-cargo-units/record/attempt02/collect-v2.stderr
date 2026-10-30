@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/collector-current-cargo-unit-witness/collect-v2.py", line 46, in <module>
-    raw_f=Path(path);assert raw_f.is_absolute()and raw_f.is_file()and all(not a.is_symlink()for a in[raw_f,*raw_f.parents]),path;f=raw_f.resolve(strict=True)
-                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: src/admin_cto.rs

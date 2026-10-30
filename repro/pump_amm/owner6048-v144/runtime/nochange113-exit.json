@@ -1,8 +1,0 @@
-{
-  "command": [
-    "/opt/homebrew/opt/python@3.14/bin/python3.14",
-    "-B",
-    "/Users/shawwalters/.codex/worktrees/main-reconciliation/pumpfun-source/work/amm-owner6048-runtime-attempt01/verify_nochange_logs.py"
-  ],
-  "returncode": 0
-}

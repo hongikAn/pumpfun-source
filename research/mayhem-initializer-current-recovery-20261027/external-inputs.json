@@ -1,8 +1,0 @@
-{
-  "research/mayhem-sizing-panic-recovery/manifest.json": "65c2c79f23761a05fd52070e5edd8f368a47d40587d2475abf6780ddb1a35c57",
-  "research/mayhem-sizing-panic-recovery/source.tar.gz": "78c4b19e6c442059de79291a818c1972f058fce7c42f2f6d701f4319bb9a0663",
-  "research/mayhem-trade-origins-validator/audit.json": "3b0eefe6f53cb361c6ab56dd0bcaf3471eda5778e75c2f7e4af6bb87068c534f",
-  "research/mayhem-accounting-extend-recovery/verify.py": "f3a1d402370a4cd7dfe8f8fed662a57646136058c5d3b3cafa4927def3c428d2",
-  "research/mayhem-historical-macro-current-20261027/manifest.json": "d176985c9fb19b740d20ff1f74de8e881f9d2c143f208e7682c2c42333b9c83b",
-  "research/mayhem-initializer-staged-snapshot-20261027/manifest.json": "da6aa6000babf2bbda5dcb66884af7207ad6dca1b88c645d81d05cf7612048e4"
-}

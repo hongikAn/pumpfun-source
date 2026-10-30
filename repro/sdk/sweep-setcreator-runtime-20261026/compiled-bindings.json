@@ -1,5 +1,0 @@
-{
-  "pump-main.js": "node_modules/@pump-fun/pump-sdk/dist/index.js",
-  "pump-swap.js": "node_modules/@pump-fun/pump-sdk/dist/swap/index.js",
-  "swap-main.js": "node_modules/@pump-fun/pump-swap-sdk/dist/index.js"
-}

@@ -1,7 +1,0 @@
---- control/types.rs
-+++ optional/types.rs
-@@ -31,2 +31,2 @@
--            _ if flag[0] <= 1 => Ok(Self(flag[0] == 1)),
--            _ => Err(std::io::Error::new(std::io::ErrorKind::InvalidData, "invalid bool")),
-+            _ => match flag[0] { 0 => Ok(Self(false)), 1 => Ok(Self(true)),
-+                b => Err(std::io::Error::new(std::io::ErrorKind::InvalidData, format!("Invalid bool representation: {}", b))) },

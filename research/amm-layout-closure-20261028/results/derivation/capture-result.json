@@ -1,9 +1,0 @@
-{
-  "candidate.so": "15aadc37c6a4fb2148895eafa22a969f7ad28a363c8972a8fe526a015fa85d21",
-  "pump_amm_recovered.so": "281a72ea4b5bccc02b91699472639d91c81f3af15a3ae284b0ad3a346f4620f7",
-  "link.map": "2decc39db287a34d8efd87db93e9e1ab0ab23e8da2ff6dcf7b984c12874f3a42",
-  "reproduce.tar": "f34c389e7409ee30411d796332db01fbfd191ce38ca3914f5bc8c103f0ceb578",
-  "link-args.json": "e9ffa1f5f815538e5b66127255496767fd216a7591fc81eef93ca884653cc7ee",
-  "same_stripped": true,
-  "same_symbols": true
-}

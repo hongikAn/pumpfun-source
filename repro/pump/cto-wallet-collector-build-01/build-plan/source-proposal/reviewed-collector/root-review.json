@@ -1,7 +1,0 @@
-{
-  "review": "PASS bounded literal data read",
-  "collector_sha256": "5f3a44ed5181b2e4fd55cd4158c277888a7f0989825f254c1ab34ba5b81c711e",
-  "request_seal": "4c828003394a1bc721170f414320f31427093678d453195923c1552bae82fb01",
-  "scope": "Exactly two known Display data extents, 182 bytes total. No new code/body/parser/callee expansion.",
-  "independent_review": "independent-review-final.json"
-}

@@ -1,7 +1,0 @@
-{
-  "tool": "/Users/shawwalters/.cache/solana/v1.44/platform-tools/llvm/bin/llvm-objdump",
-  "sha256": "24f83fd4c314fdc358920bf9936261985b8c39266f1ba7d556716c9dec1d24f9",
-  "command_template": "llvm-objdump -d --start-address=START --stop-address=END inputs/KIND.so",
-  "coordinates": "ELF file offsets; these ELFs have matching text virtual addresses. LLVM printed instruction numbers are file offsets / 8.",
-  "verification": "verify.py reads raw ELF using Python; LLVM not required."
-}

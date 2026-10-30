@@ -1,3 +1,0 @@
-# Reusable160-case resize-order suite
-
-Run `run.py --candidate PATH --output NEWDIR --repo-root REPO`. The output carries this sealed kit, full signed reports, and `verify.py::verify(directory,candidate)` for standalone saved verification. Use `--expected-bad 8` only when reproducing the known e995 negative baseline; future candidates default to zero. All25 imported source/fixture/captured-program inputs are checked before and after, Python bytecode caches are isolated, and the producer independently records actual runtime file reads. No program rebuild or chain interaction occurs. The roster covers nine original resize-helper caller regions through11 entrypoint/direction families.

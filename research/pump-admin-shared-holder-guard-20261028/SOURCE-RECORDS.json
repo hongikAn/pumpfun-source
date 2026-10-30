@@ -1,7 +1,0 @@
-{
-  "control_source_sha256": "616178770baa93f6e70a1a87378b88922e30d2c1a878ac5e4f625018ce6a2ec7",
-  "candidate_source_sha256": "ba2b9e317a79e578938afb6bb616314d5e30db176fa3610b9503ea5e9a635e7b",
-  "patch_sha256": "cc83ae4ce0d26a2d713d6bbf78a374cd3c3af894f7393bd5c4a70b55c383c856",
-  "all_other_error_variant_source_lines_unchanged": true,
-  "disclosure": "Blank-line placement deliberately restores the same observed validation Sources648/660/719; the shared-holder seeds guard is restored before amount and frozen checks. No synthetic helper or unused body."
-}

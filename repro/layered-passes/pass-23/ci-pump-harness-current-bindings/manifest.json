@@ -1,8 +1,0 @@
-{
-  "README.md": "1fb36959811c2cd1c284d849f6449cd022dffcd08e74775ca681a27f4b822e75",
-  "after/prepare_pump_nested_runtime.py": "bcdfdc78fc3be35baac8bae5b37919fe428c9f670e1060965320db91ce1a842f",
-  "before/prepare_pump_nested_runtime.py": "524fbb58edbb186babd14be0232ca2f3764e190b557e7dcb1756a9fcef74a9e0",
-  "preparation.json": "95f0a884790bdba5bbb015ceeecf5c362c95312246309adb2a32ec6546c72e50",
-  "proof.json": "6e0a6094d991f25670b64a143d0b10cd3a5923a6f087c4a8f7628783afb3ec00",
-  "verify.py": "30dd7b0072d3a44843276b9afec1db49fc2b059f689af889c68fa05346add436"
-}

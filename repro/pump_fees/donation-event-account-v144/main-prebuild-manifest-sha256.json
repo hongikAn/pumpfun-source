@@ -1,7 +1,0 @@
-{
-  "README.patch": "368c46cf79e995731ba9efd9e25c185a897178f942b2e01fc0811d718ab4ad80",
-  "build-launch.json": "d2b1dcc9b57e8c79c2b5adcb2112dd41f76fa49aadb36297118f867ed80c0b69",
-  "promotion-source-review.json": "ba49fde21c3943e8a1ce2067ae5e600300e2c62061f408b40d6a8101bcc65cc0",
-  "source-sha256.json": "1e5ae371d6b12397e85b71d2be4feedd2b5bc2a48f8280dcd97272175cf1c195",
-  "source-snapshot.tar.gz": "5e22fb19f3c04663326257996c8be868d5e1e6d1be7aa541bef689e9d1e96556"
-}

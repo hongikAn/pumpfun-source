@@ -1,9 +1,0 @@
-{
-  "returncode": 1,
-  "actual_terminal_completion_observed": true,
-  "phase": "capture-before-selection",
-  "assertion": "pump source count 41 rather than required37",
-  "capture_created": false,
-  "active_writer_or_VM_or_compiler_called": false,
-  "cause": "Origin main advanced before a mutable reference was merged. Merge target is now pinned."
-}

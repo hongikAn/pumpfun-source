@@ -1,8 +1,0 @@
-{
-  "README.md": "4455cbbf0273900ccdc69fae2d2d89eb3b0cb3c91886c3076f52efd30b712162",
-  "after.py": "e0eccab6f54fee2996039beb53075d9a7b3f411706a90634a44420dec7b173c1",
-  "before.py": "bb683621ffc4297c58f030cb03da54484b7370b786fd8eda965a37f4b3198ee9",
-  "helper.patch": "0cfeac6c4bcc0f6138931402d697b5ca8c4c5e0ceef16cb27394a329f3cf4fd6",
-  "reference-manifest.json": "8377e097b9f6d06bf45f3261237f9e6f3513b9ff0f2581c4bc045b4dd91229c3",
-  "verify.py": "18f342a1666952f00cf99ecbb4b350253063a8d8b40b87ac84c16aa28b1abb94"
-}

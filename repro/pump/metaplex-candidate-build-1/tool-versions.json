@@ -1,8 +1,0 @@
-{
-  "selected_toolchain": "solana",
-  "installed_toolchains": "1.78.0-x86_64-unknown-linux-gnu (default)\nsolana",
-  "selected_rustc_path": "/usr/local/rustup/toolchains/solana/bin/rustc",
-  "selected_rustc_resolved": "/root/.cache/solana/v1.42/platform-tools/rust/bin/rustc",
-  "selected_rustc_sha256": "56ac25cdde064989441afb1deba210070fde83f6755a9cdd1725c5d088ea37fe",
-  "selected_rustc_version": "rustc 1.75.0-dev\nbinary: rustc\ncommit-hash: unknown\ncommit-date: unknown\nhost: x86_64-unknown-linux-gnu\nrelease: 1.75.0-dev\nLLVM version: 17.0.6"
-}

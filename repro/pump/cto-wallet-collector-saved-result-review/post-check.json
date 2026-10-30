@@ -1,8 +1,0 @@
-{
-  "status": "PASS_AFTER_SAVED_DATA_AUDIT",
-  "audit_source_and_stream_hashes_match_actual_run": true,
-  "candidate_and_symbols_unchanged": true,
-  "source37_unchanged": true,
-  "frozen_plan_and_all6outputfiles_unchanged": true,
-  "no_harness_VM_target_rerun": true
-}

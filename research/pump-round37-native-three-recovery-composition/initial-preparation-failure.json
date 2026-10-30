@@ -1,7 +1,0 @@
-{
-  "stage": "git apply --check",
-  "exit_code": 1,
-  "cause": "account-name-only patch append hunk requires excluded constant_product module",
-  "source_modified": false,
-  "accidental_followup": "build label composition launched unchanged baseline after shell did not stop on Python exit1. Preserve actual receipts; not the proposed composition."
-}

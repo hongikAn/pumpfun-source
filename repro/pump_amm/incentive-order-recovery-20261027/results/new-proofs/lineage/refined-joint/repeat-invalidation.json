@@ -1,9 +1,0 @@
-{
-  "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/amm-liquidity-continuation-20261027/target/sbpf-solana-solana/release/.fingerprint/pump-amm-recovered-f4fd87042f2f98e6": {
-    "lib-pump_amm_recovered": "1ffaa0941ff0facf6e905c4b1ca5ef19b228f3ac4e4c9c0199e373336f1c6b9c",
-    "dep-lib-pump_amm_recovered": "3769333486d238437ba9a0d4e35344f5bfe888123ea9954ea2b15597e61b75c5",
-    "lib-pump_amm_recovered.json": "794cc7dbf23cf4c36676bd1685a838d771f8529f27b7544b92250d0c373f1386",
-    "output-lib-pump_amm_recovered": "388b7f59e730033912a8afe1de3778a80ddf786dd9c25fd4fa3fabe915db8b8e",
-    "invoked.timestamp": "5a109e6643e8d3e88642e3f35e85d2a83e639d07523aa6e99166c48178e965c3"
-  }
-}

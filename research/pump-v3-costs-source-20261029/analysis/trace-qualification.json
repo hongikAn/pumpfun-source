@@ -1,8 +1,0 @@
-{
-  "scope": "Print-only optimized IR captured and target raw-equal to real normal Cargo candidate",
-  "normal_image_sha256": "6c954ef064fd726f30ec3a12d00ffa520e7fbcd1905f0147b68b324e41af880c",
-  "trace_image_sha256": "c7dadbaf1f92b6aa90a011742567a3aeadcd6c21531d4dfaa03b45f1bf6b0642",
-  "target_raw_sha256": "d5c27349bc1588ab5b2f69e8d32d292501c11e91232ceccd6a84dd21b613665d",
-  "target_bytes": 2136,
-  "returncode": 0
-}

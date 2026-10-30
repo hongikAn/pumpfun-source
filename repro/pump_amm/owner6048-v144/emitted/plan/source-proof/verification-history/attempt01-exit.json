@@ -1,5 +1,0 @@
-{
-  "returncode": 1,
-  "failure": "source map mistakenly copied accepted-source-sha256 (28 pre-module inputs), not proposed-source-sha256 (30 actually compiled current6dc inputs)",
-  "correction": "use exact frozen current30 map; proposal/evidence/build unchanged"
-}

@@ -1,4 +1,0 @@
---- binding/lib.rs
-+++ fence/lib.rs
-@@ -44,0 +45 @@
-+        core::sync::atomic::compiler_fence(core::sync::atomic::Ordering::SeqCst);

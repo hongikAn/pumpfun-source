@@ -1,6 +1,0 @@
-{
-  "programs/pump/src/admin_cto.rs": {
-    "before": "dad1181e6fe2d376583616ec60a09fa7da8fe08fda252804958362735424985e",
-    "after": "0c7573643197dd4d99d57cdfca1a72dfa4605a4c3565a1c79bb83e9b06f87247"
-  }
-}

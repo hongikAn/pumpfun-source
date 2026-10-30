@@ -1,8 +1,0 @@
-{
-  "exit_code": 101,
-  "expected_exit_code": 101,
-  "source_unchanged": true,
-  "compiled_root": true,
-  "log_sha256": "4280021d6dde884ed0967415646402ddc06acdeab275e08447004b9c74d9db68",
-  "elapsed_seconds": 7.583085624995874
-}

@@ -1,9 +1,0 @@
-{
-  "method": "Executed verifier from copied worker-local portable-check directory; no main repository dependency.",
-  "new_runtime_cases": 0,
-  "ordinary_SOL_rows": 38,
-  "raw_windows": 2,
-  "successes": 14,
-  "verified": true,
-  "verified_manifest_sha256": "d37e941551c8f0be3a1d41a999bf32d11eb213a9efd1269b1581fb938bcc7042"
-}

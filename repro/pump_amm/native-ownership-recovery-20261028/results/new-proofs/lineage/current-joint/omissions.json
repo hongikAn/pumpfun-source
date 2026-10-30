@@ -1,5 +1,0 @@
-{
-  "broad_payloads": "Fresh in worker conventional directories, authenticated separately by root checkpoint; only status and proof hashes in this packet.",
-  "incomplete_attempts": "Preserved in original CTO workdir, excluded from successful acceptance.",
-  "historical_negative": "Prior sealed CTO negative packet remains published separately."
-}

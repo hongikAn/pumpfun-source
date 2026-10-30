@@ -1,9 +1,0 @@
-{
-  "scope": "Read-only metadata/copy/hash/syntax only; no compiler/VM",
-  "source14_current_managed_equal_runtime": true,
-  "runtime_publication_seal": "135db1810db389a541870b0f1e543ea1215c5f5946fcb4b5126f38ad16edfbcc",
-  "scratch03089_unchanged": true,
-  "compiler_frontend": "genuine directofficialv154 on actualmanagedmanifest",
-  "build_controller_executed": false,
-  "runtime_executions": 0
-}

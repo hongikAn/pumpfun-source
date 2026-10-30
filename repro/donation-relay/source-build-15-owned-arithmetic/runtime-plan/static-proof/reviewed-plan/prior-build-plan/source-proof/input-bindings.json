@@ -1,9 +1,0 @@
-{
-  "selected_checkpoint_manifest_sha256": "1d323ea804581e676204a93cfa6277737243d831a91d9b6dacd4a2448067e4d5",
-  "baseline_arithmetic_sha256": "dad871f02920d328665e92aa76ce9c30f3504e04c0e970674a79ceb3491cde79",
-  "baseline_full_handlers_sha256": "ff3cc4348a9b6f43d2552d7f6ee048b11402b6199d34fb55b9ab78bf03e71cd2",
-  "rejected_artifact_not_read": true,
-  "original58_59_bodies_not_read": true,
-  "new_builds": 0,
-  "new_runtime": 0
-}

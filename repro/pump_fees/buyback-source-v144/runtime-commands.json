@@ -1,8 +1,0 @@
-{
-  "cwd": "<repo>",
-  "commands": [
-    "sh repro/pump_fees/declared-programs-v144/reproduce-validation.sh work/fees-body-followup/typed-macro-box-build/artifacts/pump_fees_candidate.so work/fees-body-followup/runtime work/test-env/bin/python > work/fees-body-followup/runtime-validation.log 2>&1",
-    "work/test-env/bin/python work/fees-body-followup/compared_values.py --candidate work/fees-body-followup/typed-macro-box-build/artifacts/pump_fees_candidate.so --output work/fees-body-followup/compared-values.json"
-  ],
-  "main_receipt_reuse": "Main is byte-identical to the scratch executable tested by all receipts. No reattribution by normalized functions."
-}

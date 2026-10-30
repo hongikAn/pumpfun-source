@@ -1,7 +1,0 @@
-error: failed to write /source/Cargo.lock
-
-Caused by:
-  failed to open: /source/Cargo.lock
-
-Caused by:
-  Read-only file system (os error 30)

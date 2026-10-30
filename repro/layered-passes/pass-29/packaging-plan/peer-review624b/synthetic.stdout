@@ -1,1 +1,0 @@
-{"status": "PASS_SYNTHETIC_ONLY", "cases": ["rawmodes_emptydirectories_stream", "deterministic_repeat_and_multipart", "wrongmode", "wrongknowninnerseal", "partcorruption", "unmanifested", "cache_directory", "symlink", "missinggroup"], "real_group_packager_runs": 0, "archived_code_executions": 0, "decoder_build_VM_calls": 0}

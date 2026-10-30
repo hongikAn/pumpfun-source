@@ -1,8 +1,0 @@
-{
-  "created_utc": "2026-10-27T16:44:20.155033+00:00",
-  "base": "research/fees-residual-source-checkpoint-20261027",
-  "accepted_frontier": 582,
-  "whole_elf_identical": false,
-  "pack_sha256": "da986a7cc484076be0a847c1bfd9fa44d582bd29a8b5c58dffc924805d4185e4",
-  "note": "Snapshot of concrete frame/inlining research, current-source diagnostic and all lane receipts."
-}

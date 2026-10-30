@@ -1,9 +1,0 @@
-{
-  "candidate_sha256": "5f6d29410047551f5f4e448937f2de318c2a55546699fbfb33dacd5c89ddaea4",
-  "symbols_sha256": "573c172f0a58fd33b1c28e3908d6bfd0066dabffbd8850c045ca0c0acdb4638b",
-  "source_inputs": 23,
-  "compile": "v1.44",
-  "strip": "v1.52",
-  "emitted_acceptance_pending": true,
-  "runtime_executions": 0
-}

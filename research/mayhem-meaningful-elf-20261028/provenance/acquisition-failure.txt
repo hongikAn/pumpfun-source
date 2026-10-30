@@ -1,1 +1,0 @@
-Initial read-only tool acquisition requested layout/inputs/reader.py at dc8f791d32ae7fd6d9660cd1bf003fb02737f78f; Git reported this path absent (exit 128). No build occurred. The adapter instead uses the immutable reader/inventory already bound in PR439, adding end=start+bytes for the upstream layout tool.

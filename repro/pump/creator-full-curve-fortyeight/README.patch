@@ -1,8 +1,0 @@
---- a/programs/pump/README.md
-+++ b/programs/pump/README.md
-@@ -11,3 +11,5 @@
- Original typed FeeConfig admission and whitelist's four-zero bypass remain unintegrated in the current unchecked/late-decoded fee path. Broader buy settlement/error order, volume, events, original source/build provenance and full security assessment remain incomplete. All stopped scopes remain stopped.
- 
- Earlier full recovery history remains in the [connected decoder/preparation README](../../repro/pump/curve-preparation-fortyeight/README.md) and the [active fee-basis checkpoint README](../../repro/pump/buy-fee-basis-fortyeight/README.md). Those immutable reports retain their original source, runtime and provenance limitations.
-+
-+Creator contexts now use the recovered full BondingCurve decoder/serializer instead of partial166-byte buffers. Migration captures its old/new creator keys and mutates creator before Clock/event construction; setter/sync preserve the original early-return logs. The isolated creator-full-curve checkpoint remains a bounded reconstruction and preserves prior fee/admission/settlement limitations. See the [creator source/build report](../../repro/pump/creator-full-curve-fortyeight/README.md) for exact tested artifact and coverage.

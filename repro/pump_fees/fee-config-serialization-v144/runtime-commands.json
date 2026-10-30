@@ -1,8 +1,0 @@
-{
-  "cwd": "<repo>",
-  "commands": [
-    "sh repro/pump_fees/update-admin-dataflow-v144/reproduce-validation.sh work/fees-config-serialization/build/artifacts/pump_fees_candidate.so work/fees-config-serialization/runtime > work/fees-config-serialization/runtime-validation.log 2>&1",
-    "work/test-env/bin/python work/fees-config-serialization/serialization_error.py --candidate work/fees-config-serialization/build/artifacts/pump_fees_candidate.so --output work/fees-config-serialization/runtime/serialization-error.json"
-  ],
-  "main_receipt_reuse": "Whole main ELF bytes equal the exact scratch ELF that produced every receipt."
-}

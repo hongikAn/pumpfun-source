@@ -1,9 +1,0 @@
-{
-  "reviewed_proposal_seal": "229c6fb667ed31cc114cbfa96a32b368f38b7ae8d0b2787893f77b31f285405f",
-  "approved_patch_sha256": "42dd01266b8bd7b27fc610a21d3173623535db182e72204512616d2ded369133",
-  "recipe": "One pinned v1.44 compilation and existing SDK strip phase; independent SDK/rustup/target. No variants.",
-  "source_inputs": 22,
-  "source_change": "Only update_fee_config emit!(event.clone()) becomes emit!(event).",
-  "runtime": "Unchanged25 suites17462comparisons; same191scalar+78recipient saved-case checks; no newcase or initializer success fixture.",
-  "main_source_edits": false
-}

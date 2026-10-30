@@ -1,5 +1,0 @@
---- a/src/instructions/fee_recipients.rs
-+++ b/src/instructions/fee_recipients.rs
-@@ -61 +61 @@
--            require!(current_time >= next_time, crate::MayhemError::SweepFeeRateLimit);
-+            if current_time < next_time {return err!(crate::MayhemError::SweepFeeRateLimit);}

@@ -1,9 +1,0 @@
-[
-  "/Users/shawwalters/.cache/solana/v1.48/platform-tools/rust/bin/cargo",
-  "fetch",
-  "--locked",
-  "--manifest-path",
-  "/Users/shawwalters/.codex/worktrees/pr-queue-review/pumpfun-source/work/relay-residual-20261026/source-v8/Cargo.toml",
-  "--target",
-  "sbpf-solana-solana"
-]

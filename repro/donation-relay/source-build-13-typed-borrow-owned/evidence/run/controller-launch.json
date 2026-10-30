@@ -1,8 +1,0 @@
-{
-  "plan_sha256": "38062cc1152bd78464e1d27693f4435721b4e66263e6939fe858482e603ef71e",
-  "static_proof_sha256": "aaf31657de951430a0d3fcd0f14e8887d1d851e06aa08265b1da8ec4074a9e1c",
-  "controller_sha256": "83124515d8c46b3bf6ec521b6859f37ed6be0f2eedb279d7214a19a771306209",
-  "attempt_limit": 1,
-  "group": "ordinary",
-  "new_borrow_failure_coverage": 0
-}

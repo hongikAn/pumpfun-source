@@ -1,7 +1,0 @@
-inventory for research/mayhem-current436-composition-20261027/builds/first/symbols.so.gz
-  candidate sha256   f03e73e7b82b152e64e9a999f4f9276ece9ebcd42d2273d0b8adaa7c5fb0c229
-  function symbols   446
-  raw-equal          141
-  normalized-only    295
-  unmatched          5
-  matched text bytes 634552 / 706744  (89.8% of text)

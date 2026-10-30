@@ -1,3 +1,0 @@
-# Preserve the exact authenticated and compiled source receipts.
-host/*/utils.rs -text -whitespace
-overrides/** -text -whitespace

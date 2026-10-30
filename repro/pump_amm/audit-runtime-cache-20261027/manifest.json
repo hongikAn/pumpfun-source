@@ -1,7 +1,0 @@
-{
-  "README.md": "3221f549c2a77932e4f2aeb8a28be7507cf6755a468a0975e58acabf11cc5e75",
-  "baseline-sha256.txt": "441c87607f2470a522f618ef34925e17bb8b8f733ac31c45726b82e7ebc7dd60",
-  "verification.json": "b326ab572e6098748a0d3d19a1a1bb4e16ee15b2ebdc6cc8cb3e47b48f3d6b34",
-  "verify.py": "5940a156c8f7fda4c3a019c697d5b1c90882c20ad50b3d1c10a382bb2476ba7c",
-  "compare_direct_cached.py": "4c7b24d1b6153ef4b400938b7a280b5d6e62889b73febf5c05335fd84374f1d8"
-}

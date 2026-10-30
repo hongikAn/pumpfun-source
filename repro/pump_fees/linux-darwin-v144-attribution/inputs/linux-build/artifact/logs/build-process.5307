@@ -1,3 +1,0 @@
-1792907064.085095 execve("/home/runner/work/_temp/fees-linux-v144/sdk/dependencies/platform-tools/llvm/bin/llvm-objcopy", ["/home/runner/work/_temp/fees-linux-v144/sdk/dependencies/platform-tools/llvm/bin/llvm-objcopy", "--strip-all", "/home/runner/work/_temp/fees-linux-v144/target/sbf-solana-solana/release/pump_fees_candidate.so", "/home/runner/work/_temp/fees-linux-v144/artifacts/pump_fees_candidate.so"], 0x562c3fb42f70 /* 23 vars */) = 0
-1792907064.093941 rename("/home/runner/work/_temp/fees-linux-v144/artifacts/pump_fees_candidate.so.temp-stream-e7632d", "/home/runner/work/_temp/fees-linux-v144/artifacts/pump_fees_candidate.so") = 0
-1792907064.094750 +++ exited with 0 +++

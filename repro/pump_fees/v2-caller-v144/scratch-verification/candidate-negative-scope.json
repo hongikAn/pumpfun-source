@@ -1,8 +1,0 @@
-{
-  "scope": "Only an absent copied candidate and one changed copied source file were tested. No binary bytes were edited; all copies were disposable. No target was executed.",
-  "tests": [
-    "copied-positive",
-    "copied-source-change",
-    "copied-missing-candidate"
-  ]
-}

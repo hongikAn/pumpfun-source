@@ -1,6 +1,0 @@
-{
-  "removed": [
-    "target/sbpf-solana-solana/release/.fingerprint/pump-amm-recovered-f4fd87042f2f98e6"
-  ],
-  "only_root_fingerprints": true
-}

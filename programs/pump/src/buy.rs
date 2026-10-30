@@ -4,8 +4,8 @@ use crate::{Global,PumpError};
 use crate::trade_types::{BondingCurve,TradeEvent};
 use crate::LegacyBuy;
 use crate::legacy_sell::fee_cpi::fee as ceil_fee;
-#[path="legacy_native_payments.rs"]
-pub mod native_payments;
+pub use crate::legacy_native_payments as native_payments;
+
 #[inline] pub fn buy_exact_sol_in<'info>(ctx:Context<'_,'_,'_,'info,LegacyBuy<'info>>,spendable_sol_in:u64,min_tokens_out:u64,track_volume:crate::OptionBool,partial_fill:crate::OptionBool)->Result<()>{
  let fee_recipient=&ctx.accounts.fee_recipient;
  let bonding_curve=&mut ctx.accounts.bonding_curve;let (associated_bonding_curve,associated_user,token_program)=(&ctx.accounts.associated_bonding_curve,&ctx.accounts.associated_user,&ctx.accounts.token_program);
@@ -114,7 +114,6 @@ pub mod native_payments;
   let quote=u64::try_from(crate::legacy_sell::fee_cpi::buy_quote(bonding_curve,amount)?).map_err(|_|PumpError::Truncation)?;
   let protocol_fee=ceil_fee(quote,protocol_fee_bps)?;
   let creator_fee=if bonding_curve.creator!=Pubkey::default(){ceil_fee(quote,creator_fee_bps)?}else{0};
-  let total=quote.checked_add(protocol_fee).ok_or(PumpError::Overflow)?.checked_add(creator_fee).ok_or(PumpError::Overflow)?;
 // layout-pad
 // layout-pad
 // layout-pad
@@ -130,7 +129,8 @@ pub mod native_payments;
 // layout-pad
 // layout-pad
 // layout-pad
-  require_gte!(spendable_sol_in,total,PumpError::TooMuchSolRequired);
+// layout-pad
+  require_gte!(spendable_sol_in,quote.checked_add(protocol_fee).ok_or(PumpError::Overflow)?.checked_add(creator_fee).ok_or(PumpError::Overflow)?,PumpError::TooMuchSolRequired);
   (amount,quote,protocol_fee,creator_fee)
  }else{
 // layout-pad

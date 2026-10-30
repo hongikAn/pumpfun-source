@@ -1,7 +1,0 @@
-{
-  "status": "PASS",
-  "saved_verifier": "repro/donation-relay/linked-elf-reproduction/verify.py",
-  "stdout": "PASS: fresh isolated Rust build; exact 818,280-byte original ELF extent; all 492 raw bodies; 536 replay records; allocation tail excluded; historical recipe not proved\n",
-  "stderr": "",
-  "new_target_executions": 0
-}

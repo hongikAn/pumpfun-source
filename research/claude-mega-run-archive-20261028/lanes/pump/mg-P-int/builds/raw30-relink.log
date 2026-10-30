@@ -1,7 +1,0 @@
-{
- "returncode": 0,
- "script_sha256": "7bac07b6a5d176c18946e0f04e64e1492758fcef99e549f3ef6402eb587a6055",
- "unstripped_sha256": "cc18559fded82ec8dc08b38cff25eb681f84c065c38dcf9252faf5ac07a98564",
- "candidate_sha256": "a39c6343cb8ef8151d5df75602c9ec01253fc037b6cd46082f340aeca1526b3d"
-}
-{"normalized": 989, "raw": 204, "gains": [], "losses": [], "raw_gains": ["0xa7e0", "0xd240", "0xea68", "0xf130", "0x17f5c8", "0x185ed0", "0x1886c8", "0x188d30", "0x188fe0", "0x18a3b0", "0x18a4d8", "0x18a888", "0x18e048", "0x18e9c0", "0x18eb28", "0x18ec88", "0x18fc98", "0x199060", "0x199a50", "0x199af0", "0x199b18", "0x19a2c8", "0x19a578", "0x1a0530", "0x1a2358", "0x1a23c0", "0x1a3008", "0x1a6370", "0x1a6468", "0x1a64d8", "0x1a6508", "0x1a6620", "0x1a7b00", "0x1a7c18", "0x1a9178", "0x1ab488", "0x1ab818", "0x1b3220"], "raw_losses": []}

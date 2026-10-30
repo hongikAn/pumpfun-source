@@ -1,2 +1,0 @@
-{'candidate_sha256': '86dbc2c64e81988dead173039b61fa01ba5f68a00fbb6f6dd49f2cda0afec37f', 'programdata_write_alone_does_not_reload_cache': True, 'executable_program_reinsertion_reloads_cache': True, 'signatures': 4}
-canary errors TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(101)))) TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(12))))

@@ -1,6 +1,0 @@
-{
-  "rust/bin/rustc": "ab6cfa61ce01944ef0729b01663e2da23251ff48e5eb5bf9238587f65096547d",
-  "rust/bin/cargo": "b57f6208bbd0b54574df3dba5a73091f2228fdd146d21239cecfecbabb4be19b",
-  "llvm/bin/ld.lld": "043b4804ba68a7bf15a66f16d83b8f7c73f0ccece48c0c418142de5d70f93a10",
-  "llvm/bin/llvm-objcopy": "64996ee17cf331084457873062a34b3c62d894ac28f378ff1078e837e5448297"
-}

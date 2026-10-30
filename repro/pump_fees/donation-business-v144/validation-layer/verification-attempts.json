@@ -1,7 +1,0 @@
-{
-  "initial_build_record_binding": {
-    "result": "failed",
-    "reason": "Build comparison records source paths with exact work/fees-donation-business-build/run-02/source/ prefix; actual source map uses source-root-relative paths. No byte/hash mismatch.",
-    "correction": "Verifier requires every comparison path to have that exact recorded source_root prefix, strips only that prefix, then compares all26 exact source keys and hashes. Original records are unchanged."
-  }
-}

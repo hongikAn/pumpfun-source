@@ -1,8 +1,0 @@
-{
-  "only_changed_function": "bindings",
-  "approved_driver_sha256": "34a84eaa56781a6b08ee023fdb439831aaa46e2732ccb432dcda4f4189eee261",
-  "canonical_driver_sha256": "4bf82313d717bb5ef84a77c6e4fa49e66596fdf97c028fce659c2ac303becace",
-  "fixture_sha256": "0f269b3e5766fc77fd493d41f68d31ad1b3fd865ac977709d6ba552a192e448f",
-  "runtime_fixture_assertion_control_changes": false,
-  "adaptation": "Require main programs/pump/* keys and bind them under explicit source-root; source count37 and report/attempt/source/ELF gates unchanged. Fresh CI must repeat original acceptance because the canonical driver hash differs."
-}

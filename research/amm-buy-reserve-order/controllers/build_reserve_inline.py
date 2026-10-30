@@ -1,8 +1,0 @@
-from pathlib import Path
-import shutil,json,hashlib,subprocess,os,datetime,difflib
-D=Path('/home/ahi200/pumpfun-work/20261028-amm-reserve-source');W=Path('/home/ahi200/pumpfun-work/20261028-amm-sweep-order');src=D/'source-reserve-inline';shutil.copytree(D/'source-reserve-order',src)
-p=src/'programs/pump-amm/src/instructions/swap/buy.rs';s=p.read_text();s=s.replace('    let can_boost = a.pool.can_boost();','    #[inline(always)]').replace('    let legacy_quote = |curve: u64, lp: u64, protocol: u64, creator: u64| -> Result<_> {',"    fn legacy_quote(quote_mint: &InterfaceAccount<Mint>, curve: u64, lp: u64, protocol: u64, creator: u64) -> Result<(u64, u64, u64, u64, u64, u64, u64, crate::utils::transfer_fee::TransferFeeData)> {")
-start=s.index('    fn legacy_quote');end=s.index('    let b =',start);b=s[start:end].replace('&a.quote_mint.to_account_info()','&quote_mint.to_account_info()').replace('fee_data)) };','fee_data)) }');s=s[:start]+b+s[end:];s=s.replace('legacy_quote(curve_initial,','legacy_quote(&a.quote_mint, curve_initial,').replace('        can_boost,','        can_boost: a.pool.can_boost(),');p.write_text(s)
-before=(D/'source726/programs/pump-amm/src/instructions/swap/buy.rs').read_text();(D/'reserve-inline.patch').write_text(''.join(difflib.unified_diff(before.splitlines(True),s.splitlines(True),fromfile='a/programs/pump-amm/src/instructions/swap/buy.rs',tofile='b/programs/pump-amm/src/instructions/swap/buy.rs')))
-controller=Path('/mnt/c/Users/ahi20/Documents/ChatGPT/pumpfun-contribution-review/amm-reserve-source-20261028/build_can_boost.py').read_text();body=controller[controller.index('sha=lambda'):].replace("out=D/'reserve-can-boost'","out=D/'reserve-inline'")
-exec(body)

@@ -1,8 +1,0 @@
-{
-  "original_packet": "/Users/shawwalters/Documents/Codex/2026-10-25/go/work/pumpfun-source/work/mayhem-v154-compiler-audit/publication",
-  "original_manifest_sha256": "b230c400b8352c0a8eb45fcb8bc052cce67aa6434c6dc45baae2907df2db10d4",
-  "copied_payloads": 72,
-  "original_manifest_retained": true,
-  "excluded_unsealed_files": {},
-  "upstream_mutated": false
-}

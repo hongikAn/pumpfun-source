@@ -1,9 +1,0 @@
-{
-  "attempt01_returncode": 1,
-  "attempt01_seal": "62f04172a2ded93649a992a083442fb34b7afd01644074486527f45f8690710b",
-  "reason": "archive-index mode is full original stat mode; TAR serializes permissionbits plus a separate typeflag",
-  "correction": "reader checks mode&07777 permissions and independently checks original0170000 typebits against TAR membertype",
-  "archive_stream_or_parts_changed": false,
-  "inner_packages_changed": false,
-  "controllers_or_builds_or_VM": 0
-}

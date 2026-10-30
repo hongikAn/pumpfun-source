@@ -1,5 +1,0 @@
-# Independent static ordinary swap wrapper review
-
-Two authenticated SDK archives, six complete TypeScript sources and34 selected family excerpts were read and independently hash/line-range checked. All eight symbolic remaining-account recipes match the inspected buy/sell branches. Sixteen excerpt pairs are byte-equal; fee-recipient selection differs by an explicit else only. The report's WSOL/ATA/pool-prefix ordering, accountExists/custom-account predicates, explicit buy track-volume flag and random recipient claims match these exact source bodies.
-
-The prior nineteen-account enumeration is reused, and seventeen other object sites remain unexpanded. This is static source interpretation, with no JavaScript, RPC, network, target, compiler or contract ELF/body parsing. Real state, token extensions/balances, named+remaining compatibility, installed encoders, historical deployment graph and byte identity stay open. The frozen packet's verifier uses absolute prior-control paths; a separate portable wrapper must preserve that original and declare its path-only derivation.

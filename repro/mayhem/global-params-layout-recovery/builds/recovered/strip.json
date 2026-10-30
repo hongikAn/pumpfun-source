@@ -1,9 +1,0 @@
-{
-  "command": [
-    "/Users/shawwalters/.cache/solana/v1.52/platform-tools/llvm/bin/llvm-objcopy",
-    "--strip-all",
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/mayhem-next-residual-plan/build-run/scalar-global-origin-spans/unstripped.so",
-    "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/mayhem-next-residual-plan/build-run/scalar-global-origin-spans/candidate.so"
-  ],
-  "returncode": 0
-}

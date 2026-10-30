@@ -1,7 +1,0 @@
-tree b5101381e7baf2ff69676c85c6a178c66978d709
-parent 8058059374ef03a1879574c9185344971713bf6d
-parent 998a2275426b140706a08a96034ce02ff3483d65
-author Shaw <shawmakesmagic@gmail.com> 1792975938 -0700
-committer Shaw <shawmakesmagic@gmail.com> 1792975938 -0700
-
-Reconcile pinned main while preserving selected candidates and stopped scopes

@@ -1,4 +1,0 @@
-error: failed to download `anchor-attribute-access-control v0.32.2`
-
-Caused by:
-  attempting to make an HTTP request, but --offline was specified

@@ -1,1 +1,0 @@
-{"parser": {"original_bytes": 10344, "candidate_bytes": 10344, "normalized_equal": true}, "exit": {"original_bytes": 952, "candidate_bytes": 952, "normalized_equal": true}, "wrapper": {"original_bytes": 1112, "candidate_bytes": 1112, "normalized_equal": true}, "handler": {"original_bytes": 4168, "candidate_bytes": 6784, "normalized_equal": false}}

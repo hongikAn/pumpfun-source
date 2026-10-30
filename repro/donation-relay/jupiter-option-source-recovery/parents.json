@@ -1,7 +1,0 @@
-{
-  "repro/donation-relay/local-validation-proposal/harness_proposal.py": "fd6df62699bc5732fffca65d7e6b5c1c872746180563ca3e320f7dbe11f7cb1b",
-  "repro/donation-relay/residual-cpi-source-trials/manifest.json": "04e77b3414fc57e64d0553ddf4453daf33471d076f49bfba5489648a35c0524b",
-  "repro/donation-relay/residual-cpi-source-trials/verify.py": "05c09430b52086211f53547f8bdc1e778f742506575882c10ca2c250c3b49bdf",
-  "repro/donation-relay/source-location-recovery/manifest.json": "c15b2f99e8b2e05d1a984dd896706b6f36a29ae8b10cdafb323bfb892b637a7a",
-  "repro/donation-relay/swap-receipt-coordinate-recovery/verify.py": "ef7a62cb052ba72b13a7abe82a74cc9b24fde045e52693d8eba4ee0de8345c27"
-}

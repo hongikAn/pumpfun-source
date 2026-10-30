@@ -1,4 +1,0 @@
-# Preserve exact incoming source bytes as passive receipts.
-excluded-source-snapshots/programs/mayhem/src/lib.rs -whitespace
-excluded-source-snapshots/programs/pump/src/create_v2.rs -whitespace
-excluded-source-snapshots/scripts/pump_create_mayhem_differential.py -whitespace

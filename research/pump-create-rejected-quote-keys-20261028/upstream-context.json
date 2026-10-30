@@ -1,9 +1,0 @@
-{
-  "main_sha": "7cd896fc309e566d4617b679bde48375bdacc717",
-  "base_source": "L38 primary c48c33e7c4efd7c1b7a1c038323e4911b631fb20",
-  "current_semantic_union_also_has_plain_require": true,
-  "original_source_line": 220,
-  "reconstructed_source_line_preserved": 70,
-  "open_pr_query": "repo:lalalune/pumpfun-source is:open create",
-  "scope": "Recover actual compared pubkey payload for rejected literal; no validation admission change or byte identity claim."
-}

@@ -1,1 +1,0 @@
-{"rust_compiled_or_executed": false, "sbf_executed_or_emulated": false, "semantic_equivalence_proved": false, "status": "PASS", "verification": "hash integrity, full-window byte decoding, static operand assertions, IDL discriminator consistency, source literal checks"}

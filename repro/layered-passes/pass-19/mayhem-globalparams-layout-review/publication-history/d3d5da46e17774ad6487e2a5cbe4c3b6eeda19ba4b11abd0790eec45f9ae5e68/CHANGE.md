@@ -1,1 +1,0 @@
-Documentation count correction only: 26 payload-member writes plus one discriminator write = 27 total writes. Original report and seal preserved here. No source, evidence, extraction script or verifier changed.
