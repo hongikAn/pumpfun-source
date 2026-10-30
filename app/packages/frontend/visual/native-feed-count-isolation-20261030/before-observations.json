@@ -1,0 +1,15 @@
+{
+  "mode": "count-unavailable",
+  "url": "http://127.0.0.1:3011/?tab=local-callouts&nativeView=newest",
+  "cards": 0,
+  "counts": 0,
+  "errors": 1,
+  "requests": [
+    "GET /services/frontend/home-feed/new?pageSize=3",
+    "GET /services/frontend/home-feed/new/count?since=eyJ2IjoxLCJrIjoiaGVhZCJ9.head_signature"
+  ],
+  "safety": {
+    "violations": [],
+    "consoleErrors": []
+  }
+}

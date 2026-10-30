@@ -37,9 +37,11 @@ server. Next performs bounded server-side GET requests with a two-second
 timeout, `cache: no-store`, omitted credentials, and no caller headers.
 
 The adapter never falls back to Pump.fun, another origin, or invented rows. A
-missing backend, non-200 response, invalid cursor, malformed JSON, wrong content
-type, wrong provenance header, wrong compatibility header, or invalid response
-shape produces an explicit unavailable state.
+missing backend, non-200 page response, invalid page cursor, malformed page JSON,
+wrong page content type, wrong page provenance or compatibility header, or invalid
+page shape produces an explicit unavailable state. After a page has passed these
+checks, failure of its optional new-count request leaves that validated page and
+its pagination available. The unvalidated count is omitted, never shown as zero.
 
 ## Accepted local response surface
 
@@ -92,6 +94,15 @@ The first newest page supplies a local `headToken`. That exact token is passed
 to `/new/count`; the resulting value is labelled as a local snapshot count.
 `liveSubject` is validated only as the backend's explicit realtime-unavailable
 sentinel. No WebSocket, polling loop, or realtime claim is implemented.
+
+The captured consumer of `735821.x` independently catches count-request failures
+without promoting them to a list error. Its async callback is retained in
+`evidence/web/objects/dee88f2bb5112629.js` (SHA-256
+`5cbe2998b1e8dbd48c8dfdb217b48064a52e67586118e50aaa52e54efff4ade5`),
+UTF-16 code-unit range `124219..124316`. It updates only the pending count on
+success. This supports keeping the optional count failure separate here; it does
+not qualify the local transport, synthetic records, or visual design as original
+production behavior. The count still undergoes every existing validation check.
 
 ## Verification
 

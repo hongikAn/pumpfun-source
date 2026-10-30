@@ -1,0 +1,59 @@
+
+Running 5 tests using 1 worker
+
+
+
+(node:47460) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/5] tests\native-home-feed.spec.ts:109:5 › keeps newest pagination separate and binds count to the exact head token
+[2/5] tests\native-home-feed.spec.ts:130:5 › fails closed for unavailable, unproven and malformed local responses
+[3/5] tests\native-home-feed.spec.ts:229:7 › retains validated newest callouts when optional count is count-unavailable
+  1) tests\native-home-feed.spec.ts:229:7 › retains validated newest callouts when optional count is count-unavailable
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByTestId('native-callout-card')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByTestId('native-callout-card') with timeout 5000ms
+      - waiting for getByTestId('native-callout-card')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      244 |       safety,
+      245 |     }, null, 2));
+    > 246 |     await expect(page.getByTestId("native-callout-card")).toHaveCount(3);
+          |                                                           ^
+      247 |     await expect(page.getByTestId("native-feed-error")).toHaveCount(0);
+      248 |     await expect(page.getByTestId("native-feed-count")).toHaveCount(0);
+      249 |     expect(await backendRequests()).toEqual([
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\native-home-feed.spec.ts:246:59
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-native-feed-count-isolation-20261030\focused\native-home-feed-retains-v-9d1bc--count-is-count-unavailable\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-native-feed-count-isolation-20261030\focused\native-home-feed-retains-v-9d1bc--count-is-count-unavailable\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-native-feed-count-isolation-20261030\focused\native-home-feed-retains-v-9d1bc--count-is-count-unavailable\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-native-feed-count-isolation-20261030\focused\native-home-feed-retains-v-9d1bc--count-is-count-unavailable\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-native-feed-count-isolation-20261030\focused\native-home-feed-retains-v-9d1bc--count-is-count-unavailable\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+(node:2584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[4/5] tests\native-home-feed.spec.ts:229:7 › retains validated newest callouts when optional count is count-malformed

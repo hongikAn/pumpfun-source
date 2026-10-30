@@ -1,0 +1,33 @@
+{
+  "capture": "app/evidence/web/objects/dee88f2bb5112629.js",
+  "captureSha256": "5cbe2998b1e8dbd48c8dfdb217b48064a52e67586118e50aaa52e54efff4ade5",
+  "factory": {
+    "ids": [
+      117330,
+      99844,
+      290204,
+      786446,
+      126126,
+      261848
+    ],
+    "sha256": "2801083aa2727c81b77249c4b1a2624abcb7061c1dbace2a9d6e7058c72c4947",
+    "origin": {
+      "source": "evidence/web/objects/dee88f2bb5112629.js",
+      "url": "https://pump.fun/_next/static/immutable/chunks/28muxot7ryqca.js",
+      "start": 8312,
+      "end": 157223
+    },
+    "path": "recovered/modules/117330-2801083aa272.js"
+  },
+  "callbackUtf16": [
+    124219,
+    124316
+  ],
+  "callbackUtf8": [
+    124239,
+    124336
+  ],
+  "callback": "b=async()=>{if(D&&et)try{let e=await (0,nD.x)({since:et,chain:O,bounds:$});Y(e.newCount)}catch{}}",
+  "executed": false,
+  "scope": "Original callback catches count failure without propagating it. Local transport and UI layout remain authored and unqualified."
+}

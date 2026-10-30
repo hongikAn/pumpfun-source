@@ -163,6 +163,19 @@ const server = createServer((request, response) => {
   if (mode === "wrong-cache") headers["cache-control"] = "public, max-age=60";
 
   if (requestUrl.pathname === "/services/frontend/home-feed/new/count") {
+    if (mode === "count-unavailable")
+      return sendJson(response, 503, { error: "LOCAL_UNAVAILABLE" });
+    if (mode === "count-malformed") {
+      response.writeHead(200, {
+        "content-type": "application/json",
+        "cache-control": "no-store",
+        "x-reconstruction-data-source": SOURCE,
+        "x-reconstruction-compatibility": COMPATIBILITY,
+      });
+      return response.end("{not-json");
+    }
+    if (mode === "count-unproven")
+      headers["x-reconstruction-data-source"] = "unknown";
     if (requestUrl.searchParams.get("since") !== HEAD_CURSOR) {
       return sendJson(response, 400, { error: "INVALID_CURSOR" }, headers);
     }

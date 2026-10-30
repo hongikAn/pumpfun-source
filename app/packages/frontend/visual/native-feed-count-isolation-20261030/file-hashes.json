@@ -1,0 +1,6 @@
+{
+  "app/packages/frontend/src/components/feed/native-feed-server.ts": "8b09f9c1b05180f8c38607f73939295b6e5704a6a69b304b5ae8c7395c39d833",
+  "app/packages/frontend/tests/native-home-feed.spec.ts": "e7be637dbcf06019b695b456d6d96734b28a6be7566a91a9a260b1f6a659a76e",
+  "app/packages/frontend/tests/support/native-feed-server.mjs": "44a0139cb0b655e8fcbe308f0fcfe0ad41d4c962b9557a5f11decc01ffa629e3",
+  "app/packages/frontend/NATIVE-HOME-FEED.md": "cc43a3499d0f4dab172361fe2d1158bba6ef3e1d36f9faaa6ad0681e979f1e88"
+}

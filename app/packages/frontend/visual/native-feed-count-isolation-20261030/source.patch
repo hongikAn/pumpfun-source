@@ -1,0 +1,28 @@
+diff --git a/app/packages/frontend/src/components/feed/native-feed-server.ts b/app/packages/frontend/src/components/feed/native-feed-server.ts
+index 99cf7c7723..aa48b6e4db 100644
+--- a/app/packages/frontend/src/components/feed/native-feed-server.ts
++++ b/app/packages/frontend/src/components/feed/native-feed-server.ts
+@@ -132,12 +132,17 @@ export async function loadNativeFeed(
+       return { ok: true, page };
+     }
+     const since = page.headToken;
+-    const count = validateNativeNewCount(
+-      await readLocalJson(
+-        `/services/frontend/home-feed/new/count?${new URLSearchParams({ since })}`,
+-      ),
+-    );
+-    return { ok: true, page, count };
++    try {
++      const count = validateNativeNewCount(
++        await readLocalJson(
++          `/services/frontend/home-feed/new/count?${new URLSearchParams({ since })}`,
++        ),
++      );
++      return { ok: true, page, count };
++    } catch {
++      // An optional count failure must not discard the validated page.
++      return { ok: true, page };
++    }
+   } catch (error) {
+     return classify(error);
+   }

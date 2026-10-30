@@ -1,3 +1,4 @@
+import { writeFile } from "node:fs/promises";
 import { expect, test, type Page } from "@playwright/test";
 
 const BACKEND = "http://127.0.0.1:3001";
@@ -223,3 +224,37 @@ test("keeps local callout cards responsive across required viewports", async ({
     expect(dimensions.clippedCards, `${width}px cards`).toBe(0);
   }
 });
+
+for (const mode of ["count-unavailable", "count-malformed", "count-unproven"]) {
+  test(`retains validated newest callouts when optional count is ${mode}`, async ({
+    page,
+  }, testInfo) => {
+    await setMode(mode);
+    const safety = collectBrowserSafety(page);
+    await page.goto("/?tab=local-callouts&nativeView=newest");
+    await expect(page.getByRole("link", { name: "Local newest" })).toBeVisible();
+    await page.screenshot({ path: testInfo.outputPath("count-state.png"), fullPage: true });
+    await writeFile(testInfo.outputPath("observations.json"), JSON.stringify({
+      mode,
+      url: page.url(),
+      cards: await page.getByTestId("native-callout-card").count(),
+      counts: await page.getByTestId("native-feed-count").count(),
+      errors: await page.getByTestId("native-feed-error").count(),
+      requests: await backendRequests(),
+      safety,
+    }, null, 2));
+    await expect(page.getByTestId("native-callout-card")).toHaveCount(3);
+    await expect(page.getByTestId("native-feed-error")).toHaveCount(0);
+    await expect(page.getByTestId("native-feed-count")).toHaveCount(0);
+    expect(await backendRequests()).toEqual([
+      "GET /services/frontend/home-feed/new?pageSize=3",
+      expect.stringMatching(/^GET \/services\/frontend\/home-feed\/new\/count\?since=/u),
+    ]);
+    await page.getByRole("link", { name: "Next" }).click();
+    await expect(page.getByText("Local page 2", { exact: true })).toBeVisible();
+    await expect(page.getByTestId("native-callout-card")).toHaveCount(1);
+    await expect(page.getByTestId("native-feed-count")).toHaveCount(0);
+    expect(safety.violations).toEqual([]);
+    expect(safety.consoleErrors).toEqual([]);
+  });
+}

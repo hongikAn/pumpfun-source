@@ -132,12 +132,17 @@ export async function loadNativeFeed(
       return { ok: true, page };
     }
     const since = page.headToken;
-    const count = validateNativeNewCount(
-      await readLocalJson(
-        `/services/frontend/home-feed/new/count?${new URLSearchParams({ since })}`,
-      ),
-    );
-    return { ok: true, page, count };
+    try {
+      const count = validateNativeNewCount(
+        await readLocalJson(
+          `/services/frontend/home-feed/new/count?${new URLSearchParams({ since })}`,
+        ),
+      );
+      return { ok: true, page, count };
+    } catch {
+      // An optional count failure must not discard the validated page.
+      return { ok: true, page };
+    }
   } catch (error) {
     return classify(error);
   }
