@@ -9,6 +9,7 @@ The original `735821.x` consumer catches its separate count request. `source-wit
 - Unchanged base: the new count-only HTTP 503 case failed (expected 3 cards, got 0) and displayed Local callouts unavailable.
 - Candidate: 5 focused Chromium tests passed (17.4s). HTTP, malformed JSON and wrong count provenance retain all 3 validated cards, omit the count, and allow Next to the existing 1-card continuation. Normal count remains tied to the exact page head. The existing page-failure test still rejects unavailable, wrong source, wrong compatibility, wrong cache, wrong content type, malformed and duplicate pages.
 - The browser stayed on the local Next origin; no browser-side backend request, production call or mutation was made. The existing synthetic fixture records are reused unchanged. Page/count faults are test controls, not captured backend responses.
+- The first root build/typecheck of `341939a38f5fd68ef68847e2393f12bd747321b6` failed because archived baseline `.ts` files were picked up by TypeScript. The evidence copies are now `.ts.txt` with identical bytes; source and browser tests were not changed. The failed results/logs are preserved below.
 - An incorrect root-relative edit path caused an extra unchanged-source run; it was interrupted and preserved in `interrupted-pre-fix.log`. It is not a candidate result.
 - The public browser configuration retains its actual local absolute paths for reproducibility; adjust them to a local checkout. No captured JavaScript was evaluated.
 
