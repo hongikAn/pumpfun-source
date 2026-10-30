@@ -1,0 +1,47 @@
+{
+  "validatedCommit": "7a2ebb020df4d0f518abaea18ecb074866111f99",
+  "commands": [
+    {
+      "commit": "7a2ebb020df4d0f518abaea18ecb074866111f99",
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "npx",
+        "--yes",
+        "pnpm@10.24.0",
+        "build"
+      ],
+      "cwd": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\pump-legacy-exact-sol-20261029\\pr-worktree\\app",
+      "start": "2026-10-30T00:39:47.864565+00:00",
+      "end": "2026-10-30T00:40:04.458953+00:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\app-batch3-20261029\\native-feed-count-isolation-final-checks\\build.log",
+      "environment": {
+        "python3": "local-tools/python3.cmd -> Python 3.12.10"
+      }
+    },
+    {
+      "commit": "7a2ebb020df4d0f518abaea18ecb074866111f99",
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "npx",
+        "--yes",
+        "pnpm@10.24.0",
+        "typecheck"
+      ],
+      "cwd": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\pump-legacy-exact-sol-20261029\\pr-worktree\\app",
+      "start": "2026-10-30T00:40:04.459953+00:00",
+      "end": "2026-10-30T00:40:10.331471+00:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\ahi20\\Documents\\ChatGPT\\pumpfun-contribution-review\\app-batch3-20261029\\native-feed-count-isolation-final-checks\\typecheck.log",
+      "environment": {
+        "python3": "local-tools/python3.cmd -> Python 3.12.10"
+      }
+    }
+  ],
+  "sourceUnchangedSinceBrowserCommit": "341939a38f5fd68ef68847e2393f12bd747321b6",
+  "finalCommitDifference": "Only visual/native-feed-count-isolation-20261030 evidence files; no executable source or test changes after qualification."
+}

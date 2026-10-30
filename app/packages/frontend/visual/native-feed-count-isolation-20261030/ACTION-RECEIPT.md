@@ -15,3 +15,5 @@ It is not a verbatim LLM trajectory, private reasoning, or credential/session tr
 No aggregate test suite was run for this change. Root separately owns build/typecheck validation before submission.
 
 9. Root build/typecheck on `341939a38f5fd68ef68847e2393f12bd747321b6` caught a packaging regression: archived baseline `.ts` files were included by the TypeScript project. Renamed only those two evidence copies to `.ts.txt`, preserving bytes, and recorded the first failed logs. Browser tests were not rerun because executable source and tests are unchanged. Root repeats the two failed validation commands on the corrected commit.
+
+10. Root reran build and typecheck on `7a2ebb020df4d0f518abaea18ecb074866111f99`; both passed. Preserved complete passing logs/results as deterministic gzip files. Normalized public configuration/JSON/text line endings to LF and refreshed manifest, retaining raw originals externally. This final commit changes evidence only; executable source/tests remain identical to the validated commit.

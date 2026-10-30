@@ -25,4 +25,4 @@ The original `735821.x` consumer catches its separate count request. `source-wit
 | LLM trajectory | [ACTION-RECEIPT.md](ACTION-RECEIPT.md), observable action summary, not private reasoning or a verbatim trace |
 | Domain artifacts | [source-witness.json](source-witness.json), before/after observations, [source.patch](source.patch), [file-hashes.json](file-hashes.json), [MANIFEST.json](MANIFEST.json) |
 
-Build/typecheck results belong to the exact candidate validation recorded in the PR; this packet does not claim an aggregate suite or original-service qualification.
+Build and typecheck both passed on `7a2ebb020df4d0f518abaea18ecb074866111f99`; see [root-qualification.json](root-qualification.json) and `root-passed-*.gz`. The later evidence-only commit preserves identical executable source/tests. First failed logs remain as `root-first-*.gz`. No aggregate suite or original-service qualification is claimed.
