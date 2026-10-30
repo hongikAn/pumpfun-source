@@ -1,0 +1,18 @@
+{
+  "width": 375,
+  "height": 812,
+  "title": "$RAT - Exfil Rat",
+  "url": "http://127.0.0.1:3010/live?stream=9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump",
+  "geometry": {
+    "top": 390.9375,
+    "bottom": 420.9375,
+    "viewport": 812,
+    "scrollY": 149,
+    "focused": true,
+    "activeElement": "<h2 id=\"playback-heading\" tabindex=\"-1\">$RAT - Exfil Rat</h2>"
+  },
+  "safety": {
+    "unexpectedRequests": [],
+    "consoleErrors": []
+  }
+}

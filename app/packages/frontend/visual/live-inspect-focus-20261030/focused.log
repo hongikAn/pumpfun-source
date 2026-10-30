@@ -1,0 +1,11 @@
+
+Running 3 tests using 1 worker
+
+
+
+(node:36972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/3] tests\live.spec.ts:502:7 › Inspect reveals selected metadata and restores its card at 375px
+[2/3] tests\live.spec.ts:502:7 › Inspect reveals selected metadata and restores its card at 1280px
+[3/3] tests\live.spec.ts:543:5 › a direct archived selection does not request metadata focus
+  3 passed (7.0s)

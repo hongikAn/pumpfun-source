@@ -1,0 +1,54 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:20748) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\live.spec.ts:502:7 › Inspect reveals selected metadata and restores its card at 375px
+  1) tests\live.spec.ts:502:7 › Inspect reveals selected metadata and restores its card at 375px ───
+
+    Error: expect(locator).toBeInViewport() failed
+
+    Locator:  getByTestId('playback-unavailable').getByRole('heading', { name: '$RAT - Exfil Rat', exact: true, level: 2 })
+    Expected: in viewport
+    Received: viewport ratio 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeInViewport" getByTestId('playback-unavailable').getByRole('heading', { name: '$RAT - Exfil Rat', exact: true, level: 2 }) with timeout 5000ms
+      - waiting for getByTestId('playback-unavailable').getByRole('heading', { name: '$RAT - Exfil Rat', exact: true, level: 2 })
+        14 × locator resolved to <h2 id="playback-heading">$RAT - Exfil Rat</h2>
+           - unexpected value "viewport ratio 0"
+
+
+      521 |       }), safety,
+      522 |     }, null, 2));
+    > 523 |     await expect(heading).toBeInViewport();
+          |                           ^
+      524 |     await expect(heading).toBeFocused();
+      525 |     // Re-inspecting the same selected record must also reveal its metadata.
+      526 |     await inspect.click();
+        at C:\Users\ahi20\Documents\ChatGPT\pumpfun-contribution-review\app-batch-20261029\wt-frontend-data\app\packages\frontend\tests\live.spec.ts:523:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-live-inspect-focus-20261030\baseline\live-Inspect-reveals-selec-3d5e6--restores-its-card-at-375px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-live-inspect-focus-20261030\baseline\live-Inspect-reveals-selec-3d5e6--restores-its-card-at-375px\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\..\..\..\app-live-inspect-focus-20261030\baseline\live-Inspect-reveals-selec-3d5e6--restores-its-card-at-375px\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\..\..\..\app-live-inspect-focus-20261030\baseline\live-Inspect-reveals-selec-3d5e6--restores-its-card-at-375px\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\..\..\..\app-live-inspect-focus-20261030\baseline\live-Inspect-reveals-selec-3d5e6--restores-its-card-at-375px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\live.spec.ts:502:7 › Inspect reveals selected metadata and restores its card at 375px ────

@@ -1,0 +1,18 @@
+{
+  "width": 375,
+  "height": 812,
+  "title": "$RAT - Exfil Rat",
+  "url": "http://127.0.0.1:3010/live?stream=9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump",
+  "geometry": {
+    "top": -3117.0625,
+    "bottom": -3087.0625,
+    "viewport": 812,
+    "scrollY": 3657,
+    "focused": false,
+    "activeElement": "<button type=\"button\" aria-label=\"Inspect archived stream $RAT - Exfil Rat RAT\" aria-pressed=\"true\">Inspect archived metadata</button>"
+  },
+  "safety": {
+    "unexpectedRequests": [],
+    "consoleErrors": []
+  }
+}
