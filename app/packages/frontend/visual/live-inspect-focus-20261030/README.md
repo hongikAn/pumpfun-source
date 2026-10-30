@@ -14,6 +14,6 @@ Validation: baseline **1 failed** at the viewport assertion. Candidate **3 passe
 | Backend logs | N/A: the mounted page reads existing hash-validated local capture data; this correction makes no backend request. Browser request observations are in before/after JSON. |
 | Frontend logs | [frontend.log](frontend.log), [baseline.log](baseline.log), [focused.log](focused.log) |
 | LLM trajectory | [ACTION-RECEIPT.md](ACTION-RECEIPT.md), observable summary, not private reasoning or a verbatim transcript |
-| Domain artifacts | Before/after geometry JSON, inert baseline gzip files, [source.patch](source.patch), [file-hashes.json](file-hashes.json), [MANIFEST.json](MANIFEST.json) |
+| Domain artifacts | Before/after geometry JSON, inert baseline gzip files, [source.patch.gz](source.patch.gz), [file-hashes.json](file-hashes.json), [MANIFEST.json](MANIFEST.json) |
 
 Root build and typecheck both passed on `ea4b0030f23e40f04f306fd0c0463fc77510dc2c`: [qualification](root-qualification.json), [build log](root-build.log.gz), [typecheck log](root-typecheck.log.gz). The later evidence-only head preserves identical executable source/tests. No original playback, visual parity, real screen-reader behavior or full-suite result is claimed.

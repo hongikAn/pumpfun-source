@@ -13,3 +13,5 @@ This is a retrospective commands/results summary, not private reasoning or a ver
 No aggregate suite, real screen-reader run, current Live service or original mobile visual parity is claimed.
 
 8. Root build and typecheck both passed on `ea4b0030f23e40f04f306fd0c0463fc77510dc2c`. Preserved complete logs/results as deterministic gzip files. Only evidence is added afterward; executable source/tests are unchanged.
+
+9. The pre-publication full diff whitespace gate rejected blank context lines in the textual source.patch artifact. Preserved the exact patch bytes as source.patch.gz and updated only evidence references/manifest. No source/test changes or repeat browser run were needed, and this gate stopped before any push or PR creation.
