@@ -1,3 +1,4 @@
+import { writeFile } from "node:fs/promises";
 import { expect, test, type Page, type Route } from "@playwright/test";
 
 const FIRST_MINT = "7bS1mH6MXbw1GnEkKTU6w5YLTywPkQ1w3YVZXWFupump";
@@ -495,4 +496,55 @@ test("delayed clear preserves the next archive search draft and URL history", as
   } finally {
     await page.unrouteAll({ behavior: "ignoreErrors" });
   }
+});
+
+for (const [width, height] of [[375, 812], [1280, 800]] as const) {
+  test(`Inspect reveals selected metadata and restores its card at ${width}px`, async ({ page }, testInfo) => {
+    await page.setViewportSize({ width, height });
+    const safety = monitorSafety(page);
+    await page.goto("/live");
+    const card = page.getByTestId("archived-stream-card").nth(6);
+    const title = await card.getByRole("heading", { level: 3 }).innerText();
+    const inspect = card.getByRole("button", { name: /Inspect archived stream/ });
+    await inspect.click();
+    const panel = page.getByTestId("playback-unavailable");
+    const heading = panel.getByRole("heading", { level: 2, name: title, exact: true });
+    await expect(heading).toBeVisible();
+    await page.screenshot({ path: testInfo.outputPath("selected-viewport.png") });
+    await writeFile(testInfo.outputPath("observations.json"), JSON.stringify({
+      width, height, title, url: page.url(),
+      geometry: await heading.evaluate((element) => {
+        const bounds = element.getBoundingClientRect();
+        return { top: bounds.top, bottom: bounds.bottom, viewport: innerHeight,
+          scrollY, focused: document.activeElement === element,
+          activeElement: document.activeElement?.outerHTML };
+      }), safety,
+    }, null, 2));
+    await expect(heading).toBeInViewport();
+    await expect(heading).toBeFocused();
+    // Re-inspecting the same selected record must also reveal its metadata.
+    await inspect.click();
+    await expect(heading).toBeFocused();
+    await expect(heading).toBeInViewport();
+    await page.keyboard.press("Escape");
+    await expect(page).toHaveURL(/\/live$/);
+    await expect(inspect).toBeFocused();
+    await expect(inspect).toBeInViewport();
+    await inspect.click();
+    await expect(heading).toBeFocused();
+    await page.getByRole("button", { name: "Close stream detail" }).click();
+    await expect(page).toHaveURL(/\/live$/);
+    await expect(inspect).toBeFocused();
+    expect(safety.unexpectedRequests).toEqual([]);
+    expect(safety.consoleErrors).toEqual([]);
+  });
+}
+
+test("a direct archived selection does not request metadata focus", async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 812 });
+  await page.goto(`/live?stream=${FIRST_MINT}`);
+  const heading = page.getByTestId("playback-unavailable").getByRole("heading", { level: 2 });
+  await expect(heading).toBeVisible();
+  await expect(heading).not.toBeFocused();
+  expect(await page.evaluate(() => scrollY)).toBe(0);
 });

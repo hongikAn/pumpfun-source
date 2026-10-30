@@ -111,7 +111,9 @@ function PlaybackPanel({
       <div className="playback-heading-row">
         <div>
           <p className="playback-kicker">Playback unavailable</p>
-          <h2 id="playback-heading">{selected?.title}</h2>
+          <h2 id="playback-heading" tabIndex={-1}>
+            {selected?.title}
+          </h2>
         </div>
         <button
           type="button"
@@ -174,6 +176,7 @@ export default function LiveDiscovery({
   const selectedId = searchParams.get("stream");
   const [draftQuery, setDraftQuery] = useState(query);
   const [controlsReady, setControlsReady] = useState(false);
+  const [inspectTarget, setInspectTarget] = useState<string | null>(null);
   const pendingClear = useRef(false);
   const cardRefs = useRef(new Map<string, HTMLButtonElement>());
   const searchRef = useRef<HTMLInputElement>(null);
@@ -196,6 +199,7 @@ export default function LiveDiscovery({
   useEffect(() => {
     const onPopState = () => {
       pendingClear.current = false;
+      setInspectTarget(null);
     };
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
@@ -207,6 +211,7 @@ export default function LiveDiscovery({
 
   const navigate = useCallback(
     (changes: Record<string, string | null>, replace = false) => {
+      setInspectTarget(null);
       // Compose rapid actions before the router commits its previous URL.
       const parameters = new URLSearchParams(pendingQuery.current);
       for (const [key, value] of Object.entries(changes)) {
@@ -262,6 +267,18 @@ export default function LiveDiscovery({
     setControlsReady(true);
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, [closeSelection, selectedId]);
+
+  useEffect(() => {
+    if (!inspectTarget || selectedId !== inspectTarget || !controlsReady) return;
+    const heading = document.getElementById("playback-heading");
+    if (!heading) return;
+    setInspectTarget(null);
+    heading.focus({ preventScroll: true });
+    const bounds = heading.getBoundingClientRect();
+    if (bounds.top < 0 || bounds.bottom > window.innerHeight) {
+      heading.scrollIntoView({ block: "center" });
+    }
+  }, [inspectTarget, selectedId, controlsReady]);
 
   function submitSearch(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -511,7 +528,10 @@ export default function LiveDiscovery({
                             }}
                             aria-label={`Inspect archived stream ${stream.title} ${stream.symbol}`}
                             aria-pressed={selected?.id === stream.id}
-                            onClick={() => navigate({ stream: stream.id })}
+                            onClick={() => {
+                              navigate({ stream: stream.id });
+                              setInspectTarget(stream.id);
+                            }}
                           >
                             Inspect archived metadata
                           </button>

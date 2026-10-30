@@ -103,7 +103,13 @@ Hashes identify recovered factory text, not original source files.
   deliberately not mapped/validated/exposed by this adapter; no missing-data
   claim is made for that array.
 - Selection opens a metadata panel whose only playable outcome is `Playback
-unavailable`. Escape closes the detail and restores focus to its card, or
+unavailable`. An explicit Inspect click moves focus to the selected metadata
+  heading after the URL commits, bringing it into view only when it is outside
+  the viewport. This lets mobile users reach the panel placed above the cards.
+  Re-inspecting the same record works too. Direct URLs and history navigation do
+  not request this focus transfer. This is an authored local accessibility
+  behavior, not a claim about original mobile detail handling.
+  Escape closes the detail and restores focus to its card, or
   the visible search control/section tab when that card is off-page. Escape
   events already prevented or owned by an open/modal dialog do not dismiss
   this nonmodal metadata panel.
